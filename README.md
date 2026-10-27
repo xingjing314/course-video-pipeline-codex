@@ -224,11 +224,28 @@ python3 scripts/ch06-L01/handout/extract.py
 
 以 [AGENTS.md](AGENTS.md) 和已确认的画面、字幕规范为准：
 
+**规范优先级：视频头尾区域规范、视频背景规范、字幕规范、章节主标题样式规范，均优先于所使用 skill 的设计建议和默认做法。** 开展相关制作前读取适用规范；skill 只在不冲突的范围内补充方法，不得为套用 skill 自行改变上述规范。用户另有明确指示时按其指示执行。四份规范的链接见下方文档索引。
+
 - 先确认小样及关键规则，再逐段制作和审核，最后组装交付，遇到困难及时沟通。
 - 优先处理直接改善视频展示的工作，避免过早工程化和扩大范围。
+- 后续课程背景统一使用现有 `TechNetwork` 科技网络背景（`tech-network`），沿用 L01 开场的基准参数并关闭背景甘特条；具体组件位置及参数见 [视频背景规范](docs/architecture/视频背景规范V0.1.md)。既有已审核段落保持原状，用户另有明确要求时按其要求执行。
 - 真题读题和倒计时阶段不提前泄露答案；题面、口播、解析与字幕保持同步。
 - 无声无口播字幕版保留教学文字，字幕位置和章节标题样式遵循对应规范。
 - 自动检查不能替代用户对画面和听感的审核。
+
+### 辅助 skills
+
+项目级 skills 放在 `.agents/skills/`，按任务需要使用：
+
+| Skill | 用途 | 使用边界 |
+| --- | --- | --- |
+| [frontend-design](.agents/skills/frontend-design/SKILL.md) | 辅助内容区排版、信息层级和视觉细节 | 沿用四项展示规范及已审核风格；不负责口播与画面的时间对齐 |
+| [doc-coauthoring](.agents/skills/doc-coauthoring/SKILL.md) | 辅助整理方案、制作说明和交接文档 | 优先复用已确认的上下文，不机械增加提问、评审或设计范围 |
+| 当前 Codex 环境提供的 PDF skill | 教材 PDF 阅读、图片提取与讲义制作 | 属于环境能力，不随本仓库复制；接手时确认可用性 |
+
+两个项目级 skill 来自 `anthropics/skills` 的提交 `dbd4588f9e1033efb41dad4bef2f7947c8993d44`，保留完整目录和已有许可文件，未改写上游内容。Anthropic 的 PDF skill 附带复制限制，因此未纳入项目。
+
+以本项目为工作目录使用 Codex 时，可按任务调用这些 skills，也可明确指定名称。项目根目录的 `SKILL.md` 不作为此处的 skill 安装入口。安装仅提供辅助工作方法，制作结果仍按现有分阶段审核流程确认。
 
 ## 八、文档索引
 
@@ -238,6 +255,7 @@ python3 scripts/ch06-L01/handout/extract.py
 | [第六章 L01 制作与交付工作总结](docs/lessons/ch06/L01/第六章-L01-制作与交付工作总结V1.0.md) | 制作过程、交付状态及后续边界 |
 | [第六章 L01 画面安排](docs/lessons/ch06/L01/第六章-L01-画面安排V0.1.md) | 分段画面设计和审核记录 |
 | [视频头尾区域规范](docs/architecture/视频头尾区域规范V0.1.md) | 顶栏、字幕区域及布局要求 |
+| [视频背景规范](docs/architecture/视频背景规范V0.1.md) | 指定 TechNetwork 背景、基准参数及叠放要求 |
 | [字幕规范](docs/architecture/字幕规范V0.1.md) | 字幕切分、时序和 SRT 要求 |
 | [章节主标题样式规范](docs/architecture/章节主标题样式规范V0.1.md) | 已确认的章节标题样式 |
 | [DeepSeek 版架构说明](docs/architecture/deepseek版架构说明V0.1.md) | 第七章实现的分层、数据流和设计记录 |
