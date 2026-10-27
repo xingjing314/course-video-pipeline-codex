@@ -239,11 +239,14 @@ python3 scripts/ch06-L01/handout/extract.py
 
 | Skill | 用途 | 使用边界 |
 | --- | --- | --- |
+| [course-visual-storytelling](.agents/skills/course-visual-storytelling/SKILL.md) | 教学画面编排：教学目的 → 信息角色 → 视觉层级 → 时间展开 → 观看自查 | 项目专用入口，配有 L01 实例；沿用四项规范和原有审核节点，不启动外部制作管线 |
 | [frontend-design](.agents/skills/frontend-design/SKILL.md) | 辅助内容区排版、信息层级和视觉细节 | 沿用四项展示规范及已审核风格；不负责口播与画面的时间对齐 |
 | [doc-coauthoring](.agents/skills/doc-coauthoring/SKILL.md) | 辅助整理方案、制作说明和交接文档 | 优先复用已确认的上下文，不机械增加提问、评审或设计范围 |
 | 当前 Codex 环境提供的 PDF skill | 教材 PDF 阅读、图片提取与讲义制作 | 属于环境能力，不随本仓库复制；接手时确认可用性 |
 
-两个项目级 skill 来自 `anthropics/skills` 的提交 `dbd4588f9e1033efb41dad4bef2f7947c8993d44`，保留完整目录和已有许可文件，未改写上游内容。Anthropic 的 PDF skill 附带复制限制，因此未纳入项目。
+`frontend-design` 和 `doc-coauthoring` 来自 `anthropics/skills` 的提交 `dbd4588f9e1033efb41dad4bef2f7947c8993d44`，保留完整目录和已有许可文件，未改写上游内容。Anthropic 的 PDF skill 附带复制限制，因此未纳入项目。
+
+新样段与内容段优先使用项目专用的 `course-visual-storytelling`，可明确说“按教学画面编排 skill 制作本段”。它结合已通过的 L01 实例及 Impeccable、video-shotcraft 的适用方法，先在现有画面安排中说明表达判断，再实施和自查；不要求安装两个外部工具包。来源与取舍见 [方法参考](.agents/skills/course-visual-storytelling/references/sources.md)。已根据首次试用反馈完善设计路径，重点覆盖信息角色、视觉主次与中间状态的可理解性；跨内容的稳定效果仍待观察，不把个别画面的修改写成统一样式要求。
 
 以本项目为工作目录使用 Codex 时，可按任务调用这些 skills，也可明确指定名称。项目根目录的 `SKILL.md` 不作为此处的 skill 安装入口。安装仅提供辅助工作方法，制作结果仍按现有分阶段审核流程确认。
 

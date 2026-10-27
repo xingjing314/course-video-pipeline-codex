@@ -86,6 +86,7 @@ npm run studio -- --port=3027
 
 | Skill | 位置与用途 | 接手时注意 |
 | --- | --- | --- |
+| `course-visual-storytelling` | [教学画面编排](../../.agents/skills/course-visual-storytelling/SKILL.md)，附 L01 实例与方法来源 | 新样段、内容段及画面安排优先使用；按教学目的、信息角色、视觉层级、时间展开和观看自查作判断，不新增审批节点 |
 | `frontend-design` | [项目级完整目录](../../.agents/skills/frontend-design/SKILL.md)，辅助内容区排版、信息层级和视觉细节 | 沿用已审核风格；口播、字幕、动画时序仍由本课制作流程负责 |
 | `doc-coauthoring` | [项目级完整目录](../../.agents/skills/doc-coauthoring/SKILL.md)，辅助方案、制作说明和交接文档 | 复用已有上下文和已确认结论，不机械增加提问、评审或扩大范围 |
 | PDF skill | 当前 Codex 环境提供，用于教材 PDF 阅读、图片提取和讲义制作 | 不随项目复制，接手时检查当前环境是否提供；缺失且影响本轮任务时再反馈 |
@@ -94,6 +95,7 @@ npm run studio -- --port=3027
 - 复制或克隆项目后，检查自己的 `.agents/skills/` 是否包含完整目录及已有许可文件。未提交的本地 skills 不会随 Git 克隆带入；缺失时说明情况，不把已安装等同于接手环境可用。来源版本见 [README 辅助 skills](../../README.md#辅助-skills)。
 - Anthropic 的 PDF skill 附带复制限制，未纳入本项目；使用当前环境提供的 PDF skill，不从本地 Anthropic 仓库补拷该目录。
 - Skill 中的工具名称和运行方式需适配当前环境；使用 skill 不代表画面、听感或交付成果已通过审核，继续遵守下方审核节点。
+- 教学画面编排 skill 自带项目案例索引，克隆后可直接读取；本机下载的 Impeccable 与 video-shotcraft 仅为可选参考，不是接手运行依赖。已确认的画面安排直接沿用，纯音频、字幕或导出任务不因此重新设计画面。首次试用反馈已用于完善通用设计路径；跨内容效果仍待观察，案例的具体外观不作为新课模板。
 
 ### 分阶段审核
 
