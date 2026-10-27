@@ -1,0 +1,39 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "centerline": {
+    "start": [
+      620,
+      540
+    ],
+    "control1": [
+      860,
+      240
+    ],
+    "control2": [
+      1220,
+      780
+    ],
+    "end": [
+      1480,
+      500
+    ]
+  },
+  "band": {
+    "width": 90,
+    "taper": 1,
+    "minimumWidthRatio": 0.35,
+    "fill": "rgba(46, 196, 214, 0.12)",
+    "stroke": "rgba(46, 196, 214, 0.60)",
+    "strokeWidth": 1.5,
+    "linejoin": "round"
+  },
+  "animation": {
+    "growthStartFrame": 100,
+    "growthDurationInFrames": 50,
+    "taperStartFrame": 155,
+    "taperDurationInFrames": 55
+  }
+}

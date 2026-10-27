@@ -1,0 +1,29 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "cylinder": {
+    "cx": 1150,
+    "topY": 300,
+    "bottomY": 640,
+    "radiusX": 170,
+    "radiusY": 46,
+    "fill": "rgba(46, 196, 214, 0.12)",
+    "stroke": "rgba(46, 196, 214, 0.60)",
+    "strokeWidth": 1.5,
+    "sectionRatios": [
+      0.3333,
+      0.6667
+    ],
+    "sectionStrokeWidth": 1.0
+  },
+  "animation": {
+    "outlineStartFrame": 40,
+    "outlineDurationInFrames": 80,
+    "fillStartFrame": 155,
+    "fillDurationInFrames": 27,
+    "sectionStartFrame": 190,
+    "sectionDurationInFrames": 25
+  }
+}

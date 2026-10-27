@@ -1,0 +1,99 @@
+{
+  "lessonId": "ch06-L01-relations",
+  "sampleRate": 24000,
+  "totalDurationMs": 194756,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-relations/ch06-L01-relations-full.wav",
+  "fullWavSha256": "c584bd807bdb1e1bbab6b37d42132924be6a9af5fd6103401069b19434832733",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "R01",
+      "narration": "项目要承载战略，组织就必须搭建一个高效的宏观治理体系。这就是 6.2.4 节“项目、项目集、项目组合和运营管理之间的关系”。这是全书最经典的考点之一，我们结合教材图 6-2、图 6-3 和表 6-3，把它拆解为做正确的事和正确地做事两个层面。",
+      "narrationSha256": "5b287881ded1fb0749a6faf3fdd110ffda58c23a32ecaed231786229fea3ce08",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-relations/audio/R01.wav",
+      "wavSha256": "641a4d5b679f5d8283158a28ddd318283a0b65c9a12a4313c057d43054c116fc",
+      "startMs": 0,
+      "endMs": 27655,
+      "durationMs": 27655,
+      "fromCache": false
+    },
+    {
+      "sceneId": "R02",
+      "narration": "在最顶层是组织战略。企业面对有限的资金和资源，不可能什么都做，高层首先要决定：钱投给谁？哪些板块该上，哪些该砍？这就是“项目组合”，英文叫 Portfolio。",
+      "narrationSha256": "3d997f0ca4684062a3bb8c10ca89365b86d6ad7fb73a02a3b016eb15d0900505",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-relations/audio/R02.wav",
+      "wavSha256": "76fd9c5b5da15b3a49f36dc617bd5f011556cde3d8c81e091b6de0e8fb0c8b8f",
+      "startMs": 27655,
+      "endMs": 46435,
+      "durationMs": 18780,
+      "fromCache": false
+    },
+    {
+      "sceneId": "R03",
+      "narration": "项目组合的使命，是确保企业在“做正确的事”！它是为了实现组织的战略目标，而把项目、项目集、子项目组合和运营组合在一起集中管理。请死死锁死考场三大命题陷阱：",
+      "narrationSha256": "ac5b27f75664c59de9318051b81c73f67859de44ea3843323b9fa037f4e72867",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-relations/audio/R03.wav",
+      "wavSha256": "f1678f3ec3bbd884c5236715c44b60f583711f6ebae5f49c2ac2030e29d5b2c3",
+      "startMs": 46435,
+      "endMs": 65520,
+      "durationMs": 19085,
+      "fromCache": false
+    },
+    {
+      "sceneId": "R04",
+      "narration": "第一，项目组合服务的是战略目标，如果选项写成实现项目目标，必错；\n第二，项目组合管理的核心手段是排优先级、做投资决策、分配资源；\n第三，极为反直觉的考点：项目组合里的各个组件，彼此之间不一定存在相互依赖或直接相关的关系！企业可以一边投芯片研发，一边投物业地产，只要它们共同支撑战略并追求投资回报即可。",
+      "narrationSha256": "6096e56dd635b9080b53755390d3f735f4f8f6cdc819688214323d0b3492f731",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-relations/audio/R04.wav",
+      "wavSha256": "a412882641239662a17d31ca8d12a5ef3d341fa2ec37e4831e0e773a12f551f7",
+      "startMs": 65520,
+      "endMs": 101194,
+      "durationMs": 35674,
+      "fromCache": false
+    },
+    {
+      "sceneId": "R05",
+      "narration": "当下层领到具体任务时，进入项目集和项目，它们关心的都是“正确地做事”。",
+      "narrationSha256": "170758591f8c7981b33d3fbc9e29e4c0845e8733860265450d37e523384a8a10",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-relations/audio/R05.wav",
+      "wavSha256": "e932f72cd92bf955b26203a88a376a963a37f5d92c253f1807874c2833951e3f",
+      "startMs": 101194,
+      "endMs": 108654,
+      "durationMs": 7460,
+      "fromCache": false
+    },
+    {
+      "sceneId": "R06",
+      "narration": "什么叫“项目集”？它是把一组相互关联的项目和活动绑在一起协调管理。为什么要绑在一起？教材给出了八字真金：为了获得分别管理所无法获得的收益和控制！比如建设一个大型电网系统，或者一个通信卫星系统，里面既有卫星研制、地面测控站建设，又有火箭发射，彼此高度耦合，单独各管各的必然脱节，合在一起管才能协调依赖。所以请记住：项目集绝对不是单纯规模很大的大项目！",
+      "narrationSha256": "7bb2bdb3fdaff8ccb629a26c79250c3e6fe7879bdd155089c080043a503d83df",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-relations/audio/R06.wav",
+      "wavSha256": "08e83a1d947db3f6f7976d71fbbde7d9d4263e996905b38f324204da36840a6c",
+      "startMs": 108654,
+      "endMs": 146732,
+      "durationMs": 38078,
+      "fromCache": false
+    },
+    {
+      "sceneId": "R07",
+      "narration": "至于单个“项目”，它的目标明确，范围在生命周期中是渐进明晰的。这里要警惕2025年的一个新陷阱：渐进明晰是所有项目伴随信息增多而逐步细化的通用规律，绝不代表看到渐进明晰就必须采用敏捷开发方法！\n额外说明一下：在PMBOK第六版中采用的五大过程组和十大知识领域的架构，仍然强调“渐进明细”。",
+      "narrationSha256": "b6ce148b6ce6350bb75f7e2ef9327fa5a9010de4d354ea78863d99a49ee5df34",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-relations/audio/R07.wav",
+      "wavSha256": "e14ed061cc3653660d930e709fb62a195ffc2b090dbb5e43fed66b60a7656e50",
+      "startMs": 146732,
+      "endMs": 178517,
+      "durationMs": 31785,
+      "fromCache": false
+    },
+    {
+      "sceneId": "R08",
+      "narration": "最后，“运营管理”负责日常持续生产和服务，不属于项目管理，但在新产品开发、系统升级或项目每个阶段收尾时，会与项目产生交集，互相交接成果和资源。",
+      "narrationSha256": "9eb003e9404861fbfe4619d22c8a3047e0854045581940a9e0f563aadd796b74",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-relations/audio/R08.wav",
+      "wavSha256": "78a05f10ccae146d899f28549632f657b421f85c61d9fb5f90cdb8109e18571a",
+      "startMs": 178517,
+      "endMs": 194756,
+      "durationMs": 16239,
+      "fromCache": false
+    }
+  ]
+}

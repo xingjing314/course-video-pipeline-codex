@@ -1,0 +1,74 @@
+{
+  "canvas": {"width": 1920, "height": 1080},
+  "table": {
+    "x": 600,
+    "y": 280,
+    "columns": [
+      {"label": "项目", "width": 280, "align": "left", "fontSize": 17},
+      {"label": "数量", "width": 260, "align": "right", "mono": true, "fontSize": 15},
+      {"label": "占比", "width": 180, "align": "right", "mono": true, "fontSize": 15},
+      {"label": "状态", "width": 240, "align": "center", "fontSize": 15, "accentValues": ["观察"]}
+    ],
+    "rows": [
+      ["甲", "1,280", "32%", "正常"],
+      ["乙", "960", "24%", "正常"],
+      ["丙", "720", "18%", "观察"],
+      ["丁", "1,040", "26%", "正常"],
+      ["戊", "480", "12%", "正常"]
+    ],
+    "headerHeight": 60,
+    "rowHeight": 60,
+    "headerFontSize": 14,
+    "style": {
+      "ink": "#E6F1FA",
+      "accent": "#2EC4D6",
+      "headerTintOpacity": 0.12,
+      "selectionOpacity": 0.16,
+      "hoverOpacity": 0.08,
+      "columnHoverOpacity": 0.08,
+      "columnMarkerHoverOpacity": 0.4,
+      "cellSelectionOpacity": 0.2,
+      "cellHoverOpacity": 0.08,
+      "internalLineOpacity": 0.35
+    }
+  },
+  "animation": {
+    "horizontalGridStartFrame": 34,
+    "verticalGridStartFrame": 46,
+    "headerStartFrame": 58,
+    "headerTextStartFrame": 62,
+    "headerDurationInFrames": 14,
+    "rowsStartFrame": 64,
+    "rowRevealDurationInFrames": 16,
+    "rowStaggerInFrames": 4,
+    "hoverRowIndex": 1,
+    "hoverStartFrame": 92,
+    "hoverEndFrame": 102,
+    "hoverColumnIndex": 1,
+    "hoverColumnStartFrame": 216,
+    "hoverColumnEndFrame": 228,
+    "hoverCell": {"row": 1, "column": 1},
+    "hoverCellStartFrame": 348,
+    "hoverCellEndFrame": 358
+  },
+  "selection": {
+    "transitionDurationInFrames": 8,
+    "keyframes": [
+      {"atFrame": 0, "rows": [], "columns": [], "cells": []},
+      {"atFrame": 106, "rows": [1], "columns": [], "cells": []},
+      {"atFrame": 140, "rows": [1, 3], "columns": [], "cells": []},
+      {"atFrame": 175, "rows": [1, 3, 4], "columns": [], "cells": []},
+      {"atFrame": 205, "rows": [1, 4], "columns": [], "cells": []},
+      {"atFrame": 222, "rows": [], "columns": [], "cells": []},
+      {"atFrame": 230, "rows": [], "columns": [1], "cells": []},
+      {"atFrame": 260, "rows": [], "columns": [1, 2], "cells": []},
+      {"atFrame": 292, "rows": [], "columns": [1, 2, 3], "cells": []},
+      {"atFrame": 323, "rows": [], "columns": [1, 3], "cells": []},
+      {"atFrame": 335, "rows": [], "columns": [], "cells": []},
+      {"atFrame": 360, "rows": [], "columns": [], "cells": [{"row": 1, "column": 1}]},
+      {"atFrame": 392, "rows": [], "columns": [], "cells": [{"row": 1, "column": 1}, {"row": 2, "column": 2}]},
+      {"atFrame": 424, "rows": [], "columns": [], "cells": [{"row": 1, "column": 1}, {"row": 2, "column": 2}, {"row": 3, "column": 3}]},
+      {"atFrame": 455, "rows": [], "columns": [], "cells": [{"row": 1, "column": 1}, {"row": 3, "column": 3}]}
+    ]
+  }
+}

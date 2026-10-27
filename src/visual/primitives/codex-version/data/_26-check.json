@@ -1,0 +1,34 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "check": {
+    "center": [
+      1150,
+      520
+    ],
+    "points": [
+      [
+        -200,
+        0
+      ],
+      [
+        -90,
+        140
+      ],
+      [
+        210,
+        -140
+      ]
+    ],
+    "stroke": "rgba(76, 195, 138, 0.85)",
+    "strokeWidth": 8.0,
+    "linecap": "round",
+    "linejoin": "round"
+  },
+  "animation": {
+    "startFrame": 34,
+    "durationInFrames": 46
+  }
+}

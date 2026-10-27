@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-systems",
+  "lessonTitle": "第六章 L01 · 组织系统与产品生命周期",
+  "sourceMarkdownPath": "docs/lessons/ch06/input/第6章-L01完整口播稿V0.3.md",
+  "sourceMarkdownSha256": "5a473964c18cd98407ca8f8edc4ee05fdbaceec4d40ef6eca99c6dfe1b540582",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "6.2.6—6.2.7 组织系统与产品管理",
+    "estimatedDurationText": "按真实配音",
+    "cognitiveGoals": [
+      "比较组织结构及PMO控制力",
+      "理解产品生命周期中的项目与项目集"
+    ],
+    "coreVisualAssets": [
+      "五种组织结构光谱",
+      "三种PMO对照",
+      "图6-4产品生命周期"
+    ],
+    "examAnchors": [
+      "项目经理职权",
+      "PMO控制力"
+    ]
+  },
+  "scenes": [
+    {
+      "sceneId": "S-structure",
+      "parentSceneId": "S-structure",
+      "segmentTitle": "组织系统与产品管理",
+      "sceneTitle": "structure",
+      "order": 1,
+      "estimatedSeconds": 21.333333333333332,
+      "narration": "在 6.2.6 节的组织系统里，管理要素强调职能经理和项目经理的权责划分；教材表 6-4 勾勒了一条光谱：从职能型、弱矩阵、均衡矩阵、强矩阵，到项目导向型，项目经理的职权和资源控制力逐步递增。",
+      "narrationSha256": "0538270fc7c13f90dc0ddbdff96589ed0f7d747575a0986253d135d02a93e864",
+      "clauses": [
+        "在 6.2.6 节的组织系统里，",
+        "管理要素强调职能经理和项目经理的权责划分；",
+        "教材表 6-4 勾勒了一条光谱：",
+        "从职能型、弱矩阵、均衡矩阵、强矩阵，",
+        "到项目导向型，项目经理的职权和资源控制力逐步递增。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "组织结构光谱、PMO控制力对照、产品生命周期分三镜随口播展开",
+      "pedagogicalIntent": "看清职权变化与产品生命周期关系",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "structure"
+      }
+    },
+    {
+      "sceneId": "S-pmo",
+      "parentSceneId": "S-pmo",
+      "segmentTitle": "组织系统与产品管理",
+      "sceneTitle": "pmo",
+      "order": 2,
+      "estimatedSeconds": 22.88888888888889,
+      "narration": "而作为组织治理中枢的 PMO，按控制力由弱到强分为支持型、控制型和指令型三种：支持型只当顾问、提供模板，控制力很低；控制型要求项目合规服从，控制力中等；指令型则直接接管和控制项目，指派项目经理，控制力很高。",
+      "narrationSha256": "8bb3fceb70152861e2ba68fe89c5571e41025baa02089382b6adc0c3911021bf",
+      "clauses": [
+        "而作为组织治理中枢的 PMO，",
+        "按控制力由弱到强分为支持型、控制型和指令型三种：",
+        "支持型只当顾问、提供模板，",
+        "控制力很低；控制型要求项目合规服从，",
+        "控制力中等；指令型则直接接管和控制项目，",
+        "指派项目经理，控制力很高。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "组织结构光谱、PMO控制力对照、产品生命周期分三镜随口播展开",
+      "pedagogicalIntent": "看清职权变化与产品生命周期关系",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "pmo"
+      }
+    },
+    {
+      "sceneId": "S-lifecycle",
+      "parentSceneId": "S-lifecycle",
+      "segmentTitle": "组织系统与产品管理",
+      "sceneTitle": "lifecycle",
+      "order": 3,
+      "estimatedSeconds": 16.0,
+      "narration": "最后 6.2.7 节，看教材图 6-4：产品生命周期跨越引入、成长、成熟、衰退四个阶段，在其间可以在不同节点启动单个项目或项目集，实现业务闭环。",
+      "narrationSha256": "3e82067c260d791e7e94a88ce06cc80fde8603c1d7c292d3ad99aad54dceaedd",
+      "clauses": [
+        "最后 6.2.7 节，看教材图 6-4：",
+        "产品生命周期跨越引入、成长、成熟、衰退四个阶段，",
+        "在其间可以在不同节点启动单个项目或项目集，",
+        "实现业务闭环。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "组织结构光谱、PMO控制力对照、产品生命周期分三镜随口播展开",
+      "pedagogicalIntent": "看清职权变化与产品生命周期关系",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "lifecycle"
+      }
+    }
+  ],
+  "compiledAt": "2026-10-26T10:51:43.620429+00:00"
+}

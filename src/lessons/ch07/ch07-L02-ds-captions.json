@@ -1,0 +1,1682 @@
+[
+  {
+    "index": 1,
+    "sceneId": "S01",
+    "text": "上一节我们讲到，建设单位把《项目建议书》交给上级主管部门，",
+    "startMs": 0,
+    "endMs": 4880
+  },
+  {
+    "index": 2,
+    "sceneId": "S01",
+    "text": "领导批复说：“这个方向不错，",
+    "startMs": 5520,
+    "endMs": 8320
+  },
+  {
+    "index": 3,
+    "sceneId": "S01",
+    "text": "去深入论证一下吧！”这时候，",
+    "startMs": 9040,
+    "endMs": 11520
+  },
+  {
+    "index": 4,
+    "sceneId": "S01",
+    "text": "项目就正式迈进了 7.2 项目可行性研究。",
+    "startMs": 11920,
+    "endMs": 14880
+  },
+  {
+    "index": 5,
+    "sceneId": "S02",
+    "text": "什么叫可行性研究？",
+    "startMs": 15563,
+    "endMs": 17163
+  },
+  {
+    "index": 6,
+    "sceneId": "S02",
+    "text": "就是在项目建议书被批准之后，",
+    "startMs": 17723,
+    "endMs": 20283
+  },
+  {
+    "index": 7,
+    "sceneId": "S02",
+    "text": "从技术、经济、社会和人员等方面的条件进行调查研究，",
+    "startMs": 20603,
+    "endMs": 25883
+  },
+  {
+    "index": 8,
+    "sceneId": "S02",
+    "text": "对可能的技术方案进行论证，",
+    "startMs": 26523,
+    "endMs": 28683
+  },
+  {
+    "index": 9,
+    "sceneId": "S02",
+    "text": "最终确定整个项目到底可不可行。",
+    "startMs": 29403,
+    "endMs": 32123
+  },
+  {
+    "index": 10,
+    "sceneId": "S03",
+    "text": "教材在这儿提了可行性研究的四个特点：",
+    "startMs": 32767,
+    "endMs": 36367
+  },
+  {
+    "index": 11,
+    "sceneId": "S03",
+    "text": "预见性、公正性、可靠性、科学性。",
+    "startMs": 36927,
+    "endMs": 40767
+  },
+  {
+    "index": 12,
+    "sceneId": "S03",
+    "text": "你先混个脸熟，",
+    "startMs": 41327,
+    "endMs": 42612
+  },
+  {
+    "index": 13,
+    "sceneId": "S03",
+    "text": "待会儿下一节讲详细可行性研究原则的时候还会跟它呼应。",
+    "startMs": 42612,
+    "endMs": 47967
+  },
+  {
+    "index": 14,
+    "sceneId": "S04",
+    "text": "那具体从哪几个维度去论证项目可不可行呢？",
+    "startMs": 48560,
+    "endMs": 51760
+  },
+  {
+    "index": 15,
+    "sceneId": "S04",
+    "text": "教材在 7.2.1 节列了五大可行性分析维度。",
+    "startMs": 52240,
+    "endMs": 56480
+  },
+  {
+    "index": 16,
+    "sceneId": "S04",
+    "text": "过去 11 套真题里，光这一小节就考了 8 道题，",
+    "startMs": 56960,
+    "endMs": 61360
+  },
+  {
+    "index": 17,
+    "sceneId": "S04",
+    "text": "是全章当之无愧的第一高频区！",
+    "startMs": 62240,
+    "endMs": 64640
+  },
+  {
+    "index": 18,
+    "sceneId": "S05",
+    "text": "为了让大家一下听懂，我们拿一个具体的微场景来串：",
+    "startMs": 65292,
+    "endMs": 69372
+  },
+  {
+    "index": 19,
+    "sceneId": "S05",
+    "text": "假设一家医院想上马一套“AI 智能导诊系统”。",
+    "startMs": 70172,
+    "endMs": 74012
+  },
+  {
+    "index": 20,
+    "sceneId": "S05",
+    "text": "做可行性研究时，就相当于要戴上五顶帽子去审视它：",
+    "startMs": 74492,
+    "endMs": 79772
+  },
+  {
+    "index": 21,
+    "sceneId": "S06",
+    "text": "第一顶，技术可行性——我们现在的条件，",
+    "startMs": 80387,
+    "endMs": 86147
+  },
+  {
+    "index": 22,
+    "sceneId": "S06",
+    "text": "能不能在规定时间内把这套系统造出来？",
+    "startMs": 86387,
+    "endMs": 89587
+  },
+  {
+    "index": 23,
+    "sceneId": "S06",
+    "text": "第二顶，经济可行性——投入多少钱、",
+    "startMs": 89987,
+    "endMs": 95427
+  },
+  {
+    "index": 24,
+    "sceneId": "S06",
+    "text": "能省多少钱，经济账上划不划算？",
+    "startMs": 95427,
+    "endMs": 98787
+  },
+  {
+    "index": 25,
+    "sceneId": "S06",
+    "text": "第三顶，社会效益可行性——除了赚钱省钱，",
+    "startMs": 99347,
+    "endMs": 104627
+  },
+  {
+    "index": 26,
+    "sceneId": "S06",
+    "text": "对医院内部能力提升、对市民看病就医有什么无形价值？",
+    "startMs": 104787,
+    "endMs": 109987
+  },
+  {
+    "index": 27,
+    "sceneId": "S06",
+    "text": "第四顶，运行环境可行性——系统造好之后搬到医院现场，",
+    "startMs": 110467,
+    "endMs": 117747
+  },
+  {
+    "index": 28,
+    "sceneId": "S06",
+    "text": "现有的科室制度、医护人员习惯和数据基础，",
+    "startMs": 118147,
+    "endMs": 122787
+  },
+  {
+    "index": 29,
+    "sceneId": "S06",
+    "text": "能不能让它顺利跑起来？",
+    "startMs": 123267,
+    "endMs": 125267
+  },
+  {
+    "index": 30,
+    "sceneId": "S06",
+    "text": "第五顶，其他方面的可行性——比如软件版权、",
+    "startMs": 125747,
+    "endMs": 131107
+  },
+  {
+    "index": 31,
+    "sceneId": "S06",
+    "text": "开源协议、政策法规合不合规？",
+    "startMs": 131347,
+    "endMs": 134147
+  },
+  {
+    "index": 32,
+    "sceneId": "S07",
+    "text": "此类项目更多是由政府或者非营利机构投资，",
+    "startMs": 134802,
+    "endMs": 139122
+  },
+  {
+    "index": 33,
+    "sceneId": "S07",
+    "text": "更多强调对于社会的贡献。",
+    "startMs": 140082,
+    "endMs": 142082
+  },
+  {
+    "index": 34,
+    "sceneId": "S07",
+    "text": "在实际工作中，其他可行性和运行环境往往具有“一票否决权”，",
+    "startMs": 142562,
+    "endMs": 148802
+  },
+  {
+    "index": 35,
+    "sceneId": "S07",
+    "text": "但在考场上，前两项技术与经济依然是分值最高的核心。",
+    "startMs": 149362,
+    "endMs": 155042
+  },
+  {
+    "index": 36,
+    "sceneId": "S08",
+    "text": "这里额外和大家强调的是技术可行性不仅看先进，",
+    "startMs": 155703,
+    "endMs": 160423
+  },
+  {
+    "index": 37,
+    "sceneId": "S08",
+    "text": "更看适用与可控。",
+    "startMs": 161143,
+    "endMs": 162583
+  },
+  {
+    "index": 38,
+    "sceneId": "S08",
+    "text": "尤其是在AI快速发展的今天。",
+    "startMs": 164503,
+    "endMs": 167063
+  },
+  {
+    "index": 39,
+    "sceneId": "S08",
+    "text": "我们评估技术方案，不能只看能力有多先进，",
+    "startMs": 167543,
+    "endMs": 170823
+  },
+  {
+    "index": 40,
+    "sceneId": "S08",
+    "text": "还要看是否适用、风险是否可控。",
+    "startMs": 171383,
+    "endMs": 174263
+  },
+  {
+    "index": 41,
+    "sceneId": "S09",
+    "text": "比如，OpenAI 曾披露，",
+    "startMs": 174898,
+    "endMs": 177538
+  },
+  {
+    "index": 42,
+    "sceneId": "S09",
+    "text": "一个内部测试模型在查找资料时，",
+    "startMs": 178018,
+    "endMs": 180738
+  },
+  {
+    "index": 43,
+    "sceneId": "S09",
+    "text": "未经授权访问了澳大利亚政府的统计服务。",
+    "startMs": 181378,
+    "endMs": 184498
+  },
+  {
+    "index": 44,
+    "sceneId": "S10",
+    "text": "研究员 Noam Brown 还引用过一个实验：",
+    "startMs": 185147,
+    "endMs": 187947
+  },
+  {
+    "index": 45,
+    "sceneId": "S10",
+    "text": "两台已经被攻陷、距离很近的计算机，",
+    "startMs": 189147,
+    "endMs": 192187
+  },
+  {
+    "index": 46,
+    "sceneId": "S10",
+    "text": "即使没有网络连接，也可能通过发热和温度传感器传递信息。",
+    "startMs": 192747,
+    "endMs": 197947
+  },
+  {
+    "index": 47,
+    "sceneId": "S11",
+    "text": "下面，我们正式戴上第一顶帽子：",
+    "startMs": 198561,
+    "endMs": 201921
+  },
+  {
+    "index": 48,
+    "sceneId": "S11",
+    "text": "技术可行性分析。",
+    "startMs": 202881,
+    "endMs": 204481
+  },
+  {
+    "index": 49,
+    "sceneId": "S12",
+    "text": "它的核心问题很明确：在当前的技术、",
+    "startMs": 205106,
+    "endMs": 208786
+  },
+  {
+    "index": 50,
+    "sceneId": "S12",
+    "text": "产品条件限制下，能不能利用现在拥有、",
+    "startMs": 208786,
+    "endMs": 212146
+  },
+  {
+    "index": 51,
+    "sceneId": "S12",
+    "text": "或者可能拥有的技术能力、",
+    "startMs": 212466,
+    "endMs": 214306
+  },
+  {
+    "index": 52,
+    "sceneId": "S12",
+    "text": "产品功能和人力资源，在规定的时间期限内实现项目的目标、",
+    "startMs": 214786,
+    "endMs": 220306
+  },
+  {
+    "index": 53,
+    "sceneId": "S12",
+    "text": "功能和性能？",
+    "startMs": 220626,
+    "endMs": 221506
+  },
+  {
+    "index": 54,
+    "sceneId": "S12",
+    "text": "特别提醒了一句：技术可行性往往决定了项目的方向，",
+    "startMs": 221986,
+    "endMs": 227426
+  },
+  {
+    "index": 55,
+    "sceneId": "S12",
+    "text": "一旦评估错误，会造成项目根本上的失败。",
+    "startMs": 228226,
+    "endMs": 231586
+  },
+  {
+    "index": 56,
+    "sceneId": "S13",
+    "text": "那做技术可行性分析，具体要考虑哪四个因素呢？",
+    "startMs": 232212,
+    "endMs": 236372
+  },
+  {
+    "index": 57,
+    "sceneId": "S13",
+    "text": "看屏幕上的四张卡片：第一，",
+    "startMs": 236932,
+    "endMs": 239892
+  },
+  {
+    "index": 58,
+    "sceneId": "S13",
+    "text": "进行项目开发的风险——在给定的限制范围和时间期限内，",
+    "startMs": 240452,
+    "endMs": 246052
+  },
+  {
+    "index": 59,
+    "sceneId": "S13",
+    "text": "能不能设计出预期系统、",
+    "startMs": 246612,
+    "endMs": 248612
+  },
+  {
+    "index": 60,
+    "sceneId": "S13",
+    "text": "实现必需的功能和性能？",
+    "startMs": 248852,
+    "endMs": 250692
+  },
+  {
+    "index": 61,
+    "sceneId": "S13",
+    "text": "第三，技术能力的可能性——",
+    "startMs": 251172,
+    "endMs": 254052
+  },
+  {
+    "index": 62,
+    "sceneId": "S13",
+    "text": "技术发展趋势和当前掌握的技术支不支持开发，",
+    "startMs": 254052,
+    "endMs": 259812
+  },
+  {
+    "index": 63,
+    "sceneId": "S13",
+    "text": "有没有对应的开发环境、",
+    "startMs": 260532,
+    "endMs": 262372
+  },
+  {
+    "index": 64,
+    "sceneId": "S13",
+    "text": "平台和工具。",
+    "startMs": 262532,
+    "endMs": 263812
+  },
+  {
+    "index": 65,
+    "sceneId": "S13",
+    "text": "第四，物资（产品）的可用性——有没有可以用来建立系统的其他资源，",
+    "startMs": 264372,
+    "endMs": 272052
+  },
+  {
+    "index": 66,
+    "sceneId": "S13",
+    "text": "比如设备以及可行的替代产品。",
+    "startMs": 272532,
+    "endMs": 275732
+  },
+  {
+    "index": 67,
+    "sceneId": "S14",
+    "text": "第二，人力资源的有效性——请大家在这七个字旁边画三个五角星！",
+    "startMs": 276385,
+    "endMs": 283905
+  },
+  {
+    "index": 68,
+    "sceneId": "S14",
+    "text": "这是考场上的头号陷阱！",
+    "startMs": 284465,
+    "endMs": 286305
+  },
+  {
+    "index": 69,
+    "sceneId": "S14",
+    "text": "什么叫人力资源的有效性？",
+    "startMs": 286865,
+    "endMs": 289025
+  },
+  {
+    "index": 70,
+    "sceneId": "S14",
+    "text": "就是看用于项目开发的技术人员队伍能不能建立起来，",
+    "startMs": 289585,
+    "endMs": 293745
+  },
+  {
+    "index": 71,
+    "sceneId": "S14",
+    "text": "存不存在人员不足、技术能力欠缺的问题，",
+    "startMs": 294625,
+    "endMs": 297985
+  },
+  {
+    "index": 72,
+    "sceneId": "S14",
+    "text": "能不能在社会上招聘、或者通过培训获得所需要的熟练技术人员。",
+    "startMs": 299105,
+    "endMs": 304705
+  },
+  {
+    "index": 73,
+    "sceneId": "S14",
+    "text": "很多同学一看到“招聘人员、",
+    "startMs": 305185,
+    "endMs": 307265
+  },
+  {
+    "index": 74,
+    "sceneId": "S14",
+    "text": "培训人员”，脑子一热就去选“运行环境”或者“社会效益”。",
+    "startMs": 307425,
+    "endMs": 312145
+  },
+  {
+    "index": 75,
+    "sceneId": "S14",
+    "text": "千万记住：没技术人员就写不出代码、",
+    "startMs": 312705,
+    "endMs": 316945
+  },
+  {
+    "index": 76,
+    "sceneId": "S14",
+    "text": "造不出系统！",
+    "startMs": 317105,
+    "endMs": 318225
+  },
+  {
+    "index": 77,
+    "sceneId": "S14",
+    "text": "考察能不能凑齐技术人手把系统开发出来，",
+    "startMs": 318705,
+    "endMs": 322305
+  },
+  {
+    "index": 78,
+    "sceneId": "S14",
+    "text": "属于技术可行性分析！",
+    "startMs": 322785,
+    "endMs": 324545
+  },
+  {
+    "index": 79,
+    "sceneId": "S15",
+    "text": "我们马上看 2023 年 5 月的第 21 题，",
+    "startMs": 325123,
+    "endMs": 328083
+  },
+  {
+    "index": 80,
+    "sceneId": "S15",
+    "text": "看看命题人是怎么考这个坑的。",
+    "startMs": 328963,
+    "endMs": 330883
+  },
+  {
+    "index": 81,
+    "sceneId": "S15",
+    "text": "题干问：可行性报告中，是否存在人力资源不足的问题，",
+    "startMs": 331523,
+    "endMs": 336243
+  },
+  {
+    "index": 82,
+    "sceneId": "S15",
+    "text": "是否可以通过社会招聘或培训获得所需人员，",
+    "startMs": 337123,
+    "endMs": 341123
+  },
+  {
+    "index": 83,
+    "sceneId": "S15",
+    "text": "属于（  ）的内容？",
+    "startMs": 341523,
+    "endMs": 343043
+  },
+  {
+    "index": 84,
+    "sceneId": "S15",
+    "text": "A. 技术可行性分析；B. 经济可行性问题；",
+    "startMs": 343603,
+    "endMs": 349283
+  },
+  {
+    "index": 85,
+    "sceneId": "S15",
+    "text": "C. 社会效益可行性分析；",
+    "startMs": 349683,
+    "endMs": 353763
+  },
+  {
+    "index": 86,
+    "sceneId": "S15",
+    "text": "D. 运行环境可行性分析。",
+    "startMs": 354083,
+    "endMs": 357043
+  },
+  {
+    "index": 87,
+    "sceneId": "S16",
+    "text": "现在看这道题，是不是一点都不会犹豫了？",
+    "startMs": 357635,
+    "endMs": 361315
+  },
+  {
+    "index": 88,
+    "sceneId": "S17",
+    "text": "题干里的“是否存在人力资源不足、",
+    "startMs": 361943,
+    "endMs": 364343
+  },
+  {
+    "index": 89,
+    "sceneId": "S17",
+    "text": "能否通过社会招聘或培训获得所需人员”，",
+    "startMs": 364583,
+    "endMs": 367863
+  },
+  {
+    "index": 90,
+    "sceneId": "S17",
+    "text": "完全就是教材里技术可行性分析——人力资源有效性的原话！",
+    "startMs": 368583,
+    "endMs": 373383
+  },
+  {
+    "index": 91,
+    "sceneId": "S17",
+    "text": "直接选 A。",
+    "startMs": 373863,
+    "endMs": 374983
+  },
+  {
+    "index": 92,
+    "sceneId": "S18",
+    "text": "接下来戴上第二顶帽子：",
+    "startMs": 375622,
+    "endMs": 377382
+  },
+  {
+    "index": 93,
+    "sceneId": "S18",
+    "text": "经济可行性分析。",
+    "startMs": 378022,
+    "endMs": 379302
+  },
+  {
+    "index": 94,
+    "sceneId": "S18",
+    "text": "它主要对整个项目的投资和产生的经济效益算四笔账：",
+    "startMs": 379782,
+    "endMs": 384262
+  },
+  {
+    "index": 95,
+    "sceneId": "S18",
+    "text": "第一、支出分析，第二、收益分析，",
+    "startMs": 385702,
+    "endMs": 389862
+  },
+  {
+    "index": 96,
+    "sceneId": "S18",
+    "text": "第三、收益投资比与投资回收期分析，",
+    "startMs": 390662,
+    "endMs": 394742
+  },
+  {
+    "index": 97,
+    "sceneId": "S18",
+    "text": "第四、敏感性分析。",
+    "startMs": 395622,
+    "endMs": 397782
+  },
+  {
+    "index": 98,
+    "sceneId": "S19",
+    "text": "第一笔账，支出分析。",
+    "startMs": 398397,
+    "endMs": 400797
+  },
+  {
+    "index": 99,
+    "sceneId": "S19",
+    "text": "教材把项目支出分成了两类，",
+    "startMs": 401437,
+    "endMs": 403917
+  },
+  {
+    "index": 100,
+    "sceneId": "S19",
+    "text": "考场上非常喜欢把它们混在一起考：",
+    "startMs": 404797,
+    "endMs": 407997
+  },
+  {
+    "index": 101,
+    "sceneId": "S20",
+    "text": "一类叫一次性支出——也就是建项目时一次性掏出去的钱，",
+    "startMs": 408666,
+    "endMs": 414266
+  },
+  {
+    "index": 102,
+    "sceneId": "S20",
+    "text": "包括：开发费、培训费、差旅费、",
+    "startMs": 415066,
+    "endMs": 418346
+  },
+  {
+    "index": 103,
+    "sceneId": "S20",
+    "text": "初始数据录入、设备购置费。",
+    "startMs": 418826,
+    "endMs": 421066
+  },
+  {
+    "index": 104,
+    "sceneId": "S21",
+    "text": "另一类叫非一次性支出——也就是项目运行期间要周期性、",
+    "startMs": 421715,
+    "endMs": 427875
+  },
+  {
+    "index": 105,
+    "sceneId": "S21",
+    "text": "持续掏的钱，包括：软硬件租金、",
+    "startMs": 427875,
+    "endMs": 432355
+  },
+  {
+    "index": 106,
+    "sceneId": "S21",
+    "text": "人员工资及福利、水电等公用设施使用费，",
+    "startMs": 432675,
+    "endMs": 436995
+  },
+  {
+    "index": 107,
+    "sceneId": "S21",
+    "text": "以及其他消耗品支出。",
+    "startMs": 437395,
+    "endMs": 439315
+  },
+  {
+    "index": 108,
+    "sceneId": "S22",
+    "text": "请你特别盯住两个词：“设备购置费”是一次性买断，",
+    "startMs": 439934,
+    "endMs": 444974
+  },
+  {
+    "index": 109,
+    "sceneId": "S22",
+    "text": "属于一次性支出；而“软、硬件租金”是按期交租，",
+    "startMs": 445534,
+    "endMs": 450654
+  },
+  {
+    "index": 110,
+    "sceneId": "S22",
+    "text": "属于非一次性支出！",
+    "startMs": 451294,
+    "endMs": 453214
+  },
+  {
+    "index": 111,
+    "sceneId": "S22",
+    "text": "命题人最爱把“软硬件租金”偷偷塞进一次性支出里骗你。",
+    "startMs": 453774,
+    "endMs": 458014
+  },
+  {
+    "index": 112,
+    "sceneId": "S23",
+    "text": "第二笔账，收益分析，分三小类：",
+    "startMs": 458666,
+    "endMs": 462106
+  },
+  {
+    "index": 113,
+    "sceneId": "S23",
+    "text": "直接收益（比如销售项目产品的收入）、",
+    "startMs": 463066,
+    "endMs": 466746
+  },
+  {
+    "index": 114,
+    "sceneId": "S23",
+    "text": "间接收益（比如通过项目实施降低了成本）、",
+    "startMs": 467066,
+    "endMs": 470826
+  },
+  {
+    "index": 115,
+    "sceneId": "S23",
+    "text": "其他收益（比如获得了知识产权、",
+    "startMs": 471466,
+    "endMs": 474506
+  },
+  {
+    "index": 116,
+    "sceneId": "S23",
+    "text": "软件著作权）。",
+    "startMs": 474906,
+    "endMs": 476026
+  },
+  {
+    "index": 117,
+    "sceneId": "S24",
+    "text": "第三笔账，收益投资比、投资回收期分析，",
+    "startMs": 476720,
+    "endMs": 481360
+  },
+  {
+    "index": 118,
+    "sceneId": "S24",
+    "text": "对比投入产出，算收益率和回收期。",
+    "startMs": 481840,
+    "endMs": 484960
+  },
+  {
+    "index": 119,
+    "sceneId": "S25",
+    "text": "第四笔账，敏感性分析——什么叫敏感性分析？",
+    "startMs": 485578,
+    "endMs": 491498
+  },
+  {
+    "index": 120,
+    "sceneId": "S25",
+    "text": "就是当设备和软件配置、",
+    "startMs": 492058,
+    "endMs": 494058
+  },
+  {
+    "index": 121,
+    "sceneId": "S25",
+    "text": "处理速度要求、",
+    "startMs": 494458,
+    "endMs": 495666
+  },
+  {
+    "index": 122,
+    "sceneId": "S25",
+    "text": "系统的工作负荷类型和负荷量这些关键性因素发生变化时，",
+    "startMs": 495666,
+    "endMs": 500698
+  },
+  {
+    "index": 123,
+    "sceneId": "S25",
+    "text": "估计一下会对支出和收益产生多大影响。",
+    "startMs": 501418,
+    "endMs": 504618
+  },
+  {
+    "index": 124,
+    "sceneId": "S26",
+    "text": "我们连看两道真题，看看这四笔账在考场上怎么出题。",
+    "startMs": 505222,
+    "endMs": 509542
+  },
+  {
+    "index": 125,
+    "sceneId": "S26",
+    "text": "先看 2023 年 11 月第 1 批次的第 28 题：",
+    "startMs": 510022,
+    "endMs": 514422
+  },
+  {
+    "index": 126,
+    "sceneId": "S26",
+    "text": "问关于经济可行性分析，",
+    "startMs": 515302,
+    "endMs": 517382
+  },
+  {
+    "index": 127,
+    "sceneId": "S26",
+    "text": "描述错误的是哪一项？",
+    "startMs": 517862,
+    "endMs": 519622
+  },
+  {
+    "index": 128,
+    "sceneId": "S27",
+    "text": "你看 A 选项：“一次性支出包括开发费、",
+    "startMs": 520290,
+    "endMs": 524210
+  },
+  {
+    "index": 129,
+    "sceneId": "S27",
+    "text": "培训费、差旅费、软、硬件租金等费用”——抓到了吧！",
+    "startMs": 524370,
+    "endMs": 530050
+  },
+  {
+    "index": 130,
+    "sceneId": "S27",
+    "text": "把“软、硬件租金”混进一次性支出里了，",
+    "startMs": 530530,
+    "endMs": 533970
+  },
+  {
+    "index": 131,
+    "sceneId": "S27",
+    "text": "软硬件租金是非一次性支出，",
+    "startMs": 534930,
+    "endMs": 537650
+  },
+  {
+    "index": 132,
+    "sceneId": "S27",
+    "text": "所以直接选 A！",
+    "startMs": 538130,
+    "endMs": 539250
+  },
+  {
+    "index": 133,
+    "sceneId": "S27",
+    "text": "而 B 间接收益、C 销售产品收入为直接收益、",
+    "startMs": 539730,
+    "endMs": 546050
+  },
+  {
+    "index": 134,
+    "sceneId": "S27",
+    "text": "D 收益投资比与投资回收期，",
+    "startMs": 546530,
+    "endMs": 549170
+  },
+  {
+    "index": 135,
+    "sceneId": "S27",
+    "text": "全都是教材原话。",
+    "startMs": 549570,
+    "endMs": 551090
+  },
+  {
+    "index": 136,
+    "sceneId": "S28",
+    "text": "再看旁边的 2023 年 11 月第 4 批次第 22 题：",
+    "startMs": 551710,
+    "endMs": 555870
+  },
+  {
+    "index": 137,
+    "sceneId": "S28",
+    "text": "经济可行性分析具体包括支出分析、",
+    "startMs": 556510,
+    "endMs": 560670
+  },
+  {
+    "index": 138,
+    "sceneId": "S28",
+    "text": "收益分析、投资回报分析以及（  ）等？",
+    "startMs": 560830,
+    "endMs": 565390
+  },
+  {
+    "index": 139,
+    "sceneId": "S28",
+    "text": "A. 敏感性分析；B. 公共效益分析；",
+    "startMs": 565950,
+    "endMs": 570590
+  },
+  {
+    "index": 140,
+    "sceneId": "S28",
+    "text": "C. 品牌效益；D. 技术创新效益。",
+    "startMs": 570990,
+    "endMs": 574990
+  },
+  {
+    "index": 141,
+    "sceneId": "S29",
+    "text": "直接选 A 敏感性分析！",
+    "startMs": 575577,
+    "endMs": 577897
+  },
+  {
+    "index": 142,
+    "sceneId": "S29",
+    "text": "同样，23 年 11 月第 3 批次第 22 题反过来问“经济可行性不包括什么”，",
+    "startMs": 578377,
+    "endMs": 586777
+  },
+  {
+    "index": 143,
+    "sceneId": "S29",
+    "text": "把刚学过的“人力资源的有效性分析”塞了进来。",
+    "startMs": 587097,
+    "endMs": 590457
+  },
+  {
+    "index": 144,
+    "sceneId": "S29",
+    "text": "你看，只要这四笔账的框架在脑子里，",
+    "startMs": 590937,
+    "endMs": 594617
+  },
+  {
+    "index": 145,
+    "sceneId": "S29",
+    "text": "正着考反着考都难不倒你。",
+    "startMs": 595337,
+    "endMs": 597417
+  },
+  {
+    "index": 146,
+    "sceneId": "S30",
+    "text": "刚才那道题的 B、C、D 选项出现了“公共效益、",
+    "startMs": 598022,
+    "endMs": 603542
+  },
+  {
+    "index": 147,
+    "sceneId": "S30",
+    "text": "品牌效益、技术创新效益”，",
+    "startMs": 603862,
+    "endMs": 606183
+  },
+  {
+    "index": 148,
+    "sceneId": "S30",
+    "text": "它们属于哪儿呢？",
+    "startMs": 607302,
+    "endMs": 608342
+  },
+  {
+    "index": 149,
+    "sceneId": "S30",
+    "text": "这就到了第三顶帽子——社会效益可行性分析。",
+    "startMs": 608902,
+    "endMs": 613062
+  },
+  {
+    "index": 150,
+    "sceneId": "S31",
+    "text": "尤其是面向公共服务领域的项目，",
+    "startMs": 613652,
+    "endMs": 616372
+  },
+  {
+    "index": 151,
+    "sceneId": "S31",
+    "text": "社会效益往往是关注重点。",
+    "startMs": 617012,
+    "endMs": 619732
+  },
+  {
+    "index": 152,
+    "sceneId": "S31",
+    "text": "第四版教材把社会效益分成了“对组织内部”和“对社会发展”两大块，",
+    "startMs": 620212,
+    "endMs": 627252
+  },
+  {
+    "index": 153,
+    "sceneId": "S31",
+    "text": "每块各有 5 项：",
+    "startMs": 628532,
+    "endMs": 630292
+  },
+  {
+    "index": 154,
+    "sceneId": "S32",
+    "text": "先看对组织内部带来的知识经验沉淀，",
+    "startMs": 630906,
+    "endMs": 634586
+  },
+  {
+    "index": 155,
+    "sceneId": "S32",
+    "text": "一共 5 个效益：第一，品牌效益（提升知名度）；",
+    "startMs": 635386,
+    "endMs": 640826
+  },
+  {
+    "index": 156,
+    "sceneId": "S32",
+    "text": "第二，竞争力效益（获得行业竞争优势）；",
+    "startMs": 641226,
+    "endMs": 645546
+  },
+  {
+    "index": 157,
+    "sceneId": "S32",
+    "text": "第三，技术创新效益（攻克技术难点，",
+    "startMs": 645946,
+    "endMs": 649946
+  },
+  {
+    "index": 158,
+    "sceneId": "S32",
+    "text": "带来技术能力积累、产品与服务创新）；",
+    "startMs": 650266,
+    "endMs": 653386
+  },
+  {
+    "index": 159,
+    "sceneId": "S32",
+    "text": "第四，人员提升收益（通过项目锻炼，",
+    "startMs": 653786,
+    "endMs": 658026
+  },
+  {
+    "index": 160,
+    "sceneId": "S32",
+    "text": "带来人员能力提升或骨干人员培育）；",
+    "startMs": 658266,
+    "endMs": 661546
+  },
+  {
+    "index": 161,
+    "sceneId": "S32",
+    "text": "第五，管理提升效益（过程管控带来组织管理水平提升）。",
+    "startMs": 661946,
+    "endMs": 667466
+  },
+  {
+    "index": 162,
+    "sceneId": "S33",
+    "text": "再看对社会发展带来的进步，",
+    "startMs": 668096,
+    "endMs": 670416
+  },
+  {
+    "index": 163,
+    "sceneId": "S33",
+    "text": "也是 5 个：公共效益（信息惠民、",
+    "startMs": 670896,
+    "endMs": 674896
+  },
+  {
+    "index": 164,
+    "sceneId": "S33",
+    "text": "美好生活、居民健康等）、文化效益（精神文明、",
+    "startMs": 675216,
+    "endMs": 680896
+  },
+  {
+    "index": 165,
+    "sceneId": "S33",
+    "text": "网络文明）、环境效益（保护自然与生态）、",
+    "startMs": 680896,
+    "endMs": 685136
+  },
+  {
+    "index": 166,
+    "sceneId": "S33",
+    "text": "社会责任感效益，以及其他收益（如提高国防能力、",
+    "startMs": 685776,
+    "endMs": 691216
+  },
+  {
+    "index": 167,
+    "sceneId": "S33",
+    "text": "保障国家和社会安全）。",
+    "startMs": 691616,
+    "endMs": 693376
+  },
+  {
+    "index": 168,
+    "sceneId": "S34",
+    "text": "看到这儿，最精彩的地方来了！",
+    "startMs": 693989,
+    "endMs": 696549
+  },
+  {
+    "index": 169,
+    "sceneId": "S34",
+    "text": "你发现没有：在“对组织内部的社会效益”里，",
+    "startMs": 697189,
+    "endMs": 701029
+  },
+  {
+    "index": 170,
+    "sceneId": "S34",
+    "text": "有“人员提升收益”和“技术创新效益”；",
+    "startMs": 701669,
+    "endMs": 704869
+  },
+  {
+    "index": 171,
+    "sceneId": "S34",
+    "text": "而在前面讲的“技术可行性”里，",
+    "startMs": 705189,
+    "endMs": 707509
+  },
+  {
+    "index": 172,
+    "sceneId": "S34",
+    "text": "有“人力资源的有效性”和“技术能力的可能性”！",
+    "startMs": 708069,
+    "endMs": 711509
+  },
+  {
+    "index": 173,
+    "sceneId": "S34",
+    "text": "命题人简直太爱拿这两组词交叉挖坑了！",
+    "startMs": 712069,
+    "endMs": 715749
+  },
+  {
+    "index": 174,
+    "sceneId": "S34",
+    "text": "我们用屏幕下方这张终极防坑表把它们彻底锁死：",
+    "startMs": 716229,
+    "endMs": 720549
+  },
+  {
+    "index": 175,
+    "sceneId": "S35",
+    "text": "- 问你“人力资源的有效性（能不能招到或培训出技术人员把系统做出来）”，",
+    "startMs": 721254,
+    "endMs": 727094
+  },
+  {
+    "index": 176,
+    "sceneId": "S35",
+    "text": "选技术可行性；- 问你“人员提升收益（通过做项目锻炼了队伍、",
+    "startMs": 727574,
+    "endMs": 734294
+  },
+  {
+    "index": 177,
+    "sceneId": "S35",
+    "text": "培养了骨干）”，选社会效益可行性！",
+    "startMs": 734614,
+    "endMs": 737894
+  },
+  {
+    "index": 178,
+    "sceneId": "S35",
+    "text": "- 问你“技术能力的可能性（当前掌握的技术和工具支不支持开发）”，",
+    "startMs": 738374,
+    "endMs": 745574
+  },
+  {
+    "index": 179,
+    "sceneId": "S35",
+    "text": "选技术可行性；",
+    "startMs": 746374,
+    "endMs": 747613
+  },
+  {
+    "index": 180,
+    "sceneId": "S35",
+    "text": "- 问你“技术创新效益（攻克难点为组织积累了技术能力与创新）”，",
+    "startMs": 747613,
+    "endMs": 752774
+  },
+  {
+    "index": 181,
+    "sceneId": "S35",
+    "text": "选社会效益可行性！",
+    "startMs": 753174,
+    "endMs": 754614
+  },
+  {
+    "index": 182,
+    "sceneId": "S36",
+    "text": "接下来看屏幕上这两道真题对决：",
+    "startMs": 755243,
+    "endMs": 758123
+  },
+  {
+    "index": 183,
+    "sceneId": "S36",
+    "text": "左边是 2023 年 11 月第 1 批次第 61 题：",
+    "startMs": 758683,
+    "endMs": 762843
+  },
+  {
+    "index": 184,
+    "sceneId": "S36",
+    "text": "问哪一项属于社会效益可行性研究的内容？",
+    "startMs": 763243,
+    "endMs": 766923
+  },
+  {
+    "index": 185,
+    "sceneId": "S36",
+    "text": "A 是人力资源的有效性，",
+    "startMs": 767403,
+    "endMs": 769083
+  },
+  {
+    "index": 186,
+    "sceneId": "S36",
+    "text": "D 是人员提升收益。",
+    "startMs": 769643,
+    "endMs": 770923
+  },
+  {
+    "index": 187,
+    "sceneId": "S36",
+    "text": "选哪个？直接选 D 人员提升收益！",
+    "startMs": 771483,
+    "endMs": 775244
+  },
+  {
+    "index": 188,
+    "sceneId": "S37",
+    "text": "右边是 2026 年 5 月第 2 批次第 23 题：",
+    "startMs": 776118,
+    "endMs": 780438
+  },
+  {
+    "index": 189,
+    "sceneId": "S37",
+    "text": "问技术可行性分析考虑的因素不包括哪一项？",
+    "startMs": 781078,
+    "endMs": 784758
+  },
+  {
+    "index": 190,
+    "sceneId": "S37",
+    "text": "A 人力资源的有效性、B 物资的可用性、",
+    "startMs": 785318,
+    "endMs": 789638
+  },
+  {
+    "index": 191,
+    "sceneId": "S37",
+    "text": "C 技术能力的可能性、D 技术创新效益。",
+    "startMs": 790598,
+    "endMs": 794918
+  },
+  {
+    "index": 192,
+    "sceneId": "S37",
+    "text": "不包括哪个？",
+    "startMs": 795398,
+    "endMs": 796198
+  },
+  {
+    "index": 193,
+    "sceneId": "S37",
+    "text": "直接选 D 技术创新效益，",
+    "startMs": 796758,
+    "endMs": 798838
+  },
+  {
+    "index": 194,
+    "sceneId": "S37",
+    "text": "因为它属于社会效益！",
+    "startMs": 799398,
+    "endMs": 800918
+  },
+  {
+    "index": 195,
+    "sceneId": "S37",
+    "text": "这两道题放在一起看，是不是一下子通透了？",
+    "startMs": 801398,
+    "endMs": 805078
+  },
+  {
+    "index": 196,
+    "sceneId": "S38",
+    "text": "最后我们来看第四顶和第五顶帽子。",
+    "startMs": 805696,
+    "endMs": 808576
+  },
+  {
+    "index": 197,
+    "sceneId": "S38",
+    "text": "第四顶帽子叫运行环境可行性分析。",
+    "startMs": 809136,
+    "endMs": 812816
+  },
+  {
+    "index": 198,
+    "sceneId": "S38",
+    "text": "信息系统项目跟修桥修路不一样，",
+    "startMs": 813296,
+    "endMs": 816336
+  },
+  {
+    "index": 199,
+    "sceneId": "S38",
+    "text": "软件硬件造好了，还得安装运行在用户现场。",
+    "startMs": 817056,
+    "endMs": 820656
+  },
+  {
+    "index": 200,
+    "sceneId": "S38",
+    "text": "运行环境是制约信息系统发挥效益的关键。",
+    "startMs": 821136,
+    "endMs": 824816
+  },
+  {
+    "index": 201,
+    "sceneId": "S38",
+    "text": "那运行环境可行性到底看什么？",
+    "startMs": 825296,
+    "endMs": 828416
+  },
+  {
+    "index": 202,
+    "sceneId": "S38",
+    "text": "既有“硬环境”，更有用户的“软环境”：",
+    "startMs": 828896,
+    "endMs": 831936
+  },
+  {
+    "index": 203,
+    "sceneId": "S38",
+    "text": "需要从用户的管理体制、",
+    "startMs": 832496,
+    "endMs": 834336
+  },
+  {
+    "index": 204,
+    "sceneId": "S38",
+    "text": "管理方法、规章制度、工作习惯、",
+    "startMs": 834496,
+    "endMs": 837936
+  },
+  {
+    "index": 205,
+    "sceneId": "S38",
+    "text": "人员素质（甚至包括人员的心理承受能力、",
+    "startMs": 838336,
+    "endMs": 841456
+  },
+  {
+    "index": 206,
+    "sceneId": "S38",
+    "text": "接受新知识和技能的积极性）、",
+    "startMs": 842016,
+    "endMs": 844176
+  },
+  {
+    "index": 207,
+    "sceneId": "S38",
+    "text": "数据资源积累、基础软硬件平台等多方面进行评估，",
+    "startMs": 844896,
+    "endMs": 849136
+  },
+  {
+    "index": 208,
+    "sceneId": "S38",
+    "text": "看系统交付以后能不能在用户现场顺利运行。",
+    "startMs": 849856,
+    "endMs": 853536
+  },
+  {
+    "index": 209,
+    "sceneId": "S38",
+    "text": "如果软硬件运行环境需要重新建立，",
+    "startMs": 854016,
+    "endMs": 857376
+  },
+  {
+    "index": 210,
+    "sceneId": "S38",
+    "text": "就要评估能不能建立起来，",
+    "startMs": 857856,
+    "endMs": 859776
+  },
+  {
+    "index": 211,
+    "sceneId": "S38",
+    "text": "并把建立环境的工作纳入项目计划之中。",
+    "startMs": 860736,
+    "endMs": 864416
+  },
+  {
+    "index": 212,
+    "sceneId": "S39",
+    "text": "第五顶帽子叫其他方面的可行性分析，",
+    "startMs": 865073,
+    "endMs": 868353
+  },
+  {
+    "index": 213,
+    "sceneId": "S39",
+    "text": "主要包括法律可行性、政策可行性等。",
+    "startMs": 869073,
+    "endMs": 872513
+  },
+  {
+    "index": 214,
+    "sceneId": "S39",
+    "text": "比如合同责任、知识产权，",
+    "startMs": 873073,
+    "endMs": 876033
+  },
+  {
+    "index": 215,
+    "sceneId": "S39",
+    "text": "特别是开发环境、平台、",
+    "startMs": 876593,
+    "endMs": 878633
+  },
+  {
+    "index": 216,
+    "sceneId": "S39",
+    "text": "工具和产品功能里涉及的软件版权问题（像能不能购买工具版权、",
+    "startMs": 878633,
+    "endMs": 884753
+  },
+  {
+    "index": 217,
+    "sceneId": "S39",
+    "text": "开源协议符不符合商业目标等），",
+    "startMs": 885073,
+    "endMs": 887473
+  },
+  {
+    "index": 218,
+    "sceneId": "S39",
+    "text": "以及对社会环境、自然环境的影响。",
+    "startMs": 887953,
+    "endMs": 890513
+  },
+  {
+    "index": 219,
+    "sceneId": "S40",
+    "text": "我们用 2025 年 5 月第 1 批次的第 58 题来做个完美收官。",
+    "startMs": 891122,
+    "endMs": 897042
+  },
+  {
+    "index": 220,
+    "sceneId": "S40",
+    "text": "这道题出得特别好，",
+    "startMs": 897522,
+    "endMs": 899271
+  },
+  {
+    "index": 221,
+    "sceneId": "S40",
+    "text": "四个选项刚好把我们今天学的几个维度全串起来了！",
+    "startMs": 899271,
+    "endMs": 904082
+  },
+  {
+    "index": 222,
+    "sceneId": "S40",
+    "text": "题目问：在项目可行性分析的过程中，",
+    "startMs": 904562,
+    "endMs": 908402
+  },
+  {
+    "index": 223,
+    "sceneId": "S40",
+    "text": "哪一项属于运行环境可行性分析的内容？",
+    "startMs": 909042,
+    "endMs": 912562
+  },
+  {
+    "index": 224,
+    "sceneId": "S40",
+    "text": "A. 项目能否为组织带来技术创新效益；",
+    "startMs": 913122,
+    "endMs": 917522
+  },
+  {
+    "index": 225,
+    "sceneId": "S40",
+    "text": "B. 设备购置费是否超出预算；",
+    "startMs": 917922,
+    "endMs": 921202
+  },
+  {
+    "index": 226,
+    "sceneId": "S40",
+    "text": "C. 系统使用的开源协议是否符合项目商业目标；",
+    "startMs": 921602,
+    "endMs": 926722
+  },
+  {
+    "index": 227,
+    "sceneId": "S40",
+    "text": "D. 用户的管理体制、人员素质及数据资源积累。",
+    "startMs": 927122,
+    "endMs": 932082
+  },
+  {
+    "index": 228,
+    "sceneId": "S41",
+    "text": "我们挨个认认门：A“技术创新效益”，",
+    "startMs": 932795,
+    "endMs": 936475
+  },
+  {
+    "index": 229,
+    "sceneId": "S41",
+    "text": "刚讲过，属于社会效益可行性（对组织内部）；",
+    "startMs": 936715,
+    "endMs": 941435
+  },
+  {
+    "index": 230,
+    "sceneId": "S41",
+    "text": "B“设备购置费”，属于经济可行性（一次性支出）；",
+    "startMs": 941835,
+    "endMs": 947115
+  },
+  {
+    "index": 231,
+    "sceneId": "S41",
+    "text": "C“开源协议是否符合商业目标”，",
+    "startMs": 947515,
+    "endMs": 950475
+  },
+  {
+    "index": 232,
+    "sceneId": "S41",
+    "text": "涉及知识产权与软件版权许可，",
+    "startMs": 950875,
+    "endMs": 953595
+  },
+  {
+    "index": 233,
+    "sceneId": "S41",
+    "text": "属于其他（法律）可行性；只有 D“用户的管理体制、",
+    "startMs": 953915,
+    "endMs": 958075
+  },
+  {
+    "index": 234,
+    "sceneId": "S41",
+    "text": "人员素质及数据资源积累”，",
+    "startMs": 958395,
+    "endMs": 960555
+  },
+  {
+    "index": 235,
+    "sceneId": "S41",
+    "text": "完完全全是运行环境可行性分析的内容！",
+    "startMs": 961275,
+    "endMs": 964395
+  },
+  {
+    "index": 236,
+    "sceneId": "S42",
+    "text": "到这里，可行性研究算哪五笔账我们就彻底摸透了。",
+    "startMs": 966230,
+    "endMs": 971110
+  },
+  {
+    "index": 237,
+    "sceneId": "S42",
+    "text": "但在实际工作中，",
+    "startMs": 971590,
+    "endMs": 973367
+  },
+  {
+    "index": 238,
+    "sceneId": "S42",
+    "text": "可行性研究为什么要分“初步可研”和“详细可研”两步走？",
+    "startMs": 973367,
+    "endMs": 978950
+  },
+  {
+    "index": 239,
+    "sceneId": "S42",
+    "text": "做完了可研，为什么还要请第三方来做“项目评估”？",
+    "startMs": 979590,
+    "endMs": 983830
+  },
+  {
+    "index": 240,
+    "sceneId": "S42",
+    "text": "我们下一节见！",
+    "startMs": 984390,
+    "endMs": 985350
+  }
+]

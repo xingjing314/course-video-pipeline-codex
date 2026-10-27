@@ -1,0 +1,66 @@
+{
+  "lessonId": "ch06-L01-envquiz",
+  "sampleRate": 24000,
+  "totalDurationMs": 89993,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-envquiz/ch06-L01-envquiz-full.wav",
+  "fullWavSha256": "e69ae35d4a64c1d09c84638d0955ec763661d0de9c4af55682b5e63a97071476",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "EQ-intro",
+      "narration": "我们用两道真题，检验一下三宫格的实战效果！",
+      "narrationSha256": "3f85a3846ce97b340e73ec5452ae9bf68301340a0e919fadb7c36ce9e14d3dfc",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-envquiz/audio/EQ-intro.wav",
+      "wavSha256": "681c17a70378cb493bdacf9b0a333ad491f76e70f74005885e9538fd710a8cdd",
+      "startMs": 0,
+      "endMs": 4392,
+      "durationMs": 4392,
+      "fromCache": false
+    },
+    {
+      "sceneId": "EQ-left-read",
+      "narration": "先看左边的2023年11月第2批次第29题：哪一项不属于组织过程资产？\nA 选项说：设施和资源的物理分布；B 选项是社交媒体、道德和安全政策及程序；C 选项是问题、风险、变更管理程序；D 选项是数据管理政策及程序。",
+      "narrationSha256": "36b63c467182b152ee788af12cd3f66f4ddd2360584d1a893f737d83fe1932c3",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-envquiz/audio/EQ-left-read.wav",
+      "wavSha256": "8325b903d86218c6f224194084d8426c13999716f8247595c4df785a2acd755c",
+      "startMs": 4392,
+      "endMs": 33444,
+      "durationMs": 29052,
+      "fromCache": false
+    },
+    {
+      "sceneId": "EQ-left-explain",
+      "narration": "你看，B、C、D 全都带政策、流程、程序，妥妥的组织过程资产；而 A 选项“设施和资源的物理分布”，是团队办公的客观物理限制，只能适应无法篡改，属于内部事业环境因素！直接选 A！",
+      "narrationSha256": "539afe84e40a6442e11192d1ba47c1dadc44da39cb103771af249edd70a9f73a",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-envquiz/audio/EQ-left-explain.wav",
+      "wavSha256": "f36a377d6e972ce26850c5e92d16d45dbd594a7deb07be554991a59789365900",
+      "startMs": 33444,
+      "endMs": 55152,
+      "durationMs": 21708,
+      "fromCache": false
+    },
+    {
+      "sceneId": "EQ-right-read",
+      "narration": "再看右边的2026年5月第2批次第21题：哪一项属于组织内部事业环境因素？\n选项给出了商业数据库、行业标准、市场条件，以及员工能力。",
+      "narrationSha256": "89b7acf8364f2a73c15536d707391694f2ee4f00fab15fbbe7b36b05ce6e0c3d",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-envquiz/audio/EQ-right-read.wav",
+      "wavSha256": "921ad5c7e71f0873b47e09117f7ce86895102ab185a6420ae20259149ad538b5",
+      "startMs": 55152,
+      "endMs": 72982,
+      "durationMs": 17830,
+      "fromCache": false
+    },
+    {
+      "sceneId": "EQ-right-explain",
+      "narration": "商业数据库、行业标准、市场条件，全在公司大门外，属于外部事业环境因素；只有员工能力是组织自己内部员工的技能和知识沉淀，是内部事业环境因素，一秒锁定 D 选项！",
+      "narrationSha256": "6459c53c83317de4d2190746a5d64ce978a12b6205b85d4f907de6862e65cc6a",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-envquiz/audio/EQ-right-explain.wav",
+      "wavSha256": "ece4afbe72aa47945b3b2342b5aba41ab7dd09b935e22e2344885b4ae7a8d0d4",
+      "startMs": 72982,
+      "endMs": 89993,
+      "durationMs": 17011,
+      "fromCache": false
+    }
+  ]
+}

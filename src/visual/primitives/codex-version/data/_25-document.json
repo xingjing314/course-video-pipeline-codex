@@ -1,0 +1,29 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "document": {
+    "center": [
+      1150,
+      455
+    ],
+    "width": 520,
+    "height": 640,
+    "fold": 100,
+    "fill": "rgba(143, 184, 217, 0.12)",
+    "foldTint": "#D9482F",
+    "foldTintOpacity": 0.1,
+    "stroke": "rgba(143, 184, 217, 0.60)",
+    "strokeWidth": 1.5,
+    "linejoin": "miter"
+  },
+  "animation": {
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74,
+    "fillStartFrame": 114,
+    "fillDurationInFrames": 30,
+    "flapStartFrame": 94,
+    "flapDurationInFrames": 38
+  }
+}

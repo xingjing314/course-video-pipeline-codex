@@ -1,0 +1,49 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "cloud": {
+    "origin": {
+      "x": 1150,
+      "y": 500
+    },
+    "scale": 1.15,
+    "base": {
+      "x": -215,
+      "y": 10,
+      "width": 430,
+      "height": 90,
+      "radius": 38
+    },
+    "circles": [
+      {
+        "x": -132,
+        "y": 28,
+        "radius": 68
+      },
+      {
+        "x": -30,
+        "y": -5,
+        "radius": 92
+      },
+      {
+        "x": 95,
+        "y": 5,
+        "radius": 78
+      },
+      {
+        "x": 190,
+        "y": 45,
+        "radius": 50
+      }
+    ],
+    "fill": "rgba(143, 184, 217, 0.12)",
+    "stroke": "rgba(143, 184, 217, 0.60)",
+    "strokeWidth": 1.5
+  },
+  "animation": {
+    "solidStartFrame": 90,
+    "solidDurationInFrames": 45
+  }
+}

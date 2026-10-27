@@ -1,0 +1,31 @@
+{
+  "name": "course-video-pipeline-gemini",
+  "version": "1.0.0",
+  "description": "4-Stage Educational Video Compiler (Ingest -> CUDA Qwen3 Audio -> Reactive Linker -> Remotion Studio & NVENC Render)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio src/visual/index.ts --port=3025 --force-new",
+    "studio": "remotion studio src/visual/index.ts --port=3025 --force-new",
+    "compile": "node --experimental-strip-types src/cli/compile.ts",
+    "render": "node --experimental-strip-types src/cli/render.ts",
+    "lint": "tsc --noEmit",
+    "test": "node --experimental-strip-types src/cli/selftest.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.536",
+    "@remotion/zod-types": "4.0.536",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.536",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.536",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  }
+}

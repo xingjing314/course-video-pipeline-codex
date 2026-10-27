@@ -1,0 +1,33 @@
+{
+  "lessonId": "ch06-L01-closing",
+  "sampleRate": 24000,
+  "totalDurationMs": 27913,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-closing/ch06-L01-closing-full.wav",
+  "fullWavSha256": "3aab73a83be177ad054f4c433c2377313f0ee62cd703a80c34a5c2db8cc4e3e1",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "CL-recap",
+      "narration": "好，到这里，我们不仅吃透了项目的本质、战略成功标准和宏观棋局，而且用五道典范真题把出题套路打得粉碎。",
+      "narrationSha256": "916ccb8d1edc1fd4a95ad18ca4d6e166b9db3764d757a43deb41df41331cd3ce",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-closing/audio/CL-recap.wav",
+      "wavSha256": "342b385f3a0fb6fbe8205feff98b22cf87741fd1457b1e16c3603fa3dba67f98",
+      "startMs": 0,
+      "endMs": 11605,
+      "durationMs": 11605,
+      "fromCache": false
+    },
+    {
+      "sceneId": "CL-next",
+      "narration": "下一节课 L02，我们将把镜头对准那个在复杂组织中带队打仗的核心人物——项目经理，看看他的人才三角、权力来源和领导力艺术是怎么考查的。我们下节课见！",
+      "narrationSha256": "3a87b98f2cb824edd2747bab58d827e1db32acd9b439bc2982bc8ce92fd30757",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-closing/audio/CL-next.wav",
+      "wavSha256": "5e5f449091fb60f4f3404e4895c957345f0a05be332dd9648e450e5bd7e64916",
+      "startMs": 11605,
+      "endMs": 27913,
+      "durationMs": 16308,
+      "fromCache": false
+    }
+  ]
+}

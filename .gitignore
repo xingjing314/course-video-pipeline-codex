@@ -1,0 +1,30 @@
+# Dependencies and caches
+node_modules/
+.cache/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+
+# Render output and delivery packages (keep local files)
+/out/
+/deliverables/
+
+# Temporary output (handout source files now live in scripts/ and docs/)
+/tmp/
+
+# Keep audio and historical voice backups local; Git stores code and lesson data
+/public/audio/
+/workspaces/**/*.wav
+/workspaces/ch06-L01-quiz/before-voice-fix/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+!.env.sample
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep public/fonts/ (including licenses) and workspace JSON/SRT lesson data.
+# Restore local audio backups before voiced playback or rendering on a new machine.

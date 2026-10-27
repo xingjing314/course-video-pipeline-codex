@@ -1,0 +1,4821 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-relations",
+  "sampleRate": 24000,
+  "totalDurationMs": 194756,
+  "fullWavPath": "workspaces/ch06-L01-relations/ch06-L01-relations-full.wav",
+  "fullWavSha256": "c584bd807bdb1e1bbab6b37d42132924be6a9af5fd6103401069b19434832733",
+  "srtPath": "workspaces/ch06-L01-relations/ch06-L01-relations.srt",
+  "srtSha256": "6190ca3d9728f477f32f047dc3c3bd81dca9ca0290c5132b8125428c2056aaf4",
+  "engineInfo": {
+    "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+    "alignerEngine": "Qwen/Qwen3-ForcedAligner-0.6B",
+    "device": "cuda"
+  },
+  "scenes": [
+    {
+      "sceneId": "R01",
+      "narrationSha256": "5b287881ded1fb0749a6faf3fdd110ffda58c23a32ecaed231786229fea3ce08",
+      "wavRelativePath": "workspaces/ch06-L01-relations/audio/R01.wav",
+      "wavSha256": "641a4d5b679f5d8283158a28ddd318283a0b65c9a12a4313c057d43054c116fc",
+      "startMs": 0,
+      "endMs": 27655,
+      "durationMs": 27655,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "R01",
+          "text": "项",
+          "startMs": 0,
+          "endMs": 320
+        },
+        {
+          "sceneId": "R01",
+          "text": "目",
+          "startMs": 320,
+          "endMs": 400
+        },
+        {
+          "sceneId": "R01",
+          "text": "要",
+          "startMs": 400,
+          "endMs": 560
+        },
+        {
+          "sceneId": "R01",
+          "text": "承",
+          "startMs": 560,
+          "endMs": 800
+        },
+        {
+          "sceneId": "R01",
+          "text": "载",
+          "startMs": 800,
+          "endMs": 960
+        },
+        {
+          "sceneId": "R01",
+          "text": "战",
+          "startMs": 960,
+          "endMs": 1280
+        },
+        {
+          "sceneId": "R01",
+          "text": "略",
+          "startMs": 1280,
+          "endMs": 1440
+        },
+        {
+          "sceneId": "R01",
+          "text": "组",
+          "startMs": 2080,
+          "endMs": 2240
+        },
+        {
+          "sceneId": "R01",
+          "text": "织",
+          "startMs": 2240,
+          "endMs": 2400
+        },
+        {
+          "sceneId": "R01",
+          "text": "就",
+          "startMs": 2400,
+          "endMs": 2560
+        },
+        {
+          "sceneId": "R01",
+          "text": "必",
+          "startMs": 2560,
+          "endMs": 2720
+        },
+        {
+          "sceneId": "R01",
+          "text": "须",
+          "startMs": 2720,
+          "endMs": 2880
+        },
+        {
+          "sceneId": "R01",
+          "text": "搭",
+          "startMs": 2880,
+          "endMs": 3040
+        },
+        {
+          "sceneId": "R01",
+          "text": "建",
+          "startMs": 3040,
+          "endMs": 3200
+        },
+        {
+          "sceneId": "R01",
+          "text": "一",
+          "startMs": 3200,
+          "endMs": 3360
+        },
+        {
+          "sceneId": "R01",
+          "text": "个",
+          "startMs": 3360,
+          "endMs": 3440
+        },
+        {
+          "sceneId": "R01",
+          "text": "高",
+          "startMs": 3440,
+          "endMs": 3680
+        },
+        {
+          "sceneId": "R01",
+          "text": "效",
+          "startMs": 3680,
+          "endMs": 3840
+        },
+        {
+          "sceneId": "R01",
+          "text": "的",
+          "startMs": 3840,
+          "endMs": 3920
+        },
+        {
+          "sceneId": "R01",
+          "text": "宏",
+          "startMs": 3920,
+          "endMs": 4160
+        },
+        {
+          "sceneId": "R01",
+          "text": "观",
+          "startMs": 4160,
+          "endMs": 4400
+        },
+        {
+          "sceneId": "R01",
+          "text": "治",
+          "startMs": 4400,
+          "endMs": 4480
+        },
+        {
+          "sceneId": "R01",
+          "text": "理",
+          "startMs": 4480,
+          "endMs": 4640
+        },
+        {
+          "sceneId": "R01",
+          "text": "体",
+          "startMs": 4640,
+          "endMs": 4880
+        },
+        {
+          "sceneId": "R01",
+          "text": "系",
+          "startMs": 4880,
+          "endMs": 5280
+        },
+        {
+          "sceneId": "R01",
+          "text": "这",
+          "startMs": 5760,
+          "endMs": 5920
+        },
+        {
+          "sceneId": "R01",
+          "text": "就",
+          "startMs": 5920,
+          "endMs": 6080
+        },
+        {
+          "sceneId": "R01",
+          "text": "是",
+          "startMs": 6080,
+          "endMs": 6160
+        },
+        {
+          "sceneId": "R01",
+          "text": "624",
+          "startMs": 6160,
+          "endMs": 6720
+        },
+        {
+          "sceneId": "R01",
+          "text": "节",
+          "startMs": 6720,
+          "endMs": 6880
+        },
+        {
+          "sceneId": "R01",
+          "text": "项",
+          "startMs": 6880,
+          "endMs": 7600
+        },
+        {
+          "sceneId": "R01",
+          "text": "目",
+          "startMs": 7600,
+          "endMs": 7840
+        },
+        {
+          "sceneId": "R01",
+          "text": "项",
+          "startMs": 8240,
+          "endMs": 8480
+        },
+        {
+          "sceneId": "R01",
+          "text": "目",
+          "startMs": 8480,
+          "endMs": 8640
+        },
+        {
+          "sceneId": "R01",
+          "text": "集",
+          "startMs": 8640,
+          "endMs": 8960
+        },
+        {
+          "sceneId": "R01",
+          "text": "项",
+          "startMs": 9440,
+          "endMs": 9680
+        },
+        {
+          "sceneId": "R01",
+          "text": "目",
+          "startMs": 9680,
+          "endMs": 9760
+        },
+        {
+          "sceneId": "R01",
+          "text": "组",
+          "startMs": 9760,
+          "endMs": 9920
+        },
+        {
+          "sceneId": "R01",
+          "text": "合",
+          "startMs": 9920,
+          "endMs": 10400
+        },
+        {
+          "sceneId": "R01",
+          "text": "和",
+          "startMs": 10560,
+          "endMs": 10720
+        },
+        {
+          "sceneId": "R01",
+          "text": "运",
+          "startMs": 10720,
+          "endMs": 10960
+        },
+        {
+          "sceneId": "R01",
+          "text": "营",
+          "startMs": 10960,
+          "endMs": 11040
+        },
+        {
+          "sceneId": "R01",
+          "text": "管",
+          "startMs": 11040,
+          "endMs": 11280
+        },
+        {
+          "sceneId": "R01",
+          "text": "理",
+          "startMs": 11280,
+          "endMs": 11360
+        },
+        {
+          "sceneId": "R01",
+          "text": "之",
+          "startMs": 11360,
+          "endMs": 11520
+        },
+        {
+          "sceneId": "R01",
+          "text": "间",
+          "startMs": 11520,
+          "endMs": 11680
+        },
+        {
+          "sceneId": "R01",
+          "text": "的",
+          "startMs": 11680,
+          "endMs": 11760
+        },
+        {
+          "sceneId": "R01",
+          "text": "关",
+          "startMs": 11760,
+          "endMs": 12000
+        },
+        {
+          "sceneId": "R01",
+          "text": "系",
+          "startMs": 12000,
+          "endMs": 12240
+        },
+        {
+          "sceneId": "R01",
+          "text": "这",
+          "startMs": 12720,
+          "endMs": 12880
+        },
+        {
+          "sceneId": "R01",
+          "text": "是",
+          "startMs": 12880,
+          "endMs": 13040
+        },
+        {
+          "sceneId": "R01",
+          "text": "全",
+          "startMs": 13040,
+          "endMs": 13280
+        },
+        {
+          "sceneId": "R01",
+          "text": "书",
+          "startMs": 13280,
+          "endMs": 13760
+        },
+        {
+          "sceneId": "R01",
+          "text": "最",
+          "startMs": 13840,
+          "endMs": 14000
+        },
+        {
+          "sceneId": "R01",
+          "text": "经",
+          "startMs": 14000,
+          "endMs": 14240
+        },
+        {
+          "sceneId": "R01",
+          "text": "典",
+          "startMs": 14240,
+          "endMs": 14400
+        },
+        {
+          "sceneId": "R01",
+          "text": "的",
+          "startMs": 14400,
+          "endMs": 14480
+        },
+        {
+          "sceneId": "R01",
+          "text": "考",
+          "startMs": 14480,
+          "endMs": 14720
+        },
+        {
+          "sceneId": "R01",
+          "text": "点",
+          "startMs": 14720,
+          "endMs": 14880
+        },
+        {
+          "sceneId": "R01",
+          "text": "之",
+          "startMs": 14880,
+          "endMs": 15120
+        },
+        {
+          "sceneId": "R01",
+          "text": "一",
+          "startMs": 15120,
+          "endMs": 15360
+        },
+        {
+          "sceneId": "R01",
+          "text": "我",
+          "startMs": 15680,
+          "endMs": 15840
+        },
+        {
+          "sceneId": "R01",
+          "text": "们",
+          "startMs": 15840,
+          "endMs": 15920
+        },
+        {
+          "sceneId": "R01",
+          "text": "结",
+          "startMs": 15920,
+          "endMs": 16080
+        },
+        {
+          "sceneId": "R01",
+          "text": "合",
+          "startMs": 16080,
+          "endMs": 16240
+        },
+        {
+          "sceneId": "R01",
+          "text": "教",
+          "startMs": 16240,
+          "endMs": 16400
+        },
+        {
+          "sceneId": "R01",
+          "text": "材",
+          "startMs": 16400,
+          "endMs": 16560
+        },
+        {
+          "sceneId": "R01",
+          "text": "图",
+          "startMs": 16560,
+          "endMs": 17040
+        },
+        {
+          "sceneId": "R01",
+          "text": "62",
+          "startMs": 17440,
+          "endMs": 18240
+        },
+        {
+          "sceneId": "R01",
+          "text": "图",
+          "startMs": 19200,
+          "endMs": 19440
+        },
+        {
+          "sceneId": "R01",
+          "text": "63",
+          "startMs": 19440,
+          "endMs": 20240
+        },
+        {
+          "sceneId": "R01",
+          "text": "和",
+          "startMs": 20560,
+          "endMs": 20800
+        },
+        {
+          "sceneId": "R01",
+          "text": "表",
+          "startMs": 20800,
+          "endMs": 21120
+        },
+        {
+          "sceneId": "R01",
+          "text": "63",
+          "startMs": 21120,
+          "endMs": 21920
+        },
+        {
+          "sceneId": "R01",
+          "text": "把",
+          "startMs": 22240,
+          "endMs": 22400
+        },
+        {
+          "sceneId": "R01",
+          "text": "它",
+          "startMs": 22400,
+          "endMs": 22560
+        },
+        {
+          "sceneId": "R01",
+          "text": "拆",
+          "startMs": 22560,
+          "endMs": 22800
+        },
+        {
+          "sceneId": "R01",
+          "text": "解",
+          "startMs": 22800,
+          "endMs": 22960
+        },
+        {
+          "sceneId": "R01",
+          "text": "为",
+          "startMs": 22960,
+          "endMs": 23360
+        },
+        {
+          "sceneId": "R01",
+          "text": "做",
+          "startMs": 23520,
+          "endMs": 23760
+        },
+        {
+          "sceneId": "R01",
+          "text": "正",
+          "startMs": 23760,
+          "endMs": 23920
+        },
+        {
+          "sceneId": "R01",
+          "text": "确",
+          "startMs": 23920,
+          "endMs": 24160
+        },
+        {
+          "sceneId": "R01",
+          "text": "的",
+          "startMs": 24160,
+          "endMs": 24240
+        },
+        {
+          "sceneId": "R01",
+          "text": "事",
+          "startMs": 24240,
+          "endMs": 24640
+        },
+        {
+          "sceneId": "R01",
+          "text": "和",
+          "startMs": 24800,
+          "endMs": 24960
+        },
+        {
+          "sceneId": "R01",
+          "text": "正",
+          "startMs": 24960,
+          "endMs": 25200
+        },
+        {
+          "sceneId": "R01",
+          "text": "确",
+          "startMs": 25200,
+          "endMs": 25360
+        },
+        {
+          "sceneId": "R01",
+          "text": "地",
+          "startMs": 25360,
+          "endMs": 25440
+        },
+        {
+          "sceneId": "R01",
+          "text": "做",
+          "startMs": 25440,
+          "endMs": 25600
+        },
+        {
+          "sceneId": "R01",
+          "text": "事",
+          "startMs": 25680,
+          "endMs": 26000
+        },
+        {
+          "sceneId": "R01",
+          "text": "两",
+          "startMs": 26240,
+          "endMs": 26480
+        },
+        {
+          "sceneId": "R01",
+          "text": "个",
+          "startMs": 26480,
+          "endMs": 26560
+        },
+        {
+          "sceneId": "R01",
+          "text": "层",
+          "startMs": 26560,
+          "endMs": 26720
+        },
+        {
+          "sceneId": "R01",
+          "text": "面",
+          "startMs": 26720,
+          "endMs": 26960
+        }
+      ]
+    },
+    {
+      "sceneId": "R02",
+      "narrationSha256": "3d997f0ca4684062a3bb8c10ca89365b86d6ad7fb73a02a3b016eb15d0900505",
+      "wavRelativePath": "workspaces/ch06-L01-relations/audio/R02.wav",
+      "wavSha256": "76fd9c5b5da15b3a49f36dc617bd5f011556cde3d8c81e091b6de0e8fb0c8b8f",
+      "startMs": 27655,
+      "endMs": 46435,
+      "durationMs": 18780,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "R02",
+          "text": "在",
+          "startMs": 27655,
+          "endMs": 27815
+        },
+        {
+          "sceneId": "R02",
+          "text": "最",
+          "startMs": 27815,
+          "endMs": 27975
+        },
+        {
+          "sceneId": "R02",
+          "text": "顶",
+          "startMs": 27975,
+          "endMs": 28215
+        },
+        {
+          "sceneId": "R02",
+          "text": "层",
+          "startMs": 28215,
+          "endMs": 28535
+        },
+        {
+          "sceneId": "R02",
+          "text": "是",
+          "startMs": 28535,
+          "endMs": 28695
+        },
+        {
+          "sceneId": "R02",
+          "text": "组",
+          "startMs": 28695,
+          "endMs": 28935
+        },
+        {
+          "sceneId": "R02",
+          "text": "织",
+          "startMs": 28935,
+          "endMs": 29015
+        },
+        {
+          "sceneId": "R02",
+          "text": "战",
+          "startMs": 29015,
+          "endMs": 29255
+        },
+        {
+          "sceneId": "R02",
+          "text": "略",
+          "startMs": 29255,
+          "endMs": 29415
+        },
+        {
+          "sceneId": "R02",
+          "text": "企",
+          "startMs": 29975,
+          "endMs": 30295
+        },
+        {
+          "sceneId": "R02",
+          "text": "业",
+          "startMs": 30295,
+          "endMs": 30535
+        },
+        {
+          "sceneId": "R02",
+          "text": "面",
+          "startMs": 30535,
+          "endMs": 30695
+        },
+        {
+          "sceneId": "R02",
+          "text": "对",
+          "startMs": 30695,
+          "endMs": 30855
+        },
+        {
+          "sceneId": "R02",
+          "text": "有",
+          "startMs": 30855,
+          "endMs": 31015
+        },
+        {
+          "sceneId": "R02",
+          "text": "限",
+          "startMs": 31015,
+          "endMs": 31255
+        },
+        {
+          "sceneId": "R02",
+          "text": "的",
+          "startMs": 31255,
+          "endMs": 31335
+        },
+        {
+          "sceneId": "R02",
+          "text": "资",
+          "startMs": 31335,
+          "endMs": 31575
+        },
+        {
+          "sceneId": "R02",
+          "text": "金",
+          "startMs": 31575,
+          "endMs": 31815
+        },
+        {
+          "sceneId": "R02",
+          "text": "和",
+          "startMs": 31815,
+          "endMs": 31975
+        },
+        {
+          "sceneId": "R02",
+          "text": "资",
+          "startMs": 31975,
+          "endMs": 32295
+        },
+        {
+          "sceneId": "R02",
+          "text": "源",
+          "startMs": 32295,
+          "endMs": 32855
+        },
+        {
+          "sceneId": "R02",
+          "text": "不",
+          "startMs": 33095,
+          "endMs": 33335
+        },
+        {
+          "sceneId": "R02",
+          "text": "可",
+          "startMs": 33335,
+          "endMs": 33495
+        },
+        {
+          "sceneId": "R02",
+          "text": "能",
+          "startMs": 33495,
+          "endMs": 33655
+        },
+        {
+          "sceneId": "R02",
+          "text": "什",
+          "startMs": 33655,
+          "endMs": 33895
+        },
+        {
+          "sceneId": "R02",
+          "text": "么",
+          "startMs": 33895,
+          "endMs": 33975
+        },
+        {
+          "sceneId": "R02",
+          "text": "都",
+          "startMs": 33975,
+          "endMs": 34215
+        },
+        {
+          "sceneId": "R02",
+          "text": "做",
+          "startMs": 34215,
+          "endMs": 34775
+        },
+        {
+          "sceneId": "R02",
+          "text": "高",
+          "startMs": 35335,
+          "endMs": 35575
+        },
+        {
+          "sceneId": "R02",
+          "text": "层",
+          "startMs": 35575,
+          "endMs": 35815
+        },
+        {
+          "sceneId": "R02",
+          "text": "首",
+          "startMs": 35815,
+          "endMs": 36055
+        },
+        {
+          "sceneId": "R02",
+          "text": "先",
+          "startMs": 36055,
+          "endMs": 36295
+        },
+        {
+          "sceneId": "R02",
+          "text": "要",
+          "startMs": 36295,
+          "endMs": 36455
+        },
+        {
+          "sceneId": "R02",
+          "text": "决",
+          "startMs": 36455,
+          "endMs": 36695
+        },
+        {
+          "sceneId": "R02",
+          "text": "定",
+          "startMs": 36695,
+          "endMs": 37175
+        },
+        {
+          "sceneId": "R02",
+          "text": "钱",
+          "startMs": 37655,
+          "endMs": 37975
+        },
+        {
+          "sceneId": "R02",
+          "text": "投",
+          "startMs": 37975,
+          "endMs": 38135
+        },
+        {
+          "sceneId": "R02",
+          "text": "给",
+          "startMs": 38135,
+          "endMs": 38295
+        },
+        {
+          "sceneId": "R02",
+          "text": "谁",
+          "startMs": 38295,
+          "endMs": 38695
+        },
+        {
+          "sceneId": "R02",
+          "text": "哪",
+          "startMs": 39495,
+          "endMs": 39655
+        },
+        {
+          "sceneId": "R02",
+          "text": "些",
+          "startMs": 39655,
+          "endMs": 39895
+        },
+        {
+          "sceneId": "R02",
+          "text": "板",
+          "startMs": 39895,
+          "endMs": 40055
+        },
+        {
+          "sceneId": "R02",
+          "text": "块",
+          "startMs": 40055,
+          "endMs": 40215
+        },
+        {
+          "sceneId": "R02",
+          "text": "该",
+          "startMs": 40215,
+          "endMs": 40455
+        },
+        {
+          "sceneId": "R02",
+          "text": "上",
+          "startMs": 40455,
+          "endMs": 40775
+        },
+        {
+          "sceneId": "R02",
+          "text": "哪",
+          "startMs": 41095,
+          "endMs": 41335
+        },
+        {
+          "sceneId": "R02",
+          "text": "些",
+          "startMs": 41335,
+          "endMs": 41495
+        },
+        {
+          "sceneId": "R02",
+          "text": "该",
+          "startMs": 41495,
+          "endMs": 41735
+        },
+        {
+          "sceneId": "R02",
+          "text": "砍",
+          "startMs": 41735,
+          "endMs": 42215
+        },
+        {
+          "sceneId": "R02",
+          "text": "这",
+          "startMs": 42855,
+          "endMs": 43015
+        },
+        {
+          "sceneId": "R02",
+          "text": "就",
+          "startMs": 43015,
+          "endMs": 43175
+        },
+        {
+          "sceneId": "R02",
+          "text": "是",
+          "startMs": 43175,
+          "endMs": 43335
+        },
+        {
+          "sceneId": "R02",
+          "text": "项",
+          "startMs": 43335,
+          "endMs": 43495
+        },
+        {
+          "sceneId": "R02",
+          "text": "目",
+          "startMs": 43495,
+          "endMs": 43655
+        },
+        {
+          "sceneId": "R02",
+          "text": "组",
+          "startMs": 43655,
+          "endMs": 43815
+        },
+        {
+          "sceneId": "R02",
+          "text": "合",
+          "startMs": 43815,
+          "endMs": 44135
+        },
+        {
+          "sceneId": "R02",
+          "text": "英",
+          "startMs": 44615,
+          "endMs": 44775
+        },
+        {
+          "sceneId": "R02",
+          "text": "文",
+          "startMs": 44775,
+          "endMs": 44935
+        },
+        {
+          "sceneId": "R02",
+          "text": "叫",
+          "startMs": 44935,
+          "endMs": 45015
+        },
+        {
+          "sceneId": "R02",
+          "text": "Portfolio",
+          "startMs": 45015,
+          "endMs": 45815
+        }
+      ]
+    },
+    {
+      "sceneId": "R03",
+      "narrationSha256": "ac5b27f75664c59de9318051b81c73f67859de44ea3843323b9fa037f4e72867",
+      "wavRelativePath": "workspaces/ch06-L01-relations/audio/R03.wav",
+      "wavSha256": "f1678f3ec3bbd884c5236715c44b60f583711f6ebae5f49c2ac2030e29d5b2c3",
+      "startMs": 46435,
+      "endMs": 65520,
+      "durationMs": 19085,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "R03",
+          "text": "项",
+          "startMs": 46435,
+          "endMs": 46675
+        },
+        {
+          "sceneId": "R03",
+          "text": "目",
+          "startMs": 46675,
+          "endMs": 46835
+        },
+        {
+          "sceneId": "R03",
+          "text": "组",
+          "startMs": 46835,
+          "endMs": 46995
+        },
+        {
+          "sceneId": "R03",
+          "text": "合",
+          "startMs": 46995,
+          "endMs": 47155
+        },
+        {
+          "sceneId": "R03",
+          "text": "的",
+          "startMs": 47155,
+          "endMs": 47315
+        },
+        {
+          "sceneId": "R03",
+          "text": "使",
+          "startMs": 47315,
+          "endMs": 47555
+        },
+        {
+          "sceneId": "R03",
+          "text": "命",
+          "startMs": 47555,
+          "endMs": 47955
+        },
+        {
+          "sceneId": "R03",
+          "text": "是",
+          "startMs": 48195,
+          "endMs": 48355
+        },
+        {
+          "sceneId": "R03",
+          "text": "确",
+          "startMs": 48355,
+          "endMs": 48595
+        },
+        {
+          "sceneId": "R03",
+          "text": "保",
+          "startMs": 48595,
+          "endMs": 48755
+        },
+        {
+          "sceneId": "R03",
+          "text": "企",
+          "startMs": 48755,
+          "endMs": 49075
+        },
+        {
+          "sceneId": "R03",
+          "text": "业",
+          "startMs": 49075,
+          "endMs": 49155
+        },
+        {
+          "sceneId": "R03",
+          "text": "在",
+          "startMs": 49155,
+          "endMs": 49315
+        },
+        {
+          "sceneId": "R03",
+          "text": "做",
+          "startMs": 49315,
+          "endMs": 49475
+        },
+        {
+          "sceneId": "R03",
+          "text": "正",
+          "startMs": 49475,
+          "endMs": 49795
+        },
+        {
+          "sceneId": "R03",
+          "text": "确",
+          "startMs": 49795,
+          "endMs": 49955
+        },
+        {
+          "sceneId": "R03",
+          "text": "的",
+          "startMs": 49955,
+          "endMs": 50115
+        },
+        {
+          "sceneId": "R03",
+          "text": "事",
+          "startMs": 50115,
+          "endMs": 50355
+        },
+        {
+          "sceneId": "R03",
+          "text": "它",
+          "startMs": 50915,
+          "endMs": 51075
+        },
+        {
+          "sceneId": "R03",
+          "text": "是",
+          "startMs": 51075,
+          "endMs": 51155
+        },
+        {
+          "sceneId": "R03",
+          "text": "为",
+          "startMs": 51155,
+          "endMs": 51315
+        },
+        {
+          "sceneId": "R03",
+          "text": "了",
+          "startMs": 51315,
+          "endMs": 51395
+        },
+        {
+          "sceneId": "R03",
+          "text": "实",
+          "startMs": 51395,
+          "endMs": 51635
+        },
+        {
+          "sceneId": "R03",
+          "text": "现",
+          "startMs": 51635,
+          "endMs": 51795
+        },
+        {
+          "sceneId": "R03",
+          "text": "组",
+          "startMs": 51795,
+          "endMs": 52035
+        },
+        {
+          "sceneId": "R03",
+          "text": "织",
+          "startMs": 52035,
+          "endMs": 52195
+        },
+        {
+          "sceneId": "R03",
+          "text": "的",
+          "startMs": 52195,
+          "endMs": 52275
+        },
+        {
+          "sceneId": "R03",
+          "text": "战",
+          "startMs": 52275,
+          "endMs": 52515
+        },
+        {
+          "sceneId": "R03",
+          "text": "略",
+          "startMs": 52515,
+          "endMs": 52595
+        },
+        {
+          "sceneId": "R03",
+          "text": "目",
+          "startMs": 52595,
+          "endMs": 52755
+        },
+        {
+          "sceneId": "R03",
+          "text": "标",
+          "startMs": 52755,
+          "endMs": 53155
+        },
+        {
+          "sceneId": "R03",
+          "text": "而",
+          "startMs": 55395,
+          "endMs": 55555
+        },
+        {
+          "sceneId": "R03",
+          "text": "把",
+          "startMs": 55555,
+          "endMs": 55795
+        },
+        {
+          "sceneId": "R03",
+          "text": "项",
+          "startMs": 55795,
+          "endMs": 56115
+        },
+        {
+          "sceneId": "R03",
+          "text": "目",
+          "startMs": 56115,
+          "endMs": 56435
+        },
+        {
+          "sceneId": "R03",
+          "text": "项",
+          "startMs": 56435,
+          "endMs": 56675
+        },
+        {
+          "sceneId": "R03",
+          "text": "目",
+          "startMs": 56675,
+          "endMs": 56835
+        },
+        {
+          "sceneId": "R03",
+          "text": "集",
+          "startMs": 56835,
+          "endMs": 57315
+        },
+        {
+          "sceneId": "R03",
+          "text": "子",
+          "startMs": 57555,
+          "endMs": 57715
+        },
+        {
+          "sceneId": "R03",
+          "text": "项",
+          "startMs": 57715,
+          "endMs": 57955
+        },
+        {
+          "sceneId": "R03",
+          "text": "目",
+          "startMs": 57955,
+          "endMs": 58035
+        },
+        {
+          "sceneId": "R03",
+          "text": "组",
+          "startMs": 58035,
+          "endMs": 58275
+        },
+        {
+          "sceneId": "R03",
+          "text": "合",
+          "startMs": 58275,
+          "endMs": 58675
+        },
+        {
+          "sceneId": "R03",
+          "text": "和",
+          "startMs": 58675,
+          "endMs": 58835
+        },
+        {
+          "sceneId": "R03",
+          "text": "运",
+          "startMs": 58835,
+          "endMs": 59075
+        },
+        {
+          "sceneId": "R03",
+          "text": "营",
+          "startMs": 59075,
+          "endMs": 59235
+        },
+        {
+          "sceneId": "R03",
+          "text": "组",
+          "startMs": 59235,
+          "endMs": 59395
+        },
+        {
+          "sceneId": "R03",
+          "text": "合",
+          "startMs": 59395,
+          "endMs": 59875
+        },
+        {
+          "sceneId": "R03",
+          "text": "在",
+          "startMs": 59955,
+          "endMs": 60195
+        },
+        {
+          "sceneId": "R03",
+          "text": "一",
+          "startMs": 60195,
+          "endMs": 60275
+        },
+        {
+          "sceneId": "R03",
+          "text": "起",
+          "startMs": 60275,
+          "endMs": 60595
+        },
+        {
+          "sceneId": "R03",
+          "text": "集",
+          "startMs": 60595,
+          "endMs": 60835
+        },
+        {
+          "sceneId": "R03",
+          "text": "中",
+          "startMs": 60835,
+          "endMs": 61075
+        },
+        {
+          "sceneId": "R03",
+          "text": "管",
+          "startMs": 61075,
+          "endMs": 61315
+        },
+        {
+          "sceneId": "R03",
+          "text": "理",
+          "startMs": 61315,
+          "endMs": 61475
+        },
+        {
+          "sceneId": "R03",
+          "text": "请",
+          "startMs": 62035,
+          "endMs": 62275
+        },
+        {
+          "sceneId": "R03",
+          "text": "死",
+          "startMs": 62275,
+          "endMs": 62515
+        },
+        {
+          "sceneId": "R03",
+          "text": "死",
+          "startMs": 62515,
+          "endMs": 62755
+        },
+        {
+          "sceneId": "R03",
+          "text": "锁",
+          "startMs": 62755,
+          "endMs": 62995
+        },
+        {
+          "sceneId": "R03",
+          "text": "死",
+          "startMs": 62995,
+          "endMs": 63155
+        },
+        {
+          "sceneId": "R03",
+          "text": "考",
+          "startMs": 63155,
+          "endMs": 63395
+        },
+        {
+          "sceneId": "R03",
+          "text": "场",
+          "startMs": 63395,
+          "endMs": 63635
+        },
+        {
+          "sceneId": "R03",
+          "text": "三",
+          "startMs": 63635,
+          "endMs": 63875
+        },
+        {
+          "sceneId": "R03",
+          "text": "大",
+          "startMs": 63875,
+          "endMs": 64035
+        },
+        {
+          "sceneId": "R03",
+          "text": "命",
+          "startMs": 64035,
+          "endMs": 64195
+        },
+        {
+          "sceneId": "R03",
+          "text": "题",
+          "startMs": 64195,
+          "endMs": 64355
+        },
+        {
+          "sceneId": "R03",
+          "text": "陷",
+          "startMs": 64355,
+          "endMs": 64675
+        },
+        {
+          "sceneId": "R03",
+          "text": "阱",
+          "startMs": 64675,
+          "endMs": 64915
+        }
+      ]
+    },
+    {
+      "sceneId": "R04",
+      "narrationSha256": "6096e56dd635b9080b53755390d3f735f4f8f6cdc819688214323d0b3492f731",
+      "wavRelativePath": "workspaces/ch06-L01-relations/audio/R04.wav",
+      "wavSha256": "a412882641239662a17d31ca8d12a5ef3d341fa2ec37e4831e0e773a12f551f7",
+      "startMs": 65520,
+      "endMs": 101194,
+      "durationMs": 35674,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "R04",
+          "text": "第",
+          "startMs": 65520,
+          "endMs": 65920
+        },
+        {
+          "sceneId": "R04",
+          "text": "一",
+          "startMs": 65920,
+          "endMs": 66080
+        },
+        {
+          "sceneId": "R04",
+          "text": "项",
+          "startMs": 66880,
+          "endMs": 67120
+        },
+        {
+          "sceneId": "R04",
+          "text": "目",
+          "startMs": 67120,
+          "endMs": 67280
+        },
+        {
+          "sceneId": "R04",
+          "text": "组",
+          "startMs": 67280,
+          "endMs": 67440
+        },
+        {
+          "sceneId": "R04",
+          "text": "合",
+          "startMs": 67440,
+          "endMs": 67680
+        },
+        {
+          "sceneId": "R04",
+          "text": "服",
+          "startMs": 67680,
+          "endMs": 67920
+        },
+        {
+          "sceneId": "R04",
+          "text": "务",
+          "startMs": 67920,
+          "endMs": 68000
+        },
+        {
+          "sceneId": "R04",
+          "text": "的",
+          "startMs": 68000,
+          "endMs": 68080
+        },
+        {
+          "sceneId": "R04",
+          "text": "是",
+          "startMs": 68080,
+          "endMs": 68240
+        },
+        {
+          "sceneId": "R04",
+          "text": "战",
+          "startMs": 68240,
+          "endMs": 68480
+        },
+        {
+          "sceneId": "R04",
+          "text": "略",
+          "startMs": 68480,
+          "endMs": 68560
+        },
+        {
+          "sceneId": "R04",
+          "text": "目",
+          "startMs": 68560,
+          "endMs": 68800
+        },
+        {
+          "sceneId": "R04",
+          "text": "标",
+          "startMs": 68800,
+          "endMs": 69120
+        },
+        {
+          "sceneId": "R04",
+          "text": "如",
+          "startMs": 69440,
+          "endMs": 69600
+        },
+        {
+          "sceneId": "R04",
+          "text": "果",
+          "startMs": 69600,
+          "endMs": 69760
+        },
+        {
+          "sceneId": "R04",
+          "text": "选",
+          "startMs": 69760,
+          "endMs": 70000
+        },
+        {
+          "sceneId": "R04",
+          "text": "项",
+          "startMs": 70000,
+          "endMs": 70400
+        },
+        {
+          "sceneId": "R04",
+          "text": "写",
+          "startMs": 70400,
+          "endMs": 70560
+        },
+        {
+          "sceneId": "R04",
+          "text": "成",
+          "startMs": 70560,
+          "endMs": 70720
+        },
+        {
+          "sceneId": "R04",
+          "text": "实",
+          "startMs": 70720,
+          "endMs": 70960
+        },
+        {
+          "sceneId": "R04",
+          "text": "现",
+          "startMs": 70960,
+          "endMs": 71120
+        },
+        {
+          "sceneId": "R04",
+          "text": "项",
+          "startMs": 71120,
+          "endMs": 71360
+        },
+        {
+          "sceneId": "R04",
+          "text": "目",
+          "startMs": 71360,
+          "endMs": 71440
+        },
+        {
+          "sceneId": "R04",
+          "text": "目",
+          "startMs": 71440,
+          "endMs": 71680
+        },
+        {
+          "sceneId": "R04",
+          "text": "标",
+          "startMs": 71680,
+          "endMs": 71920
+        },
+        {
+          "sceneId": "R04",
+          "text": "必",
+          "startMs": 72320,
+          "endMs": 72560
+        },
+        {
+          "sceneId": "R04",
+          "text": "错",
+          "startMs": 72560,
+          "endMs": 73040
+        },
+        {
+          "sceneId": "R04",
+          "text": "第",
+          "startMs": 74400,
+          "endMs": 74560
+        },
+        {
+          "sceneId": "R04",
+          "text": "二",
+          "startMs": 74560,
+          "endMs": 74800
+        },
+        {
+          "sceneId": "R04",
+          "text": "项",
+          "startMs": 75760,
+          "endMs": 76080
+        },
+        {
+          "sceneId": "R04",
+          "text": "目",
+          "startMs": 76080,
+          "endMs": 76160
+        },
+        {
+          "sceneId": "R04",
+          "text": "组",
+          "startMs": 76160,
+          "endMs": 76320
+        },
+        {
+          "sceneId": "R04",
+          "text": "合",
+          "startMs": 76320,
+          "endMs": 76480
+        },
+        {
+          "sceneId": "R04",
+          "text": "管",
+          "startMs": 76480,
+          "endMs": 76720
+        },
+        {
+          "sceneId": "R04",
+          "text": "理",
+          "startMs": 76720,
+          "endMs": 76800
+        },
+        {
+          "sceneId": "R04",
+          "text": "的",
+          "startMs": 76800,
+          "endMs": 76880
+        },
+        {
+          "sceneId": "R04",
+          "text": "核",
+          "startMs": 76880,
+          "endMs": 77040
+        },
+        {
+          "sceneId": "R04",
+          "text": "心",
+          "startMs": 77040,
+          "endMs": 77200
+        },
+        {
+          "sceneId": "R04",
+          "text": "手",
+          "startMs": 77200,
+          "endMs": 77440
+        },
+        {
+          "sceneId": "R04",
+          "text": "段",
+          "startMs": 77440,
+          "endMs": 77840
+        },
+        {
+          "sceneId": "R04",
+          "text": "是",
+          "startMs": 77840,
+          "endMs": 78080
+        },
+        {
+          "sceneId": "R04",
+          "text": "排",
+          "startMs": 78080,
+          "endMs": 78240
+        },
+        {
+          "sceneId": "R04",
+          "text": "优",
+          "startMs": 78240,
+          "endMs": 78400
+        },
+        {
+          "sceneId": "R04",
+          "text": "先",
+          "startMs": 78400,
+          "endMs": 78640
+        },
+        {
+          "sceneId": "R04",
+          "text": "级",
+          "startMs": 78640,
+          "endMs": 78960
+        },
+        {
+          "sceneId": "R04",
+          "text": "做",
+          "startMs": 79440,
+          "endMs": 79680
+        },
+        {
+          "sceneId": "R04",
+          "text": "投",
+          "startMs": 79680,
+          "endMs": 79840
+        },
+        {
+          "sceneId": "R04",
+          "text": "资",
+          "startMs": 79840,
+          "endMs": 80000
+        },
+        {
+          "sceneId": "R04",
+          "text": "决",
+          "startMs": 80000,
+          "endMs": 80240
+        },
+        {
+          "sceneId": "R04",
+          "text": "策",
+          "startMs": 80240,
+          "endMs": 80640
+        },
+        {
+          "sceneId": "R04",
+          "text": "分",
+          "startMs": 80720,
+          "endMs": 80960
+        },
+        {
+          "sceneId": "R04",
+          "text": "配",
+          "startMs": 80960,
+          "endMs": 81040
+        },
+        {
+          "sceneId": "R04",
+          "text": "资",
+          "startMs": 81040,
+          "endMs": 81360
+        },
+        {
+          "sceneId": "R04",
+          "text": "源",
+          "startMs": 81360,
+          "endMs": 81600
+        },
+        {
+          "sceneId": "R04",
+          "text": "第",
+          "startMs": 82000,
+          "endMs": 82160
+        },
+        {
+          "sceneId": "R04",
+          "text": "三",
+          "startMs": 82160,
+          "endMs": 82480
+        },
+        {
+          "sceneId": "R04",
+          "text": "极",
+          "startMs": 82880,
+          "endMs": 83040
+        },
+        {
+          "sceneId": "R04",
+          "text": "为",
+          "startMs": 83040,
+          "endMs": 83120
+        },
+        {
+          "sceneId": "R04",
+          "text": "反",
+          "startMs": 83120,
+          "endMs": 83360
+        },
+        {
+          "sceneId": "R04",
+          "text": "直",
+          "startMs": 83360,
+          "endMs": 83520
+        },
+        {
+          "sceneId": "R04",
+          "text": "觉",
+          "startMs": 83520,
+          "endMs": 83680
+        },
+        {
+          "sceneId": "R04",
+          "text": "的",
+          "startMs": 83680,
+          "endMs": 83840
+        },
+        {
+          "sceneId": "R04",
+          "text": "考",
+          "startMs": 83840,
+          "endMs": 84000
+        },
+        {
+          "sceneId": "R04",
+          "text": "点",
+          "startMs": 84000,
+          "endMs": 84240
+        },
+        {
+          "sceneId": "R04",
+          "text": "项",
+          "startMs": 84640,
+          "endMs": 84880
+        },
+        {
+          "sceneId": "R04",
+          "text": "目",
+          "startMs": 84880,
+          "endMs": 85040
+        },
+        {
+          "sceneId": "R04",
+          "text": "组",
+          "startMs": 85040,
+          "endMs": 85200
+        },
+        {
+          "sceneId": "R04",
+          "text": "合",
+          "startMs": 85200,
+          "endMs": 85360
+        },
+        {
+          "sceneId": "R04",
+          "text": "里",
+          "startMs": 85360,
+          "endMs": 85520
+        },
+        {
+          "sceneId": "R04",
+          "text": "的",
+          "startMs": 85520,
+          "endMs": 85600
+        },
+        {
+          "sceneId": "R04",
+          "text": "各",
+          "startMs": 85600,
+          "endMs": 85760
+        },
+        {
+          "sceneId": "R04",
+          "text": "个",
+          "startMs": 85760,
+          "endMs": 86000
+        },
+        {
+          "sceneId": "R04",
+          "text": "组",
+          "startMs": 86000,
+          "endMs": 86160
+        },
+        {
+          "sceneId": "R04",
+          "text": "件",
+          "startMs": 86160,
+          "endMs": 86560
+        },
+        {
+          "sceneId": "R04",
+          "text": "彼",
+          "startMs": 86880,
+          "endMs": 87040
+        },
+        {
+          "sceneId": "R04",
+          "text": "此",
+          "startMs": 87040,
+          "endMs": 87280
+        },
+        {
+          "sceneId": "R04",
+          "text": "之",
+          "startMs": 87280,
+          "endMs": 87440
+        },
+        {
+          "sceneId": "R04",
+          "text": "间",
+          "startMs": 87440,
+          "endMs": 87920
+        },
+        {
+          "sceneId": "R04",
+          "text": "不",
+          "startMs": 88240,
+          "endMs": 88400
+        },
+        {
+          "sceneId": "R04",
+          "text": "一",
+          "startMs": 88400,
+          "endMs": 88560
+        },
+        {
+          "sceneId": "R04",
+          "text": "定",
+          "startMs": 88560,
+          "endMs": 88720
+        },
+        {
+          "sceneId": "R04",
+          "text": "存",
+          "startMs": 88720,
+          "endMs": 88880
+        },
+        {
+          "sceneId": "R04",
+          "text": "在",
+          "startMs": 88880,
+          "endMs": 89040
+        },
+        {
+          "sceneId": "R04",
+          "text": "相",
+          "startMs": 89040,
+          "endMs": 89280
+        },
+        {
+          "sceneId": "R04",
+          "text": "互",
+          "startMs": 89280,
+          "endMs": 89440
+        },
+        {
+          "sceneId": "R04",
+          "text": "依",
+          "startMs": 89440,
+          "endMs": 89680
+        },
+        {
+          "sceneId": "R04",
+          "text": "赖",
+          "startMs": 89680,
+          "endMs": 89920
+        },
+        {
+          "sceneId": "R04",
+          "text": "或",
+          "startMs": 89920,
+          "endMs": 90080
+        },
+        {
+          "sceneId": "R04",
+          "text": "直",
+          "startMs": 90080,
+          "endMs": 90240
+        },
+        {
+          "sceneId": "R04",
+          "text": "接",
+          "startMs": 90240,
+          "endMs": 90400
+        },
+        {
+          "sceneId": "R04",
+          "text": "相",
+          "startMs": 90400,
+          "endMs": 90640
+        },
+        {
+          "sceneId": "R04",
+          "text": "关",
+          "startMs": 90640,
+          "endMs": 90800
+        },
+        {
+          "sceneId": "R04",
+          "text": "的",
+          "startMs": 90800,
+          "endMs": 90960
+        },
+        {
+          "sceneId": "R04",
+          "text": "关",
+          "startMs": 90960,
+          "endMs": 91120
+        },
+        {
+          "sceneId": "R04",
+          "text": "系",
+          "startMs": 91120,
+          "endMs": 91440
+        },
+        {
+          "sceneId": "R04",
+          "text": "企",
+          "startMs": 91920,
+          "endMs": 92160
+        },
+        {
+          "sceneId": "R04",
+          "text": "业",
+          "startMs": 92240,
+          "endMs": 92320
+        },
+        {
+          "sceneId": "R04",
+          "text": "可",
+          "startMs": 92320,
+          "endMs": 92480
+        },
+        {
+          "sceneId": "R04",
+          "text": "以",
+          "startMs": 92480,
+          "endMs": 92640
+        },
+        {
+          "sceneId": "R04",
+          "text": "一",
+          "startMs": 92640,
+          "endMs": 92800
+        },
+        {
+          "sceneId": "R04",
+          "text": "边",
+          "startMs": 92800,
+          "endMs": 92960
+        },
+        {
+          "sceneId": "R04",
+          "text": "投",
+          "startMs": 92960,
+          "endMs": 93200
+        },
+        {
+          "sceneId": "R04",
+          "text": "芯",
+          "startMs": 93200,
+          "endMs": 93520
+        },
+        {
+          "sceneId": "R04",
+          "text": "片",
+          "startMs": 93520,
+          "endMs": 93760
+        },
+        {
+          "sceneId": "R04",
+          "text": "研",
+          "startMs": 93760,
+          "endMs": 94000
+        },
+        {
+          "sceneId": "R04",
+          "text": "发",
+          "startMs": 94000,
+          "endMs": 94480
+        },
+        {
+          "sceneId": "R04",
+          "text": "一",
+          "startMs": 94800,
+          "endMs": 94960
+        },
+        {
+          "sceneId": "R04",
+          "text": "边",
+          "startMs": 94960,
+          "endMs": 95120
+        },
+        {
+          "sceneId": "R04",
+          "text": "投",
+          "startMs": 95120,
+          "endMs": 95440
+        },
+        {
+          "sceneId": "R04",
+          "text": "物",
+          "startMs": 95440,
+          "endMs": 95441
+        },
+        {
+          "sceneId": "R04",
+          "text": "业",
+          "startMs": 95440,
+          "endMs": 95680
+        },
+        {
+          "sceneId": "R04",
+          "text": "地",
+          "startMs": 95680,
+          "endMs": 95840
+        },
+        {
+          "sceneId": "R04",
+          "text": "产",
+          "startMs": 95840,
+          "endMs": 96320
+        },
+        {
+          "sceneId": "R04",
+          "text": "只",
+          "startMs": 96880,
+          "endMs": 97040
+        },
+        {
+          "sceneId": "R04",
+          "text": "要",
+          "startMs": 97040,
+          "endMs": 97120
+        },
+        {
+          "sceneId": "R04",
+          "text": "它",
+          "startMs": 97120,
+          "endMs": 97280
+        },
+        {
+          "sceneId": "R04",
+          "text": "们",
+          "startMs": 97280,
+          "endMs": 97360
+        },
+        {
+          "sceneId": "R04",
+          "text": "共",
+          "startMs": 97360,
+          "endMs": 97600
+        },
+        {
+          "sceneId": "R04",
+          "text": "同",
+          "startMs": 97600,
+          "endMs": 97760
+        },
+        {
+          "sceneId": "R04",
+          "text": "支",
+          "startMs": 97760,
+          "endMs": 97920
+        },
+        {
+          "sceneId": "R04",
+          "text": "撑",
+          "startMs": 97920,
+          "endMs": 98080
+        },
+        {
+          "sceneId": "R04",
+          "text": "战",
+          "startMs": 98080,
+          "endMs": 98400
+        },
+        {
+          "sceneId": "R04",
+          "text": "略",
+          "startMs": 98400,
+          "endMs": 98720
+        },
+        {
+          "sceneId": "R04",
+          "text": "并",
+          "startMs": 98800,
+          "endMs": 98960
+        },
+        {
+          "sceneId": "R04",
+          "text": "追",
+          "startMs": 98960,
+          "endMs": 99120
+        },
+        {
+          "sceneId": "R04",
+          "text": "求",
+          "startMs": 99120,
+          "endMs": 99280
+        },
+        {
+          "sceneId": "R04",
+          "text": "投",
+          "startMs": 99280,
+          "endMs": 99440
+        },
+        {
+          "sceneId": "R04",
+          "text": "资",
+          "startMs": 99440,
+          "endMs": 99600
+        },
+        {
+          "sceneId": "R04",
+          "text": "回",
+          "startMs": 99600,
+          "endMs": 99840
+        },
+        {
+          "sceneId": "R04",
+          "text": "报",
+          "startMs": 99840,
+          "endMs": 100080
+        },
+        {
+          "sceneId": "R04",
+          "text": "即",
+          "startMs": 100080,
+          "endMs": 100240
+        },
+        {
+          "sceneId": "R04",
+          "text": "可",
+          "startMs": 100240,
+          "endMs": 100560
+        }
+      ]
+    },
+    {
+      "sceneId": "R05",
+      "narrationSha256": "170758591f8c7981b33d3fbc9e29e4c0845e8733860265450d37e523384a8a10",
+      "wavRelativePath": "workspaces/ch06-L01-relations/audio/R05.wav",
+      "wavSha256": "e932f72cd92bf955b26203a88a376a963a37f5d92c253f1807874c2833951e3f",
+      "startMs": 101194,
+      "endMs": 108654,
+      "durationMs": 7460,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "R05",
+          "text": "当",
+          "startMs": 101194,
+          "endMs": 101354
+        },
+        {
+          "sceneId": "R05",
+          "text": "下",
+          "startMs": 101354,
+          "endMs": 101674
+        },
+        {
+          "sceneId": "R05",
+          "text": "层",
+          "startMs": 101674,
+          "endMs": 102074
+        },
+        {
+          "sceneId": "R05",
+          "text": "领",
+          "startMs": 102314,
+          "endMs": 102474
+        },
+        {
+          "sceneId": "R05",
+          "text": "到",
+          "startMs": 102474,
+          "endMs": 102634
+        },
+        {
+          "sceneId": "R05",
+          "text": "具",
+          "startMs": 102634,
+          "endMs": 102794
+        },
+        {
+          "sceneId": "R05",
+          "text": "体",
+          "startMs": 102794,
+          "endMs": 103034
+        },
+        {
+          "sceneId": "R05",
+          "text": "任",
+          "startMs": 103034,
+          "endMs": 103194
+        },
+        {
+          "sceneId": "R05",
+          "text": "务",
+          "startMs": 103194,
+          "endMs": 103354
+        },
+        {
+          "sceneId": "R05",
+          "text": "时",
+          "startMs": 103354,
+          "endMs": 103754
+        },
+        {
+          "sceneId": "R05",
+          "text": "进",
+          "startMs": 103994,
+          "endMs": 104234
+        },
+        {
+          "sceneId": "R05",
+          "text": "入",
+          "startMs": 104234,
+          "endMs": 104314
+        },
+        {
+          "sceneId": "R05",
+          "text": "项",
+          "startMs": 104314,
+          "endMs": 104554
+        },
+        {
+          "sceneId": "R05",
+          "text": "目",
+          "startMs": 104554,
+          "endMs": 104714
+        },
+        {
+          "sceneId": "R05",
+          "text": "集",
+          "startMs": 104714,
+          "endMs": 104874
+        },
+        {
+          "sceneId": "R05",
+          "text": "和",
+          "startMs": 104874,
+          "endMs": 105034
+        },
+        {
+          "sceneId": "R05",
+          "text": "项",
+          "startMs": 105034,
+          "endMs": 105274
+        },
+        {
+          "sceneId": "R05",
+          "text": "目",
+          "startMs": 105274,
+          "endMs": 105594
+        },
+        {
+          "sceneId": "R05",
+          "text": "它",
+          "startMs": 106074,
+          "endMs": 106154
+        },
+        {
+          "sceneId": "R05",
+          "text": "们",
+          "startMs": 106154,
+          "endMs": 106314
+        },
+        {
+          "sceneId": "R05",
+          "text": "关",
+          "startMs": 106314,
+          "endMs": 106474
+        },
+        {
+          "sceneId": "R05",
+          "text": "心",
+          "startMs": 106474,
+          "endMs": 106714
+        },
+        {
+          "sceneId": "R05",
+          "text": "的",
+          "startMs": 106714,
+          "endMs": 106794
+        },
+        {
+          "sceneId": "R05",
+          "text": "都",
+          "startMs": 106794,
+          "endMs": 106954
+        },
+        {
+          "sceneId": "R05",
+          "text": "是",
+          "startMs": 106954,
+          "endMs": 107114
+        },
+        {
+          "sceneId": "R05",
+          "text": "正",
+          "startMs": 107114,
+          "endMs": 107274
+        },
+        {
+          "sceneId": "R05",
+          "text": "确",
+          "startMs": 107274,
+          "endMs": 107434
+        },
+        {
+          "sceneId": "R05",
+          "text": "地",
+          "startMs": 107434,
+          "endMs": 107514
+        },
+        {
+          "sceneId": "R05",
+          "text": "做",
+          "startMs": 107514,
+          "endMs": 107754
+        },
+        {
+          "sceneId": "R05",
+          "text": "事",
+          "startMs": 107754,
+          "endMs": 107994
+        }
+      ]
+    },
+    {
+      "sceneId": "R06",
+      "narrationSha256": "7bb2bdb3fdaff8ccb629a26c79250c3e6fe7879bdd155089c080043a503d83df",
+      "wavRelativePath": "workspaces/ch06-L01-relations/audio/R06.wav",
+      "wavSha256": "08e83a1d947db3f6f7976d71fbbde7d9d4263e996905b38f324204da36840a6c",
+      "startMs": 108654,
+      "endMs": 146732,
+      "durationMs": 38078,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "R06",
+          "text": "什",
+          "startMs": 108654,
+          "endMs": 108894
+        },
+        {
+          "sceneId": "R06",
+          "text": "么",
+          "startMs": 108894,
+          "endMs": 108974
+        },
+        {
+          "sceneId": "R06",
+          "text": "叫",
+          "startMs": 108974,
+          "endMs": 109214
+        },
+        {
+          "sceneId": "R06",
+          "text": "项",
+          "startMs": 109214,
+          "endMs": 109454
+        },
+        {
+          "sceneId": "R06",
+          "text": "目",
+          "startMs": 109454,
+          "endMs": 109614
+        },
+        {
+          "sceneId": "R06",
+          "text": "集",
+          "startMs": 109614,
+          "endMs": 110094
+        },
+        {
+          "sceneId": "R06",
+          "text": "它",
+          "startMs": 110574,
+          "endMs": 110734
+        },
+        {
+          "sceneId": "R06",
+          "text": "是",
+          "startMs": 110734,
+          "endMs": 110814
+        },
+        {
+          "sceneId": "R06",
+          "text": "把",
+          "startMs": 110814,
+          "endMs": 110974
+        },
+        {
+          "sceneId": "R06",
+          "text": "一",
+          "startMs": 110974,
+          "endMs": 111134
+        },
+        {
+          "sceneId": "R06",
+          "text": "组",
+          "startMs": 111134,
+          "endMs": 111374
+        },
+        {
+          "sceneId": "R06",
+          "text": "相",
+          "startMs": 111374,
+          "endMs": 111614
+        },
+        {
+          "sceneId": "R06",
+          "text": "互",
+          "startMs": 111614,
+          "endMs": 111774
+        },
+        {
+          "sceneId": "R06",
+          "text": "关",
+          "startMs": 111774,
+          "endMs": 111934
+        },
+        {
+          "sceneId": "R06",
+          "text": "联",
+          "startMs": 111934,
+          "endMs": 112094
+        },
+        {
+          "sceneId": "R06",
+          "text": "的",
+          "startMs": 112094,
+          "endMs": 112174
+        },
+        {
+          "sceneId": "R06",
+          "text": "项",
+          "startMs": 112174,
+          "endMs": 112414
+        },
+        {
+          "sceneId": "R06",
+          "text": "目",
+          "startMs": 112414,
+          "endMs": 112574
+        },
+        {
+          "sceneId": "R06",
+          "text": "和",
+          "startMs": 112574,
+          "endMs": 112734
+        },
+        {
+          "sceneId": "R06",
+          "text": "活",
+          "startMs": 112734,
+          "endMs": 112974
+        },
+        {
+          "sceneId": "R06",
+          "text": "动",
+          "startMs": 112974,
+          "endMs": 113294
+        },
+        {
+          "sceneId": "R06",
+          "text": "绑",
+          "startMs": 113454,
+          "endMs": 113614
+        },
+        {
+          "sceneId": "R06",
+          "text": "在",
+          "startMs": 113614,
+          "endMs": 113774
+        },
+        {
+          "sceneId": "R06",
+          "text": "一",
+          "startMs": 113774,
+          "endMs": 113934
+        },
+        {
+          "sceneId": "R06",
+          "text": "起",
+          "startMs": 113934,
+          "endMs": 114014
+        },
+        {
+          "sceneId": "R06",
+          "text": "协",
+          "startMs": 114014,
+          "endMs": 114254
+        },
+        {
+          "sceneId": "R06",
+          "text": "调",
+          "startMs": 114254,
+          "endMs": 114414
+        },
+        {
+          "sceneId": "R06",
+          "text": "管",
+          "startMs": 114414,
+          "endMs": 114734
+        },
+        {
+          "sceneId": "R06",
+          "text": "理",
+          "startMs": 114734,
+          "endMs": 114894
+        },
+        {
+          "sceneId": "R06",
+          "text": "为",
+          "startMs": 115374,
+          "endMs": 115534
+        },
+        {
+          "sceneId": "R06",
+          "text": "什",
+          "startMs": 115534,
+          "endMs": 115694
+        },
+        {
+          "sceneId": "R06",
+          "text": "么",
+          "startMs": 115694,
+          "endMs": 115695
+        },
+        {
+          "sceneId": "R06",
+          "text": "要",
+          "startMs": 115694,
+          "endMs": 115854
+        },
+        {
+          "sceneId": "R06",
+          "text": "绑",
+          "startMs": 115854,
+          "endMs": 116014
+        },
+        {
+          "sceneId": "R06",
+          "text": "在",
+          "startMs": 116014,
+          "endMs": 116174
+        },
+        {
+          "sceneId": "R06",
+          "text": "一",
+          "startMs": 116174,
+          "endMs": 116254
+        },
+        {
+          "sceneId": "R06",
+          "text": "起",
+          "startMs": 116254,
+          "endMs": 116574
+        },
+        {
+          "sceneId": "R06",
+          "text": "教",
+          "startMs": 117294,
+          "endMs": 117454
+        },
+        {
+          "sceneId": "R06",
+          "text": "材",
+          "startMs": 117454,
+          "endMs": 117614
+        },
+        {
+          "sceneId": "R06",
+          "text": "给",
+          "startMs": 117614,
+          "endMs": 117774
+        },
+        {
+          "sceneId": "R06",
+          "text": "出",
+          "startMs": 117774,
+          "endMs": 117934
+        },
+        {
+          "sceneId": "R06",
+          "text": "了",
+          "startMs": 117934,
+          "endMs": 118014
+        },
+        {
+          "sceneId": "R06",
+          "text": "八",
+          "startMs": 118014,
+          "endMs": 118174
+        },
+        {
+          "sceneId": "R06",
+          "text": "字",
+          "startMs": 118174,
+          "endMs": 118334
+        },
+        {
+          "sceneId": "R06",
+          "text": "真",
+          "startMs": 118334,
+          "endMs": 118574
+        },
+        {
+          "sceneId": "R06",
+          "text": "金",
+          "startMs": 118574,
+          "endMs": 118814
+        },
+        {
+          "sceneId": "R06",
+          "text": "为",
+          "startMs": 119214,
+          "endMs": 119374
+        },
+        {
+          "sceneId": "R06",
+          "text": "了",
+          "startMs": 119374,
+          "endMs": 119534
+        },
+        {
+          "sceneId": "R06",
+          "text": "获",
+          "startMs": 119534,
+          "endMs": 119694
+        },
+        {
+          "sceneId": "R06",
+          "text": "得",
+          "startMs": 119694,
+          "endMs": 119774
+        },
+        {
+          "sceneId": "R06",
+          "text": "分",
+          "startMs": 119774,
+          "endMs": 120014
+        },
+        {
+          "sceneId": "R06",
+          "text": "别",
+          "startMs": 120014,
+          "endMs": 120174
+        },
+        {
+          "sceneId": "R06",
+          "text": "管",
+          "startMs": 120174,
+          "endMs": 120414
+        },
+        {
+          "sceneId": "R06",
+          "text": "理",
+          "startMs": 120414,
+          "endMs": 120494
+        },
+        {
+          "sceneId": "R06",
+          "text": "所",
+          "startMs": 120494,
+          "endMs": 121054
+        },
+        {
+          "sceneId": "R06",
+          "text": "无",
+          "startMs": 121214,
+          "endMs": 121374
+        },
+        {
+          "sceneId": "R06",
+          "text": "法",
+          "startMs": 121374,
+          "endMs": 121534
+        },
+        {
+          "sceneId": "R06",
+          "text": "获",
+          "startMs": 121534,
+          "endMs": 121774
+        },
+        {
+          "sceneId": "R06",
+          "text": "得",
+          "startMs": 121774,
+          "endMs": 121854
+        },
+        {
+          "sceneId": "R06",
+          "text": "的",
+          "startMs": 121854,
+          "endMs": 121934
+        },
+        {
+          "sceneId": "R06",
+          "text": "收",
+          "startMs": 121934,
+          "endMs": 122254
+        },
+        {
+          "sceneId": "R06",
+          "text": "益",
+          "startMs": 122254,
+          "endMs": 122334
+        },
+        {
+          "sceneId": "R06",
+          "text": "和",
+          "startMs": 122334,
+          "endMs": 122494
+        },
+        {
+          "sceneId": "R06",
+          "text": "控",
+          "startMs": 122494,
+          "endMs": 122814
+        },
+        {
+          "sceneId": "R06",
+          "text": "制",
+          "startMs": 122814,
+          "endMs": 122974
+        },
+        {
+          "sceneId": "R06",
+          "text": "比",
+          "startMs": 123614,
+          "endMs": 123694
+        },
+        {
+          "sceneId": "R06",
+          "text": "如",
+          "startMs": 123694,
+          "endMs": 123854
+        },
+        {
+          "sceneId": "R06",
+          "text": "建",
+          "startMs": 123854,
+          "endMs": 124094
+        },
+        {
+          "sceneId": "R06",
+          "text": "设",
+          "startMs": 124094,
+          "endMs": 124254
+        },
+        {
+          "sceneId": "R06",
+          "text": "一",
+          "startMs": 124254,
+          "endMs": 124334
+        },
+        {
+          "sceneId": "R06",
+          "text": "个",
+          "startMs": 124334,
+          "endMs": 124494
+        },
+        {
+          "sceneId": "R06",
+          "text": "大",
+          "startMs": 124494,
+          "endMs": 124654
+        },
+        {
+          "sceneId": "R06",
+          "text": "型",
+          "startMs": 124654,
+          "endMs": 124894
+        },
+        {
+          "sceneId": "R06",
+          "text": "电",
+          "startMs": 124894,
+          "endMs": 125054
+        },
+        {
+          "sceneId": "R06",
+          "text": "网",
+          "startMs": 125054,
+          "endMs": 125214
+        },
+        {
+          "sceneId": "R06",
+          "text": "系",
+          "startMs": 125214,
+          "endMs": 125454
+        },
+        {
+          "sceneId": "R06",
+          "text": "统",
+          "startMs": 125454,
+          "endMs": 125774
+        },
+        {
+          "sceneId": "R06",
+          "text": "或",
+          "startMs": 126094,
+          "endMs": 126254
+        },
+        {
+          "sceneId": "R06",
+          "text": "者",
+          "startMs": 126254,
+          "endMs": 126414
+        },
+        {
+          "sceneId": "R06",
+          "text": "一",
+          "startMs": 126414,
+          "endMs": 126574
+        },
+        {
+          "sceneId": "R06",
+          "text": "个",
+          "startMs": 126574,
+          "endMs": 126654
+        },
+        {
+          "sceneId": "R06",
+          "text": "通",
+          "startMs": 126654,
+          "endMs": 126894
+        },
+        {
+          "sceneId": "R06",
+          "text": "信",
+          "startMs": 126894,
+          "endMs": 127054
+        },
+        {
+          "sceneId": "R06",
+          "text": "卫",
+          "startMs": 127054,
+          "endMs": 127214
+        },
+        {
+          "sceneId": "R06",
+          "text": "星",
+          "startMs": 127214,
+          "endMs": 127454
+        },
+        {
+          "sceneId": "R06",
+          "text": "系",
+          "startMs": 127454,
+          "endMs": 127614
+        },
+        {
+          "sceneId": "R06",
+          "text": "统",
+          "startMs": 127614,
+          "endMs": 127934
+        },
+        {
+          "sceneId": "R06",
+          "text": "里",
+          "startMs": 128254,
+          "endMs": 128414
+        },
+        {
+          "sceneId": "R06",
+          "text": "面",
+          "startMs": 128414,
+          "endMs": 128814
+        },
+        {
+          "sceneId": "R06",
+          "text": "既",
+          "startMs": 128814,
+          "endMs": 128974
+        },
+        {
+          "sceneId": "R06",
+          "text": "有",
+          "startMs": 128974,
+          "endMs": 129134
+        },
+        {
+          "sceneId": "R06",
+          "text": "卫",
+          "startMs": 129134,
+          "endMs": 129294
+        },
+        {
+          "sceneId": "R06",
+          "text": "星",
+          "startMs": 129294,
+          "endMs": 129534
+        },
+        {
+          "sceneId": "R06",
+          "text": "研",
+          "startMs": 129534,
+          "endMs": 129774
+        },
+        {
+          "sceneId": "R06",
+          "text": "制",
+          "startMs": 129774,
+          "endMs": 130094
+        },
+        {
+          "sceneId": "R06",
+          "text": "地",
+          "startMs": 130574,
+          "endMs": 130734
+        },
+        {
+          "sceneId": "R06",
+          "text": "面",
+          "startMs": 130734,
+          "endMs": 130894
+        },
+        {
+          "sceneId": "R06",
+          "text": "测",
+          "startMs": 130894,
+          "endMs": 131054
+        },
+        {
+          "sceneId": "R06",
+          "text": "控",
+          "startMs": 131054,
+          "endMs": 131294
+        },
+        {
+          "sceneId": "R06",
+          "text": "站",
+          "startMs": 131294,
+          "endMs": 131454
+        },
+        {
+          "sceneId": "R06",
+          "text": "建",
+          "startMs": 131454,
+          "endMs": 131694
+        },
+        {
+          "sceneId": "R06",
+          "text": "设",
+          "startMs": 131694,
+          "endMs": 131934
+        },
+        {
+          "sceneId": "R06",
+          "text": "又",
+          "startMs": 132254,
+          "endMs": 132414
+        },
+        {
+          "sceneId": "R06",
+          "text": "有",
+          "startMs": 132414,
+          "endMs": 132574
+        },
+        {
+          "sceneId": "R06",
+          "text": "火",
+          "startMs": 132574,
+          "endMs": 132814
+        },
+        {
+          "sceneId": "R06",
+          "text": "箭",
+          "startMs": 132814,
+          "endMs": 132974
+        },
+        {
+          "sceneId": "R06",
+          "text": "发",
+          "startMs": 132974,
+          "endMs": 133214
+        },
+        {
+          "sceneId": "R06",
+          "text": "射",
+          "startMs": 133214,
+          "endMs": 133694
+        },
+        {
+          "sceneId": "R06",
+          "text": "彼",
+          "startMs": 133934,
+          "endMs": 134094
+        },
+        {
+          "sceneId": "R06",
+          "text": "此",
+          "startMs": 134094,
+          "endMs": 134254
+        },
+        {
+          "sceneId": "R06",
+          "text": "高",
+          "startMs": 134254,
+          "endMs": 134414
+        },
+        {
+          "sceneId": "R06",
+          "text": "度",
+          "startMs": 134414,
+          "endMs": 134574
+        },
+        {
+          "sceneId": "R06",
+          "text": "耦",
+          "startMs": 134574,
+          "endMs": 134734
+        },
+        {
+          "sceneId": "R06",
+          "text": "合",
+          "startMs": 134734,
+          "endMs": 135134
+        },
+        {
+          "sceneId": "R06",
+          "text": "单",
+          "startMs": 135454,
+          "endMs": 135694
+        },
+        {
+          "sceneId": "R06",
+          "text": "独",
+          "startMs": 135694,
+          "endMs": 135854
+        },
+        {
+          "sceneId": "R06",
+          "text": "各",
+          "startMs": 135854,
+          "endMs": 136014
+        },
+        {
+          "sceneId": "R06",
+          "text": "管",
+          "startMs": 136014,
+          "endMs": 136254
+        },
+        {
+          "sceneId": "R06",
+          "text": "各",
+          "startMs": 136254,
+          "endMs": 136494
+        },
+        {
+          "sceneId": "R06",
+          "text": "的",
+          "startMs": 136494,
+          "endMs": 136814
+        },
+        {
+          "sceneId": "R06",
+          "text": "必",
+          "startMs": 136894,
+          "endMs": 137054
+        },
+        {
+          "sceneId": "R06",
+          "text": "然",
+          "startMs": 137054,
+          "endMs": 137294
+        },
+        {
+          "sceneId": "R06",
+          "text": "脱",
+          "startMs": 137294,
+          "endMs": 137454
+        },
+        {
+          "sceneId": "R06",
+          "text": "节",
+          "startMs": 137454,
+          "endMs": 137854
+        },
+        {
+          "sceneId": "R06",
+          "text": "合",
+          "startMs": 138174,
+          "endMs": 138414
+        },
+        {
+          "sceneId": "R06",
+          "text": "在",
+          "startMs": 138414,
+          "endMs": 138574
+        },
+        {
+          "sceneId": "R06",
+          "text": "一",
+          "startMs": 138574,
+          "endMs": 138734
+        },
+        {
+          "sceneId": "R06",
+          "text": "起",
+          "startMs": 138734,
+          "endMs": 139054
+        },
+        {
+          "sceneId": "R06",
+          "text": "管",
+          "startMs": 139054,
+          "endMs": 139534
+        },
+        {
+          "sceneId": "R06",
+          "text": "才",
+          "startMs": 139854,
+          "endMs": 140014
+        },
+        {
+          "sceneId": "R06",
+          "text": "能",
+          "startMs": 140014,
+          "endMs": 140174
+        },
+        {
+          "sceneId": "R06",
+          "text": "协",
+          "startMs": 140174,
+          "endMs": 140334
+        },
+        {
+          "sceneId": "R06",
+          "text": "调",
+          "startMs": 140334,
+          "endMs": 140574
+        },
+        {
+          "sceneId": "R06",
+          "text": "依",
+          "startMs": 140574,
+          "endMs": 140734
+        },
+        {
+          "sceneId": "R06",
+          "text": "赖",
+          "startMs": 140734,
+          "endMs": 141054
+        },
+        {
+          "sceneId": "R06",
+          "text": "所",
+          "startMs": 141534,
+          "endMs": 141774
+        },
+        {
+          "sceneId": "R06",
+          "text": "以",
+          "startMs": 141774,
+          "endMs": 141775
+        },
+        {
+          "sceneId": "R06",
+          "text": "请",
+          "startMs": 141774,
+          "endMs": 142014
+        },
+        {
+          "sceneId": "R06",
+          "text": "记",
+          "startMs": 142014,
+          "endMs": 142254
+        },
+        {
+          "sceneId": "R06",
+          "text": "住",
+          "startMs": 142254,
+          "endMs": 142414
+        },
+        {
+          "sceneId": "R06",
+          "text": "项",
+          "startMs": 143374,
+          "endMs": 143614
+        },
+        {
+          "sceneId": "R06",
+          "text": "目",
+          "startMs": 143614,
+          "endMs": 143694
+        },
+        {
+          "sceneId": "R06",
+          "text": "集",
+          "startMs": 143694,
+          "endMs": 143934
+        },
+        {
+          "sceneId": "R06",
+          "text": "绝",
+          "startMs": 143934,
+          "endMs": 144094
+        },
+        {
+          "sceneId": "R06",
+          "text": "对",
+          "startMs": 144094,
+          "endMs": 144174
+        },
+        {
+          "sceneId": "R06",
+          "text": "不",
+          "startMs": 144174,
+          "endMs": 144334
+        },
+        {
+          "sceneId": "R06",
+          "text": "是",
+          "startMs": 144334,
+          "endMs": 144414
+        },
+        {
+          "sceneId": "R06",
+          "text": "单",
+          "startMs": 144414,
+          "endMs": 144574
+        },
+        {
+          "sceneId": "R06",
+          "text": "纯",
+          "startMs": 144574,
+          "endMs": 144734
+        },
+        {
+          "sceneId": "R06",
+          "text": "规",
+          "startMs": 144734,
+          "endMs": 144894
+        },
+        {
+          "sceneId": "R06",
+          "text": "模",
+          "startMs": 144894,
+          "endMs": 145054
+        },
+        {
+          "sceneId": "R06",
+          "text": "很",
+          "startMs": 145054,
+          "endMs": 145294
+        },
+        {
+          "sceneId": "R06",
+          "text": "大",
+          "startMs": 145294,
+          "endMs": 145454
+        },
+        {
+          "sceneId": "R06",
+          "text": "的",
+          "startMs": 145454,
+          "endMs": 145534
+        },
+        {
+          "sceneId": "R06",
+          "text": "大",
+          "startMs": 145534,
+          "endMs": 145694
+        },
+        {
+          "sceneId": "R06",
+          "text": "项",
+          "startMs": 145694,
+          "endMs": 145934
+        },
+        {
+          "sceneId": "R06",
+          "text": "目",
+          "startMs": 145934,
+          "endMs": 146094
+        }
+      ]
+    },
+    {
+      "sceneId": "R07",
+      "narrationSha256": "b6ce148b6ce6350bb75f7e2ef9327fa5a9010de4d354ea78863d99a49ee5df34",
+      "wavRelativePath": "workspaces/ch06-L01-relations/audio/R07.wav",
+      "wavSha256": "e14ed061cc3653660d930e709fb62a195ffc2b090dbb5e43fed66b60a7656e50",
+      "startMs": 146732,
+      "endMs": 178517,
+      "durationMs": 31785,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "R07",
+          "text": "至",
+          "startMs": 146732,
+          "endMs": 146892
+        },
+        {
+          "sceneId": "R07",
+          "text": "于",
+          "startMs": 146892,
+          "endMs": 147052
+        },
+        {
+          "sceneId": "R07",
+          "text": "单",
+          "startMs": 147052,
+          "endMs": 147372
+        },
+        {
+          "sceneId": "R07",
+          "text": "个",
+          "startMs": 147372,
+          "endMs": 147532
+        },
+        {
+          "sceneId": "R07",
+          "text": "项",
+          "startMs": 147532,
+          "endMs": 147772
+        },
+        {
+          "sceneId": "R07",
+          "text": "目",
+          "startMs": 147772,
+          "endMs": 148092
+        },
+        {
+          "sceneId": "R07",
+          "text": "它",
+          "startMs": 148572,
+          "endMs": 148732
+        },
+        {
+          "sceneId": "R07",
+          "text": "的",
+          "startMs": 148732,
+          "endMs": 148892
+        },
+        {
+          "sceneId": "R07",
+          "text": "目",
+          "startMs": 148892,
+          "endMs": 148972
+        },
+        {
+          "sceneId": "R07",
+          "text": "标",
+          "startMs": 148972,
+          "endMs": 149212
+        },
+        {
+          "sceneId": "R07",
+          "text": "明",
+          "startMs": 149212,
+          "endMs": 149452
+        },
+        {
+          "sceneId": "R07",
+          "text": "确",
+          "startMs": 149452,
+          "endMs": 149612
+        },
+        {
+          "sceneId": "R07",
+          "text": "范",
+          "startMs": 150012,
+          "endMs": 150252
+        },
+        {
+          "sceneId": "R07",
+          "text": "围",
+          "startMs": 150252,
+          "endMs": 150412
+        },
+        {
+          "sceneId": "R07",
+          "text": "在",
+          "startMs": 150412,
+          "endMs": 150572
+        },
+        {
+          "sceneId": "R07",
+          "text": "生",
+          "startMs": 150572,
+          "endMs": 150732
+        },
+        {
+          "sceneId": "R07",
+          "text": "命",
+          "startMs": 150732,
+          "endMs": 150972
+        },
+        {
+          "sceneId": "R07",
+          "text": "周",
+          "startMs": 150972,
+          "endMs": 151132
+        },
+        {
+          "sceneId": "R07",
+          "text": "期",
+          "startMs": 151132,
+          "endMs": 151372
+        },
+        {
+          "sceneId": "R07",
+          "text": "中",
+          "startMs": 151372,
+          "endMs": 151692
+        },
+        {
+          "sceneId": "R07",
+          "text": "是",
+          "startMs": 151932,
+          "endMs": 152092
+        },
+        {
+          "sceneId": "R07",
+          "text": "渐",
+          "startMs": 152092,
+          "endMs": 152332
+        },
+        {
+          "sceneId": "R07",
+          "text": "进",
+          "startMs": 152332,
+          "endMs": 152492
+        },
+        {
+          "sceneId": "R07",
+          "text": "明",
+          "startMs": 152492,
+          "endMs": 152732
+        },
+        {
+          "sceneId": "R07",
+          "text": "晰",
+          "startMs": 152732,
+          "endMs": 153052
+        },
+        {
+          "sceneId": "R07",
+          "text": "的",
+          "startMs": 153052,
+          "endMs": 153292
+        },
+        {
+          "sceneId": "R07",
+          "text": "这",
+          "startMs": 153772,
+          "endMs": 153932
+        },
+        {
+          "sceneId": "R07",
+          "text": "里",
+          "startMs": 153932,
+          "endMs": 154092
+        },
+        {
+          "sceneId": "R07",
+          "text": "要",
+          "startMs": 154092,
+          "endMs": 154252
+        },
+        {
+          "sceneId": "R07",
+          "text": "警",
+          "startMs": 154252,
+          "endMs": 154572
+        },
+        {
+          "sceneId": "R07",
+          "text": "惕",
+          "startMs": 154572,
+          "endMs": 154972
+        },
+        {
+          "sceneId": "R07",
+          "text": "2025",
+          "startMs": 155052,
+          "endMs": 155532
+        },
+        {
+          "sceneId": "R07",
+          "text": "年",
+          "startMs": 155692,
+          "endMs": 155932
+        },
+        {
+          "sceneId": "R07",
+          "text": "的",
+          "startMs": 155932,
+          "endMs": 156012
+        },
+        {
+          "sceneId": "R07",
+          "text": "一",
+          "startMs": 156012,
+          "endMs": 156172
+        },
+        {
+          "sceneId": "R07",
+          "text": "个",
+          "startMs": 156172,
+          "endMs": 156252
+        },
+        {
+          "sceneId": "R07",
+          "text": "新",
+          "startMs": 156252,
+          "endMs": 156492
+        },
+        {
+          "sceneId": "R07",
+          "text": "陷",
+          "startMs": 156492,
+          "endMs": 156732
+        },
+        {
+          "sceneId": "R07",
+          "text": "阱",
+          "startMs": 156732,
+          "endMs": 156972
+        },
+        {
+          "sceneId": "R07",
+          "text": "渐",
+          "startMs": 157372,
+          "endMs": 157612
+        },
+        {
+          "sceneId": "R07",
+          "text": "进",
+          "startMs": 157612,
+          "endMs": 157772
+        },
+        {
+          "sceneId": "R07",
+          "text": "明",
+          "startMs": 157772,
+          "endMs": 158012
+        },
+        {
+          "sceneId": "R07",
+          "text": "晰",
+          "startMs": 158012,
+          "endMs": 158492
+        },
+        {
+          "sceneId": "R07",
+          "text": "是",
+          "startMs": 158652,
+          "endMs": 158892
+        },
+        {
+          "sceneId": "R07",
+          "text": "所",
+          "startMs": 158892,
+          "endMs": 159052
+        },
+        {
+          "sceneId": "R07",
+          "text": "有",
+          "startMs": 159052,
+          "endMs": 159212
+        },
+        {
+          "sceneId": "R07",
+          "text": "项",
+          "startMs": 159212,
+          "endMs": 159452
+        },
+        {
+          "sceneId": "R07",
+          "text": "目",
+          "startMs": 159452,
+          "endMs": 159692
+        },
+        {
+          "sceneId": "R07",
+          "text": "伴",
+          "startMs": 159852,
+          "endMs": 160012
+        },
+        {
+          "sceneId": "R07",
+          "text": "随",
+          "startMs": 160012,
+          "endMs": 160172
+        },
+        {
+          "sceneId": "R07",
+          "text": "信",
+          "startMs": 160172,
+          "endMs": 160332
+        },
+        {
+          "sceneId": "R07",
+          "text": "息",
+          "startMs": 160332,
+          "endMs": 160492
+        },
+        {
+          "sceneId": "R07",
+          "text": "增",
+          "startMs": 160492,
+          "endMs": 160732
+        },
+        {
+          "sceneId": "R07",
+          "text": "多",
+          "startMs": 160732,
+          "endMs": 160972
+        },
+        {
+          "sceneId": "R07",
+          "text": "而",
+          "startMs": 161292,
+          "endMs": 161452
+        },
+        {
+          "sceneId": "R07",
+          "text": "逐",
+          "startMs": 161452,
+          "endMs": 161692
+        },
+        {
+          "sceneId": "R07",
+          "text": "步",
+          "startMs": 161692,
+          "endMs": 161772
+        },
+        {
+          "sceneId": "R07",
+          "text": "细",
+          "startMs": 161772,
+          "endMs": 162092
+        },
+        {
+          "sceneId": "R07",
+          "text": "化",
+          "startMs": 162092,
+          "endMs": 162252
+        },
+        {
+          "sceneId": "R07",
+          "text": "的",
+          "startMs": 162252,
+          "endMs": 162332
+        },
+        {
+          "sceneId": "R07",
+          "text": "通",
+          "startMs": 162332,
+          "endMs": 162572
+        },
+        {
+          "sceneId": "R07",
+          "text": "用",
+          "startMs": 162572,
+          "endMs": 162732
+        },
+        {
+          "sceneId": "R07",
+          "text": "规",
+          "startMs": 162732,
+          "endMs": 162972
+        },
+        {
+          "sceneId": "R07",
+          "text": "律",
+          "startMs": 162972,
+          "endMs": 163132
+        },
+        {
+          "sceneId": "R07",
+          "text": "绝",
+          "startMs": 163452,
+          "endMs": 163692
+        },
+        {
+          "sceneId": "R07",
+          "text": "不",
+          "startMs": 163692,
+          "endMs": 163772
+        },
+        {
+          "sceneId": "R07",
+          "text": "代",
+          "startMs": 163772,
+          "endMs": 164012
+        },
+        {
+          "sceneId": "R07",
+          "text": "表",
+          "startMs": 164012,
+          "endMs": 164252
+        },
+        {
+          "sceneId": "R07",
+          "text": "看",
+          "startMs": 164252,
+          "endMs": 164412
+        },
+        {
+          "sceneId": "R07",
+          "text": "到",
+          "startMs": 164412,
+          "endMs": 164572
+        },
+        {
+          "sceneId": "R07",
+          "text": "渐",
+          "startMs": 164572,
+          "endMs": 164812
+        },
+        {
+          "sceneId": "R07",
+          "text": "进",
+          "startMs": 164812,
+          "endMs": 164972
+        },
+        {
+          "sceneId": "R07",
+          "text": "明",
+          "startMs": 164972,
+          "endMs": 165132
+        },
+        {
+          "sceneId": "R07",
+          "text": "晰",
+          "startMs": 165132,
+          "endMs": 165532
+        },
+        {
+          "sceneId": "R07",
+          "text": "就",
+          "startMs": 165612,
+          "endMs": 165772
+        },
+        {
+          "sceneId": "R07",
+          "text": "必",
+          "startMs": 165772,
+          "endMs": 165932
+        },
+        {
+          "sceneId": "R07",
+          "text": "须",
+          "startMs": 165932,
+          "endMs": 166092
+        },
+        {
+          "sceneId": "R07",
+          "text": "采",
+          "startMs": 166092,
+          "endMs": 166332
+        },
+        {
+          "sceneId": "R07",
+          "text": "用",
+          "startMs": 166332,
+          "endMs": 166412
+        },
+        {
+          "sceneId": "R07",
+          "text": "敏",
+          "startMs": 166412,
+          "endMs": 166652
+        },
+        {
+          "sceneId": "R07",
+          "text": "捷",
+          "startMs": 166652,
+          "endMs": 166892
+        },
+        {
+          "sceneId": "R07",
+          "text": "开",
+          "startMs": 166892,
+          "endMs": 167052
+        },
+        {
+          "sceneId": "R07",
+          "text": "发",
+          "startMs": 167052,
+          "endMs": 167212
+        },
+        {
+          "sceneId": "R07",
+          "text": "方",
+          "startMs": 167212,
+          "endMs": 167452
+        },
+        {
+          "sceneId": "R07",
+          "text": "法",
+          "startMs": 167452,
+          "endMs": 167692
+        },
+        {
+          "sceneId": "R07",
+          "text": "额",
+          "startMs": 168252,
+          "endMs": 168412
+        },
+        {
+          "sceneId": "R07",
+          "text": "外",
+          "startMs": 168412,
+          "endMs": 168492
+        },
+        {
+          "sceneId": "R07",
+          "text": "说",
+          "startMs": 168492,
+          "endMs": 168732
+        },
+        {
+          "sceneId": "R07",
+          "text": "明",
+          "startMs": 168732,
+          "endMs": 168972
+        },
+        {
+          "sceneId": "R07",
+          "text": "一",
+          "startMs": 168972,
+          "endMs": 169052
+        },
+        {
+          "sceneId": "R07",
+          "text": "下",
+          "startMs": 169052,
+          "endMs": 169452
+        },
+        {
+          "sceneId": "R07",
+          "text": "在",
+          "startMs": 170172,
+          "endMs": 170332
+        },
+        {
+          "sceneId": "R07",
+          "text": "PMBOK",
+          "startMs": 170332,
+          "endMs": 171212
+        },
+        {
+          "sceneId": "R07",
+          "text": "第",
+          "startMs": 171212,
+          "endMs": 171372
+        },
+        {
+          "sceneId": "R07",
+          "text": "六",
+          "startMs": 171372,
+          "endMs": 171532
+        },
+        {
+          "sceneId": "R07",
+          "text": "版",
+          "startMs": 171532,
+          "endMs": 171772
+        },
+        {
+          "sceneId": "R07",
+          "text": "中",
+          "startMs": 171772,
+          "endMs": 171932
+        },
+        {
+          "sceneId": "R07",
+          "text": "采",
+          "startMs": 171932,
+          "endMs": 172172
+        },
+        {
+          "sceneId": "R07",
+          "text": "用",
+          "startMs": 172172,
+          "endMs": 172332
+        },
+        {
+          "sceneId": "R07",
+          "text": "的",
+          "startMs": 172332,
+          "endMs": 172412
+        },
+        {
+          "sceneId": "R07",
+          "text": "五",
+          "startMs": 172412,
+          "endMs": 172572
+        },
+        {
+          "sceneId": "R07",
+          "text": "大",
+          "startMs": 172572,
+          "endMs": 172812
+        },
+        {
+          "sceneId": "R07",
+          "text": "过",
+          "startMs": 172812,
+          "endMs": 172972
+        },
+        {
+          "sceneId": "R07",
+          "text": "程",
+          "startMs": 172972,
+          "endMs": 173132
+        },
+        {
+          "sceneId": "R07",
+          "text": "组",
+          "startMs": 173132,
+          "endMs": 173452
+        },
+        {
+          "sceneId": "R07",
+          "text": "和",
+          "startMs": 173452,
+          "endMs": 173612
+        },
+        {
+          "sceneId": "R07",
+          "text": "十",
+          "startMs": 173612,
+          "endMs": 173772
+        },
+        {
+          "sceneId": "R07",
+          "text": "大",
+          "startMs": 173772,
+          "endMs": 173932
+        },
+        {
+          "sceneId": "R07",
+          "text": "知",
+          "startMs": 173932,
+          "endMs": 174092
+        },
+        {
+          "sceneId": "R07",
+          "text": "识",
+          "startMs": 174092,
+          "endMs": 174252
+        },
+        {
+          "sceneId": "R07",
+          "text": "领",
+          "startMs": 174252,
+          "endMs": 174492
+        },
+        {
+          "sceneId": "R07",
+          "text": "域",
+          "startMs": 174492,
+          "endMs": 174572
+        },
+        {
+          "sceneId": "R07",
+          "text": "的",
+          "startMs": 174572,
+          "endMs": 174652
+        },
+        {
+          "sceneId": "R07",
+          "text": "架",
+          "startMs": 174652,
+          "endMs": 174892
+        },
+        {
+          "sceneId": "R07",
+          "text": "构",
+          "startMs": 174892,
+          "endMs": 175212
+        },
+        {
+          "sceneId": "R07",
+          "text": "仍",
+          "startMs": 175532,
+          "endMs": 175692
+        },
+        {
+          "sceneId": "R07",
+          "text": "然",
+          "startMs": 175692,
+          "endMs": 175852
+        },
+        {
+          "sceneId": "R07",
+          "text": "强",
+          "startMs": 175852,
+          "endMs": 176172
+        },
+        {
+          "sceneId": "R07",
+          "text": "调",
+          "startMs": 176172,
+          "endMs": 176572
+        },
+        {
+          "sceneId": "R07",
+          "text": "渐",
+          "startMs": 176812,
+          "endMs": 177132
+        },
+        {
+          "sceneId": "R07",
+          "text": "进",
+          "startMs": 177132,
+          "endMs": 177372
+        },
+        {
+          "sceneId": "R07",
+          "text": "明",
+          "startMs": 177372,
+          "endMs": 177532
+        },
+        {
+          "sceneId": "R07",
+          "text": "细",
+          "startMs": 177532,
+          "endMs": 177932
+        }
+      ]
+    },
+    {
+      "sceneId": "R08",
+      "narrationSha256": "9eb003e9404861fbfe4619d22c8a3047e0854045581940a9e0f563aadd796b74",
+      "wavRelativePath": "workspaces/ch06-L01-relations/audio/R08.wav",
+      "wavSha256": "78a05f10ccae146d899f28549632f657b421f85c61d9fb5f90cdb8109e18571a",
+      "startMs": 178517,
+      "endMs": 194756,
+      "durationMs": 16239,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "R08",
+          "text": "最",
+          "startMs": 178517,
+          "endMs": 178677
+        },
+        {
+          "sceneId": "R08",
+          "text": "后",
+          "startMs": 178677,
+          "endMs": 179077
+        },
+        {
+          "sceneId": "R08",
+          "text": "运",
+          "startMs": 179717,
+          "endMs": 179957
+        },
+        {
+          "sceneId": "R08",
+          "text": "营",
+          "startMs": 179957,
+          "endMs": 180117
+        },
+        {
+          "sceneId": "R08",
+          "text": "管",
+          "startMs": 180117,
+          "endMs": 180437
+        },
+        {
+          "sceneId": "R08",
+          "text": "理",
+          "startMs": 180437,
+          "endMs": 180517
+        },
+        {
+          "sceneId": "R08",
+          "text": "负",
+          "startMs": 180517,
+          "endMs": 180757
+        },
+        {
+          "sceneId": "R08",
+          "text": "责",
+          "startMs": 180757,
+          "endMs": 180837
+        },
+        {
+          "sceneId": "R08",
+          "text": "日",
+          "startMs": 180837,
+          "endMs": 181077
+        },
+        {
+          "sceneId": "R08",
+          "text": "常",
+          "startMs": 181077,
+          "endMs": 181317
+        },
+        {
+          "sceneId": "R08",
+          "text": "持",
+          "startMs": 181317,
+          "endMs": 181637
+        },
+        {
+          "sceneId": "R08",
+          "text": "续",
+          "startMs": 181637,
+          "endMs": 181877
+        },
+        {
+          "sceneId": "R08",
+          "text": "生",
+          "startMs": 181877,
+          "endMs": 182197
+        },
+        {
+          "sceneId": "R08",
+          "text": "产",
+          "startMs": 182197,
+          "endMs": 182437
+        },
+        {
+          "sceneId": "R08",
+          "text": "和",
+          "startMs": 182437,
+          "endMs": 182597
+        },
+        {
+          "sceneId": "R08",
+          "text": "服",
+          "startMs": 182597,
+          "endMs": 183077
+        },
+        {
+          "sceneId": "R08",
+          "text": "务",
+          "startMs": 183077,
+          "endMs": 183157
+        },
+        {
+          "sceneId": "R08",
+          "text": "不",
+          "startMs": 183557,
+          "endMs": 183717
+        },
+        {
+          "sceneId": "R08",
+          "text": "属",
+          "startMs": 183717,
+          "endMs": 183877
+        },
+        {
+          "sceneId": "R08",
+          "text": "于",
+          "startMs": 183877,
+          "endMs": 184037
+        },
+        {
+          "sceneId": "R08",
+          "text": "项",
+          "startMs": 184037,
+          "endMs": 184197
+        },
+        {
+          "sceneId": "R08",
+          "text": "目",
+          "startMs": 184197,
+          "endMs": 184277
+        },
+        {
+          "sceneId": "R08",
+          "text": "管",
+          "startMs": 184277,
+          "endMs": 184597
+        },
+        {
+          "sceneId": "R08",
+          "text": "理",
+          "startMs": 184597,
+          "endMs": 184677
+        },
+        {
+          "sceneId": "R08",
+          "text": "但",
+          "startMs": 185397,
+          "endMs": 185557
+        },
+        {
+          "sceneId": "R08",
+          "text": "在",
+          "startMs": 185557,
+          "endMs": 185637
+        },
+        {
+          "sceneId": "R08",
+          "text": "新",
+          "startMs": 185637,
+          "endMs": 185797
+        },
+        {
+          "sceneId": "R08",
+          "text": "产",
+          "startMs": 185797,
+          "endMs": 186037
+        },
+        {
+          "sceneId": "R08",
+          "text": "品",
+          "startMs": 186037,
+          "endMs": 186197
+        },
+        {
+          "sceneId": "R08",
+          "text": "开",
+          "startMs": 186197,
+          "endMs": 186357
+        },
+        {
+          "sceneId": "R08",
+          "text": "发",
+          "startMs": 186357,
+          "endMs": 186757
+        },
+        {
+          "sceneId": "R08",
+          "text": "系",
+          "startMs": 186997,
+          "endMs": 187157
+        },
+        {
+          "sceneId": "R08",
+          "text": "统",
+          "startMs": 187157,
+          "endMs": 187317
+        },
+        {
+          "sceneId": "R08",
+          "text": "升",
+          "startMs": 187317,
+          "endMs": 187557
+        },
+        {
+          "sceneId": "R08",
+          "text": "级",
+          "startMs": 187557,
+          "endMs": 187957
+        },
+        {
+          "sceneId": "R08",
+          "text": "或",
+          "startMs": 187957,
+          "endMs": 188117
+        },
+        {
+          "sceneId": "R08",
+          "text": "项",
+          "startMs": 188117,
+          "endMs": 188277
+        },
+        {
+          "sceneId": "R08",
+          "text": "目",
+          "startMs": 188277,
+          "endMs": 188437
+        },
+        {
+          "sceneId": "R08",
+          "text": "每",
+          "startMs": 188437,
+          "endMs": 188597
+        },
+        {
+          "sceneId": "R08",
+          "text": "个",
+          "startMs": 188597,
+          "endMs": 188677
+        },
+        {
+          "sceneId": "R08",
+          "text": "阶",
+          "startMs": 188677,
+          "endMs": 188837
+        },
+        {
+          "sceneId": "R08",
+          "text": "段",
+          "startMs": 188837,
+          "endMs": 188997
+        },
+        {
+          "sceneId": "R08",
+          "text": "收",
+          "startMs": 188997,
+          "endMs": 189157
+        },
+        {
+          "sceneId": "R08",
+          "text": "尾",
+          "startMs": 189157,
+          "endMs": 189397
+        },
+        {
+          "sceneId": "R08",
+          "text": "时",
+          "startMs": 189397,
+          "endMs": 189717
+        },
+        {
+          "sceneId": "R08",
+          "text": "会",
+          "startMs": 190037,
+          "endMs": 190277
+        },
+        {
+          "sceneId": "R08",
+          "text": "与",
+          "startMs": 190277,
+          "endMs": 190357
+        },
+        {
+          "sceneId": "R08",
+          "text": "项",
+          "startMs": 190357,
+          "endMs": 190677
+        },
+        {
+          "sceneId": "R08",
+          "text": "目",
+          "startMs": 190677,
+          "endMs": 190837
+        },
+        {
+          "sceneId": "R08",
+          "text": "产",
+          "startMs": 190837,
+          "endMs": 190997
+        },
+        {
+          "sceneId": "R08",
+          "text": "生",
+          "startMs": 190997,
+          "endMs": 191157
+        },
+        {
+          "sceneId": "R08",
+          "text": "交",
+          "startMs": 191157,
+          "endMs": 191397
+        },
+        {
+          "sceneId": "R08",
+          "text": "集",
+          "startMs": 191397,
+          "endMs": 191877
+        },
+        {
+          "sceneId": "R08",
+          "text": "互",
+          "startMs": 192117,
+          "endMs": 192277
+        },
+        {
+          "sceneId": "R08",
+          "text": "相",
+          "startMs": 192277,
+          "endMs": 192517
+        },
+        {
+          "sceneId": "R08",
+          "text": "交",
+          "startMs": 192517,
+          "endMs": 192757
+        },
+        {
+          "sceneId": "R08",
+          "text": "接",
+          "startMs": 192757,
+          "endMs": 192917
+        },
+        {
+          "sceneId": "R08",
+          "text": "成",
+          "startMs": 192917,
+          "endMs": 193237
+        },
+        {
+          "sceneId": "R08",
+          "text": "果",
+          "startMs": 193237,
+          "endMs": 193397
+        },
+        {
+          "sceneId": "R08",
+          "text": "和",
+          "startMs": 193397,
+          "endMs": 193557
+        },
+        {
+          "sceneId": "R08",
+          "text": "资",
+          "startMs": 193557,
+          "endMs": 193797
+        },
+        {
+          "sceneId": "R08",
+          "text": "源",
+          "startMs": 193797,
+          "endMs": 194037
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "index": 1,
+      "sceneId": "R01",
+      "text": "项目要承载战略，组织就必须搭建一个高效的宏观治理体系。",
+      "startMs": 0,
+      "endMs": 5280
+    },
+    {
+      "index": 2,
+      "sceneId": "R01",
+      "text": "这就是 6.2.4 节“项目、项目集、",
+      "startMs": 5760,
+      "endMs": 8960
+    },
+    {
+      "index": 3,
+      "sceneId": "R01",
+      "text": "项目组合和运营管理之间的关系”。",
+      "startMs": 9440,
+      "endMs": 12240
+    },
+    {
+      "index": 4,
+      "sceneId": "R01",
+      "text": "这是全书最经典的考点之一，",
+      "startMs": 12720,
+      "endMs": 15360
+    },
+    {
+      "index": 5,
+      "sceneId": "R01",
+      "text": "我们结合教材图 6-2、图 6-3 和表 6-3，",
+      "startMs": 15680,
+      "endMs": 21920
+    },
+    {
+      "index": 6,
+      "sceneId": "R01",
+      "text": "把它拆解为做正确的事和正确地做事两个层面。",
+      "startMs": 22240,
+      "endMs": 26960
+    },
+    {
+      "index": 7,
+      "sceneId": "R02",
+      "text": "在最顶层是组织战略。",
+      "startMs": 27655,
+      "endMs": 29415
+    },
+    {
+      "index": 8,
+      "sceneId": "R02",
+      "text": "企业面对有限的资金和资源，",
+      "startMs": 29975,
+      "endMs": 32855
+    },
+    {
+      "index": 9,
+      "sceneId": "R02",
+      "text": "不可能什么都做，高层首先要决定：",
+      "startMs": 33095,
+      "endMs": 37175
+    },
+    {
+      "index": 10,
+      "sceneId": "R02",
+      "text": "钱投给谁？",
+      "startMs": 37655,
+      "endMs": 38695
+    },
+    {
+      "index": 11,
+      "sceneId": "R02",
+      "text": "哪些板块该上，哪些该砍？",
+      "startMs": 39495,
+      "endMs": 42215
+    },
+    {
+      "index": 12,
+      "sceneId": "R02",
+      "text": "这就是“项目组合”，英文叫 Portfolio。",
+      "startMs": 42855,
+      "endMs": 45815
+    },
+    {
+      "index": 13,
+      "sceneId": "R03",
+      "text": "项目组合的使命，是确保企业在“做正确的事”！",
+      "startMs": 46435,
+      "endMs": 50355
+    },
+    {
+      "index": 14,
+      "sceneId": "R03",
+      "text": "它是为了实现组织的战略目标，",
+      "startMs": 50915,
+      "endMs": 53155
+    },
+    {
+      "index": 15,
+      "sceneId": "R03",
+      "text": "而把项目、项目集、子项目组合和运营组合在一起集中管理。",
+      "startMs": 55395,
+      "endMs": 61475
+    },
+    {
+      "index": 16,
+      "sceneId": "R03",
+      "text": "请死死锁死考场三大命题陷阱：",
+      "startMs": 62035,
+      "endMs": 64915
+    },
+    {
+      "index": 17,
+      "sceneId": "R04",
+      "text": "第一，项目组合服务的是战略目标，",
+      "startMs": 65520,
+      "endMs": 69120
+    },
+    {
+      "index": 18,
+      "sceneId": "R04",
+      "text": "如果选项写成实现项目目标，",
+      "startMs": 69440,
+      "endMs": 71920
+    },
+    {
+      "index": 19,
+      "sceneId": "R04",
+      "text": "必错；第二，项目组合管理的核心手段是排优先级、",
+      "startMs": 72320,
+      "endMs": 78960
+    },
+    {
+      "index": 20,
+      "sceneId": "R04",
+      "text": "做投资决策、分配资源；第三，",
+      "startMs": 79440,
+      "endMs": 82480
+    },
+    {
+      "index": 21,
+      "sceneId": "R04",
+      "text": "极为反直觉的考点：项目组合里的各个组件，",
+      "startMs": 82880,
+      "endMs": 86560
+    },
+    {
+      "index": 22,
+      "sceneId": "R04",
+      "text": "彼此之间不一定存在相互依赖或直接相关的关系！",
+      "startMs": 86880,
+      "endMs": 91440
+    },
+    {
+      "index": 23,
+      "sceneId": "R04",
+      "text": "企业可以一边投芯片研发，",
+      "startMs": 91920,
+      "endMs": 94480
+    },
+    {
+      "index": 24,
+      "sceneId": "R04",
+      "text": "一边投物业地产，只要它们共同支撑战略并追求投资回报即可。",
+      "startMs": 94800,
+      "endMs": 100560
+    },
+    {
+      "index": 25,
+      "sceneId": "R05",
+      "text": "当下层领到具体任务时，",
+      "startMs": 101194,
+      "endMs": 103754
+    },
+    {
+      "index": 26,
+      "sceneId": "R05",
+      "text": "进入项目集和项目，它们关心的都是“正确地做事”。",
+      "startMs": 103994,
+      "endMs": 107994
+    },
+    {
+      "index": 27,
+      "sceneId": "R06",
+      "text": "什么叫“项目集”？",
+      "startMs": 108654,
+      "endMs": 110094
+    },
+    {
+      "index": 28,
+      "sceneId": "R06",
+      "text": "它是把一组相互关联的项目和活动绑在一起协调管理。",
+      "startMs": 110574,
+      "endMs": 114894
+    },
+    {
+      "index": 29,
+      "sceneId": "R06",
+      "text": "为什么要绑在一起？",
+      "startMs": 115374,
+      "endMs": 116574
+    },
+    {
+      "index": 30,
+      "sceneId": "R06",
+      "text": "教材给出了八字真金：为了获得分别管理所无法获得的收益和控制！",
+      "startMs": 117294,
+      "endMs": 122974
+    },
+    {
+      "index": 31,
+      "sceneId": "R06",
+      "text": "比如建设一个大型电网系统，",
+      "startMs": 123614,
+      "endMs": 125774
+    },
+    {
+      "index": 32,
+      "sceneId": "R06",
+      "text": "或者一个通信卫星系统，",
+      "startMs": 126094,
+      "endMs": 127934
+    },
+    {
+      "index": 33,
+      "sceneId": "R06",
+      "text": "里面既有卫星研制、地面测控站建设，",
+      "startMs": 128254,
+      "endMs": 131934
+    },
+    {
+      "index": 34,
+      "sceneId": "R06",
+      "text": "又有火箭发射，彼此高度耦合，",
+      "startMs": 132254,
+      "endMs": 135134
+    },
+    {
+      "index": 35,
+      "sceneId": "R06",
+      "text": "单独各管各的必然脱节，",
+      "startMs": 135454,
+      "endMs": 137854
+    },
+    {
+      "index": 36,
+      "sceneId": "R06",
+      "text": "合在一起管才能协调依赖。",
+      "startMs": 138174,
+      "endMs": 141054
+    },
+    {
+      "index": 37,
+      "sceneId": "R06",
+      "text": "所以请记住：项目集绝对不是单纯规模很大的大项目！",
+      "startMs": 141534,
+      "endMs": 146094
+    },
+    {
+      "index": 38,
+      "sceneId": "R07",
+      "text": "至于单个“项目”，它的目标明确，",
+      "startMs": 146732,
+      "endMs": 149612
+    },
+    {
+      "index": 39,
+      "sceneId": "R07",
+      "text": "范围在生命周期中是渐进明晰的。",
+      "startMs": 150012,
+      "endMs": 153292
+    },
+    {
+      "index": 40,
+      "sceneId": "R07",
+      "text": "这里要警惕2025年的一个新陷阱：",
+      "startMs": 153772,
+      "endMs": 156972
+    },
+    {
+      "index": 41,
+      "sceneId": "R07",
+      "text": "渐进明晰是所有项目伴随信息增多而逐步细化的通用规律，",
+      "startMs": 157372,
+      "endMs": 163132
+    },
+    {
+      "index": 42,
+      "sceneId": "R07",
+      "text": "绝不代表看到渐进明晰就必须采用敏捷开发方法！",
+      "startMs": 163452,
+      "endMs": 167692
+    },
+    {
+      "index": 43,
+      "sceneId": "R07",
+      "text": "额外说明一下：",
+      "startMs": 168252,
+      "endMs": 169452
+    },
+    {
+      "index": 44,
+      "sceneId": "R07",
+      "text": "在PMBOK第六版中采用的五大过程组和十大知识领域的架构，",
+      "startMs": 170172,
+      "endMs": 175212
+    },
+    {
+      "index": 45,
+      "sceneId": "R07",
+      "text": "仍然强调“渐进明细”。",
+      "startMs": 175532,
+      "endMs": 177932
+    },
+    {
+      "index": 46,
+      "sceneId": "R08",
+      "text": "最后，“运营管理”负责日常持续生产和服务，",
+      "startMs": 178517,
+      "endMs": 183157
+    },
+    {
+      "index": 47,
+      "sceneId": "R08",
+      "text": "不属于项目管理，但在新产品开发、",
+      "startMs": 183557,
+      "endMs": 186757
+    },
+    {
+      "index": 48,
+      "sceneId": "R08",
+      "text": "系统升级或项目每个阶段收尾时，",
+      "startMs": 186997,
+      "endMs": 189717
+    },
+    {
+      "index": 49,
+      "sceneId": "R08",
+      "text": "会与项目产生交集，互相交接成果和资源。",
+      "startMs": 190037,
+      "endMs": 194037
+    }
+  ],
+  "generatedAt": "2026-10-26T10:10:31.796Z"
+}

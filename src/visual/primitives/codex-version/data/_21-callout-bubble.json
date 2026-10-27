@@ -1,0 +1,31 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "callout": {
+    "x": 820,
+    "y": 300,
+    "width": 480,
+    "height": 180,
+    "radius": 26,
+    "fill": "rgba(224, 176, 80, 0.12)",
+    "stroke": "rgba(224, 176, 80, 0.60)",
+    "strokeWidth": 1.5,
+    "linejoin": "miter",
+    "tail": {
+      "baseCenterX": 1090,
+      "width": 60,
+      "tip": [
+        1180,
+        610
+      ]
+    }
+  },
+  "animation": {
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74,
+    "fillStartFrame": 114,
+    "fillDurationInFrames": 30
+  }
+}

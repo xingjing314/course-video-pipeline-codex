@@ -1,0 +1,24 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "semicircle": {
+    "center": [
+      1150,
+      470
+    ],
+    "radius": 200,
+    "rotationDegrees": 0,
+    "fill": "rgba(76, 195, 138, 0.12)",
+    "stroke": "rgba(76, 195, 138, 0.60)",
+    "strokeWidth": 1.5,
+    "linejoin": "miter"
+  },
+  "animation": {
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74,
+    "fillStartFrame": 114,
+    "fillDurationInFrames": 30
+  }
+}

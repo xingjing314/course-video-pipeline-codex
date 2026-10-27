@@ -1,0 +1,2093 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-quiz",
+  "sampleRate": 24000,
+  "totalDurationMs": 88165,
+  "fullWavPath": "workspaces/ch06-L01-quiz/ch06-L01-quiz-full.wav",
+  "fullWavSha256": "f7c81c1dcd1ea1f7c8b5ab49dbe66993da943738fea27415ae212a12965713be",
+  "srtPath": "workspaces/ch06-L01-quiz/ch06-L01-quiz.srt",
+  "srtSha256": "307c6643c590c0a61db957aac40b4ecd7f5437805d1835fd1ea3f21d0afaeecf",
+  "engineInfo": {
+    "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+    "alignerEngine": "Qwen/Qwen3-ForcedAligner-0.6B",
+    "device": "cuda"
+  },
+  "scenes": [
+    {
+      "sceneId": "Q17-read",
+      "narrationSha256": "fc7d8c9028ad7d60b5ccb5758d82c8cb7c3c7b6f61b2559f5ef6f2dc42230b0d",
+      "wavRelativePath": "workspaces/ch06-L01-quiz/audio/Q17-read.wav",
+      "wavSha256": "69a7fc4f568b072d4078509d3c16618bed327122cdcc6fe1808701073242686b",
+      "startMs": 0,
+      "endMs": 17759,
+      "durationMs": 17759,
+      "fromCache": true,
+      "tokens": [
+        {
+          "sceneId": "Q17-read",
+          "text": "我",
+          "startMs": 0,
+          "endMs": 160
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "们",
+          "startMs": 160,
+          "endMs": 240
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "看",
+          "startMs": 240,
+          "endMs": 480
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "一",
+          "startMs": 480,
+          "endMs": 481
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "道",
+          "startMs": 480,
+          "endMs": 640
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "典",
+          "startMs": 640,
+          "endMs": 800
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "范",
+          "startMs": 800,
+          "endMs": 1040
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "真",
+          "startMs": 1040,
+          "endMs": 1200
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "题",
+          "startMs": 1200,
+          "endMs": 1520
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "看",
+          "startMs": 1840,
+          "endMs": 2080
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "看",
+          "startMs": 2080,
+          "endMs": 2240
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "出",
+          "startMs": 2240,
+          "endMs": 2400
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "题",
+          "startMs": 2400,
+          "endMs": 2560
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "人",
+          "startMs": 2560,
+          "endMs": 3040
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "是",
+          "startMs": 3120,
+          "endMs": 3280
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "怎",
+          "startMs": 3280,
+          "endMs": 3440
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "么",
+          "startMs": 3440,
+          "endMs": 3520
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "在",
+          "startMs": 3520,
+          "endMs": 3680
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "这",
+          "startMs": 3680,
+          "endMs": 3840
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "个",
+          "startMs": 3840,
+          "endMs": 3841
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "定",
+          "startMs": 3840,
+          "endMs": 4080
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "义",
+          "startMs": 4080,
+          "endMs": 4160
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "上",
+          "startMs": 4160,
+          "endMs": 4320
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "给",
+          "startMs": 4320,
+          "endMs": 4480
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "你",
+          "startMs": 4480,
+          "endMs": 4560
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "下",
+          "startMs": 4560,
+          "endMs": 4720
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "套",
+          "startMs": 4720,
+          "endMs": 5040
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "的",
+          "startMs": 5040,
+          "endMs": 5200
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "这",
+          "startMs": 5680,
+          "endMs": 5840
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "是",
+          "startMs": 5840,
+          "endMs": 5920
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "2023",
+          "startMs": 5920,
+          "endMs": 6640
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "年",
+          "startMs": 6640,
+          "endMs": 6800
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "11",
+          "startMs": 6800,
+          "endMs": 7200
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "月",
+          "startMs": 7200,
+          "endMs": 7201
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "第",
+          "startMs": 7760,
+          "endMs": 7920
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "4",
+          "startMs": 7920,
+          "endMs": 8160
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "批",
+          "startMs": 8160,
+          "endMs": 8320
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "次",
+          "startMs": 8320,
+          "endMs": 8560
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "的",
+          "startMs": 8560,
+          "endMs": 8720
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "第",
+          "startMs": 8720,
+          "endMs": 8800
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "17",
+          "startMs": 8800,
+          "endMs": 9280
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "题",
+          "startMs": 9280,
+          "endMs": 9600
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "关",
+          "startMs": 10080,
+          "endMs": 10320
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "于",
+          "startMs": 10320,
+          "endMs": 10400
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "项",
+          "startMs": 10400,
+          "endMs": 10640
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "目",
+          "startMs": 10640,
+          "endMs": 10720
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "的",
+          "startMs": 10720,
+          "endMs": 10880
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "描",
+          "startMs": 10880,
+          "endMs": 11120
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "述",
+          "startMs": 11120,
+          "endMs": 11440
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "不",
+          "startMs": 11760,
+          "endMs": 11920
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "正",
+          "startMs": 11920,
+          "endMs": 12240
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "确",
+          "startMs": 12240,
+          "endMs": 12480
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "的",
+          "startMs": 12480,
+          "endMs": 12880
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "是",
+          "startMs": 13120,
+          "endMs": 13360
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "哪",
+          "startMs": 13360,
+          "endMs": 13600
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "一",
+          "startMs": 13600,
+          "endMs": 13680
+        },
+        {
+          "sceneId": "Q17-read",
+          "text": "项",
+          "startMs": 13680,
+          "endMs": 14160
+        }
+      ]
+    },
+    {
+      "sceneId": "Q17-A",
+      "narrationSha256": "f8801e7f72d71c6ebd21dfa8a97c7a6f87f5c9460df0671e9af0d7716e27e607",
+      "wavRelativePath": "workspaces/ch06-L01-quiz/audio/Q17-A.wav",
+      "wavSha256": "f0d07706c7337eb1597aa889bdd714789d40cfd4d316cd02ba9013c7176e3545",
+      "startMs": 17759,
+      "endMs": 29345,
+      "durationMs": 11586,
+      "fromCache": true,
+      "tokens": [
+        {
+          "sceneId": "Q17-A",
+          "text": "A",
+          "startMs": 17759,
+          "endMs": 17919
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "选",
+          "startMs": 17919,
+          "endMs": 18239
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "项",
+          "startMs": 18239,
+          "endMs": 18479
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "说",
+          "startMs": 18479,
+          "endMs": 19039
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "项",
+          "startMs": 19359,
+          "endMs": 19599
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "目",
+          "startMs": 19599,
+          "endMs": 19759
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "的",
+          "startMs": 19759,
+          "endMs": 19839
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "需",
+          "startMs": 19839,
+          "endMs": 20079
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "求",
+          "startMs": 20079,
+          "endMs": 20239
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "不",
+          "startMs": 20239,
+          "endMs": 20399
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "复",
+          "startMs": 20399,
+          "endMs": 20639
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "存",
+          "startMs": 20639,
+          "endMs": 20879
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "在",
+          "startMs": 20879,
+          "endMs": 21199
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "是",
+          "startMs": 21519,
+          "endMs": 21679
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "项",
+          "startMs": 21679,
+          "endMs": 21999
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "目",
+          "startMs": 21999,
+          "endMs": 22079
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "宣",
+          "startMs": 22079,
+          "endMs": 22399
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "告",
+          "startMs": 22399,
+          "endMs": 22559
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "结",
+          "startMs": 22559,
+          "endMs": 22719
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "束",
+          "startMs": 22719,
+          "endMs": 22879
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "的",
+          "startMs": 22879,
+          "endMs": 23039
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "情",
+          "startMs": 23039,
+          "endMs": 23199
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "况",
+          "startMs": 23199,
+          "endMs": 23439
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "之",
+          "startMs": 23439,
+          "endMs": 23599
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "一",
+          "startMs": 23599,
+          "endMs": 23839
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "完",
+          "startMs": 24319,
+          "endMs": 24559
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "全",
+          "startMs": 24559,
+          "endMs": 24799
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "正",
+          "startMs": 24799,
+          "endMs": 25039
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "确",
+          "startMs": 25039,
+          "endMs": 25279
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "没",
+          "startMs": 25679,
+          "endMs": 25839
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "有",
+          "startMs": 25839,
+          "endMs": 25999
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "需",
+          "startMs": 25999,
+          "endMs": 26239
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "求",
+          "startMs": 26239,
+          "endMs": 26559
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "了",
+          "startMs": 26559,
+          "endMs": 26879
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "就",
+          "startMs": 27279,
+          "endMs": 27439
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "必",
+          "startMs": 27439,
+          "endMs": 27599
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "须",
+          "startMs": 27599,
+          "endMs": 27759
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "果",
+          "startMs": 27759,
+          "endMs": 27999
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "断",
+          "startMs": 27999,
+          "endMs": 28239
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "止",
+          "startMs": 28239,
+          "endMs": 28399
+        },
+        {
+          "sceneId": "Q17-A",
+          "text": "损",
+          "startMs": 28399,
+          "endMs": 28719
+        }
+      ]
+    },
+    {
+      "sceneId": "Q17-B",
+      "narrationSha256": "ae6deaab6c1fde58f6df45b9fbb3bf56dc8fcc60d60c70d798bcdda5c37dede0",
+      "wavRelativePath": "workspaces/ch06-L01-quiz/audio/Q17-B.wav",
+      "wavSha256": "d333f54adacc35f3c8d652057a0207315c692594f489fabf26ed6b8aff2ca409",
+      "startMs": 29345,
+      "endMs": 37940,
+      "durationMs": 8595,
+      "fromCache": true,
+      "tokens": [
+        {
+          "sceneId": "Q17-B",
+          "text": "B",
+          "startMs": 29345,
+          "endMs": 29585
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "选",
+          "startMs": 29585,
+          "endMs": 29825
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "项",
+          "startMs": 29825,
+          "endMs": 30065
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "说",
+          "startMs": 30065,
+          "endMs": 30545
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "实",
+          "startMs": 30865,
+          "endMs": 31185
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "现",
+          "startMs": 31185,
+          "endMs": 31345
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "项",
+          "startMs": 31345,
+          "endMs": 31585
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "目",
+          "startMs": 31585,
+          "endMs": 31665
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "目",
+          "startMs": 31665,
+          "endMs": 31905
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "标",
+          "startMs": 31905,
+          "endMs": 32385
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "可",
+          "startMs": 32625,
+          "endMs": 32785
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "能",
+          "startMs": 32785,
+          "endMs": 32865
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "会",
+          "startMs": 32865,
+          "endMs": 33025
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "产",
+          "startMs": 33025,
+          "endMs": 33185
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "生",
+          "startMs": 33185,
+          "endMs": 33345
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "一",
+          "startMs": 33345,
+          "endMs": 33585
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "个",
+          "startMs": 33585,
+          "endMs": 33745
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "或",
+          "startMs": 33745,
+          "endMs": 33905
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "多",
+          "startMs": 33905,
+          "endMs": 34145
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "个",
+          "startMs": 34145,
+          "endMs": 34545
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "可",
+          "startMs": 34625,
+          "endMs": 34785
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "交",
+          "startMs": 34785,
+          "endMs": 35025
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "付",
+          "startMs": 35025,
+          "endMs": 35185
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "成",
+          "startMs": 35185,
+          "endMs": 35425
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "果",
+          "startMs": 35425,
+          "endMs": 35745
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "完",
+          "startMs": 36225,
+          "endMs": 36465
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "全",
+          "startMs": 36465,
+          "endMs": 36705
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "正",
+          "startMs": 36705,
+          "endMs": 36945
+        },
+        {
+          "sceneId": "Q17-B",
+          "text": "确",
+          "startMs": 36945,
+          "endMs": 37185
+        }
+      ]
+    },
+    {
+      "sceneId": "Q17-C",
+      "narrationSha256": "20e06a1a7fdc9115db22b028445733c53526588ee6f7c68dadaefd5d8a398283",
+      "wavRelativePath": "workspaces/ch06-L01-quiz/audio/Q17-C.wav",
+      "wavSha256": "36a8ac295ec090e204ca711b44180ffc91efa7a6348de9ac06f38e455e8ee33a",
+      "startMs": 37940,
+      "endMs": 48916,
+      "durationMs": 10976,
+      "fromCache": true,
+      "tokens": [
+        {
+          "sceneId": "Q17-C",
+          "text": "C",
+          "startMs": 37940,
+          "endMs": 38260
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "选",
+          "startMs": 38260,
+          "endMs": 38580
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "项",
+          "startMs": 38580,
+          "endMs": 38740
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "说",
+          "startMs": 38740,
+          "endMs": 39300
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "可",
+          "startMs": 39620,
+          "endMs": 39700
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "交",
+          "startMs": 39700,
+          "endMs": 39940
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "付",
+          "startMs": 39940,
+          "endMs": 40100
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "成",
+          "startMs": 40100,
+          "endMs": 40340
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "果",
+          "startMs": 40340,
+          "endMs": 40660
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "可",
+          "startMs": 41060,
+          "endMs": 41140
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "能",
+          "startMs": 41140,
+          "endMs": 41300
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "会",
+          "startMs": 41300,
+          "endMs": 41460
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "在",
+          "startMs": 41460,
+          "endMs": 41540
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "项",
+          "startMs": 41540,
+          "endMs": 41780
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "目",
+          "startMs": 41780,
+          "endMs": 41860
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "终",
+          "startMs": 41860,
+          "endMs": 42100
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "止",
+          "startMs": 42100,
+          "endMs": 42260
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "后",
+          "startMs": 42260,
+          "endMs": 42500
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "依",
+          "startMs": 42660,
+          "endMs": 42740
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "然",
+          "startMs": 42740,
+          "endMs": 42980
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "存",
+          "startMs": 42980,
+          "endMs": 43220
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "在",
+          "startMs": 43220,
+          "endMs": 43380
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "完",
+          "startMs": 43860,
+          "endMs": 44100
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "全",
+          "startMs": 44100,
+          "endMs": 44340
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "正",
+          "startMs": 44340,
+          "endMs": 44580
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "确",
+          "startMs": 44580,
+          "endMs": 44820
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "工",
+          "startMs": 45300,
+          "endMs": 45460
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "程",
+          "startMs": 45460,
+          "endMs": 45620
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "做",
+          "startMs": 45620,
+          "endMs": 45780
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "完",
+          "startMs": 45780,
+          "endMs": 46020
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "了",
+          "startMs": 46020,
+          "endMs": 46340
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "系",
+          "startMs": 46660,
+          "endMs": 46900
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "统",
+          "startMs": 46900,
+          "endMs": 47140
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "继",
+          "startMs": 47140,
+          "endMs": 47300
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "续",
+          "startMs": 47300,
+          "endMs": 47460
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "跑",
+          "startMs": 47460,
+          "endMs": 47700
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "十",
+          "startMs": 47700,
+          "endMs": 47940
+        },
+        {
+          "sceneId": "Q17-C",
+          "text": "年",
+          "startMs": 47940,
+          "endMs": 48260
+        }
+      ]
+    },
+    {
+      "sceneId": "Q17-D",
+      "narrationSha256": "33d1382db33f73648dd72a8592a4ff0c08276633328698e26e6ffd4ac37c3b46",
+      "wavRelativePath": "workspaces/ch06-L01-quiz/audio/Q17-D.wav",
+      "wavSha256": "5ce8dfee41084a148a3e416937f1cd9df70589dd522ec72c9e8cbe99b4871fd7",
+      "startMs": 48916,
+      "endMs": 57988,
+      "durationMs": 9072,
+      "fromCache": true,
+      "tokens": [
+        {
+          "sceneId": "Q17-D",
+          "text": "再",
+          "startMs": 48916,
+          "endMs": 49076
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "看",
+          "startMs": 49076,
+          "endMs": 49316
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "D",
+          "startMs": 49316,
+          "endMs": 49476
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "选",
+          "startMs": 49476,
+          "endMs": 49716
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "项",
+          "startMs": 49716,
+          "endMs": 50116
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "他",
+          "startMs": 50436,
+          "endMs": 50516
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "说",
+          "startMs": 50516,
+          "endMs": 51076
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "项",
+          "startMs": 51476,
+          "endMs": 51796
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "目",
+          "startMs": 51796,
+          "endMs": 51956
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "是",
+          "startMs": 51956,
+          "endMs": 52196
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "为",
+          "startMs": 52196,
+          "endMs": 52276
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "创",
+          "startMs": 52276,
+          "endMs": 52596
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "造",
+          "startMs": 52596,
+          "endMs": 52756
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "独",
+          "startMs": 52756,
+          "endMs": 53076
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "特",
+          "startMs": 53076,
+          "endMs": 53236
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "的",
+          "startMs": 53236,
+          "endMs": 53396
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "产",
+          "startMs": 53396,
+          "endMs": 53796
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "品",
+          "startMs": 53796,
+          "endMs": 54116
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "服",
+          "startMs": 54436,
+          "endMs": 54836
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "务",
+          "startMs": 54836,
+          "endMs": 54916
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "或",
+          "startMs": 54916,
+          "endMs": 55076
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "成",
+          "startMs": 55076,
+          "endMs": 55396
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "果",
+          "startMs": 55396,
+          "endMs": 55556
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "而",
+          "startMs": 55556,
+          "endMs": 55716
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "进",
+          "startMs": 55716,
+          "endMs": 55956
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "行",
+          "startMs": 55956,
+          "endMs": 56116
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "的",
+          "startMs": 56116,
+          "endMs": 56196
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "周",
+          "startMs": 56196,
+          "endMs": 56436
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "期",
+          "startMs": 56436,
+          "endMs": 56596
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "性",
+          "startMs": 56596,
+          "endMs": 56916
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "工",
+          "startMs": 56916,
+          "endMs": 57076
+        },
+        {
+          "sceneId": "Q17-D",
+          "text": "作",
+          "startMs": 57076,
+          "endMs": 57316
+        }
+      ]
+    },
+    {
+      "sceneId": "Q17-explain",
+      "narrationSha256": "8ace59683aa75cfc3de2676fdee26f72af07b039150b5a632dc6cfbfd8091780",
+      "wavRelativePath": "workspaces/ch06-L01-quiz/audio/Q17-explain.wav",
+      "wavSha256": "10aa4ee59630d1129135ed79ce8ca8c2d48d0af797251821b45541f2da206542",
+      "startMs": 57988,
+      "endMs": 88165,
+      "durationMs": 30177,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "Q17-explain",
+          "text": "抓",
+          "startMs": 57988,
+          "endMs": 58148
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "住",
+          "startMs": 58148,
+          "endMs": 58308
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "了",
+          "startMs": 58308,
+          "endMs": 58388
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "吗",
+          "startMs": 58388,
+          "endMs": 58548
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "命",
+          "startMs": 59108,
+          "endMs": 59348
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "题",
+          "startMs": 59348,
+          "endMs": 59588
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "人",
+          "startMs": 59588,
+          "endMs": 59748
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "前",
+          "startMs": 59748,
+          "endMs": 59988
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "面",
+          "startMs": 59988,
+          "endMs": 60148
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "大",
+          "startMs": 60148,
+          "endMs": 60388
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "半",
+          "startMs": 60388,
+          "endMs": 60628
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "句",
+          "startMs": 60628,
+          "endMs": 60868
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "全",
+          "startMs": 60868,
+          "endMs": 61188
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "抄",
+          "startMs": 61188,
+          "endMs": 61428
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "教",
+          "startMs": 61428,
+          "endMs": 61668
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "材",
+          "startMs": 61668,
+          "endMs": 61828
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "原",
+          "startMs": 61828,
+          "endMs": 62148
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "话",
+          "startMs": 62148,
+          "endMs": 62548
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "就",
+          "startMs": 62788,
+          "endMs": 63108
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "在",
+          "startMs": 63108,
+          "endMs": 63268
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "最",
+          "startMs": 63268,
+          "endMs": 63428
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "后",
+          "startMs": 63428,
+          "endMs": 63748
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "三",
+          "startMs": 63748,
+          "endMs": 63988
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "个",
+          "startMs": 63988,
+          "endMs": 64068
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "字",
+          "startMs": 64068,
+          "endMs": 64468
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "把",
+          "startMs": 64948,
+          "endMs": 65028
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "临",
+          "startMs": 65028,
+          "endMs": 65268
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "时",
+          "startMs": 65268,
+          "endMs": 65508
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "性",
+          "startMs": 65508,
+          "endMs": 65908
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "偷",
+          "startMs": 65988,
+          "endMs": 66228
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "换",
+          "startMs": 66228,
+          "endMs": 66468
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "成",
+          "startMs": 66468,
+          "endMs": 66628
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "了",
+          "startMs": 66628,
+          "endMs": 66708
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "周",
+          "startMs": 66708,
+          "endMs": 66948
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "期",
+          "startMs": 66948,
+          "endMs": 67268
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "性",
+          "startMs": 67268,
+          "endMs": 67508
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "周",
+          "startMs": 67988,
+          "endMs": 68228
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "而",
+          "startMs": 68228,
+          "endMs": 68468
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "复",
+          "startMs": 68468,
+          "endMs": 68708
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "始",
+          "startMs": 68708,
+          "endMs": 69268
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "按",
+          "startMs": 69588,
+          "endMs": 69828
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "部",
+          "startMs": 69828,
+          "endMs": 69988
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "就",
+          "startMs": 69988,
+          "endMs": 70228
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "班",
+          "startMs": 70228,
+          "endMs": 70468
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "的",
+          "startMs": 70468,
+          "endMs": 70548
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "流",
+          "startMs": 70548,
+          "endMs": 70708
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "水",
+          "startMs": 70708,
+          "endMs": 70948
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "线",
+          "startMs": 70948,
+          "endMs": 71428
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "是",
+          "startMs": 71428,
+          "endMs": 71668
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "运",
+          "startMs": 71668,
+          "endMs": 71988
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "营",
+          "startMs": 71988,
+          "endMs": 72308
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "绝",
+          "startMs": 72628,
+          "endMs": 72788
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "不",
+          "startMs": 72788,
+          "endMs": 72868
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "是",
+          "startMs": 72868,
+          "endMs": 73028
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "项",
+          "startMs": 73028,
+          "endMs": 73188
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "目",
+          "startMs": 73188,
+          "endMs": 73428
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "一",
+          "startMs": 73988,
+          "endMs": 74228
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "眼",
+          "startMs": 74228,
+          "endMs": 74388
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "锁",
+          "startMs": 74388,
+          "endMs": 74628
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "定",
+          "startMs": 74628,
+          "endMs": 75028
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "D",
+          "startMs": 75028,
+          "endMs": 75268
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "选",
+          "startMs": 75268,
+          "endMs": 75508
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "项",
+          "startMs": 75508,
+          "endMs": 75828
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "在",
+          "startMs": 76388,
+          "endMs": 76468
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "英",
+          "startMs": 76468,
+          "endMs": 76708
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "文",
+          "startMs": 76708,
+          "endMs": 76868
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "试",
+          "startMs": 76868,
+          "endMs": 77028
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "题",
+          "startMs": 77028,
+          "endMs": 77268
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "里",
+          "startMs": 77268,
+          "endMs": 77668
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "也",
+          "startMs": 78068,
+          "endMs": 78148
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "是",
+          "startMs": 78148,
+          "endMs": 78308
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "直",
+          "startMs": 78308,
+          "endMs": 78548
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "接",
+          "startMs": 78548,
+          "endMs": 78708
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "考",
+          "startMs": 78708,
+          "endMs": 78948
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "查",
+          "startMs": 78948,
+          "endMs": 79108
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "临",
+          "startMs": 79108,
+          "endMs": 79348
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "时",
+          "startMs": 79348,
+          "endMs": 79508
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "性",
+          "startMs": 79508,
+          "endMs": 79668
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "对",
+          "startMs": 79668,
+          "endMs": 79828
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "应",
+          "startMs": 79828,
+          "endMs": 79908
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "单",
+          "startMs": 79908,
+          "endMs": 80148
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "词",
+          "startMs": 80148,
+          "endMs": 80548
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "Temporary",
+          "startMs": 80788,
+          "endMs": 81428
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "这",
+          "startMs": 81988,
+          "endMs": 82148
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "种",
+          "startMs": 82148,
+          "endMs": 82308
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "核",
+          "startMs": 82308,
+          "endMs": 82468
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "心",
+          "startMs": 82468,
+          "endMs": 82708
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "特",
+          "startMs": 82708,
+          "endMs": 82948
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "征",
+          "startMs": 82948,
+          "endMs": 83188
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "题",
+          "startMs": 83188,
+          "endMs": 83588
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "只",
+          "startMs": 83988,
+          "endMs": 84148
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "要",
+          "startMs": 84148,
+          "endMs": 84308
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "抓",
+          "startMs": 84308,
+          "endMs": 84468
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "准",
+          "startMs": 84468,
+          "endMs": 84708
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "管",
+          "startMs": 84708,
+          "endMs": 84948
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "理",
+          "startMs": 84948,
+          "endMs": 85028
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "机",
+          "startMs": 85028,
+          "endMs": 85268
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "理",
+          "startMs": 85268,
+          "endMs": 85668
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "两",
+          "startMs": 85988,
+          "endMs": 86228
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "秒",
+          "startMs": 86228,
+          "endMs": 86468
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "钟",
+          "startMs": 86468,
+          "endMs": 86628
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "就",
+          "startMs": 86628,
+          "endMs": 86788
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "能",
+          "startMs": 86788,
+          "endMs": 86948
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "秒",
+          "startMs": 86948,
+          "endMs": 87188
+        },
+        {
+          "sceneId": "Q17-explain",
+          "text": "杀",
+          "startMs": 87188,
+          "endMs": 87508
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "index": 1,
+      "sceneId": "Q17-read",
+      "text": "我们看一道典范真题，看看出题人是怎么在这个定义上给你下套的。",
+      "startMs": 0,
+      "endMs": 5200
+    },
+    {
+      "index": 2,
+      "sceneId": "Q17-read",
+      "text": "这是2023年11月第4批次的第17题：",
+      "startMs": 5680,
+      "endMs": 9600
+    },
+    {
+      "index": 3,
+      "sceneId": "Q17-read",
+      "text": "关于项目的描述，不正确的是哪一项？",
+      "startMs": 10080,
+      "endMs": 14160
+    },
+    {
+      "index": 4,
+      "sceneId": "Q17-A",
+      "text": "A 选项说，项目的需求不复存在，",
+      "startMs": 17759,
+      "endMs": 21199
+    },
+    {
+      "index": 5,
+      "sceneId": "Q17-A",
+      "text": "是项目宣告结束的情况之一。",
+      "startMs": 21519,
+      "endMs": 23839
+    },
+    {
+      "index": 6,
+      "sceneId": "Q17-A",
+      "text": "完全正确，",
+      "startMs": 24319,
+      "endMs": 25279
+    },
+    {
+      "index": 7,
+      "sceneId": "Q17-A",
+      "text": "没有需求了就必须果断止损；",
+      "startMs": 25679,
+      "endMs": 28719
+    },
+    {
+      "index": 8,
+      "sceneId": "Q17-B",
+      "text": "B 选项说，实现项目目标可能会产生一个或多个可交付成果。",
+      "startMs": 29345,
+      "endMs": 35745
+    },
+    {
+      "index": 9,
+      "sceneId": "Q17-B",
+      "text": "完全正确；",
+      "startMs": 36225,
+      "endMs": 37185
+    },
+    {
+      "index": 10,
+      "sceneId": "Q17-C",
+      "text": "C 选项说，可交付成果可能会在项目终止后依然存在。",
+      "startMs": 37940,
+      "endMs": 43380
+    },
+    {
+      "index": 11,
+      "sceneId": "Q17-C",
+      "text": "完全正确，",
+      "startMs": 43860,
+      "endMs": 44820
+    },
+    {
+      "index": 12,
+      "sceneId": "Q17-C",
+      "text": "工程做完了，系统继续跑十年；",
+      "startMs": 45300,
+      "endMs": 48260
+    },
+    {
+      "index": 13,
+      "sceneId": "Q17-D",
+      "text": "再看 D 选项，他说：项目是为创造独特的产品、",
+      "startMs": 48916,
+      "endMs": 54116
+    },
+    {
+      "index": 14,
+      "sceneId": "Q17-D",
+      "text": "服务或成果而进行的周期性工作。",
+      "startMs": 54436,
+      "endMs": 57316
+    },
+    {
+      "index": 15,
+      "sceneId": "Q17-explain",
+      "text": "抓住了吗？",
+      "startMs": 57988,
+      "endMs": 58548
+    },
+    {
+      "index": 16,
+      "sceneId": "Q17-explain",
+      "text": "命题人前面大半句全抄教材原话，",
+      "startMs": 59108,
+      "endMs": 62548
+    },
+    {
+      "index": 17,
+      "sceneId": "Q17-explain",
+      "text": "就在最后三个字把",
+      "startMs": 62788,
+      "endMs": 65028
+    },
+    {
+      "index": 18,
+      "sceneId": "Q17-explain",
+      "text": "临时性",
+      "startMs": 65028,
+      "endMs": 65908
+    },
+    {
+      "index": 19,
+      "sceneId": "Q17-explain",
+      "text": "偷换成了",
+      "startMs": 65988,
+      "endMs": 66708
+    },
+    {
+      "index": 20,
+      "sceneId": "Q17-explain",
+      "text": "周期性！",
+      "startMs": 66708,
+      "endMs": 67508
+    },
+    {
+      "index": 21,
+      "sceneId": "Q17-explain",
+      "text": "周而复始、按部就班的流水线是运营，",
+      "startMs": 67988,
+      "endMs": 72308
+    },
+    {
+      "index": 22,
+      "sceneId": "Q17-explain",
+      "text": "绝不是项目。",
+      "startMs": 72628,
+      "endMs": 73428
+    },
+    {
+      "index": 23,
+      "sceneId": "Q17-explain",
+      "text": "一眼锁定",
+      "startMs": 73988,
+      "endMs": 75028
+    },
+    {
+      "index": 24,
+      "sceneId": "Q17-explain",
+      "text": "D 选项！",
+      "startMs": 75028,
+      "endMs": 75828
+    },
+    {
+      "index": 25,
+      "sceneId": "Q17-explain",
+      "text": "在英文试题里，也是直接考查临时性对应单词 Temporary。",
+      "startMs": 76388,
+      "endMs": 81428
+    },
+    {
+      "index": 26,
+      "sceneId": "Q17-explain",
+      "text": "这种核心特征题，只要抓准管理机理，",
+      "startMs": 81988,
+      "endMs": 85668
+    },
+    {
+      "index": 27,
+      "sceneId": "Q17-explain",
+      "text": "两秒钟就能秒杀。",
+      "startMs": 85988,
+      "endMs": 87508
+    }
+  ],
+  "generatedAt": "2026-10-26T09:31:06.310Z"
+}

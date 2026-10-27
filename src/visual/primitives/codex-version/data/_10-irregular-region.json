@@ -1,0 +1,47 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "region": {
+    "points": [
+      [
+        1150,
+        268
+      ],
+      [
+        1345,
+        372
+      ],
+      [
+        1330,
+        606
+      ],
+      [
+        1112,
+        706
+      ],
+      [
+        962,
+        568
+      ],
+      [
+        1006,
+        362
+      ]
+    ],
+    "tension": 1,
+    "fill": "rgba(46, 196, 214, 0.12)",
+    "stroke": "rgba(46, 196, 214, 0.60)",
+    "strokeWidth": 1.5,
+    "linejoin": "round"
+  },
+  "animation": {
+    "appearStartFrame": 30,
+    "appearDurationInFrames": 14,
+    "smoothStartFrame": 100,
+    "smoothDurationInFrames": 70,
+    "fillStartFrame": 112,
+    "fillDurationInFrames": 22
+  }
+}

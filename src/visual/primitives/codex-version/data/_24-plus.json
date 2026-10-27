@@ -1,0 +1,22 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "plus": {
+    "center": [
+      1150,
+      500
+    ],
+    "armLength": 260,
+    "stroke": "rgba(46, 196, 214, 0.85)",
+    "strokeWidth": 2.0,
+    "linecap": "butt"
+  },
+  "animation": {
+    "horizontalStartFrame": 34,
+    "horizontalDurationInFrames": 28,
+    "verticalStartFrame": 58,
+    "verticalDurationInFrames": 22
+  }
+}

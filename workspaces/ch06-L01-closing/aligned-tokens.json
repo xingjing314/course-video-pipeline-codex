@@ -1,0 +1,671 @@
+{
+  "alignerEngine": "Qwen/Qwen3-ForcedAligner-0.6B",
+  "scenes": [
+    {
+      "sceneId": "CL-recap",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "CL-recap",
+          "text": "好",
+          "startMs": 0,
+          "endMs": 320
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "到",
+          "startMs": 640,
+          "endMs": 800
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "这",
+          "startMs": 800,
+          "endMs": 1120
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "里",
+          "startMs": 1120,
+          "endMs": 1440
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "我",
+          "startMs": 1760,
+          "endMs": 1840
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "们",
+          "startMs": 1840,
+          "endMs": 2000
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "不",
+          "startMs": 2000,
+          "endMs": 2160
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "仅",
+          "startMs": 2160,
+          "endMs": 2320
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "吃",
+          "startMs": 2320,
+          "endMs": 2480
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "透",
+          "startMs": 2480,
+          "endMs": 2640
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "了",
+          "startMs": 2640,
+          "endMs": 2720
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "项",
+          "startMs": 2720,
+          "endMs": 2960
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "目",
+          "startMs": 2960,
+          "endMs": 3040
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "的",
+          "startMs": 3040,
+          "endMs": 3120
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "本",
+          "startMs": 3120,
+          "endMs": 3360
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "质",
+          "startMs": 3360,
+          "endMs": 3600
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "战",
+          "startMs": 4240,
+          "endMs": 4480
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "略",
+          "startMs": 4480,
+          "endMs": 4560
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "成",
+          "startMs": 4560,
+          "endMs": 4800
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "功",
+          "startMs": 4800,
+          "endMs": 4960
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "标",
+          "startMs": 4960,
+          "endMs": 5200
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "准",
+          "startMs": 5200,
+          "endMs": 5440
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "和",
+          "startMs": 5440,
+          "endMs": 5600
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "宏",
+          "startMs": 5600,
+          "endMs": 5840
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "观",
+          "startMs": 5840,
+          "endMs": 6000
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "棋",
+          "startMs": 6000,
+          "endMs": 6240
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "局",
+          "startMs": 6240,
+          "endMs": 6560
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "而",
+          "startMs": 6880,
+          "endMs": 7040
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "且",
+          "startMs": 7040,
+          "endMs": 7200
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "用",
+          "startMs": 7200,
+          "endMs": 7440
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "五",
+          "startMs": 7440,
+          "endMs": 7600
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "道",
+          "startMs": 7600,
+          "endMs": 7840
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "典",
+          "startMs": 7840,
+          "endMs": 8000
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "范",
+          "startMs": 8000,
+          "endMs": 8240
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "真",
+          "startMs": 8240,
+          "endMs": 8400
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "题",
+          "startMs": 8400,
+          "endMs": 8960
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "把",
+          "startMs": 9200,
+          "endMs": 9360
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "出",
+          "startMs": 9360,
+          "endMs": 9600
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "题",
+          "startMs": 9600,
+          "endMs": 9760
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "套",
+          "startMs": 9760,
+          "endMs": 10000
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "路",
+          "startMs": 10000,
+          "endMs": 10160
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "打",
+          "startMs": 10160,
+          "endMs": 10320
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "得",
+          "startMs": 10320,
+          "endMs": 10400
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "粉",
+          "startMs": 10400,
+          "endMs": 10640
+        },
+        {
+          "sceneId": "CL-recap",
+          "text": "碎",
+          "startMs": 10640,
+          "endMs": 10960
+        }
+      ]
+    },
+    {
+      "sceneId": "CL-next",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "CL-next",
+          "text": "下",
+          "startMs": 11605,
+          "endMs": 11845
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "一",
+          "startMs": 11845,
+          "endMs": 11925
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "节",
+          "startMs": 11925,
+          "endMs": 12085
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "课",
+          "startMs": 12085,
+          "endMs": 12485
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "L02",
+          "startMs": 12645,
+          "endMs": 12885
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "我",
+          "startMs": 13685,
+          "endMs": 13765
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "们",
+          "startMs": 13765,
+          "endMs": 13845
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "将",
+          "startMs": 13845,
+          "endMs": 14085
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "把",
+          "startMs": 14085,
+          "endMs": 14165
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "镜",
+          "startMs": 14165,
+          "endMs": 14405
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "头",
+          "startMs": 14405,
+          "endMs": 14965
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "对",
+          "startMs": 15125,
+          "endMs": 15285
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "准",
+          "startMs": 15285,
+          "endMs": 15445
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "那",
+          "startMs": 15445,
+          "endMs": 15605
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "个",
+          "startMs": 15605,
+          "endMs": 15685
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "在",
+          "startMs": 15685,
+          "endMs": 15845
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "复",
+          "startMs": 15845,
+          "endMs": 16085
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "杂",
+          "startMs": 16085,
+          "endMs": 16245
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "组",
+          "startMs": 16245,
+          "endMs": 16485
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "织",
+          "startMs": 16485,
+          "endMs": 16645
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "中",
+          "startMs": 16645,
+          "endMs": 16885
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "带",
+          "startMs": 16885,
+          "endMs": 17045
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "队",
+          "startMs": 17045,
+          "endMs": 17125
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "打",
+          "startMs": 17125,
+          "endMs": 17365
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "仗",
+          "startMs": 17365,
+          "endMs": 17525
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "的",
+          "startMs": 17525,
+          "endMs": 17605
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "核",
+          "startMs": 17605,
+          "endMs": 17845
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "心",
+          "startMs": 17845,
+          "endMs": 18085
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "人",
+          "startMs": 18085,
+          "endMs": 18325
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "物",
+          "startMs": 18325,
+          "endMs": 18565
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "项",
+          "startMs": 19445,
+          "endMs": 19765
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "目",
+          "startMs": 19765,
+          "endMs": 19845
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "经",
+          "startMs": 19845,
+          "endMs": 20085
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "理",
+          "startMs": 20085,
+          "endMs": 20405
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "看",
+          "startMs": 20725,
+          "endMs": 20885
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "看",
+          "startMs": 20885,
+          "endMs": 20965
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "他",
+          "startMs": 20965,
+          "endMs": 21125
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "的",
+          "startMs": 21125,
+          "endMs": 21205
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "人",
+          "startMs": 21205,
+          "endMs": 21445
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "才",
+          "startMs": 21445,
+          "endMs": 21605
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "三",
+          "startMs": 21605,
+          "endMs": 21925
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "角",
+          "startMs": 21925,
+          "endMs": 22245
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "权",
+          "startMs": 22565,
+          "endMs": 22885
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "力",
+          "startMs": 22885,
+          "endMs": 22965
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "来",
+          "startMs": 22965,
+          "endMs": 23205
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "源",
+          "startMs": 23205,
+          "endMs": 23445
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "和",
+          "startMs": 23445,
+          "endMs": 23525
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "领",
+          "startMs": 23525,
+          "endMs": 23685
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "导",
+          "startMs": 23685,
+          "endMs": 23845
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "力",
+          "startMs": 23845,
+          "endMs": 24165
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "艺",
+          "startMs": 24165,
+          "endMs": 24245
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "术",
+          "startMs": 24245,
+          "endMs": 24485
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "是",
+          "startMs": 24725,
+          "endMs": 24805
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "怎",
+          "startMs": 24805,
+          "endMs": 24965
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "么",
+          "startMs": 24965,
+          "endMs": 25045
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "考",
+          "startMs": 25045,
+          "endMs": 25205
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "查",
+          "startMs": 25205,
+          "endMs": 25525
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "的",
+          "startMs": 25525,
+          "endMs": 25685
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "我",
+          "startMs": 26165,
+          "endMs": 26245
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "们",
+          "startMs": 26245,
+          "endMs": 26405
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "下",
+          "startMs": 26405,
+          "endMs": 26645
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "节",
+          "startMs": 26645,
+          "endMs": 26805
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "课",
+          "startMs": 26805,
+          "endMs": 26965
+        },
+        {
+          "sceneId": "CL-next",
+          "text": "见",
+          "startMs": 26965,
+          "endMs": 27285
+        }
+      ]
+    }
+  ]
+}

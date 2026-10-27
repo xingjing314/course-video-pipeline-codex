@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-traits",
+  "lessonTitle": "第六章 L01 · 独特性、临时性和项目结束条件",
+  "sourceMarkdownPath": "docs/lessons/ch06/input/第6章-L01完整口播稿V0.3.md",
+  "sourceMarkdownSha256": "5a473964c18cd98407ca8f8edc4ee05fdbaceec4d40ef6eca99c6dfe1b540582",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "独特性、临时性和项目结束条件",
+    "estimatedDurationText": "按真实配音",
+    "cognitiveGoals": [
+      "区分独特性与相同元素",
+      "理解临时性及结束条件"
+    ],
+    "coreVisualAssets": [
+      "双项目对比",
+      "起止时间线",
+      "成果延续线",
+      "结束条件卡片"
+    ],
+    "examAnchors": [
+      "临时性不等于时间短或周期性"
+    ]
+  },
+  "scenes": [
+    {
+      "sceneId": "TR-unique",
+      "parentSceneId": "TR-unique",
+      "segmentTitle": "独特性",
+      "sceneTitle": "unique",
+      "order": 1,
+      "estimatedSeconds": 23.11111111111111,
+      "narration": "正因如此，企业给项目赋予了两大基因：第一个是独特性。哪怕两个信息系统项目采用完全相同的技术架构、同一个开发团队，甚至有相同的活动元素，但由于客户需求、应用场景、干系人和运行环境不同，每个项目依然是独一无二的。",
+      "narrationSha256": "aaceb3f1d0d37f6a45a0093e5b687a54d741683358a9fd470bc9bf6fa4574f22",
+      "clauses": [
+        "正因如此，",
+        "企业给项目赋予了两大基因：",
+        "第一个是独特性。",
+        "哪怕两个信息系统项目采用完全相同的技术架构、同一个开发团队，",
+        "甚至有相同的活动元素，",
+        "但由于客户需求、应用场景、干系人和运行环境不同，",
+        "每个项目依然是独一无二的。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "按口播逐步显示，沿用半透明样式",
+      "pedagogicalIntent": "独特性",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "unique"
+      }
+    },
+    {
+      "sceneId": "TR-boundary",
+      "parentSceneId": "TR-boundary",
+      "segmentTitle": "临时性的边界",
+      "sceneTitle": "boundary",
+      "order": 2,
+      "estimatedSeconds": 18.444444444444443,
+      "narration": "第二个是临时性。这是考场上命题人最喜欢挖坑的地方！为什么必须是临时性的？因为创新探索是有风险的，企业必须给它划定一个明确的始末边界，有明确的起点和终点，实现风险闭环。",
+      "narrationSha256": "ae0d93933737b00a047ecd86b036f0fb20a92db5dce75faf5a3b405eb1a11717",
+      "clauses": [
+        "第二个是临时性。",
+        "这是考场上命题人最喜欢挖坑的地方！",
+        "为什么必须是临时性的？",
+        "因为创新探索是有风险的，",
+        "企业必须给它划定一个明确的始末边界，",
+        "有明确的起点和终点，",
+        "实现风险闭环。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "按口播逐步显示，沿用半透明样式",
+      "pedagogicalIntent": "临时性的边界",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "boundary"
+      }
+    },
+    {
+      "sceneId": "TR-traps",
+      "parentSceneId": "TR-traps",
+      "segmentTitle": "临时性的两个易错点",
+      "sceneTitle": "traps",
+      "order": 3,
+      "estimatedSeconds": 17.555555555555557,
+      "narration": "所以请大家死死记住两个防坑点：第一，临时性绝对不等于持续时间短！大国工程做十年，依然叫临时性；第二，项目绝对不是周而复始的流水线，因此绝不能说成是周期性工作！",
+      "narrationSha256": "4e61392833b24bb7e0affef4c17308e87c2c9621fb47d76c745cb4427ffa1ba0",
+      "clauses": [
+        "所以请大家死死记住两个防坑点：",
+        "第一，",
+        "临时性绝对不等于持续时间短！",
+        "大国工程做十年，",
+        "依然叫临时性；",
+        "第二，",
+        "项目绝对不是周而复始的流水线，",
+        "因此绝不能说成是周期性工作！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "按口播逐步显示，沿用半透明样式",
+      "pedagogicalIntent": "临时性的两个易错点",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "traps"
+      }
+    },
+    {
+      "sceneId": "TR-results",
+      "parentSceneId": "TR-results",
+      "segmentTitle": "成果持续存在",
+      "sceneTitle": "results",
+      "order": 4,
+      "estimatedSeconds": 12.88888888888889,
+      "narration": "而且，项目虽然是临时的，但项目交付的成果，比如一套核心交易系统、一座数据中心，在项目结束后会长期存在并持续创造价值。",
+      "narrationSha256": "74583936dd55696557ab7da4e8b6af74748ddf5b35406add2a6df4b7e61353b3",
+      "clauses": [
+        "而且，",
+        "项目虽然是临时的，",
+        "但项目交付的成果，",
+        "比如一套核心交易系统、一座数据中心，",
+        "在项目结束后会长期存在并持续创造价值。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "按口播逐步显示，沿用半透明样式",
+      "pedagogicalIntent": "成果持续存在",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "results"
+      }
+    },
+    {
+      "sceneId": "TR-ending",
+      "parentSceneId": "TR-ending",
+      "segmentTitle": "项目结束条件",
+      "sceneTitle": "ending",
+      "order": 5,
+      "estimatedSeconds": 16.666666666666668,
+      "narration": "那么项目什么时候宣告结束呢？通常是达成目标；但如果不能达到目标、资金耗尽、需求不复存在、无法获得所需资源，或者出于法律原因，项目也会依法依规宣告终止。",
+      "narrationSha256": "9112cfe863712e0bb57d921b111cb18b599b73cad71b52880dec8285810c17cb",
+      "clauses": [
+        "那么项目什么时候宣告结束呢？",
+        "通常是达成目标；",
+        "但如果不能达到目标、资金耗尽、需求不复存在、无法获得所需资源，",
+        "或者出于法律原因，",
+        "项目也会依法依规宣告终止。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "按口播逐步显示，沿用半透明样式",
+      "pedagogicalIntent": "项目结束条件",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "ending"
+      }
+    }
+  ],
+  "compiledAt": "2026-10-26T12:01:37.632887+00:00"
+}

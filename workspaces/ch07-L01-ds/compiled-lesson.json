@@ -1,0 +1,1468 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch07-L01-ds",
+  "lessonTitle": "第 7 章 项目立项管理 · L01（deepseek 版）",
+  "meta": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "durationMs": 591133,
+    "durationInFrames": 17734,
+    "audioPublicSrc": "audio/ch07-L01-ds/ch07-L01-ds-full.wav",
+    "audioSha256": "2be4f40ed00f1e63dfa1a74b6741ee9272d2878914a8e7659bdb94d6d12a1f88",
+    "srtRelativePath": "ch07-L01-ds.srt",
+    "srtSha256": "5ae0f7c9de5359e1fedc56b06161354b0720c63ebdf38a07b09ec8a5ca79098f"
+  },
+  "overview": {
+    "chapterScope": "第 7 章 7.0 导言 — 7.1 项目建议与立项申请",
+    "estimatedDurationText": "8 分 27 秒",
+    "cognitiveGoals": [
+      "记住投资前时期四个阶段与三条裁剪规则",
+      "掌握《项目建议书》的三条身份信息与四项核心内容"
+    ],
+    "coreVisualAssets": [
+      "A5 四关轨道",
+      "A7 真题卡",
+      "A8 身份证卡",
+      "A9 口诀卡"
+    ],
+    "examAnchors": [
+      "23下3批T21",
+      "26上1批T42",
+      "24上2批T18",
+      "23下1批T27",
+      "23下4批T21"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "parentSceneId": "S01",
+      "segmentTitle": "开场与全书坐标",
+      "sceneTitle": "S01",
+      "order": 1,
+      "startMs": 0,
+      "endMs": 7667,
+      "durationMs": 7667,
+      "fromFrame": 0,
+      "durationInFrames": 230,
+      "narration": "欢迎来到项目管理核心模块的第一站——第 7 章《项目立项管理》。",
+      "narrationSha256": "bface175bccb58d28497d76bfd3090c8389bdfbaf1807fe9defae1f268ef240e",
+      "pedagogicalIntent": "开场与全书坐标",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S01",
+          "offset": 0
+        }
+      }
+    },
+    {
+      "id": "S02",
+      "parentSceneId": "S02",
+      "segmentTitle": "开场与全书坐标",
+      "sceneTitle": "S02",
+      "order": 2,
+      "startMs": 7667,
+      "endMs": 26934,
+      "durationMs": 19267,
+      "fromFrame": 230,
+      "durationInFrames": 578,
+      "narration": "我们先看一下历年考情：2023 到 2026 年，去掉教材外的实践题，本章平均考 2 分左右，占比大概 2.68%，2026年2个批次分别考了2道题和1道题。虽然题量不大，但属于纯记忆送分题。",
+      "narrationSha256": "d0956440eb583177c59d6ec01ed5a9e6397003afa7cc3f088c9c9d454b34106a",
+      "pedagogicalIntent": "开场与全书坐标",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S02",
+          "offset": 230
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "parentSceneId": "S03",
+      "segmentTitle": "开场与全书坐标",
+      "sceneTitle": "S03",
+      "order": 3,
+      "startMs": 26933,
+      "endMs": 36600,
+      "durationMs": 9667,
+      "fromFrame": 808,
+      "durationInFrames": 290,
+      "narration": "本章的教学思路采用图谱速记的形式，课上老师不会带领大家念书，而是针对教材核心观点进行讲解。",
+      "narrationSha256": "fd925d6c18e62f6e4d6b04fcf67d3c4df5ff1e259e51cbece6744e82575fbccd",
+      "pedagogicalIntent": "开场与全书坐标",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S03",
+          "offset": 808
+        }
+      }
+    },
+    {
+      "id": "S04",
+      "parentSceneId": "S04",
+      "segmentTitle": "开场与全书坐标",
+      "sceneTitle": "S04",
+      "order": 4,
+      "startMs": 36600,
+      "endMs": 50033,
+      "durationMs": 13433,
+      "fromFrame": 1098,
+      "durationInFrames": 403,
+      "narration": "很多同学会好奇：教材第 6 章是概论，第 8 章到第 19 章是十大知识领域、绩效域和配置变更，为什么我们先从第 7 章切入？",
+      "narrationSha256": "fb9b313ba4ea2296d43957f8ea2c588eea0a0da95fe223c4e0100d4a66b7ab80",
+      "pedagogicalIntent": "开场与全书坐标",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S04",
+          "offset": 1098
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "parentSceneId": "S05",
+      "segmentTitle": "开场与全书坐标",
+      "sceneTitle": "S05",
+      "order": 5,
+      "startMs": 50033,
+      "endMs": 69500,
+      "durationMs": 19467,
+      "fromFrame": 1501,
+      "durationInFrames": 584,
+      "narration": "看这条时间轴就明白了：在建项目之前，还有一个更源头的问题——项目建设是否有价值？组织为什么要掏几百万、几千万去建这个项目？本章正是要讲清楚立项所必需的论证文档与审批过程。",
+      "narrationSha256": "38efc5f98c5adc1f5a1ece75ce9d3d2efb996cd05a065120270e1f2186144a9c",
+      "pedagogicalIntent": "开场与全书坐标",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S05",
+          "offset": 1501
+        }
+      }
+    },
+    {
+      "id": "S06",
+      "parentSceneId": "S06",
+      "segmentTitle": "四笔账与三件事",
+      "sceneTitle": "S06",
+      "order": 6,
+      "startMs": 69500,
+      "endMs": 92867,
+      "durationMs": 23367,
+      "fromFrame": 2085,
+      "durationInFrames": 701,
+      "narration": "在建设之前，得从四个角度把账算清楚：第一，技术上适不适用、先不先进；第二，经济上合不合理、有没有效益；第三，实施上有没有可能、风险大不大；第四，社会价值上有没效果、能不能持续。",
+      "narrationSha256": "604d4bd089fd8a14596bd6932c97a745fcd066f7a7d116935c0a03a094aa6244",
+      "pedagogicalIntent": "四笔账与三件事",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S06",
+          "offset": 2085
+        }
+      }
+    },
+    {
+      "id": "S07",
+      "parentSceneId": "S07",
+      "segmentTitle": "四笔账与三件事",
+      "sceneTitle": "S07",
+      "order": 7,
+      "startMs": 92867,
+      "endMs": 110534,
+      "durationMs": 17667,
+      "fromFrame": 2786,
+      "durationInFrames": 530,
+      "narration": "围绕这四笔账，整个立项管理大体就分成三件事：提申请（项目建议与立项申请）、做论证（项目可行性研究）、拍板定案（项目评估与决策）。",
+      "narrationSha256": "018c92db7305aea9dca023c6a53dacfe882d5b8e13de50a7de2bed1fffb1020c",
+      "pedagogicalIntent": "四笔账与三件事",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S07",
+          "offset": 2786
+        }
+      }
+    },
+    {
+      "id": "S08-S13",
+      "parentSceneId": "S08",
+      "segmentTitle": "投资前四阶段与裁剪",
+      "sceneTitle": "S08–S13",
+      "order": 8,
+      "startMs": 110533,
+      "endMs": 223466,
+      "durationMs": 112933,
+      "fromFrame": 3316,
+      "durationInFrames": 3388,
+      "narration": "如果把可行性研究拆细一点，在项目正式投资之前的立项论证，也就是教材所说的‘投资前时期’，一共要闯过四个阶段。分别是四个台阶：第一步，项目建议与立项申请——先打报告说“我想干这件事”；第二步，初步可行性研究——先粗算一下这事有没有前途，值不值得花大力气深究；第三步，详细可行性研究——全面、深入地做技术方案比选和经济测算；第四步，评估与决策——请第三方来审一审可研报告靠不靠谱，最后拍板给不给钱、立不立项。这里有个考场高频防坑点：教材明确规定，投资前时期就是这四个阶段，没有“机会研究”或“机会可行性研究”！考题里如果拿“机会可行性研究”来凑数，直接排除。那实际工作里，是不是每个项目都得老老实实走完这四步呢？不一定，教材给了三条裁剪规则：第一条最核心：初步可行性研究和详细可行性研究，可以根据项目的规模和繁简程度合二为一，但“详细可行性研究”是不可缺少的！记住，不管怎么省，详细可研绝对不能省。第二条：如果是升级改造项目，因为原来就有底子，只做初步和详细可行性研究。第三条：如果是小项目，一般只进行详细可行性研究。",
+      "narrationSha256": "b723f95320eab79067e3f211c779cd7b746962d4f3f06d35a10735b68b93307f",
+      "pedagogicalIntent": "投资前四阶段与裁剪",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S08-S13",
+          "offset": 3316
+        }
+      }
+    },
+    {
+      "id": "S14-S17",
+      "parentSceneId": "S14",
+      "segmentTitle": "真题 1：四阶段排除法",
+      "sceneTitle": "S14–S17",
+      "order": 9,
+      "startMs": 223467,
+      "endMs": 284300,
+      "durationMs": 60833,
+      "fromFrame": 6704,
+      "durationInFrames": 1825,
+      "narration": "我们马上看一道 2023 年 11 月的真题，检验一下刚才那四个阶段。题目问：项目投资前时期的四个阶段包括哪四个？给了五个编号：①项目建议与立项申请、②机会可行性研究、③初步可行性研究、④详细可行性研究、⑤评估与决策。给你两秒钟看一眼。是不是一眼就能秒杀？刚才我们特别强调过，②“机会可行性研究”是命题人塞进来的干扰项，把它剔掉，留下的 ①③④⑤ 就是标准答案，直接选 C。这里需要提示的是：即使实际项目中立项阶段是以项目建议书、可行性研究报告和初步设计为核心交付成果，但 ①③④⑤ 是教材的观点，做题的时候要以教材为准。",
+      "narrationSha256": "bbca8f1ac569a0c1c1c04613ef001862aee810dc22d0c1acdc6999996edd3a21",
+      "pedagogicalIntent": "真题 1：四阶段排除法",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S14-S17",
+          "offset": 6704
+        }
+      }
+    },
+    {
+      "id": "S18",
+      "parentSceneId": "S18",
+      "segmentTitle": "7.1 进场",
+      "sceneTitle": "S18",
+      "order": 10,
+      "startMs": 284300,
+      "endMs": 305367,
+      "durationMs": 21067,
+      "fromFrame": 8529,
+      "durationInFrames": 632,
+      "narration": "清楚了四步闯关的全局，我们现在走进第一步——7.1 项目建议与立项申请。首先记住它的名字：立项申请，又叫做《项目建议书》。考试题干里不管写“立项申请”还是写“项目建议书”，指的都是同一份文件。",
+      "narrationSha256": "8cce7633bbf1540693a3d8ff143bf1dce5bc6bb8b13b8fe8059517862bdbd73a",
+      "pedagogicalIntent": "7.1 进场",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S18",
+          "offset": 8529
+        }
+      }
+    },
+    {
+      "id": "S19-S21",
+      "parentSceneId": "S19",
+      "segmentTitle": "7.1 身份证 · 谁写给谁",
+      "sceneTitle": "S19–S21",
+      "order": 11,
+      "startMs": 305367,
+      "endMs": 377067,
+      "durationMs": 71700,
+      "fromFrame": 9161,
+      "durationInFrames": 2151,
+      "narration": "这份文件在考场上最常考三个身份信息：第一，谁写给谁？它是项目建设单位（也就是筹建单位、甲方）根据国家规划、产业政策、市场情况和组织战略，向上级主管部门提交的申请文件。注意，不是乙方承建单位写的，也不是所有项目都去报给“国家监管部门”，而是报给上级主管部门。第二，它写到什么深度？它是项目发展周期的初始阶段，只是对拟建项目提出的“框架性总体设想”。注意“框架性设想”这五个字！因为这时候项目八字还没一撇，它绝对不是具体的“实施计划和方案”。第三，它有什么用？它有两个核心作用：对上，它是国家或上级主管部门选择项目的依据；对下，它是开展可行性研究的依据。另外顺带留个印象：如果是涉及利用外资的项目，必须在项目建议书获得批准之后，才能开展后续工作。",
+      "narrationSha256": "b9cd755b871779aab312220b867a437bc8e861d37b15233a7b173998004c0260",
+      "pedagogicalIntent": "7.1 身份证 · 谁写给谁",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S19-S21",
+          "offset": 9161
+        }
+      }
+    },
+    {
+      "id": "S22-S25",
+      "parentSceneId": "S22",
+      "segmentTitle": "真题 2：逐项判卷",
+      "sceneTitle": "S22–S25",
+      "order": 12,
+      "startMs": 377067,
+      "endMs": 439567,
+      "durationMs": 62500,
+      "fromFrame": 11312,
+      "durationInFrames": 1875,
+      "narration": "来，趁热打铁，看 2026 年 5 月刚考过的这道第 42 题，题目问：关于项目建议书与立项申请的相关描述，正确的是哪一项？给你两秒钟扫一下四个选项。我们逐个看：A 选项说，立项申请是提出的“实施计划和方案”——错了吧？刚讲过，初始阶段只是框架性总体设想，还没到实施计划方案。B 选项说，项目建议书是国家或上级主管部门选择项目的依据，也是可行性研究的依据——完全准确！再看 C 选项，它把“向上级主管部门提交”偷换成了“向国家监管部门提交”；D 选项说不包括必要性和必需条件，直接把核心内容说反了。所以这道题稳稳选 B。",
+      "narrationSha256": "6746eeb62dbef802ab7fe6aafac061ef2d085cc6887920d2b990189de3ce384b",
+      "pedagogicalIntent": "真题 2：逐项判卷",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S22-S25",
+          "offset": 11312
+        }
+      }
+    },
+    {
+      "id": "S26",
+      "parentSceneId": "S26",
+      "segmentTitle": "四件套：连考三次",
+      "sceneTitle": "S26",
+      "order": 13,
+      "startMs": 439567,
+      "endMs": 453400,
+      "durationMs": 13833,
+      "fromFrame": 13187,
+      "durationInFrames": 415,
+      "narration": "刚才那道题的 D 选项提到了项目建议书的内容。在 7.1.2 节里，只有短短一句话，却在 2023 到 2024 年被一模一样连考了三次！",
+      "narrationSha256": "c13cd02a8ca0eca85918686daf4f87ce9d686e62c3c47dfe35128bf9cc70f34c",
+      "pedagogicalIntent": "四件套：连考三次",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S26",
+          "offset": 13187
+        }
+      }
+    },
+    {
+      "id": "S27",
+      "parentSceneId": "S27",
+      "segmentTitle": "四件套：连考三次",
+      "sceneTitle": "S27",
+      "order": 14,
+      "startMs": 453400,
+      "endMs": 496667,
+      "durationMs": 43267,
+      "fromFrame": 13602,
+      "durationInFrames": 1298,
+      "narration": "项目建议书应该包括的核心内容，一共只有四项，我帮你总结成七个字口诀：“一必要、两市场、一条件”：1. 项目的必要性——向上级主管部门说明为什么非干不可；2. 项目的市场预测——看看这个项目本身有没有市场需求；3. 项目预期成果（如产品方案或服务）的市场预测——做出来的产品或服务，市场前途怎么样；4. 项目建设必需的条件——干成这件事，得具备哪些基本条件。",
+      "narrationSha256": "00f84b26c87f398666c094b6f5918e72372df3f418a744c58fbad4060f0ede72",
+      "pedagogicalIntent": "四件套：连考三次",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S27",
+          "offset": 13602
+        }
+      }
+    },
+    {
+      "id": "S28",
+      "parentSceneId": "S28",
+      "segmentTitle": "四件套：连考三次",
+      "sceneTitle": "S28",
+      "order": 15,
+      "startMs": 496667,
+      "endMs": 527100,
+      "durationMs": 30433,
+      "fromFrame": 14900,
+      "durationInFrames": 913,
+      "narration": "为什么这四句话连考三次？因为命题人特别喜欢玩一个套路：问你“项目建议书的核心内容不包括什么”，然后把下一步才做的“初步可行性研究”“可行性研究认证”或者“技术创新”塞进选项里！你只要记住：打立项申请的时候，可行性研究还没开始呢，建议书里怎么可能包含可行性研究？",
+      "narrationSha256": "41d1eb64d2764282f4abbea874c6a95542e7ce7c9386f1bc805a5c0adf915827",
+      "pedagogicalIntent": "四件套：连考三次",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S28",
+          "offset": 14900
+        }
+      }
+    },
+    {
+      "id": "S29-S30",
+      "parentSceneId": "S29",
+      "segmentTitle": "真题 3：一题带三题",
+      "sceneTitle": "S29–S30",
+      "order": 16,
+      "startMs": 527100,
+      "endMs": 573433,
+      "durationMs": 46333,
+      "fromFrame": 15813,
+      "durationInFrames": 1390,
+      "narration": "我们直接看 2024 年 5 月第 2 批次的第 18 题：项目建议书的核心内容不包括（  ）？A. 项目的必要性；B. 项目建设的必需条件；C. 项目可行性研究认证；D. 项目预期成果的市场预测。闭着眼睛都能选 C 对不对？同样的题目，在 2023 年 11 月第 4 批次把 C 换成了“初步可行性研究”，在 2023 年 11 月第 1 批次把 C 换成了“技术创新”，换汤不换药，只要认准“一必要、两市场、一条件”，这种题就是纯送分题。",
+      "narrationSha256": "53bf513f8112ae18ec49536ec98e7a2b464c3063fccf5965555e02cc58d04c9b",
+      "pedagogicalIntent": "真题 3：一题带三题",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S29-S30",
+          "offset": 15813
+        }
+      }
+    },
+    {
+      "id": "S31",
+      "parentSceneId": "S31",
+      "segmentTitle": "交棒 7.2",
+      "sceneTitle": "S31",
+      "order": 17,
+      "startMs": 573433,
+      "endMs": 591133,
+      "durationMs": 17700,
+      "fromFrame": 17203,
+      "durationInFrames": 531,
+      "narration": "好，当建设单位把《项目建议书》交上去、上级主管部门批复同意之后，项目就正式进入第二关——7.2 项目可行性研究。那么可行性研究到底要怎么做？我们下一节见！",
+      "narrationSha256": "fc743caa1e7d09ea9a0a82eacd8d0f37101ff7a49b1e7a0231931f61c7f566bd",
+      "pedagogicalIntent": "交棒 7.2",
+      "cues": [],
+      "headerMode": "chapter",
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l01-span",
+        "data": {
+          "span": "S31",
+          "offset": 17203
+        }
+      }
+    }
+  ],
+  "captions": [
+    {
+      "index": 1,
+      "sceneId": "S01",
+      "text": "欢迎来到项目管理核心模块的第一站——第 7 章《项目立项管理》。",
+      "startMs": 0,
+      "endMs": 7040
+    },
+    {
+      "index": 2,
+      "sceneId": "S02",
+      "text": "我们先看一下历年考情：",
+      "startMs": 7664,
+      "endMs": 9184
+    },
+    {
+      "index": 3,
+      "sceneId": "S02",
+      "text": "2023 到 2026 年，",
+      "startMs": 10224,
+      "endMs": 12144
+    },
+    {
+      "index": 4,
+      "sceneId": "S02",
+      "text": "去掉教材外的实践题，本章平均考 2 分左右，",
+      "startMs": 12384,
+      "endMs": 15824
+    },
+    {
+      "index": 5,
+      "sceneId": "S02",
+      "text": "占比大概 2.68%，2026年2个批次分别考了2道题和1道题。",
+      "startMs": 16304,
+      "endMs": 22464
+    },
+    {
+      "index": 6,
+      "sceneId": "S02",
+      "text": "虽然题量不大，但属于纯记忆送分题。",
+      "startMs": 22944,
+      "endMs": 26304
+    },
+    {
+      "index": 7,
+      "sceneId": "S03",
+      "text": "本章的教学思路采用图谱速记的形式，",
+      "startMs": 26930,
+      "endMs": 30210
+    },
+    {
+      "index": 8,
+      "sceneId": "S03",
+      "text": "课上老师不会带领大家念书，",
+      "startMs": 30930,
+      "endMs": 33250
+    },
+    {
+      "index": 9,
+      "sceneId": "S03",
+      "text": "而是针对教材核心观点进行讲解。",
+      "startMs": 33490,
+      "endMs": 35970
+    },
+    {
+      "index": 10,
+      "sceneId": "S04",
+      "text": "很多同学会好奇：教材第 6 章是概论，",
+      "startMs": 36611,
+      "endMs": 40051
+    },
+    {
+      "index": 11,
+      "sceneId": "S04",
+      "text": "第 8 章到第 19 章是十大知识领域、",
+      "startMs": 40771,
+      "endMs": 44371
+    },
+    {
+      "index": 12,
+      "sceneId": "S04",
+      "text": "绩效域和配置变更，为什么我们先从第 7 章切入？",
+      "startMs": 44611,
+      "endMs": 49411
+    },
+    {
+      "index": 13,
+      "sceneId": "S05",
+      "text": "看这条时间轴就明白了：",
+      "startMs": 50041,
+      "endMs": 52281
+    },
+    {
+      "index": 14,
+      "sceneId": "S05",
+      "text": "在建项目之前，还有一个更源头的问题——项目建设是否有价值？",
+      "startMs": 52761,
+      "endMs": 59401
+    },
+    {
+      "index": 15,
+      "sceneId": "S05",
+      "text": "组织为什么要掏几百万、",
+      "startMs": 59961,
+      "endMs": 61641
+    },
+    {
+      "index": 16,
+      "sceneId": "S05",
+      "text": "几千万去建这个项目？",
+      "startMs": 61641,
+      "endMs": 63641
+    },
+    {
+      "index": 17,
+      "sceneId": "S05",
+      "text": "本章正是要讲清楚立项所必需的论证文档与审批过程。",
+      "startMs": 64121,
+      "endMs": 68921
+    },
+    {
+      "index": 18,
+      "sceneId": "S06",
+      "text": "在建设之前，得从四个角度把账算清楚：",
+      "startMs": 69515,
+      "endMs": 73195
+    },
+    {
+      "index": 19,
+      "sceneId": "S06",
+      "text": "第一，技术上适不适用、先不先进；",
+      "startMs": 74235,
+      "endMs": 77835
+    },
+    {
+      "index": 20,
+      "sceneId": "S06",
+      "text": "第二，经济上合不合理、有没有效益；",
+      "startMs": 78235,
+      "endMs": 82236
+    },
+    {
+      "index": 21,
+      "sceneId": "S06",
+      "text": "第三，实施上有没有可能、",
+      "startMs": 82795,
+      "endMs": 86075
+    },
+    {
+      "index": 22,
+      "sceneId": "S06",
+      "text": "风险大不大；第四，社会价值上有没效果、",
+      "startMs": 86315,
+      "endMs": 90955
+    },
+    {
+      "index": 23,
+      "sceneId": "S06",
+      "text": "能不能持续。",
+      "startMs": 91355,
+      "endMs": 92235
+    },
+    {
+      "index": 24,
+      "sceneId": "S07",
+      "text": "围绕这四笔账，整个立项管理大体就分成三件事：",
+      "startMs": 92877,
+      "endMs": 97917
+    },
+    {
+      "index": 25,
+      "sceneId": "S07",
+      "text": "提申请（项目建议与立项申请）、",
+      "startMs": 99037,
+      "endMs": 102477
+    },
+    {
+      "index": 26,
+      "sceneId": "S07",
+      "text": "做论证（项目可行性研究）、",
+      "startMs": 103117,
+      "endMs": 105837
+    },
+    {
+      "index": 27,
+      "sceneId": "S07",
+      "text": "拍板定案（项目评估与决策）。",
+      "startMs": 106797,
+      "endMs": 109917
+    },
+    {
+      "index": 28,
+      "sceneId": "S08",
+      "text": "如果把可行性研究拆细一点，",
+      "startMs": 110532,
+      "endMs": 113012
+    },
+    {
+      "index": 29,
+      "sceneId": "S08",
+      "text": "在项目正式投资之前的立项论证，",
+      "startMs": 113492,
+      "endMs": 115892
+    },
+    {
+      "index": 30,
+      "sceneId": "S08",
+      "text": "也就是教材所说的‘投资前时期’，",
+      "startMs": 116852,
+      "endMs": 119332
+    },
+    {
+      "index": 31,
+      "sceneId": "S08",
+      "text": "一共要闯过四个阶段。",
+      "startMs": 119892,
+      "endMs": 121412
+    },
+    {
+      "index": 32,
+      "sceneId": "S08",
+      "text": "分别是四个台阶：",
+      "startMs": 121892,
+      "endMs": 123492
+    },
+    {
+      "index": 33,
+      "sceneId": "S09",
+      "text": "第一步，项目建议与立项申请——先打报告说“我想干这件事”；",
+      "startMs": 124119,
+      "endMs": 132039
+    },
+    {
+      "index": 34,
+      "sceneId": "S09",
+      "text": "第二步，初步可行性研究——先粗算一下这事有没有前途，",
+      "startMs": 132439,
+      "endMs": 139319
+    },
+    {
+      "index": 35,
+      "sceneId": "S09",
+      "text": "值不值得花大力气深究；",
+      "startMs": 140039,
+      "endMs": 142039
+    },
+    {
+      "index": 36,
+      "sceneId": "S09",
+      "text": "第三步，详细可行性研究——全面、",
+      "startMs": 142439,
+      "endMs": 146839
+    },
+    {
+      "index": 37,
+      "sceneId": "S09",
+      "text": "深入地做技术方案比选和经济测算；",
+      "startMs": 146839,
+      "endMs": 150519
+    },
+    {
+      "index": 38,
+      "sceneId": "S09",
+      "text": "第四步，评估与决策——请第三方来审一审可研报告靠不靠谱，",
+      "startMs": 150919,
+      "endMs": 158199
+    },
+    {
+      "index": 39,
+      "sceneId": "S09",
+      "text": "最后拍板给不给钱、立不立项。",
+      "startMs": 158759,
+      "endMs": 162439
+    },
+    {
+      "index": 40,
+      "sceneId": "S10",
+      "text": "这里有个考场高频防坑点：",
+      "startMs": 164311,
+      "endMs": 166151
+    },
+    {
+      "index": 41,
+      "sceneId": "S10",
+      "text": "教材明确规定，投资前时期就是这四个阶段，",
+      "startMs": 166711,
+      "endMs": 170231
+    },
+    {
+      "index": 42,
+      "sceneId": "S10",
+      "text": "没有“机会研究”或“机会可行性研究”！",
+      "startMs": 170631,
+      "endMs": 173511
+    },
+    {
+      "index": 43,
+      "sceneId": "S10",
+      "text": "考题里如果拿“机会可行性研究”来凑数，",
+      "startMs": 174071,
+      "endMs": 177591
+    },
+    {
+      "index": 44,
+      "sceneId": "S10",
+      "text": "直接排除。",
+      "startMs": 177911,
+      "endMs": 178711
+    },
+    {
+      "index": 45,
+      "sceneId": "S11",
+      "text": "那实际工作里，是不是每个项目都得老老实实走完这四步呢？",
+      "startMs": 179369,
+      "endMs": 185449
+    },
+    {
+      "index": 46,
+      "sceneId": "S11",
+      "text": "不一定，教材给了三条裁剪规则：",
+      "startMs": 186009,
+      "endMs": 189129
+    },
+    {
+      "index": 47,
+      "sceneId": "S12",
+      "text": "第一条最核心：初步可行性研究和详细可行性研究，",
+      "startMs": 189817,
+      "endMs": 195177
+    },
+    {
+      "index": 48,
+      "sceneId": "S12",
+      "text": "可以根据项目的规模和繁简程度合二为一，",
+      "startMs": 195737,
+      "endMs": 199017
+    },
+    {
+      "index": 49,
+      "sceneId": "S12",
+      "text": "但“详细可行性研究”是不可缺少的！",
+      "startMs": 199817,
+      "endMs": 202457
+    },
+    {
+      "index": 50,
+      "sceneId": "S12",
+      "text": "记住，不管怎么省，详细可研绝对不能省。",
+      "startMs": 203017,
+      "endMs": 206777
+    },
+    {
+      "index": 51,
+      "sceneId": "S13",
+      "text": "第二条：如果是升级改造项目，",
+      "startMs": 207430,
+      "endMs": 211510
+    },
+    {
+      "index": 52,
+      "sceneId": "S13",
+      "text": "因为原来就有底子，只做初步和详细可行性研究。",
+      "startMs": 211830,
+      "endMs": 216710
+    },
+    {
+      "index": 53,
+      "sceneId": "S13",
+      "text": "第三条：如果是小项目，一般只进行详细可行性研究。",
+      "startMs": 217270,
+      "endMs": 222790
+    },
+    {
+      "index": 54,
+      "sceneId": "S14",
+      "text": "我们马上看一道 2023 年 11 月的真题，",
+      "startMs": 223453,
+      "endMs": 226653
+    },
+    {
+      "index": 55,
+      "sceneId": "S14",
+      "text": "检验一下刚才那四个阶段。",
+      "startMs": 227213,
+      "endMs": 229293
+    },
+    {
+      "index": 56,
+      "sceneId": "S14",
+      "text": "题目问：项目投资前时期的四个阶段包括哪四个？",
+      "startMs": 229773,
+      "endMs": 234573
+    },
+    {
+      "index": 57,
+      "sceneId": "S14",
+      "text": "给了五个编号：①项目建议与立项申请、",
+      "startMs": 235053,
+      "endMs": 238733
+    },
+    {
+      "index": 58,
+      "sceneId": "S14",
+      "text": "②机会可行性研究、③初步可行性研究、",
+      "startMs": 239773,
+      "endMs": 243613
+    },
+    {
+      "index": 59,
+      "sceneId": "S14",
+      "text": "④详细可行性研究、⑤评估与决策。",
+      "startMs": 244573,
+      "endMs": 248013
+    },
+    {
+      "index": 60,
+      "sceneId": "S15",
+      "text": "给你两秒钟看一眼。",
+      "startMs": 248672,
+      "endMs": 250112
+    },
+    {
+      "index": 61,
+      "sceneId": "S16",
+      "text": "是不是一眼就能秒杀？",
+      "startMs": 252835,
+      "endMs": 254995
+    },
+    {
+      "index": 62,
+      "sceneId": "S16",
+      "text": "刚才我们特别强调过，②“机会可行性研究”是命题人塞进来的干扰项，",
+      "startMs": 255555,
+      "endMs": 261315
+    },
+    {
+      "index": 63,
+      "sceneId": "S16",
+      "text": "把它剔掉，留下的 ①③④⑤ 就是标准答案，",
+      "startMs": 262355,
+      "endMs": 266115
+    },
+    {
+      "index": 64,
+      "sceneId": "S16",
+      "text": "直接选 C。",
+      "startMs": 266595,
+      "endMs": 267315
+    },
+    {
+      "index": 65,
+      "sceneId": "S17",
+      "text": "这里需要提示的是：即使实际项目中立项阶段是以项目建议书、",
+      "startMs": 268003,
+      "endMs": 273283
+    },
+    {
+      "index": 66,
+      "sceneId": "S17",
+      "text": "可行性研究报告和初步设计为核心交付成果，",
+      "startMs": 273523,
+      "endMs": 277283
+    },
+    {
+      "index": 67,
+      "sceneId": "S17",
+      "text": "但 ①③④⑤ 是教材的观点，做题的时候要以教材为准。",
+      "startMs": 278163,
+      "endMs": 283603
+    },
+    {
+      "index": 68,
+      "sceneId": "S18",
+      "text": "清楚了四步闯关的全局，",
+      "startMs": 284290,
+      "endMs": 286290
+    },
+    {
+      "index": 69,
+      "sceneId": "S18",
+      "text": "我们现在走进第一步——7.1 项目建议与立项申请。",
+      "startMs": 286770,
+      "endMs": 292130
+    },
+    {
+      "index": 70,
+      "sceneId": "S18",
+      "text": "首先记住它的名字：立项申请，",
+      "startMs": 292610,
+      "endMs": 295970
+    },
+    {
+      "index": 71,
+      "sceneId": "S18",
+      "text": "又叫做《项目建议书》。",
+      "startMs": 296290,
+      "endMs": 297890
+    },
+    {
+      "index": 72,
+      "sceneId": "S18",
+      "text": "考试题干里不管写“立项申请”还是写“项目建议书”，",
+      "startMs": 298450,
+      "endMs": 302530
+    },
+    {
+      "index": 73,
+      "sceneId": "S18",
+      "text": "指的都是同一份文件。",
+      "startMs": 303170,
+      "endMs": 304690
+    },
+    {
+      "index": 74,
+      "sceneId": "S19",
+      "text": "这份文件在考场上最常考三个身份信息：",
+      "startMs": 305374,
+      "endMs": 308974
+    },
+    {
+      "index": 75,
+      "sceneId": "S19",
+      "text": "第一，谁写给谁？",
+      "startMs": 309614,
+      "endMs": 311614
+    },
+    {
+      "index": 76,
+      "sceneId": "S19",
+      "text": "它是项目建设单位（也就是筹建单位、",
+      "startMs": 312094,
+      "endMs": 315134
+    },
+    {
+      "index": 77,
+      "sceneId": "S19",
+      "text": "甲方）根据国家规划、产业政策、",
+      "startMs": 315374,
+      "endMs": 318894
+    },
+    {
+      "index": 78,
+      "sceneId": "S19",
+      "text": "市场情况和组织战略，向上级主管部门提交的申请文件。",
+      "startMs": 319054,
+      "endMs": 323694
+    },
+    {
+      "index": 79,
+      "sceneId": "S19",
+      "text": "注意，不是乙方承建单位写的，",
+      "startMs": 324254,
+      "endMs": 326814
+    },
+    {
+      "index": 80,
+      "sceneId": "S19",
+      "text": "也不是所有项目都去报给“国家监管部门”，",
+      "startMs": 327614,
+      "endMs": 330414
+    },
+    {
+      "index": 81,
+      "sceneId": "S19",
+      "text": "而是报给上级主管部门。",
+      "startMs": 331134,
+      "endMs": 333134
+    },
+    {
+      "index": 82,
+      "sceneId": "S20",
+      "text": "第二，它写到什么深度？",
+      "startMs": 333755,
+      "endMs": 335675
+    },
+    {
+      "index": 83,
+      "sceneId": "S20",
+      "text": "它是项目发展周期的初始阶段，",
+      "startMs": 336235,
+      "endMs": 338875
+    },
+    {
+      "index": 84,
+      "sceneId": "S20",
+      "text": "只是对拟建项目提出的“框架性总体设想”。",
+      "startMs": 339755,
+      "endMs": 343515
+    },
+    {
+      "index": 85,
+      "sceneId": "S20",
+      "text": "注意“框架性设想”这五个字！",
+      "startMs": 343995,
+      "endMs": 346075
+    },
+    {
+      "index": 86,
+      "sceneId": "S20",
+      "text": "因为这时候项目八字还没一撇，",
+      "startMs": 346635,
+      "endMs": 349515
+    },
+    {
+      "index": 87,
+      "sceneId": "S20",
+      "text": "它绝对不是具体的“实施计划和方案”。",
+      "startMs": 349995,
+      "endMs": 352555
+    },
+    {
+      "index": 88,
+      "sceneId": "S21",
+      "text": "第三，它有什么用？",
+      "startMs": 353193,
+      "endMs": 355113
+    },
+    {
+      "index": 89,
+      "sceneId": "S21",
+      "text": "它有两个核心作用：对上，",
+      "startMs": 355593,
+      "endMs": 358233
+    },
+    {
+      "index": 90,
+      "sceneId": "S21",
+      "text": "它是国家或上级主管部门选择项目的依据；",
+      "startMs": 358713,
+      "endMs": 362073
+    },
+    {
+      "index": 91,
+      "sceneId": "S21",
+      "text": "对下，它是开展可行性研究的依据。",
+      "startMs": 362473,
+      "endMs": 366073
+    },
+    {
+      "index": 92,
+      "sceneId": "S21",
+      "text": "另外顺带留个印象：如果是涉及利用外资的项目，",
+      "startMs": 366553,
+      "endMs": 371593
+    },
+    {
+      "index": 93,
+      "sceneId": "S21",
+      "text": "必须在项目建议书获得批准之后，",
+      "startMs": 372233,
+      "endMs": 374713
+    },
+    {
+      "index": 94,
+      "sceneId": "S21",
+      "text": "才能开展后续工作。",
+      "startMs": 374953,
+      "endMs": 376393
+    },
+    {
+      "index": 95,
+      "sceneId": "S22",
+      "text": "来，趁热打铁，看 2026 年 5 月刚考过的这道第 42 题，",
+      "startMs": 377063,
+      "endMs": 382743
+    },
+    {
+      "index": 96,
+      "sceneId": "S22",
+      "text": "题目问：关于项目建议书与立项申请的相关描述，",
+      "startMs": 383703,
+      "endMs": 388103
+    },
+    {
+      "index": 97,
+      "sceneId": "S22",
+      "text": "正确的是哪一项？",
+      "startMs": 388583,
+      "endMs": 389703
+    },
+    {
+      "index": 98,
+      "sceneId": "S23",
+      "text": "给你两秒钟扫一下四个选项。",
+      "startMs": 390320,
+      "endMs": 392960
+    },
+    {
+      "index": 99,
+      "sceneId": "S24",
+      "text": "我们逐个看：A 选项说，立项申请是提出的“实施计划和方案”——错了吧？",
+      "startMs": 395542,
+      "endMs": 403222
+    },
+    {
+      "index": 100,
+      "sceneId": "S24",
+      "text": "刚讲过，初始阶段只是框架性总体设想，",
+      "startMs": 403702,
+      "endMs": 408022
+    },
+    {
+      "index": 101,
+      "sceneId": "S24",
+      "text": "还没到实施计划方案。",
+      "startMs": 408582,
+      "endMs": 410182
+    },
+    {
+      "index": 102,
+      "sceneId": "S25",
+      "text": "B 选项说，项目建议书是国家或上级主管部门选择项目的依据，",
+      "startMs": 410851,
+      "endMs": 417251
+    },
+    {
+      "index": 103,
+      "sceneId": "S25",
+      "text": "也是可行性研究的依据——完全准确！",
+      "startMs": 417731,
+      "endMs": 421011
+    },
+    {
+      "index": 104,
+      "sceneId": "S25",
+      "text": "再看 C 选项，",
+      "startMs": 421491,
+      "endMs": 422788
+    },
+    {
+      "index": 105,
+      "sceneId": "S25",
+      "text": "它把“向上级主管部门提交”偷换成了“向国家监管部门提交”；",
+      "startMs": 422788,
+      "endMs": 429011
+    },
+    {
+      "index": 106,
+      "sceneId": "S25",
+      "text": "D 选项说不包括必要性和必需条件，",
+      "startMs": 429411,
+      "endMs": 433091
+    },
+    {
+      "index": 107,
+      "sceneId": "S25",
+      "text": "直接把核心内容说反了。",
+      "startMs": 434211,
+      "endMs": 436051
+    },
+    {
+      "index": 108,
+      "sceneId": "S25",
+      "text": "所以这道题稳稳选 B。",
+      "startMs": 436531,
+      "endMs": 438931
+    },
+    {
+      "index": 109,
+      "sceneId": "S26",
+      "text": "刚才那道题的 D 选项提到了项目建议书的内容。",
+      "startMs": 439564,
+      "endMs": 443404
+    },
+    {
+      "index": 110,
+      "sceneId": "S26",
+      "text": "在 7.1.2 节里，只有短短一句话，",
+      "startMs": 443884,
+      "endMs": 447884
+    },
+    {
+      "index": 111,
+      "sceneId": "S26",
+      "text": "却在 2023 到 2024 年被一模一样连考了三次！",
+      "startMs": 448444,
+      "endMs": 452764
+    },
+    {
+      "index": 112,
+      "sceneId": "S27",
+      "text": "项目建议书应该包括的核心内容，",
+      "startMs": 453411,
+      "endMs": 456611
+    },
+    {
+      "index": 113,
+      "sceneId": "S27",
+      "text": "一共只有四项，我帮你总结成七个字口诀：",
+      "startMs": 457251,
+      "endMs": 460771
+    },
+    {
+      "index": 114,
+      "sceneId": "S27",
+      "text": "“一必要、两市场、一条件”：",
+      "startMs": 461811,
+      "endMs": 464669
+    },
+    {
+      "index": 115,
+      "sceneId": "S27",
+      "text": "1. 项目的必要性——向上级主管部门说明为什么非干不可；",
+      "startMs": 464669,
+      "endMs": 471971
+    },
+    {
+      "index": 116,
+      "sceneId": "S27",
+      "text": "2. 项目的市场预测——看看这个项目本身有没有市场需求；",
+      "startMs": 472371,
+      "endMs": 478051
+    },
+    {
+      "index": 117,
+      "sceneId": "S27",
+      "text": "3. 项目预期成果（如产品方案或服务）的市场预测—",
+      "startMs": 478691,
+      "endMs": 484374
+    },
+    {
+      "index": 118,
+      "sceneId": "S27",
+      "text": "—做出来的产品或服务，",
+      "startMs": 484374,
+      "endMs": 486931
+    },
+    {
+      "index": 119,
+      "sceneId": "S27",
+      "text": "市场前途怎么样；4. 项目建设必需的条件——干成这件事，",
+      "startMs": 487011,
+      "endMs": 493731
+    },
+    {
+      "index": 120,
+      "sceneId": "S27",
+      "text": "得具备哪些基本条件。",
+      "startMs": 494371,
+      "endMs": 496051
+    },
+    {
+      "index": 121,
+      "sceneId": "S28",
+      "text": "为什么这四句话连考三次？",
+      "startMs": 496664,
+      "endMs": 499144
+    },
+    {
+      "index": 122,
+      "sceneId": "S28",
+      "text": "因为命题人特别喜欢玩一个套路：",
+      "startMs": 499624,
+      "endMs": 501944
+    },
+    {
+      "index": 123,
+      "sceneId": "S28",
+      "text": "问你“项目建议书的核心内容不包括什么”，",
+      "startMs": 502904,
+      "endMs": 506744
+    },
+    {
+      "index": 124,
+      "sceneId": "S28",
+      "text": "然后把下一步才做的“初步可行性研究”“可行性研究认证”或者“技术创新”塞进选项里！",
+      "startMs": 507464,
+      "endMs": 515704
+    },
+    {
+      "index": 125,
+      "sceneId": "S28",
+      "text": "你只要记住：打立项申请的时候，",
+      "startMs": 516184,
+      "endMs": 519864
+    },
+    {
+      "index": 126,
+      "sceneId": "S28",
+      "text": "可行性研究还没开始呢，",
+      "startMs": 520184,
+      "endMs": 522264
+    },
+    {
+      "index": 127,
+      "sceneId": "S28",
+      "text": "建议书里怎么可能包含可行性研究？",
+      "startMs": 523544,
+      "endMs": 526424
+    },
+    {
+      "index": 128,
+      "sceneId": "S29",
+      "text": "我们直接看 2024 年 5 月第 2 批次的第 18 题：",
+      "startMs": 527101,
+      "endMs": 531741
+    },
+    {
+      "index": 129,
+      "sceneId": "S29",
+      "text": "项目建议书的核心内容不包括（  ）？",
+      "startMs": 532381,
+      "endMs": 534861
+    },
+    {
+      "index": 130,
+      "sceneId": "S29",
+      "text": "A. 项目的必要性；B. 项目建设的必需条件；",
+      "startMs": 535501,
+      "endMs": 540461
+    },
+    {
+      "index": 131,
+      "sceneId": "S29",
+      "text": "C. 项目可行性研究认证；",
+      "startMs": 540861,
+      "endMs": 543821
+    },
+    {
+      "index": 132,
+      "sceneId": "S29",
+      "text": "D. 项目预期成果的市场预测。",
+      "startMs": 544301,
+      "endMs": 547101
+    },
+    {
+      "index": 133,
+      "sceneId": "S30",
+      "text": "闭着眼睛都能选 C 对不对？",
+      "startMs": 547831,
+      "endMs": 549671
+    },
+    {
+      "index": 134,
+      "sceneId": "S30",
+      "text": "同样的题目，",
+      "startMs": 550311,
+      "endMs": 551591
+    },
+    {
+      "index": 135,
+      "sceneId": "S30",
+      "text": "在 2023 年 11 月第 4 批次把 C 换成了“初步可行性研究”，",
+      "startMs": 551591,
+      "endMs": 557991
+    },
+    {
+      "index": 136,
+      "sceneId": "S30",
+      "text": "在 2023 年 11 月第 1 批次把 C 换成了“技术创新”，",
+      "startMs": 558871,
+      "endMs": 563431
+    },
+    {
+      "index": 137,
+      "sceneId": "S30",
+      "text": "换汤不换药，只要认准“一必要、",
+      "startMs": 564151,
+      "endMs": 567991
+    },
+    {
+      "index": 138,
+      "sceneId": "S30",
+      "text": "两市场、一条件”，这种题就是纯送分题。",
+      "startMs": 568231,
+      "endMs": 572791
+    },
+    {
+      "index": 139,
+      "sceneId": "S31",
+      "text": "好，当建设单位把《项目建议书》交上去、",
+      "startMs": 573438,
+      "endMs": 577438
+    },
+    {
+      "index": 140,
+      "sceneId": "S31",
+      "text": "上级主管部门批复同意之后，",
+      "startMs": 577838,
+      "endMs": 580238
+    },
+    {
+      "index": 141,
+      "sceneId": "S31",
+      "text": "项目就正式进入第二关——7.2 项目可行性研究。",
+      "startMs": 580718,
+      "endMs": 585918
+    },
+    {
+      "index": 142,
+      "sceneId": "S31",
+      "text": "那么可行性研究到底要怎么做？",
+      "startMs": 586398,
+      "endMs": 589038
+    },
+    {
+      "index": 143,
+      "sceneId": "S31",
+      "text": "我们下一节见！",
+      "startMs": 589518,
+      "endMs": 590478
+    }
+  ],
+  "compiledAt": "2026-10-25T05:13:22.761Z"
+}

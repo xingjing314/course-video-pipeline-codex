@@ -1,0 +1,66 @@
+{
+  "lessonId": "ch06-L01-traits",
+  "sampleRate": 24000,
+  "totalDurationMs": 94899,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-traits/ch06-L01-traits-full.wav",
+  "fullWavSha256": "c82854c0645a40052038d936427f360640e3504558eb9af767ec560953b5f3c8",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "TR-unique",
+      "narration": "正因如此，企业给项目赋予了两大基因：第一个是独特性。哪怕两个信息系统项目采用完全相同的技术架构、同一个开发团队，甚至有相同的活动元素，但由于客户需求、应用场景、干系人和运行环境不同，每个项目依然是独一无二的。",
+      "narrationSha256": "aaceb3f1d0d37f6a45a0093e5b687a54d741683358a9fd470bc9bf6fa4574f22",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-traits/audio/TR-unique.wav",
+      "wavSha256": "bc395b0c16c9dfbd93575f0a3cdcf02ad7385aa5b5dbbeeb678cebb2a6fffdd0",
+      "startMs": 0,
+      "endMs": 24430,
+      "durationMs": 24430,
+      "fromCache": false
+    },
+    {
+      "sceneId": "TR-boundary",
+      "narration": "第二个是临时性。这是考场上命题人最喜欢挖坑的地方！为什么必须是临时性的？因为创新探索是有风险的，企业必须给它划定一个明确的始末边界，有明确的起点和终点，实现风险闭环。",
+      "narrationSha256": "ae0d93933737b00a047ecd86b036f0fb20a92db5dce75faf5a3b405eb1a11717",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-traits/audio/TR-boundary.wav",
+      "wavSha256": "bf4cd9862c9a2183d9d8d7b4d0f4b2b4e607aa7392e8740eee9573fd4e4985d4",
+      "startMs": 24430,
+      "endMs": 42974,
+      "durationMs": 18544,
+      "fromCache": false
+    },
+    {
+      "sceneId": "TR-traps",
+      "narration": "所以请大家死死记住两个防坑点：第一，临时性绝对不等于持续时间短！大国工程做十年，依然叫临时性；第二，项目绝对不是周而复始的流水线，因此绝不能说成是周期性工作！",
+      "narrationSha256": "4e61392833b24bb7e0affef4c17308e87c2c9621fb47d76c745cb4427ffa1ba0",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-traits/audio/TR-traps.wav",
+      "wavSha256": "e06adeac5f5a40cc0f214137dd0f4bb29db1424f0f376a2b8b655cf68c308022",
+      "startMs": 42974,
+      "endMs": 62792,
+      "durationMs": 19818,
+      "fromCache": false
+    },
+    {
+      "sceneId": "TR-results",
+      "narration": "而且，项目虽然是临时的，但项目交付的成果，比如一套核心交易系统、一座数据中心，在项目结束后会长期存在并持续创造价值。",
+      "narrationSha256": "74583936dd55696557ab7da4e8b6af74748ddf5b35406add2a6df4b7e61353b3",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-traits/audio/TR-results.wav",
+      "wavSha256": "0a619fb16cb874bb591f31792bde559e378f85ada7cf01c7b6cb0002bc559264",
+      "startMs": 62792,
+      "endMs": 77110,
+      "durationMs": 14318,
+      "fromCache": false
+    },
+    {
+      "sceneId": "TR-ending",
+      "narration": "那么项目什么时候宣告结束呢？通常是达成目标；但如果不能达到目标、资金耗尽、需求不复存在、无法获得所需资源，或者出于法律原因，项目也会依法依规宣告终止。",
+      "narrationSha256": "9112cfe863712e0bb57d921b111cb18b599b73cad71b52880dec8285810c17cb",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-traits/audio/TR-ending.wav",
+      "wavSha256": "9964fe41752eb0ae664fed6dcaaf76996a926915b26a13e3a0701476904c0f8f",
+      "startMs": 77110,
+      "endMs": 94899,
+      "durationMs": 17789,
+      "fromCache": false
+    }
+  ]
+}

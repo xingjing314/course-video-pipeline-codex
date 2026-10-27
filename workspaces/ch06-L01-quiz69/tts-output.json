@@ -1,0 +1,88 @@
+{
+  "lessonId": "ch06-L01-quiz69",
+  "sampleRate": 24000,
+  "totalDurationMs": 127379,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz69/ch06-L01-quiz69-full.wav",
+  "fullWavSha256": "f11637551fedc139519792de765d58d84abff6e74ef622582927f2832674cef0",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "Q69-read",
+      "narration": "我们来看一道真题——2026年5月第1批次的第69题。\n题目问：关于组织战略管理与项目管理的对应关系，正确的是哪一项？",
+      "narrationSha256": "235b9a122dbf769ab24940e7ac253fd4d14d6c84dc2517d23be4240dbf682a0e",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz69/audio/Q69-read.wav",
+      "wavSha256": "3d667780a592136d522920440ae6f8be1659191362adfe5d5eba554a14315a92",
+      "startMs": 0,
+      "endMs": 16990,
+      "durationMs": 16990,
+      "fromCache": false
+    },
+    {
+      "sceneId": "Q69-A",
+      "narration": "我们直接看 A 选项：项目组合管理负责统筹协调各组件，以确保整体行动与组织战略目标保持一致。\n这句话字字契合教材总纲！项目组合的最高天命，就是对齐组织战略目标，所以 A 选项一字不差，就是正确答案！",
+      "narrationSha256": "dabbf6ae45f8a632120fae2e01e084a8497d5306aa896c128536b22eef474c8b",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz69/audio/Q69-A.wav",
+      "wavSha256": "362dafe19c7a2220b939d80668f017d16dd0be8ab4f16d536a60538f5757d7a3",
+      "startMs": 16990,
+      "endMs": 38379,
+      "durationMs": 21389,
+      "fromCache": false
+    },
+    {
+      "sceneId": "Q69-bridge",
+      "narration": "我们必须把出题人在其它三个选项里埋的雷彻底排干净，这样你在考场上才能百毒不侵：",
+      "narrationSha256": "3699683391174556c0d6630618c83787852bafe70b94f262887eadf808267111",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz69/audio/Q69-bridge.wav",
+      "wavSha256": "7e25a4c2daf22d2cfb9ad1fa705c8bc345d7076d21e7f334fef1b870b6861bb9",
+      "startMs": 38379,
+      "endMs": 46660,
+      "durationMs": 8281,
+      "fromCache": false
+    },
+    {
+      "sceneId": "Q69-B",
+      "narration": "B选项说：战略规划属于高层管理范畴，与负责具体交付的项目管理分属两条独立的汇报主线。问题就在“两条独立的汇报主线”。战略与项目管理需要衔接，项目交付要服务组织战略。",
+      "narrationSha256": "32011cfe3db8ce784925d82f4d858c2976e690b2128835c52d44fd18ee2ab8b8",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz69/audio/Q69-B.wav",
+      "wavSha256": "799223cf2e1d722282c2aca83c8f724808d9325e05333c43b932036da4a51351",
+      "startMs": 46660,
+      "endMs": 66534,
+      "durationMs": 19874,
+      "fromCache": false
+    },
+    {
+      "sceneId": "Q69-C",
+      "narration": "C选项说：项目组合、项目集和项目在管理职责上相互独立，分别对齐不同层级的业务目标。职责有分工，但不能理解成相互独立、各管各的，它们需要共同支撑组织战略目标。",
+      "narrationSha256": "8a59624cdbb10e67f7b434612a3033a9b8d7a9eba894e0b5fd6f2b3cd66543d7",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz69/audio/Q69-C.wav",
+      "wavSha256": "0e1c0364553508c7c23d5f865b97ffd8d2ecce105ed181d13b50ad40a6fa1a12",
+      "startMs": 66534,
+      "endMs": 86235,
+      "durationMs": 19701,
+      "fromCache": false
+    },
+    {
+      "sceneId": "Q69-D",
+      "narration": "D选项说：项目管理通过严格控制范围与成本基准，直接决定组织战略目标的最终成败。问题在“直接决定”。项目管理支撑战略落地，但范围和成本控制不能单独决定组织战略成败。",
+      "narrationSha256": "1c94f1e588d516c0d5098a7accbe7f099531d1d1501efc5801b0ab7335e16bc5",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz69/audio/Q69-D.wav",
+      "wavSha256": "07595208701fdde54e8cbbf8a78e14d5ea22ba58dbbd1292ab757004253c82af",
+      "startMs": 86235,
+      "endMs": 104629,
+      "durationMs": 18394,
+      "fromCache": false
+    },
+    {
+      "sceneId": "Q69-summary",
+      "narration": "你看，这道2026年的最新真题，把战略、组合、项目集和项目的权责边界考得极其刁钻，但只要抓住了我们梳理的这张宏观棋盘，做正确的事归组合，协调依赖归项目集，哪怕选项乾坤大挪移，你也能一眼秒杀！",
+      "narrationSha256": "8a166f538f735196f166d52b2646af948909b9c2305a90e592a486cb972fa77b",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz69/audio/Q69-summary.wav",
+      "wavSha256": "ecac29a0aa8d130fd3e8cfa2ceb6195776c50f69e2809a462e0d352493845246",
+      "startMs": 104629,
+      "endMs": 127379,
+      "durationMs": 22750,
+      "fromCache": false
+    }
+  ]
+}

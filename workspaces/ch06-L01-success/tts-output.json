@@ -1,0 +1,132 @@
+{
+  "lessonId": "ch06-L01-success",
+  "sampleRate": 24000,
+  "totalDurationMs": 188404,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/ch06-L01-success-full.wav",
+  "fullWavSha256": "618226cc0996651e3e36517506c2f8423c5d517b563b815b8e7d8d6f0af9a1e9",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "SC-strategy",
+      "narration": "既然项目是推动组织跨越的引擎，那么 6.2.2 节就指出：有效和高效的项目管理，是一个组织的战略能力！它使组织能够将项目成果与业务目标联系起来、更有效地开展竞争、实现可持续发展，并且通过适当调整项目管理计划来应对外部环境改变。",
+      "narrationSha256": "6711cd0396f5223d044c9cf7480cf5c08d2fa122a8bc280091bba65401488754",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-strategy.wav",
+      "wavSha256": "0a2f3605a0113b60c584e265271ede598920e6536056ce176e1d6fcd8cc54da8",
+      "startMs": 0,
+      "endMs": 23959,
+      "durationMs": 23959,
+      "fromCache": false
+    },
+    {
+      "sceneId": "SC-triangle",
+      "narration": "顺着这个逻辑推演，到了 6.2.3 节，我们怎么评判一个项目到底是成功还是失败？在传统观念里，项目经理往往只盯着铁三角：范围有没有少做？工期有没有拖延？预算有没有超支？以及三角形内部的质量是否符合要求？",
+      "narrationSha256": "75638df16df28d0bda13b453312119c84f63a4833bc9438af317af1bf25bac5d",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-triangle.wav",
+      "wavSha256": "f7b2f050b0de2726b5755c8a9219086c857b23e4ad39d6f418f010dda511144b",
+      "startMs": 23959,
+      "endMs": 47351,
+      "durationMs": 23392,
+      "fromCache": false
+    },
+    {
+      "sceneId": "SC-failure",
+      "narration": "第四版教材给出了一个发人深省的管理常识：可能一个项目从范围、进度和预算来看都是成功的，但在业务角度上它彻底失败了！为什么？因为市场环境变化了，当初立项时的客户需求早就消失了，系统即使完美上线也没人使用，根本无法为组织带来预期的效益和财务投资回报率！",
+      "narrationSha256": "8e36479d55a78b64f0fec3ae2f2c531659c84882e8495780670c4ffaab68d3a2",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-failure.wav",
+      "wavSha256": "f2217472b95a3bd5d70d281830d0c90ff868b6266850927de9649153c71caa36",
+      "startMs": 47351,
+      "endMs": 75297,
+      "durationMs": 27946,
+      "fromCache": false
+    },
+    {
+      "sceneId": "SC-dimensions",
+      "narration": "因此，教材明确要求：衡量项目是否成功，除了传统的时间成本范围质量这四个可测量指标，还必须建立第二维标准——与组织战略和业务成果交付相关的标准与目标，比如完成项目效益管理计划、达到可行性研究里的净现值和投资回报率等财务指标、实现从当前状态向将来状态的成功跨越。这两个维度必须兼备，才叫真正的项目成功！",
+      "narrationSha256": "01383ccb52302bc2a75e3d7b43273e2e67ea8cc50ae5eab96e08189109f2f0d0",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-dimensions.wav",
+      "wavSha256": "b2d6273238d1c4af01a3ee339050b3b3e28acf2658f3caa5584b4fc0d3040c73",
+      "startMs": 75297,
+      "endMs": 108040,
+      "durationMs": 32743,
+      "fromCache": false
+    },
+    {
+      "sceneId": "SC-read",
+      "narration": "我们来看2023年11月第3批次的第17题，看出题人怎么考查成功的标准。题目问：下面有关项目成功标准的描述，不正确的是哪一项？",
+      "narrationSha256": "fcb26d4d453fff060ce65ba4ff05617f2a2055f1c766e59a4598e950a6a6352c",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-read.wav",
+      "wavSha256": "48314fd14380e22cbcedd30683dfec7e9618e32db0ed4f0f76a3eeaed464b63a",
+      "startMs": 108040,
+      "endMs": 126143,
+      "durationMs": 18103,
+      "fromCache": false
+    },
+    {
+      "sceneId": "SC-Aread",
+      "narration": "我们直接扫 A 选项：项目成功不涉及与组织战略和业务成果交付相关的标准与目标。",
+      "narrationSha256": "b5e5243d8a16471297b1fb420570cb45a57e34ee07b7ba0090747127c9d9d8c9",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-Aread.wav",
+      "wavSha256": "e00842dac2658a968636f64e1a889998b823b7049baa1265d77c751afc62aaf8",
+      "startMs": 126143,
+      "endMs": 133442,
+      "durationMs": 7299,
+      "fromCache": false
+    },
+    {
+      "sceneId": "SC-Ajudge",
+      "narration": "读到这里直接就可以举手拿分了！A 选项直接加上了一个不字，全盘否定了战略和业务成果，这正撞在我们刚才讲的第二维核心标准上，错得极其离谱。",
+      "narrationSha256": "412d8ffebce411f6c6c0bad51f4d25a8a7773853091c5b74c7523018979df766",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-Ajudge.wav",
+      "wavSha256": "7c24576384de98c9371fa757b9c8c92a922f32d1fdc37d4691fc2454c9ac3b47",
+      "startMs": 133442,
+      "endMs": 146840,
+      "durationMs": 13398,
+      "fromCache": false
+    },
+    {
+      "sceneId": "SC-B",
+      "narration": "我们再顺带看其余三个正确选项，字字珠玑：B 选项说明确记录项目目标并选择可测量的目标是项目成功的关键；",
+      "narrationSha256": "60d3aa63a44cee7daca2a342298fcc35a79ffe1576aeb12006cd6bfd0315ae9c",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-B.wav",
+      "wavSha256": "23ddd27dba5e0ac71fefb58cf741b1ca452c5cab7a875b1692c5fd4a852c7048",
+      "startMs": 146840,
+      "endMs": 159484,
+      "durationMs": 12644,
+      "fromCache": false
+    },
+    {
+      "sceneId": "SC-C",
+      "narration": "C 选项说确定项目是否成功应考虑项目目标的实现情况；",
+      "narrationSha256": "e050f2e11ad429946c678d603a9d0c64ee79127793a210ad6293af1621a86207",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-C.wav",
+      "wavSha256": "09553fc55fc57ed85dddd19e210b77bb0ace002e83e79750f1a8f651e6f6a4bb",
+      "startMs": 159484,
+      "endMs": 166156,
+      "durationMs": 6672,
+      "fromCache": false
+    },
+    {
+      "sceneId": "SC-D",
+      "narration": "D 选项则是我们反复强调的教材原话：有可能一个项目从范围、进度、预算来看是成功的，但从业务角度来看并不成功。",
+      "narrationSha256": "19bc77365aae7205961e5453aa0c3b7c7f0060a851dae6d3e4a2f8e0961e6dc8",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-D.wav",
+      "wavSha256": "22c6ba1c006486592dc8c089e4364721432323f5331b481d479a1cb3bf482152",
+      "startMs": 166156,
+      "endMs": 178002,
+      "durationMs": 11846,
+      "fromCache": false
+    },
+    {
+      "sceneId": "SC-summary",
+      "narration": "所以不正确的稳稳选 A！理解了背后的业务常识，哪怕题目改写成别的形式，你也能一眼把正确答案拎出来。",
+      "narrationSha256": "19d65c16aed5916c538b46280da159fb8b9c7e9e7c96fd1be2acbd909ab7e60c",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-success/audio/SC-summary.wav",
+      "wavSha256": "75454984f246680b2623fbe0268cdca60a60ec552d64f851806bad8265474429",
+      "startMs": 178002,
+      "endMs": 188404,
+      "durationMs": 10402,
+      "fromCache": false
+    }
+  ]
+}

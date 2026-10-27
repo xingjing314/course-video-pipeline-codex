@@ -1,0 +1,33 @@
+{
+  "lessonId": "ch06-L01-preview",
+  "sampleRate": 24000,
+  "totalDurationMs": 51848,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-preview/ch06-L01-preview-full.wav",
+  "fullWavSha256": "3a00157c3fd34cf56c71f928111d0b6bcbb4b1355c0f6f421d7fdba47c712c76",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "narration": "接下来进入 6.2 节“项目基本要素”。到底什么是项目？\n教材的标准定义是：项目是为创造独特的产品、服务或成果而进行的临时性工作。核心词就是两个：独特和临时。",
+      "narrationSha256": "c631a0d2dbcdc0d207e397901935084ec0c2dfa6c1c687ff3b06a9b833dec5b0",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-preview/audio/S01.wav",
+      "wavSha256": "0c665219f495d03d7119c8efbc61277acdd64c5b53c55f86c433980085a996e6",
+      "startMs": 0,
+      "endMs": 17472,
+      "durationMs": 17472,
+      "fromCache": false
+    },
+    {
+      "sceneId": "S02",
+      "narration": "很多同学把这两个词当死概念背，其实背后蕴含着极其深刻的管理常识。我们结合教材图 6-1 来看：企业在市场上生存，日常的运营工作维持着组织的当前状态；但当市场竞争加剧、技术革新、或者国家出台新法规的时候，企业如果想跨越到更有竞争力的将来状态，就必须做出改变。而这个驱动组织实现状态转换、创造业务价值的创新载体，就是项目！",
+      "narrationSha256": "05f2449f715c36b4affcfe17e842599fec0d6a3e56a015e67c54ecf31649a74a",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-preview/audio/S02.wav",
+      "wavSha256": "95b1801ec8b509f84d2425d5ad25c6e657b3a485a2556d0a341ceaf615598649",
+      "startMs": 17472,
+      "endMs": 51848,
+      "durationMs": 34376,
+      "fromCache": false
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "S15-S17": [
+    {
+      "id": "S15-S17-eliminate-option-A-S17",
+      "action": "eliminate-option",
+      "targetId": "A",
+      "matchPhrase": "完全就是教材里技术可行性分析",
+      "fallbackRatio": 0,
+      "triggerMs": 43467,
+      "localFrame": 1304,
+      "matchedBy": "token-exact",
+      "sceneId": "S17"
+    },
+    {
+      "id": "S15-S17-reveal-answer-A-S17",
+      "action": "reveal-answer",
+      "targetId": "A",
+      "matchPhrase": "直接选A",
+      "fallbackRatio": 0,
+      "triggerMs": 48733,
+      "localFrame": 1462,
+      "matchedBy": "token-exact",
+      "sceneId": "S17"
+    }
+  ],
+  "S26-S29": [
+    {
+      "id": "S26-S29-eliminate-option-A-S27",
+      "action": "eliminate-option",
+      "targetId": "A",
+      "matchPhrase": "你看A选项",
+      "fallbackRatio": 0,
+      "triggerMs": 15067,
+      "localFrame": 452,
+      "matchedBy": "token-exact",
+      "sceneId": "S27"
+    },
+    {
+      "id": "S26-S29-reveal-answer-A-S27",
+      "action": "reveal-answer",
+      "targetId": "A",
+      "matchPhrase": "所以直接选A",
+      "fallbackRatio": 0,
+      "triggerMs": 32900,
+      "localFrame": 987,
+      "matchedBy": "token-exact",
+      "sceneId": "S27"
+    },
+    {
+      "id": "S26-S29-reveal-answer-A-S29",
+      "action": "reveal-answer",
+      "targetId": "A",
+      "matchPhrase": "直接选A敏感性分析",
+      "fallbackRatio": 0,
+      "triggerMs": 70333,
+      "localFrame": 2110,
+      "matchedBy": "token-exact",
+      "sceneId": "S29"
+    }
+  ],
+  "S36-S37": [
+    {
+      "id": "S36-S37-eliminate-option-left-S36",
+      "action": "eliminate-option",
+      "targetId": "left",
+      "matchPhrase": "直接选D人员提升收益",
+      "fallbackRatio": 0,
+      "triggerMs": 17467,
+      "localFrame": 524,
+      "matchedBy": "token-exact",
+      "sceneId": "S36"
+    },
+    {
+      "id": "S36-S37-reveal-answer-right-S37",
+      "action": "reveal-answer",
+      "targetId": "right",
+      "matchPhrase": "直接选D技术创新效益",
+      "fallbackRatio": 0,
+      "triggerMs": 41533,
+      "localFrame": 1246,
+      "matchedBy": "token-exact",
+      "sceneId": "S37"
+    }
+  ],
+  "S40-S41": [
+    {
+      "id": "S40-S41-eliminate-option-A-S41",
+      "action": "eliminate-option",
+      "targetId": "A",
+      "matchPhrase": "A技术创新效益",
+      "fallbackRatio": 0,
+      "triggerMs": 43567,
+      "localFrame": 1307,
+      "matchedBy": "token-exact",
+      "sceneId": "S41"
+    },
+    {
+      "id": "S40-S41-eliminate-option-B-S41",
+      "action": "eliminate-option",
+      "targetId": "B",
+      "matchPhrase": "B设备购置费",
+      "fallbackRatio": 0,
+      "triggerMs": 50700,
+      "localFrame": 1521,
+      "matchedBy": "token-exact",
+      "sceneId": "S41"
+    },
+    {
+      "id": "S40-S41-eliminate-option-C-S41",
+      "action": "eliminate-option",
+      "targetId": "C",
+      "matchPhrase": "C开源协议是否符合商业目标",
+      "fallbackRatio": 0,
+      "triggerMs": 56367,
+      "localFrame": 1691,
+      "matchedBy": "token-exact",
+      "sceneId": "S41"
+    },
+    {
+      "id": "S40-S41-reveal-answer-D-S41",
+      "action": "reveal-answer",
+      "targetId": "D",
+      "matchPhrase": "只有D",
+      "fallbackRatio": 0,
+      "triggerMs": 65033,
+      "localFrame": 1951,
+      "matchedBy": "token-exact",
+      "sceneId": "S41"
+    }
+  ]
+}

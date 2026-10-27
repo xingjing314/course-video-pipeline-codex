@@ -1,0 +1,25 @@
+{
+  "canvas": {"width": 1920, "height": 1080},
+  "rect": {
+    "x": 750,
+    "y": 290,
+    "width": 860,
+    "height": 460,
+    "radius": 16,
+    "fill": "rgba(91, 155, 240, 0.12)",
+    "stroke": "rgba(91, 155, 240, 0.60)",
+    "strokeWidth": 1.5,
+    "shadow": {
+      "x": 0,
+      "y": 14,
+      "blur": 36,
+      "color": "rgba(91, 155, 240, 0.15)"
+    }
+  },
+  "animation": {
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74,
+    "fillStartFrame": 114,
+    "fillDurationInFrames": 30
+  }
+}

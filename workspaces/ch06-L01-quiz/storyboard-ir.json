@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-quiz",
+  "lessonTitle": "第六章 L01 · 真题倒计时样段",
+  "sourceMarkdownPath": "docs/lessons/ch06/input/第6章-L01完整口播稿V0.3.md",
+  "sourceMarkdownSha256": "79bcc0d6068d393f3879b2b6136223d1f0f4902b4f67693c989a8a4b26e2254a",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "6.2.1 项目基础",
+    "estimatedDurationText": "按真实配音",
+    "cognitiveGoals": [
+      "理解临时性与周期性的区别"
+    ],
+    "coreVisualAssets": [
+      "完整真题卡",
+      "倒计时"
+    ],
+    "examAnchors": [
+      "2023年11月第4批次第17题"
+    ]
+  },
+  "scenes": [
+    {
+      "sceneId": "Q17-read",
+      "parentSceneId": "Q17-read",
+      "segmentTitle": "真题练习",
+      "sceneTitle": "Q17-read",
+      "order": 1,
+      "estimatedSeconds": 18.88888888888889,
+      "narration": "我们看一道典范真题，看看出题人是怎么在这个定义上给你下套的。\n这是2023年11月第4批次的第17题：关于项目的描述，不正确的是哪一项？",
+      "narrationSha256": "fc7d8c9028ad7d60b5ccb5758d82c8cb7c3c7b6f61b2559f5ef6f2dc42230b0d",
+      "clauses": [
+        "我们看一道典范真题，",
+        "看看出题人是怎么在这个定义上给你下套的。",
+        "这是2023年11月第4批次的第17题：",
+        "关于项目的描述，",
+        "不正确的是哪一项？"
+      ],
+      "pauseDirectives": [
+        {
+          "afterClauseIndex": 4,
+          "durationMs": 3000,
+          "reason": "题干读完，独立思考3秒，之后进入解析"
+        }
+      ],
+      "rawVisualInstruction": "中性题面→3秒倒计时→按口播逐项判断→揭示答案",
+      "pedagogicalIntent": "区分项目的临时性与周期性",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "Q17-read"
+      }
+    },
+    {
+      "sceneId": "Q17-A",
+      "parentSceneId": "Q17-A",
+      "segmentTitle": "真题练习",
+      "sceneTitle": "Q17-A",
+      "order": 2,
+      "estimatedSeconds": 13.055555555555555,
+      "narration": "A 选项说，项目的需求不复存在，是项目宣告结束的情况之一。完全正确，没有需求了就必须果断止损；",
+      "narrationSha256": "f8801e7f72d71c6ebd21dfa8a97c7a6f87f5c9460df0671e9af0d7716e27e607",
+      "clauses": [
+        "A 选项说，",
+        "项目的需求不复存在，",
+        "是项目宣告结束的情况之一。",
+        "完全正确，",
+        "没有需求了就必须果断止损；"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "中性题面→3秒倒计时→按口播逐项判断→揭示答案",
+      "pedagogicalIntent": "区分项目的临时性与周期性",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "Q17-A"
+      }
+    },
+    {
+      "sceneId": "Q17-B",
+      "parentSceneId": "Q17-B",
+      "segmentTitle": "真题练习",
+      "sceneTitle": "Q17-B",
+      "order": 3,
+      "estimatedSeconds": 9.166666666666666,
+      "narration": "B 选项说，实现项目目标可能会产生一个或多个可交付成果。完全正确；",
+      "narrationSha256": "ae6deaab6c1fde58f6df45b9fbb3bf56dc8fcc60d60c70d798bcdda5c37dede0",
+      "clauses": [
+        "B 选项说，",
+        "实现项目目标可能会产生一个或多个可交付成果。",
+        "完全正确；"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "中性题面→3秒倒计时→按口播逐项判断→揭示答案",
+      "pedagogicalIntent": "区分项目的临时性与周期性",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "Q17-B"
+      }
+    },
+    {
+      "sceneId": "Q17-C",
+      "parentSceneId": "Q17-C",
+      "segmentTitle": "真题练习",
+      "sceneTitle": "Q17-C",
+      "order": 4,
+      "estimatedSeconds": 12.222222222222221,
+      "narration": "C 选项说，可交付成果可能会在项目终止后依然存在。完全正确，工程做完了，系统继续跑十年；",
+      "narrationSha256": "20e06a1a7fdc9115db22b028445733c53526588ee6f7c68dadaefd5d8a398283",
+      "clauses": [
+        "C 选项说，",
+        "可交付成果可能会在项目终止后依然存在。",
+        "完全正确，",
+        "工程做完了，",
+        "系统继续跑十年；"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "中性题面→3秒倒计时→按口播逐项判断→揭示答案",
+      "pedagogicalIntent": "区分项目的临时性与周期性",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "Q17-C"
+      }
+    },
+    {
+      "sceneId": "Q17-D",
+      "parentSceneId": "Q17-D",
+      "segmentTitle": "真题练习",
+      "sceneTitle": "Q17-D",
+      "order": 5,
+      "estimatedSeconds": 10.555555555555555,
+      "narration": "再看 D 选项，他说：项目是为创造独特的产品、服务或成果而进行的周期性工作。",
+      "narrationSha256": "33d1382db33f73648dd72a8592a4ff0c08276633328698e26e6ffd4ac37c3b46",
+      "clauses": [
+        "再看 D 选项，",
+        "他说：",
+        "项目是为创造独特的产品、",
+        "服务或成果而进行的周期性工作。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "中性题面→3秒倒计时→按口播逐项判断→揭示答案",
+      "pedagogicalIntent": "区分项目的临时性与周期性",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "Q17-D"
+      }
+    },
+    {
+      "sceneId": "Q17-explain",
+      "parentSceneId": "Q17-explain",
+      "segmentTitle": "真题练习",
+      "sceneTitle": "Q17-explain",
+      "order": 6,
+      "estimatedSeconds": 35.55555555555556,
+      "narration": "抓住了吗？命题人前面大半句全抄教材原话，就在最后三个字把临时性偷换成了周期性！周而复始、按部就班的流水线是运营，绝不是项目。一眼锁定 D 选项！在英文试题里，也是直接考查临时性对应单词 Temporary。这种核心特征题，只要抓准管理机理，两秒钟就能秒杀。",
+      "narrationSha256": "8ace59683aa75cfc3de2676fdee26f72af07b039150b5a632dc6cfbfd8091780",
+      "clauses": [
+        "抓住了吗？",
+        "命题人前面大半句全抄教材原话，",
+        "就在最后三个字",
+        "把临时性偷换成了周期性！",
+        "周而复始、按部就班的流水线是运营，",
+        "绝不是项目。",
+        "一眼锁定 D 选项！",
+        "在英文试题里，",
+        "也是直接考查临时性对应单词 Temporary。",
+        "这种核心特征题，",
+        "只要抓准管理机理，",
+        "两秒钟就能秒杀。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "中性题面→3秒倒计时→按口播逐项判断→揭示答案",
+      "pedagogicalIntent": "区分项目的临时性与周期性",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "Q17-explain"
+      }
+    }
+  ],
+  "compiledAt": "2026-10-26T08:27:55.105Z"
+}

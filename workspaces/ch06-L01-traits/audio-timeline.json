@@ -1,0 +1,2422 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-traits",
+  "sampleRate": 24000,
+  "totalDurationMs": 94899,
+  "fullWavPath": "workspaces/ch06-L01-traits/ch06-L01-traits-full.wav",
+  "fullWavSha256": "c82854c0645a40052038d936427f360640e3504558eb9af767ec560953b5f3c8",
+  "srtPath": "workspaces/ch06-L01-traits/ch06-L01-traits.srt",
+  "srtSha256": "159930f13680c0ca8744a5733da89d2d2fd9592cfc886c13b208d307ef48c701",
+  "engineInfo": {
+    "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+    "alignerEngine": "Qwen/Qwen3-ForcedAligner-0.6B",
+    "device": "cuda"
+  },
+  "scenes": [
+    {
+      "sceneId": "TR-unique",
+      "narrationSha256": "aaceb3f1d0d37f6a45a0093e5b687a54d741683358a9fd470bc9bf6fa4574f22",
+      "wavRelativePath": "workspaces/ch06-L01-traits/audio/TR-unique.wav",
+      "wavSha256": "bc395b0c16c9dfbd93575f0a3cdcf02ad7385aa5b5dbbeeb678cebb2a6fffdd0",
+      "startMs": 0,
+      "endMs": 24430,
+      "durationMs": 24430,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "TR-unique",
+          "text": "正",
+          "startMs": 0,
+          "endMs": 240
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "因",
+          "startMs": 240,
+          "endMs": 400
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "如",
+          "startMs": 400,
+          "endMs": 480
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "此",
+          "startMs": 480,
+          "endMs": 880
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "企",
+          "startMs": 1280,
+          "endMs": 1600
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "业",
+          "startMs": 1600,
+          "endMs": 1680
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "给",
+          "startMs": 1680,
+          "endMs": 1840
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "项",
+          "startMs": 1840,
+          "endMs": 2080
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "目",
+          "startMs": 2080,
+          "endMs": 2480
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "赋",
+          "startMs": 2720,
+          "endMs": 2960
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "予",
+          "startMs": 2960,
+          "endMs": 3120
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "了",
+          "startMs": 3120,
+          "endMs": 3200
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "两",
+          "startMs": 3200,
+          "endMs": 3440
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "大",
+          "startMs": 3440,
+          "endMs": 3600
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "基",
+          "startMs": 3600,
+          "endMs": 3920
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "因",
+          "startMs": 3920,
+          "endMs": 4080
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "第",
+          "startMs": 4480,
+          "endMs": 4800
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "一",
+          "startMs": 4800,
+          "endMs": 4801
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "个",
+          "startMs": 4800,
+          "endMs": 5200
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "是",
+          "startMs": 5440,
+          "endMs": 5680
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "独",
+          "startMs": 5680,
+          "endMs": 5920
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "特",
+          "startMs": 5920,
+          "endMs": 6160
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "性",
+          "startMs": 6160,
+          "endMs": 6400
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "哪",
+          "startMs": 6960,
+          "endMs": 7120
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "怕",
+          "startMs": 7120,
+          "endMs": 7280
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "两",
+          "startMs": 7280,
+          "endMs": 7520
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "个",
+          "startMs": 7520,
+          "endMs": 7680
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "信",
+          "startMs": 7680,
+          "endMs": 7840
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "息",
+          "startMs": 7840,
+          "endMs": 8000
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "系",
+          "startMs": 8000,
+          "endMs": 8160
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "统",
+          "startMs": 8160,
+          "endMs": 8320
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "项",
+          "startMs": 8320,
+          "endMs": 8640
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "目",
+          "startMs": 8640,
+          "endMs": 8960
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "采",
+          "startMs": 9040,
+          "endMs": 9200
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "用",
+          "startMs": 9200,
+          "endMs": 9360
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "完",
+          "startMs": 9360,
+          "endMs": 9520
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "全",
+          "startMs": 9520,
+          "endMs": 9680
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "相",
+          "startMs": 9680,
+          "endMs": 9920
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "同",
+          "startMs": 9920,
+          "endMs": 10080
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "的",
+          "startMs": 10080,
+          "endMs": 10240
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "技",
+          "startMs": 10240,
+          "endMs": 10400
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "术",
+          "startMs": 10400,
+          "endMs": 10560
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "架",
+          "startMs": 10560,
+          "endMs": 10800
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "构",
+          "startMs": 10800,
+          "endMs": 11040
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "同",
+          "startMs": 11520,
+          "endMs": 11680
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "一",
+          "startMs": 11680,
+          "endMs": 11760
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "个",
+          "startMs": 11760,
+          "endMs": 11840
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "开",
+          "startMs": 11840,
+          "endMs": 12000
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "发",
+          "startMs": 12000,
+          "endMs": 12240
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "团",
+          "startMs": 12240,
+          "endMs": 12480
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "队",
+          "startMs": 12480,
+          "endMs": 12640
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "甚",
+          "startMs": 13040,
+          "endMs": 13440
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "至",
+          "startMs": 13440,
+          "endMs": 13600
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "有",
+          "startMs": 13600,
+          "endMs": 13760
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "相",
+          "startMs": 13760,
+          "endMs": 14160
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "同",
+          "startMs": 14160,
+          "endMs": 14480
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "的",
+          "startMs": 14480,
+          "endMs": 14560
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "活",
+          "startMs": 14560,
+          "endMs": 14800
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "动",
+          "startMs": 14800,
+          "endMs": 14960
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "元",
+          "startMs": 14960,
+          "endMs": 15120
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "素",
+          "startMs": 15120,
+          "endMs": 15440
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "但",
+          "startMs": 15760,
+          "endMs": 15920
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "由",
+          "startMs": 15920,
+          "endMs": 16080
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "于",
+          "startMs": 16080,
+          "endMs": 16240
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "客",
+          "startMs": 16240,
+          "endMs": 16480
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "户",
+          "startMs": 16480,
+          "endMs": 16640
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "需",
+          "startMs": 16640,
+          "endMs": 16880
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "求",
+          "startMs": 16880,
+          "endMs": 17360
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "应",
+          "startMs": 17520,
+          "endMs": 17600
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "用",
+          "startMs": 17600,
+          "endMs": 17760
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "场",
+          "startMs": 17760,
+          "endMs": 18160
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "景",
+          "startMs": 18160,
+          "endMs": 18480
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "干",
+          "startMs": 19040,
+          "endMs": 19200
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "系",
+          "startMs": 19200,
+          "endMs": 19360
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "人",
+          "startMs": 19360,
+          "endMs": 19520
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "和",
+          "startMs": 19520,
+          "endMs": 19680
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "运",
+          "startMs": 19680,
+          "endMs": 19840
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "行",
+          "startMs": 19840,
+          "endMs": 20080
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "环",
+          "startMs": 20080,
+          "endMs": 20240
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "境",
+          "startMs": 20240,
+          "endMs": 20480
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "不",
+          "startMs": 20480,
+          "endMs": 20560
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "同",
+          "startMs": 20560,
+          "endMs": 20960
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "每",
+          "startMs": 21280,
+          "endMs": 21440
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "个",
+          "startMs": 21440,
+          "endMs": 21520
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "项",
+          "startMs": 21520,
+          "endMs": 21760
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "目",
+          "startMs": 21760,
+          "endMs": 22080
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "依",
+          "startMs": 22480,
+          "endMs": 22560
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "然",
+          "startMs": 22560,
+          "endMs": 22720
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "是",
+          "startMs": 22720,
+          "endMs": 22880
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "独",
+          "startMs": 22880,
+          "endMs": 23040
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "一",
+          "startMs": 23040,
+          "endMs": 23200
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "无",
+          "startMs": 23200,
+          "endMs": 23360
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "二",
+          "startMs": 23360,
+          "endMs": 23600
+        },
+        {
+          "sceneId": "TR-unique",
+          "text": "的",
+          "startMs": 23600,
+          "endMs": 23760
+        }
+      ]
+    },
+    {
+      "sceneId": "TR-boundary",
+      "narrationSha256": "ae0d93933737b00a047ecd86b036f0fb20a92db5dce75faf5a3b405eb1a11717",
+      "wavRelativePath": "workspaces/ch06-L01-traits/audio/TR-boundary.wav",
+      "wavSha256": "bf4cd9862c9a2183d9d8d7b4d0f4b2b4e607aa7392e8740eee9573fd4e4985d4",
+      "startMs": 24430,
+      "endMs": 42974,
+      "durationMs": 18544,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "TR-boundary",
+          "text": "第",
+          "startMs": 24430,
+          "endMs": 24590
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "二",
+          "startMs": 24590,
+          "endMs": 24830
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "个",
+          "startMs": 24830,
+          "endMs": 25070
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "是",
+          "startMs": 25630,
+          "endMs": 25870
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "临",
+          "startMs": 25870,
+          "endMs": 26110
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "时",
+          "startMs": 26110,
+          "endMs": 26270
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "性",
+          "startMs": 26270,
+          "endMs": 26590
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "这",
+          "startMs": 27070,
+          "endMs": 27230
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "是",
+          "startMs": 27230,
+          "endMs": 27310
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "考",
+          "startMs": 27310,
+          "endMs": 27550
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "场",
+          "startMs": 27550,
+          "endMs": 27710
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "上",
+          "startMs": 27710,
+          "endMs": 27870
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "命",
+          "startMs": 27870,
+          "endMs": 28110
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "题",
+          "startMs": 28110,
+          "endMs": 28190
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "人",
+          "startMs": 28190,
+          "endMs": 28430
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "最",
+          "startMs": 28430,
+          "endMs": 28590
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "喜",
+          "startMs": 28590,
+          "endMs": 28670
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "欢",
+          "startMs": 28670,
+          "endMs": 28910
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "挖",
+          "startMs": 28910,
+          "endMs": 28990
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "坑",
+          "startMs": 28990,
+          "endMs": 29310
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "的",
+          "startMs": 29310,
+          "endMs": 29390
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "地",
+          "startMs": 29390,
+          "endMs": 29550
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "方",
+          "startMs": 29550,
+          "endMs": 29870
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "为",
+          "startMs": 30350,
+          "endMs": 30510
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "什",
+          "startMs": 30510,
+          "endMs": 30670
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "么",
+          "startMs": 30670,
+          "endMs": 30830
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "必",
+          "startMs": 30830,
+          "endMs": 30990
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "须",
+          "startMs": 30990,
+          "endMs": 31150
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "是",
+          "startMs": 31150,
+          "endMs": 31230
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "临",
+          "startMs": 31230,
+          "endMs": 31470
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "时",
+          "startMs": 31470,
+          "endMs": 31710
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "性",
+          "startMs": 31710,
+          "endMs": 32030
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "的",
+          "startMs": 32030,
+          "endMs": 32190
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "因",
+          "startMs": 32670,
+          "endMs": 32830
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "为",
+          "startMs": 32830,
+          "endMs": 32990
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "创",
+          "startMs": 32990,
+          "endMs": 33230
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "新",
+          "startMs": 33230,
+          "endMs": 33390
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "探",
+          "startMs": 33390,
+          "endMs": 33630
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "索",
+          "startMs": 33630,
+          "endMs": 33870
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "是",
+          "startMs": 33870,
+          "endMs": 34030
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "有",
+          "startMs": 34030,
+          "endMs": 34110
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "风",
+          "startMs": 34110,
+          "endMs": 34430
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "险",
+          "startMs": 34430,
+          "endMs": 34670
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "的",
+          "startMs": 34670,
+          "endMs": 34750
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "企",
+          "startMs": 35150,
+          "endMs": 35390
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "业",
+          "startMs": 35390,
+          "endMs": 35550
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "必",
+          "startMs": 35550,
+          "endMs": 35710
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "须",
+          "startMs": 35710,
+          "endMs": 35870
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "给",
+          "startMs": 35870,
+          "endMs": 36030
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "它",
+          "startMs": 36030,
+          "endMs": 36190
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "划",
+          "startMs": 36190,
+          "endMs": 36430
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "定",
+          "startMs": 36430,
+          "endMs": 36590
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "一",
+          "startMs": 36590,
+          "endMs": 36750
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "个",
+          "startMs": 36750,
+          "endMs": 36830
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "明",
+          "startMs": 36830,
+          "endMs": 37070
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "确",
+          "startMs": 37070,
+          "endMs": 37310
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "的",
+          "startMs": 37310,
+          "endMs": 37390
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "始",
+          "startMs": 37390,
+          "endMs": 37550
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "末",
+          "startMs": 37550,
+          "endMs": 37790
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "边",
+          "startMs": 37790,
+          "endMs": 38030
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "界",
+          "startMs": 38030,
+          "endMs": 38270
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "有",
+          "startMs": 38670,
+          "endMs": 38830
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "明",
+          "startMs": 38830,
+          "endMs": 39070
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "确",
+          "startMs": 39070,
+          "endMs": 39310
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "的",
+          "startMs": 39310,
+          "endMs": 39390
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "起",
+          "startMs": 39390,
+          "endMs": 39630
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "点",
+          "startMs": 39630,
+          "endMs": 39870
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "和",
+          "startMs": 39870,
+          "endMs": 40030
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "终",
+          "startMs": 40030,
+          "endMs": 40270
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "点",
+          "startMs": 40270,
+          "endMs": 40590
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "实",
+          "startMs": 40910,
+          "endMs": 41150
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "现",
+          "startMs": 41150,
+          "endMs": 41390
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "风",
+          "startMs": 41390,
+          "endMs": 41550
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "险",
+          "startMs": 41550,
+          "endMs": 41790
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "闭",
+          "startMs": 41790,
+          "endMs": 41950
+        },
+        {
+          "sceneId": "TR-boundary",
+          "text": "环",
+          "startMs": 41950,
+          "endMs": 42350
+        }
+      ]
+    },
+    {
+      "sceneId": "TR-traps",
+      "narrationSha256": "4e61392833b24bb7e0affef4c17308e87c2c9621fb47d76c745cb4427ffa1ba0",
+      "wavRelativePath": "workspaces/ch06-L01-traits/audio/TR-traps.wav",
+      "wavSha256": "e06adeac5f5a40cc0f214137dd0f4bb29db1424f0f376a2b8b655cf68c308022",
+      "startMs": 42974,
+      "endMs": 62792,
+      "durationMs": 19818,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "TR-traps",
+          "text": "所",
+          "startMs": 42974,
+          "endMs": 43214
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "以",
+          "startMs": 43214,
+          "endMs": 43614
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "请",
+          "startMs": 43694,
+          "endMs": 43934
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "大",
+          "startMs": 43934,
+          "endMs": 44094
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "家",
+          "startMs": 44094,
+          "endMs": 44174
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "死",
+          "startMs": 44174,
+          "endMs": 44414
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "死",
+          "startMs": 44414,
+          "endMs": 44574
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "记",
+          "startMs": 44574,
+          "endMs": 44734
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "住",
+          "startMs": 44734,
+          "endMs": 44814
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "两",
+          "startMs": 44814,
+          "endMs": 45054
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "个",
+          "startMs": 45054,
+          "endMs": 45134
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "防",
+          "startMs": 45134,
+          "endMs": 45294
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "坑",
+          "startMs": 45294,
+          "endMs": 45614
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "点",
+          "startMs": 45614,
+          "endMs": 45774
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "第",
+          "startMs": 46254,
+          "endMs": 46734
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "一",
+          "startMs": 46734,
+          "endMs": 46894
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "临",
+          "startMs": 47134,
+          "endMs": 47374
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "时",
+          "startMs": 47374,
+          "endMs": 47534
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "性",
+          "startMs": 47534,
+          "endMs": 47774
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "绝",
+          "startMs": 47774,
+          "endMs": 48014
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "对",
+          "startMs": 48014,
+          "endMs": 48174
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "不",
+          "startMs": 48174,
+          "endMs": 48254
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "等",
+          "startMs": 48254,
+          "endMs": 48494
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "于",
+          "startMs": 48494,
+          "endMs": 48734
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "持",
+          "startMs": 48734,
+          "endMs": 48974
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "续",
+          "startMs": 48974,
+          "endMs": 49134
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "时",
+          "startMs": 49134,
+          "endMs": 49374
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "间",
+          "startMs": 49374,
+          "endMs": 49614
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "短",
+          "startMs": 49614,
+          "endMs": 49934
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "大",
+          "startMs": 50414,
+          "endMs": 50654
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "国",
+          "startMs": 50654,
+          "endMs": 50814
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "工",
+          "startMs": 50814,
+          "endMs": 51054
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "程",
+          "startMs": 51054,
+          "endMs": 51214
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "做",
+          "startMs": 51214,
+          "endMs": 51374
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "十",
+          "startMs": 51374,
+          "endMs": 51694
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "年",
+          "startMs": 51694,
+          "endMs": 52094
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "依",
+          "startMs": 52334,
+          "endMs": 52494
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "然",
+          "startMs": 52494,
+          "endMs": 52734
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "叫",
+          "startMs": 52734,
+          "endMs": 52894
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "临",
+          "startMs": 52894,
+          "endMs": 53134
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "时",
+          "startMs": 53134,
+          "endMs": 53294
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "性",
+          "startMs": 53294,
+          "endMs": 53694
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "第",
+          "startMs": 54174,
+          "endMs": 54334
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "二",
+          "startMs": 54334,
+          "endMs": 54654
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "项",
+          "startMs": 54974,
+          "endMs": 55294
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "目",
+          "startMs": 55294,
+          "endMs": 55774
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "绝",
+          "startMs": 56254,
+          "endMs": 56494
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "对",
+          "startMs": 56494,
+          "endMs": 56654
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "不",
+          "startMs": 56654,
+          "endMs": 56814
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "是",
+          "startMs": 56814,
+          "endMs": 56894
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "周",
+          "startMs": 56894,
+          "endMs": 57134
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "而",
+          "startMs": 57134,
+          "endMs": 57294
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "复",
+          "startMs": 57294,
+          "endMs": 57454
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "始",
+          "startMs": 57454,
+          "endMs": 57614
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "的",
+          "startMs": 57614,
+          "endMs": 57694
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "流",
+          "startMs": 57694,
+          "endMs": 57854
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "水",
+          "startMs": 57854,
+          "endMs": 58094
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "线",
+          "startMs": 58094,
+          "endMs": 58414
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "因",
+          "startMs": 58734,
+          "endMs": 58894
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "此",
+          "startMs": 58894,
+          "endMs": 59294
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "绝",
+          "startMs": 59854,
+          "endMs": 60094
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "不",
+          "startMs": 60094,
+          "endMs": 60254
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "能",
+          "startMs": 60254,
+          "endMs": 60414
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "说",
+          "startMs": 60414,
+          "endMs": 60654
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "成",
+          "startMs": 60654,
+          "endMs": 60814
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "是",
+          "startMs": 60814,
+          "endMs": 60974
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "周",
+          "startMs": 60974,
+          "endMs": 61214
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "期",
+          "startMs": 61214,
+          "endMs": 61374
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "性",
+          "startMs": 61374,
+          "endMs": 61614
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "工",
+          "startMs": 61614,
+          "endMs": 61854
+        },
+        {
+          "sceneId": "TR-traps",
+          "text": "作",
+          "startMs": 61854,
+          "endMs": 62174
+        }
+      ]
+    },
+    {
+      "sceneId": "TR-results",
+      "narrationSha256": "74583936dd55696557ab7da4e8b6af74748ddf5b35406add2a6df4b7e61353b3",
+      "wavRelativePath": "workspaces/ch06-L01-traits/audio/TR-results.wav",
+      "wavSha256": "0a619fb16cb874bb591f31792bde559e378f85ada7cf01c7b6cb0002bc559264",
+      "startMs": 62792,
+      "endMs": 77110,
+      "durationMs": 14318,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "TR-results",
+          "text": "而",
+          "startMs": 62792,
+          "endMs": 62952
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "且",
+          "startMs": 62952,
+          "endMs": 63432
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "项",
+          "startMs": 63992,
+          "endMs": 64232
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "目",
+          "startMs": 64232,
+          "endMs": 64392
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "虽",
+          "startMs": 64392,
+          "endMs": 64552
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "然",
+          "startMs": 64552,
+          "endMs": 64632
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "是",
+          "startMs": 64632,
+          "endMs": 64712
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "临",
+          "startMs": 64712,
+          "endMs": 64872
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "时",
+          "startMs": 64872,
+          "endMs": 65112
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "的",
+          "startMs": 65112,
+          "endMs": 65272
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "但",
+          "startMs": 65672,
+          "endMs": 65912
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "项",
+          "startMs": 65912,
+          "endMs": 66072
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "目",
+          "startMs": 66072,
+          "endMs": 66232
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "交",
+          "startMs": 66232,
+          "endMs": 66472
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "付",
+          "startMs": 66472,
+          "endMs": 66632
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "的",
+          "startMs": 66632,
+          "endMs": 66712
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "成",
+          "startMs": 66712,
+          "endMs": 67032
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "果",
+          "startMs": 67032,
+          "endMs": 67352
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "比",
+          "startMs": 67832,
+          "endMs": 67992
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "如",
+          "startMs": 67992,
+          "endMs": 68312
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "一",
+          "startMs": 68312,
+          "endMs": 68392
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "套",
+          "startMs": 68392,
+          "endMs": 68632
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "核",
+          "startMs": 68632,
+          "endMs": 68792
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "心",
+          "startMs": 68792,
+          "endMs": 69032
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "交",
+          "startMs": 69032,
+          "endMs": 69192
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "易",
+          "startMs": 69192,
+          "endMs": 69272
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "系",
+          "startMs": 69272,
+          "endMs": 69432
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "统",
+          "startMs": 69432,
+          "endMs": 69832
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "一",
+          "startMs": 70072,
+          "endMs": 70232
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "座",
+          "startMs": 70232,
+          "endMs": 70392
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "数",
+          "startMs": 70392,
+          "endMs": 70552
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "据",
+          "startMs": 70552,
+          "endMs": 70712
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "中",
+          "startMs": 70712,
+          "endMs": 70952
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "心",
+          "startMs": 70952,
+          "endMs": 71272
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "在",
+          "startMs": 71592,
+          "endMs": 71832
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "项",
+          "startMs": 71832,
+          "endMs": 72072
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "目",
+          "startMs": 72072,
+          "endMs": 72232
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "结",
+          "startMs": 72232,
+          "endMs": 72472
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "束",
+          "startMs": 72472,
+          "endMs": 72712
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "后",
+          "startMs": 72712,
+          "endMs": 73192
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "会",
+          "startMs": 73432,
+          "endMs": 73672
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "长",
+          "startMs": 73672,
+          "endMs": 73912
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "期",
+          "startMs": 73912,
+          "endMs": 74152
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "存",
+          "startMs": 74152,
+          "endMs": 74472
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "在",
+          "startMs": 74472,
+          "endMs": 74792
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "并",
+          "startMs": 74952,
+          "endMs": 75112
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "持",
+          "startMs": 75112,
+          "endMs": 75352
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "续",
+          "startMs": 75352,
+          "endMs": 75592
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "创",
+          "startMs": 75592,
+          "endMs": 75832
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "造",
+          "startMs": 75832,
+          "endMs": 75992
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "价",
+          "startMs": 75992,
+          "endMs": 76232
+        },
+        {
+          "sceneId": "TR-results",
+          "text": "值",
+          "startMs": 76232,
+          "endMs": 76472
+        }
+      ]
+    },
+    {
+      "sceneId": "TR-ending",
+      "narrationSha256": "9112cfe863712e0bb57d921b111cb18b599b73cad71b52880dec8285810c17cb",
+      "wavRelativePath": "workspaces/ch06-L01-traits/audio/TR-ending.wav",
+      "wavSha256": "9964fe41752eb0ae664fed6dcaaf76996a926915b26a13e3a0701476904c0f8f",
+      "startMs": 77110,
+      "endMs": 94899,
+      "durationMs": 17789,
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "TR-ending",
+          "text": "那",
+          "startMs": 77110,
+          "endMs": 77270
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "么",
+          "startMs": 77270,
+          "endMs": 77350
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "项",
+          "startMs": 77350,
+          "endMs": 77590
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "目",
+          "startMs": 77590,
+          "endMs": 77990
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "什",
+          "startMs": 78070,
+          "endMs": 78230
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "么",
+          "startMs": 78230,
+          "endMs": 78310
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "时",
+          "startMs": 78310,
+          "endMs": 78470
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "候",
+          "startMs": 78470,
+          "endMs": 78630
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "宣",
+          "startMs": 78630,
+          "endMs": 78790
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "告",
+          "startMs": 78790,
+          "endMs": 78950
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "结",
+          "startMs": 78950,
+          "endMs": 79110
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "束",
+          "startMs": 79110,
+          "endMs": 79350
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "呢",
+          "startMs": 79350,
+          "endMs": 79510
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "通",
+          "startMs": 80070,
+          "endMs": 80310
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "常",
+          "startMs": 80310,
+          "endMs": 80470
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "是",
+          "startMs": 80470,
+          "endMs": 80630
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "达",
+          "startMs": 80630,
+          "endMs": 80790
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "成",
+          "startMs": 80790,
+          "endMs": 80950
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "目",
+          "startMs": 80950,
+          "endMs": 81110
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "标",
+          "startMs": 81110,
+          "endMs": 81430
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "但",
+          "startMs": 81830,
+          "endMs": 81990
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "如",
+          "startMs": 81990,
+          "endMs": 82150
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "果",
+          "startMs": 82150,
+          "endMs": 82310
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "不",
+          "startMs": 82310,
+          "endMs": 82470
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "能",
+          "startMs": 82470,
+          "endMs": 82630
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "达",
+          "startMs": 82630,
+          "endMs": 82790
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "到",
+          "startMs": 82790,
+          "endMs": 82870
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "目",
+          "startMs": 82870,
+          "endMs": 83110
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "标",
+          "startMs": 83110,
+          "endMs": 83510
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "资",
+          "startMs": 83910,
+          "endMs": 84070
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "金",
+          "startMs": 84070,
+          "endMs": 84230
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "耗",
+          "startMs": 84230,
+          "endMs": 84470
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "尽",
+          "startMs": 84470,
+          "endMs": 84790
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "需",
+          "startMs": 85110,
+          "endMs": 85350
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "求",
+          "startMs": 85350,
+          "endMs": 85510
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "不",
+          "startMs": 85510,
+          "endMs": 85670
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "复",
+          "startMs": 85670,
+          "endMs": 85830
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "存",
+          "startMs": 85830,
+          "endMs": 86150
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "在",
+          "startMs": 86150,
+          "endMs": 86470
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "无",
+          "startMs": 86950,
+          "endMs": 87110
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "法",
+          "startMs": 87110,
+          "endMs": 87270
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "获",
+          "startMs": 87270,
+          "endMs": 87510
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "得",
+          "startMs": 87510,
+          "endMs": 87590
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "所",
+          "startMs": 87590,
+          "endMs": 87830
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "需",
+          "startMs": 87830,
+          "endMs": 87990
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "资",
+          "startMs": 88070,
+          "endMs": 88310
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "源",
+          "startMs": 88310,
+          "endMs": 88630
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "或",
+          "startMs": 88950,
+          "endMs": 89110
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "者",
+          "startMs": 89110,
+          "endMs": 89270
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "出",
+          "startMs": 89270,
+          "endMs": 89430
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "于",
+          "startMs": 89430,
+          "endMs": 89590
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "法",
+          "startMs": 89590,
+          "endMs": 89830
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "律",
+          "startMs": 89830,
+          "endMs": 89990
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "原",
+          "startMs": 89990,
+          "endMs": 90230
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "因",
+          "startMs": 90230,
+          "endMs": 90550
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "项",
+          "startMs": 91830,
+          "endMs": 92070
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "目",
+          "startMs": 92070,
+          "endMs": 92150
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "也",
+          "startMs": 92150,
+          "endMs": 92310
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "会",
+          "startMs": 92310,
+          "endMs": 92470
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "依",
+          "startMs": 92470,
+          "endMs": 92630
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "法",
+          "startMs": 92630,
+          "endMs": 92790
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "依",
+          "startMs": 92790,
+          "endMs": 92950
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "规",
+          "startMs": 92950,
+          "endMs": 93270
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "宣",
+          "startMs": 93350,
+          "endMs": 93590
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "告",
+          "startMs": 93590,
+          "endMs": 93750
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "终",
+          "startMs": 93750,
+          "endMs": 93990
+        },
+        {
+          "sceneId": "TR-ending",
+          "text": "止",
+          "startMs": 93990,
+          "endMs": 94150
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "index": 1,
+      "sceneId": "TR-unique",
+      "text": "正因如此，企业给项目赋予了两大基因：",
+      "startMs": 0,
+      "endMs": 4080
+    },
+    {
+      "index": 2,
+      "sceneId": "TR-unique",
+      "text": "第一个是独特性。",
+      "startMs": 4480,
+      "endMs": 6400
+    },
+    {
+      "index": 3,
+      "sceneId": "TR-unique",
+      "text": "哪怕两个信息系统项目采用完全相同的技术架构、",
+      "startMs": 6960,
+      "endMs": 11040
+    },
+    {
+      "index": 4,
+      "sceneId": "TR-unique",
+      "text": "同一个开发团队，甚至有相同的活动元素，",
+      "startMs": 11520,
+      "endMs": 15440
+    },
+    {
+      "index": 5,
+      "sceneId": "TR-unique",
+      "text": "但由于客户需求、应用场景、",
+      "startMs": 15760,
+      "endMs": 18480
+    },
+    {
+      "index": 6,
+      "sceneId": "TR-unique",
+      "text": "干系人和运行环境不同，",
+      "startMs": 19040,
+      "endMs": 20960
+    },
+    {
+      "index": 7,
+      "sceneId": "TR-unique",
+      "text": "每个项目依然是独一无二的。",
+      "startMs": 21280,
+      "endMs": 23760
+    },
+    {
+      "index": 8,
+      "sceneId": "TR-boundary",
+      "text": "第二个是临时性。",
+      "startMs": 24430,
+      "endMs": 26590
+    },
+    {
+      "index": 9,
+      "sceneId": "TR-boundary",
+      "text": "这是考场上命题人最喜欢挖坑的地方！",
+      "startMs": 27070,
+      "endMs": 29870
+    },
+    {
+      "index": 10,
+      "sceneId": "TR-boundary",
+      "text": "为什么必须是临时性的？",
+      "startMs": 30350,
+      "endMs": 32190
+    },
+    {
+      "index": 11,
+      "sceneId": "TR-boundary",
+      "text": "因为创新探索是有风险的，",
+      "startMs": 32670,
+      "endMs": 34750
+    },
+    {
+      "index": 12,
+      "sceneId": "TR-boundary",
+      "text": "企业必须给它划定一个明确的始末边界，",
+      "startMs": 35150,
+      "endMs": 38270
+    },
+    {
+      "index": 13,
+      "sceneId": "TR-boundary",
+      "text": "有明确的起点和终点，实现风险闭环。",
+      "startMs": 38670,
+      "endMs": 42350
+    },
+    {
+      "index": 14,
+      "sceneId": "TR-traps",
+      "text": "所以请大家死死记住两个防坑点：",
+      "startMs": 42974,
+      "endMs": 45774
+    },
+    {
+      "index": 15,
+      "sceneId": "TR-traps",
+      "text": "第一，临时性绝对不等于持续时间短！",
+      "startMs": 46254,
+      "endMs": 49934
+    },
+    {
+      "index": 16,
+      "sceneId": "TR-traps",
+      "text": "大国工程做十年，依然叫临时性；",
+      "startMs": 50414,
+      "endMs": 53694
+    },
+    {
+      "index": 17,
+      "sceneId": "TR-traps",
+      "text": "第二，项目绝对不是周而复始的流水线，",
+      "startMs": 54174,
+      "endMs": 58414
+    },
+    {
+      "index": 18,
+      "sceneId": "TR-traps",
+      "text": "因此绝不能说成是周期性工作！",
+      "startMs": 58734,
+      "endMs": 62174
+    },
+    {
+      "index": 19,
+      "sceneId": "TR-results",
+      "text": "而且，项目虽然是临时的，",
+      "startMs": 62792,
+      "endMs": 65272
+    },
+    {
+      "index": 20,
+      "sceneId": "TR-results",
+      "text": "但项目交付的成果，比如一套核心交易系统、",
+      "startMs": 65672,
+      "endMs": 69832
+    },
+    {
+      "index": 21,
+      "sceneId": "TR-results",
+      "text": "一座数据中心，在项目结束后会长期存在并持续创造价值。",
+      "startMs": 70072,
+      "endMs": 76472
+    },
+    {
+      "index": 22,
+      "sceneId": "TR-ending",
+      "text": "那么项目什么时候宣告结束呢？",
+      "startMs": 77110,
+      "endMs": 79510
+    },
+    {
+      "index": 23,
+      "sceneId": "TR-ending",
+      "text": "通常是达成目标；但如果不能达到目标、",
+      "startMs": 80070,
+      "endMs": 83510
+    },
+    {
+      "index": 24,
+      "sceneId": "TR-ending",
+      "text": "资金耗尽、需求不复存在、",
+      "startMs": 83910,
+      "endMs": 86470
+    },
+    {
+      "index": 25,
+      "sceneId": "TR-ending",
+      "text": "无法获得所需资源，或者出于法律原因，",
+      "startMs": 86950,
+      "endMs": 90550
+    },
+    {
+      "index": 26,
+      "sceneId": "TR-ending",
+      "text": "项目也会依法依规宣告终止。",
+      "startMs": 91830,
+      "endMs": 94150
+    }
+  ],
+  "generatedAt": "2026-10-26T12:02:38.971Z"
+}

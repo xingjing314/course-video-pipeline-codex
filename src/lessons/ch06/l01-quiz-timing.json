@@ -1,0 +1,39 @@
+{
+  "totalFrames": 2675,
+  "countdownStartFrame": 425,
+  "countdownFrames": 90,
+  "scenes": [
+    {
+      "id": "Q17-read",
+      "startMs": 0
+    },
+    {
+      "id": "Q17-A",
+      "startMs": 17759
+    },
+    {
+      "id": "Q17-B",
+      "startMs": 29345
+    },
+    {
+      "id": "Q17-C",
+      "startMs": 37940
+    },
+    {
+      "id": "Q17-D",
+      "startMs": 48916
+    },
+    {
+      "id": "Q17-explain",
+      "startMs": 57988
+    }
+  ],
+  "correctAtMs": [
+    25279,
+    37185,
+    44820
+  ],
+  "trapAtMs": 67508,
+  "answerAtMs": 75268,
+  "englishAtMs": 81428
+}

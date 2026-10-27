@@ -1,0 +1,23 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "cross": {
+    "center": [
+      1150,
+      500
+    ],
+    "armLength": 260,
+    "rotationDegrees": 45,
+    "stroke": "rgba(224, 96, 90, 0.85)",
+    "strokeWidth": 2.0,
+    "linecap": "butt"
+  },
+  "animation": {
+    "firstLineStartFrame": 34,
+    "firstLineDurationInFrames": 28,
+    "secondLineStartFrame": 58,
+    "secondLineDurationInFrames": 22
+  }
+}

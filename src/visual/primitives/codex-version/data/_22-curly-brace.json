@@ -1,0 +1,19 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "brace": {
+    "x": 660,
+    "y": 300,
+    "width": 80,
+    "height": 400,
+    "stroke": "rgba(143, 184, 217, 0.85)",
+    "strokeWidth": 2.0,
+    "linecap": "round"
+  },
+  "animation": {
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74
+  }
+}

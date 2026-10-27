@@ -1,0 +1,14 @@
+{
+  "canvas": {"width": 1920, "height": 1080},
+  "polyline": {
+    "points": [[620, 480], [970, 400], [1320, 520], [1680, 440]],
+    "stroke": "rgba(46, 196, 214, 0.85)",
+    "strokeWidth": 2.0,
+    "linecap": "round",
+    "linejoin": "round"
+  },
+  "animation": {
+    "startFrame": 68,
+    "durationInFrames": 74
+  }
+}

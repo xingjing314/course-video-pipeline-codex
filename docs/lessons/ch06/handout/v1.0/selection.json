@@ -1,0 +1,512 @@
+[
+  {
+    "id": "01-opening-OP-stats",
+    "title": "第六章考情概览",
+    "kind": "知识图解",
+    "frame": 1586,
+    "time": "00:52",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": "学习导入与 PMBOK 演进"
+  },
+  {
+    "id": "02-opening-OP-editions",
+    "title": "PMBOK 的四个关键版本",
+    "kind": "知识图解",
+    "frame": 3089,
+    "time": "01:42",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "03-opening-OP-value",
+    "title": "第七版：系统视角与价值交付",
+    "kind": "知识图解",
+    "frame": 4278,
+    "time": "02:22",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "04-preview-S01",
+    "title": "项目的定义",
+    "kind": "核心概念",
+    "frame": 4803,
+    "time": "02:40",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": "项目定义与特征"
+  },
+  {
+    "id": "05-preview-S02",
+    "title": "项目驱动组织状态转换",
+    "kind": "知识图解",
+    "frame": 5834,
+    "time": "03:14",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "06-traits-TR-unique",
+    "title": "独特性：相同元素不等于相同项目",
+    "kind": "概念辨析",
+    "frame": 6568,
+    "time": "03:38",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "07-traits-TR-traps",
+    "title": "临时性：两个易错点",
+    "kind": "概念辨析",
+    "frame": 7710,
+    "time": "04:17",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "08-traits-TR-results",
+    "title": "项目结束，成果仍可延续",
+    "kind": "知识图解",
+    "frame": 8148,
+    "time": "04:31",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "09-traits-TR-ending",
+    "title": "项目的结束条件",
+    "kind": "概念归纳",
+    "frame": 8665,
+    "time": "04:48",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "10-quiz-question",
+    "title": "真题 1：项目的特征与结束条件",
+    "kind": "真题练习",
+    "frame": 9090,
+    "time": "05:03",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "我的选择：________    判断依据：",
+    "chapter": null
+  },
+  {
+    "id": "11-quiz-answer",
+    "title": "真题 1解析：临时性与周期性",
+    "kind": "真题解析",
+    "frame": 11295,
+    "time": "06:16",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "错因与复习笔记",
+    "chapter": null
+  },
+  {
+    "id": "12-success-SC-strategy",
+    "title": "项目管理的战略价值",
+    "kind": "知识图解",
+    "frame": 12046,
+    "time": "06:41",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": "战略价值与成功标准"
+  },
+  {
+    "id": "13-success-SC-failure",
+    "title": "交付合格，业务仍可能失败",
+    "kind": "概念辨析",
+    "frame": 13586,
+    "time": "07:32",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "14-success-SC-dimensions",
+    "title": "项目成功的两个维度",
+    "kind": "概念归纳",
+    "frame": 14568,
+    "time": "08:05",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "15-success-question",
+    "title": "真题 2：项目成功的标准",
+    "kind": "真题练习",
+    "frame": 14992,
+    "time": "08:19",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "我的选择：________    判断依据：",
+    "chapter": null
+  },
+  {
+    "id": "16-success-answer",
+    "title": "真题 2解析：兼顾战略与业务成果",
+    "kind": "真题解析",
+    "frame": 16972,
+    "time": "09:25",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "错因与复习笔记",
+    "chapter": null
+  },
+  {
+    "id": "17-relations-R01",
+    "title": "组织级项目管理",
+    "kind": "知识图解",
+    "frame": 17795,
+    "time": "09:53",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": "项目组合、项目集、项目与运营"
+  },
+  {
+    "id": "18-relations-R03",
+    "title": "项目组合、项目集、项目和运营",
+    "kind": "知识图解",
+    "frame": 18935,
+    "time": "10:31",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "19-relations-R04",
+    "title": "项目组合的三个考查要点",
+    "kind": "概念归纳",
+    "frame": 20016,
+    "time": "11:07",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "20-relations-R06",
+    "title": "项目集：协调依赖，获得整体收益",
+    "kind": "知识图解",
+    "frame": 21382,
+    "time": "11:52",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "21-relations-R07",
+    "title": "项目：范围渐进明晰",
+    "kind": "概念辨析",
+    "frame": 22336,
+    "time": "12:24",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "22-relations-R08",
+    "title": "项目与运营的交集",
+    "kind": "知识图解",
+    "frame": 22823,
+    "time": "12:40",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "23-quiz69-question",
+    "title": "真题 3：组织战略与项目管理",
+    "kind": "真题练习",
+    "frame": 23221,
+    "time": "12:54",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "我的选择：________    判断依据：",
+    "chapter": null
+  },
+  {
+    "id": "24-quiz69-Q69-summary",
+    "title": "真题 3解析：共同支撑组织战略",
+    "kind": "真题解析",
+    "frame": 26644,
+    "time": "14:48",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "错因与复习笔记",
+    "chapter": null
+  },
+  {
+    "id": "25-environment-E-boundary",
+    "title": "OPA 与 EEF 的区分线索",
+    "kind": "概念辨析",
+    "frame": 27488,
+    "time": "15:16",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": "运行环境与组织系统"
+  },
+  {
+    "id": "26-environment-E-external",
+    "title": "OPA、内部 EEF 与外部 EEF 对照",
+    "kind": "分类对照",
+    "frame": 29801,
+    "time": "16:33",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "27-systems-S-structure",
+    "title": "组织结构与项目经理职权",
+    "kind": "知识图解",
+    "frame": 30458,
+    "time": "16:55",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "28-systems-S-pmo",
+    "title": "三类 PMO 的控制程度",
+    "kind": "分类对照",
+    "frame": 31213,
+    "time": "17:20",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "29-systems-S-lifecycle",
+    "title": "产品生命周期与项目活动",
+    "kind": "知识图解",
+    "frame": 31760,
+    "time": "17:38",
+    "crop": [
+      1792,
+      860,
+      64,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": null
+  },
+  {
+    "id": "30-envquiz-left-question",
+    "title": "真题 4：哪项不属于组织过程资产？",
+    "kind": "真题练习",
+    "frame": 32668,
+    "time": "18:08",
+    "crop": [
+      864,
+      704,
+      84,
+      190
+    ],
+    "note": "我的选择：________    判断依据：",
+    "chapter": null
+  },
+  {
+    "id": "31-envquiz-left-answer",
+    "title": "真题 4解析：物理分布属于内部 EEF",
+    "kind": "真题解析",
+    "frame": 33415,
+    "time": "18:33",
+    "crop": [
+      864,
+      704,
+      84,
+      190
+    ],
+    "note": "错因与复习笔记",
+    "chapter": null
+  },
+  {
+    "id": "32-envquiz-right-question",
+    "title": "真题 5：哪项属于内部事业环境因素？",
+    "kind": "真题练习",
+    "frame": 33856,
+    "time": "18:48",
+    "crop": [
+      864,
+      704,
+      972,
+      190
+    ],
+    "note": "我的选择：________    判断依据：",
+    "chapter": null
+  },
+  {
+    "id": "33-envquiz-right-answer",
+    "title": "真题 5解析：员工能力属于内部 EEF",
+    "kind": "真题解析",
+    "frame": 34459,
+    "time": "19:08",
+    "crop": [
+      864,
+      704,
+      972,
+      190
+    ],
+    "note": "错因与复习笔记",
+    "chapter": null
+  },
+  {
+    "id": "34-closing-CL-recap",
+    "title": "本课回顾：串起管理主线",
+    "kind": "学习回顾",
+    "frame": 34808,
+    "time": "19:20",
+    "crop": [
+      1760,
+      860,
+      80,
+      48
+    ],
+    "note": "学习笔记",
+    "chapter": "本课回顾"
+  }
+]

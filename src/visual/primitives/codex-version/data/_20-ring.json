@@ -1,0 +1,23 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "ring": {
+    "center": [
+      1150,
+      470
+    ],
+    "outerRadius": 200,
+    "thickness": 80,
+    "fill": "rgba(46, 196, 214, 0.12)",
+    "stroke": "rgba(46, 196, 214, 0.60)",
+    "strokeWidth": 1.5
+  },
+  "animation": {
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74,
+    "fillStartFrame": 114,
+    "fillDurationInFrames": 30
+  }
+}

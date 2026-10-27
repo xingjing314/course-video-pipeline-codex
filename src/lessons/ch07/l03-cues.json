@@ -1,0 +1,420 @@
+{
+  "provisional": false,
+  "spans": {
+    "S06-S11": [
+      {
+        "id": "S06-S11-thinking-S06",
+        "action": "thinking-pause",
+        "matchPhrase": "countdown:S06",
+        "fallbackRatio": 0,
+        "triggerMs": 179933,
+        "localFrame": 380,
+        "matchedBy": "pause-directive"
+      },
+      {
+        "id": "S06-S11-eliminate-option-A-S08",
+        "action": "eliminate-option",
+        "targetId": "A",
+        "matchPhrase": "试验室和中间工厂的试验是初步可行性研究",
+        "fallbackRatio": 0,
+        "triggerMs": 183733,
+        "localFrame": 494,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S06-S11-eliminate-option-B-S08",
+        "action": "eliminate-option",
+        "targetId": "B",
+        "matchPhrase": "把“初步评估”安到了详细可研头上",
+        "fallbackRatio": 0,
+        "triggerMs": 193033,
+        "localFrame": 773,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S06-S11-eliminate-option-C-S08",
+        "action": "eliminate-option",
+        "targetId": "C",
+        "matchPhrase": "正好说反",
+        "fallbackRatio": 0,
+        "triggerMs": 204800,
+        "localFrame": 1126,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S06-S11-reveal-answer-D-S08",
+        "action": "reveal-answer",
+        "targetId": "D",
+        "matchPhrase": "完全正确，选 D",
+        "fallbackRatio": 0,
+        "triggerMs": 217600,
+        "localFrame": 1510,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S06-S11-thinking-S09",
+        "action": "thinking-pause",
+        "matchPhrase": "countdown:S09",
+        "fallbackRatio": 0,
+        "triggerMs": 225567,
+        "localFrame": 1749,
+        "matchedBy": "pause-directive"
+      },
+      {
+        "id": "S06-S11-eliminate-option-C-S11",
+        "action": "eliminate-option",
+        "targetId": "C",
+        "matchPhrase": "显然错误",
+        "fallbackRatio": 0,
+        "triggerMs": 245533,
+        "localFrame": 2348,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S06-S11-reveal-answer-C-S11",
+        "action": "reveal-answer",
+        "targetId": "C",
+        "matchPhrase": "直接选 C",
+        "fallbackRatio": 0,
+        "triggerMs": 252967,
+        "localFrame": 2571,
+        "matchedBy": "token-exact"
+      }
+    ],
+    "S25-S27": [
+      {
+        "id": "S25-S27-thinking-S25",
+        "action": "thinking-pause",
+        "matchPhrase": "countdown:S25",
+        "fallbackRatio": 0,
+        "triggerMs": 703633,
+        "localFrame": 448,
+        "matchedBy": "pause-directive"
+      },
+      {
+        "id": "S25-S27-reveal-answer-D-S27",
+        "action": "reveal-answer",
+        "targetId": "D",
+        "matchPhrase": "直接选 D",
+        "fallbackRatio": 0,
+        "triggerMs": 711333,
+        "localFrame": 679,
+        "matchedBy": "token-exact"
+      }
+    ],
+    "S28-S30": [
+      {
+        "id": "S28-S30-thinking-S28",
+        "action": "thinking-pause",
+        "matchPhrase": "countdown:S28",
+        "fallbackRatio": 0,
+        "triggerMs": 733467,
+        "localFrame": 329,
+        "matchedBy": "pause-directive"
+      },
+      {
+        "id": "S28-S30-reveal-answer-A-S30",
+        "action": "reveal-answer",
+        "targetId": "A",
+        "matchPhrase": "直接选 A",
+        "fallbackRatio": 0,
+        "triggerMs": 741667,
+        "localFrame": 575,
+        "matchedBy": "token-exact"
+      }
+    ],
+    "S31-S33": [
+      {
+        "id": "S31-S33-thinking-S31",
+        "action": "thinking-pause",
+        "matchPhrase": "countdown:S31",
+        "fallbackRatio": 0,
+        "triggerMs": 768467,
+        "localFrame": 591,
+        "matchedBy": "pause-directive"
+      },
+      {
+        "id": "S31-S33-reveal-answer-D-S33",
+        "action": "reveal-answer",
+        "targetId": "D",
+        "matchPhrase": "直接选 D 项目章程",
+        "fallbackRatio": 0,
+        "triggerMs": 771467,
+        "localFrame": 681,
+        "matchedBy": "token-exact"
+      }
+    ],
+    "S34-S36": [
+      {
+        "id": "S34-S36-thinking-S34",
+        "action": "thinking-pause",
+        "matchPhrase": "countdown:S34",
+        "fallbackRatio": 0,
+        "triggerMs": 786267,
+        "localFrame": 369,
+        "matchedBy": "pause-directive"
+      },
+      {
+        "id": "S34-S36-reveal-answer-D-S36",
+        "action": "reveal-answer",
+        "targetId": "D",
+        "matchPhrase": "还是选 D",
+        "fallbackRatio": 0,
+        "triggerMs": 789267,
+        "localFrame": 459,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S34-S36-highlight-mini-show-S36",
+        "action": "highlight-item",
+        "targetId": "mini-show",
+        "matchPhrase": "23年11月第4批次第23题",
+        "fallbackRatio": 0,
+        "triggerMs": 791433,
+        "localFrame": 524,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S34-S36-highlight-mini-fill-S36",
+        "action": "highlight-item",
+        "targetId": "mini-fill",
+        "matchPhrase": "挖了个空",
+        "fallbackRatio": 0,
+        "triggerMs": 797433,
+        "localFrame": 704,
+        "matchedBy": "token-exact"
+      }
+    ],
+    "S40-S43": [
+      {
+        "id": "S40-S43-thinking-S41",
+        "action": "thinking-pause",
+        "matchPhrase": "countdown:S41",
+        "fallbackRatio": 0,
+        "triggerMs": 975700,
+        "localFrame": 841,
+        "matchedBy": "pause-directive"
+      },
+      {
+        "id": "S40-S43-highlight-necessity-S43",
+        "action": "highlight-item",
+        "targetId": "necessity",
+        "matchPhrase": "前半句",
+        "fallbackRatio": 0,
+        "triggerMs": 996233,
+        "localFrame": 1457,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S40-S43-highlight-install-standard-S43",
+        "action": "highlight-item",
+        "targetId": "install-standard",
+        "matchPhrase": "属于安装工程标准评估",
+        "fallbackRatio": 0,
+        "triggerMs": 1010400,
+        "localFrame": 1882,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S40-S43-reveal-answer-D-S43",
+        "action": "reveal-answer",
+        "targetId": "D",
+        "matchPhrase": "所以不正确的选 D",
+        "fallbackRatio": 0,
+        "triggerMs": 1016933,
+        "localFrame": 2078,
+        "matchedBy": "token-exact"
+      }
+    ],
+    "S21": [
+      {
+        "id": "S21-highlight-1-S21",
+        "action": "highlight-item",
+        "targetId": "1",
+        "matchPhrase": "第一在什么基础上做",
+        "fallbackRatio": 0,
+        "triggerMs": 576100,
+        "localFrame": 339,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S21-highlight-2-S21",
+        "action": "highlight-item",
+        "targetId": "2",
+        "matchPhrase": "第二由谁来做",
+        "fallbackRatio": 0,
+        "triggerMs": 586667,
+        "localFrame": 656,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S21-highlight-3-S21",
+        "action": "highlight-item",
+        "targetId": "3",
+        "matchPhrase": "第三审查什么目的",
+        "fallbackRatio": 0,
+        "triggerMs": 598900,
+        "localFrame": 1023,
+        "matchedBy": "token-exact"
+      }
+    ],
+    "S22": [
+      {
+        "id": "S22-highlight-1-S22",
+        "action": "highlight-item",
+        "targetId": "1",
+        "matchPhrase": "第一项目建议书及其批准文件",
+        "fallbackRatio": 0,
+        "triggerMs": 625867,
+        "localFrame": 303,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S22-highlight-2-S22",
+        "action": "highlight-item",
+        "targetId": "2",
+        "matchPhrase": "第二项目可行性研究报告",
+        "fallbackRatio": 0,
+        "triggerMs": 629633,
+        "localFrame": 416,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S22-highlight-3-S22",
+        "action": "highlight-item",
+        "targetId": "3",
+        "matchPhrase": "第三报送组织的申请报告",
+        "fallbackRatio": 0,
+        "triggerMs": 633367,
+        "localFrame": 528,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S22-highlight-4-S22",
+        "action": "highlight-item",
+        "targetId": "4",
+        "matchPhrase": "第四项目关键建设条件",
+        "fallbackRatio": 0,
+        "triggerMs": 638500,
+        "localFrame": 682,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S22-highlight-5-S22",
+        "action": "highlight-item",
+        "targetId": "5",
+        "matchPhrase": "第五必需的其他文件",
+        "fallbackRatio": 0,
+        "triggerMs": 643300,
+        "localFrame": 826,
+        "matchedBy": "token-exact"
+      }
+    ],
+    "S37": [
+      {
+        "id": "S37-highlight-1-S37",
+        "action": "highlight-item",
+        "targetId": "1",
+        "matchPhrase": "第一步成立评估小组",
+        "fallbackRatio": 0,
+        "triggerMs": 821467,
+        "localFrame": 485,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S37-highlight-2-S37",
+        "action": "highlight-item",
+        "targetId": "2",
+        "matchPhrase": "第二步开展调查研究",
+        "fallbackRatio": 0,
+        "triggerMs": 826267,
+        "localFrame": 629,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S37-highlight-3-S37",
+        "action": "highlight-item",
+        "targetId": "3",
+        "matchPhrase": "第三步分析与评估",
+        "fallbackRatio": 0,
+        "triggerMs": 833533,
+        "localFrame": 847,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S37-highlight-4-S37",
+        "action": "highlight-item",
+        "targetId": "4",
+        "matchPhrase": "第四步编写",
+        "fallbackRatio": 0,
+        "triggerMs": 835700,
+        "localFrame": 912,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S37-highlight-5-S37",
+        "action": "highlight-item",
+        "targetId": "5",
+        "matchPhrase": "第五步召开专家论证会",
+        "fallbackRatio": 0,
+        "triggerMs": 840100,
+        "localFrame": 1044,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S37-highlight-6-S37",
+        "action": "highlight-item",
+        "targetId": "6",
+        "matchPhrase": "第六步评估报告定稿",
+        "fallbackRatio": 0,
+        "triggerMs": 843367,
+        "localFrame": 1142,
+        "matchedBy": "token-exact"
+      }
+    ],
+    "S39": [
+      {
+        "id": "S39-highlight-1-S39",
+        "action": "highlight-item",
+        "targetId": "1",
+        "matchPhrase": "第一项目概况",
+        "fallbackRatio": 0,
+        "triggerMs": 932100,
+        "localFrame": 158,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S39-highlight-2-S39",
+        "action": "highlight-item",
+        "targetId": "2",
+        "matchPhrase": "第二详细评估意见",
+        "fallbackRatio": 0,
+        "triggerMs": 938333,
+        "localFrame": 345,
+        "matchedBy": "token-exact"
+      },
+      {
+        "id": "S39-highlight-3-S39",
+        "action": "highlight-item",
+        "targetId": "3",
+        "matchPhrase": "第三总结和建议",
+        "fallbackRatio": 0,
+        "triggerMs": 940833,
+        "localFrame": 420,
+        "matchedBy": "token-exact"
+      }
+    ],
+    "S45": [
+      {
+        "id": "S45-highlight-basis-S45",
+        "action": "highlight-item",
+        "targetId": "basis",
+        "matchPhrase": "就会化作项目建设的依据文件",
+        "fallbackRatio": 0,
+        "triggerMs": 1118233,
+        "localFrame": 437,
+        "matchedBy": "token-exact"
+      }
+    ]
+  }
+}

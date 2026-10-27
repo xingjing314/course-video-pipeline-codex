@@ -1,0 +1,13 @@
+{
+  "background": {
+    "type": "tech-network",
+    "ganttEnabled": false
+  },
+  "theme": {
+    "textColor": "#E6F1FA",
+    "fontFamily": "Noto Sans SC"
+  },
+  "scrim": {
+    "opacity": 0
+  }
+}

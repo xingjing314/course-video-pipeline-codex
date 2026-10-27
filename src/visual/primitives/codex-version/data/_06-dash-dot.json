@@ -1,0 +1,26 @@
+{
+  "canvas": {"width": 1920, "height": 1080},
+  "style": {
+    "stroke": "rgba(46, 196, 214, 0.85)",
+    "strokeWidth": 2.0
+  },
+  "lines": [
+    {
+      "id": "dashed",
+      "points": [[620, 640], [1680, 640]],
+      "dashArray": [14, 9],
+      "linecap": "butt",
+      "startFrame": 78
+    },
+    {
+      "id": "dotted",
+      "points": [[620, 800], [1680, 800]],
+      "dashArray": [0.1, 12],
+      "linecap": "round",
+      "startFrame": 88
+    }
+  ],
+  "animation": {
+    "durationInFrames": 74
+  }
+}

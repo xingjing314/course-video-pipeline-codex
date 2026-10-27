@@ -1,0 +1,38 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "checkRect": {
+    "center": [
+      1150,
+      520
+    ],
+    "points": [
+      [
+        -200,
+        0
+      ],
+      [
+        -90,
+        140
+      ],
+      [
+        210,
+        -140
+      ]
+    ],
+    "armWidth": 24,
+    "fill": "rgba(76, 195, 138, 0.12)",
+    "stroke": "rgba(76, 195, 138, 0.60)",
+    "strokeWidth": 1.5
+  },
+  "animation": {
+    "firstRectStartFrame": 34,
+    "firstRectDurationInFrames": 30,
+    "fanStartFrame": 64,
+    "fanDurationInFrames": 12,
+    "secondRectStartFrame": 76,
+    "secondRectDurationInFrames": 34
+  }
+}

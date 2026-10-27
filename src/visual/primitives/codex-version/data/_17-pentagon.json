@@ -1,0 +1,24 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "pentagon": {
+    "center": [
+      1150,
+      480
+    ],
+    "radius": 175,
+    "rotationDegrees": -90,
+    "fill": "rgba(46, 196, 214, 0.12)",
+    "stroke": "rgba(46, 196, 214, 0.60)",
+    "strokeWidth": 1.5,
+    "linejoin": "miter"
+  },
+  "animation": {
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74,
+    "fillStartFrame": 114,
+    "fillDurationInFrames": 30
+  }
+}

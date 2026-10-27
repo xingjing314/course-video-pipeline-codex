@@ -1,0 +1,77 @@
+{
+  "lessonId": "ch06-L01-environment",
+  "sampleRate": 24000,
+  "totalDurationMs": 105210,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-environment/ch06-L01-environment-full.wav",
+  "fullWavSha256": "d432128637820f1afd0a36caa19238034b04e6506b26c4b5a6362f1944b5ad5e",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "E-intro",
+      "narration": "搞清了宏观棋盘，我们最后来看项目是在什么样的土壤里运行的。这就是 6.2.5 节的运行环境，以及 6.2.6 和 6.2.7 节的组织系统与产品管理。",
+      "narrationSha256": "af434844b9ab050f89a501a65b2dbcc7197137ca76da293dadcf7f2b23dc6d4a",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-environment/audio/E-intro.wav",
+      "wavSha256": "8899d5945e537f52f2beee758432184e9c710ca359c523d35e65d3a624e0943a",
+      "startMs": 0,
+      "endMs": 13860,
+      "durationMs": 13860,
+      "fromCache": false
+    },
+    {
+      "sceneId": "E-boundary",
+      "narration": "很多学员在面对组织过程资产 OPA 和事业环境因素 EEF 时总是记混。其实它们有一条根本的哲学分界线：那就是项目团队能否自主修改和裁剪它？",
+      "narrationSha256": "17db184d40fee0d440191adab14365dec8f3fa3622379745247250c252fda639",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-environment/audio/E-boundary.wav",
+      "wavSha256": "aab65bf1335a0644f4103da50b7d5bdbf10bce6725b76731e3ced4b004146647",
+      "startMs": 13860,
+      "endMs": 28097,
+      "durationMs": 14237,
+      "fromCache": false
+    },
+    {
+      "sceneId": "E-opa",
+      "narration": "第一类，组织过程资产 OPA。这是组织自身沉淀下来的家底和武功秘籍。比如开发工具、标准模板、历史数据库、经验教训库、公司的请假与采购政策流程。这些资产是组织内部可复用、可补充、可修改的。",
+      "narrationSha256": "13e0a1c8ebc791709dae609149ce325587a7f588ac88815bad15b2ad039fe004",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-environment/audio/E-opa.wav",
+      "wavSha256": "127bd9618ef49172c8ad341124bb256e9d1cebe27c958cae9f8c0a2c9e3ad104",
+      "startMs": 28097,
+      "endMs": 49104,
+      "durationMs": 21007,
+      "fromCache": false
+    },
+    {
+      "sceneId": "E-eef",
+      "narration": "第二类，事业环境因素 EEF。这是项目团队必须面对的客观水土和外部天候，团队无法随意改变，只能去主动适应。它又分为内部和外部：",
+      "narrationSha256": "c4a8de825d47f77a7f9bd52bf2d8d00f70de0d61f488ac11a9be54241ea57129",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-environment/audio/E-eef.wav",
+      "wavSha256": "1aa33ba12af458dd5e4f9957241103f086d6f6d3417adcc9a1f7d9b42f6b2bcd",
+      "startMs": 49104,
+      "endMs": 63850,
+      "durationMs": 14746,
+      "fromCache": false
+    },
+    {
+      "sceneId": "E-internal",
+      "narration": "在公司大门内，有组织的文化结构、办公基础设施，以及两个极易做错的内部因素——第一，设施和资源的物理分布，比如团队分布在不同时区、虚拟办公，这是客观物理限制，属于内部事业环境因素；第二，员工现有的技能水平和能力，这是存量客观状态，也属于内部事业环境因素！",
+      "narrationSha256": "7d7995e3cb421621e8dc60cc9c6320161ea09a2287b6307ef9c65870bbc3e7a4",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-environment/audio/E-internal.wav",
+      "wavSha256": "9b021f3f1e716bf9176b07172e1bf3692292a517dd83a59dee4647542786c477",
+      "startMs": 63850,
+      "endMs": 92861,
+      "durationMs": 29011,
+      "fromCache": false
+    },
+    {
+      "sceneId": "E-external",
+      "narration": "而在公司大门外，就是外部事业环境因素，包括市场条件、国家法律法规、行业标准、商业数据库，以及汇率利率等财务环境。",
+      "narrationSha256": "218058eed6896261ccb65b983c7c9dc6936473adb1c8f187fc155aa4820f1d72",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-environment/audio/E-external.wav",
+      "wavSha256": "3d3c28b16d64e02c66850773e26521bf2bffc1a40a5fcd6d27ec3557e720211f",
+      "startMs": 92861,
+      "endMs": 105210,
+      "durationMs": 12349,
+      "fromCache": false
+    }
+  ]
+}

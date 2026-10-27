@@ -1,0 +1,20 @@
+{
+  "canvas": {"width": 1920, "height": 1080},
+  "circle": {
+    "cx": 1150,
+    "cy": 470,
+    "radius": 170,
+    "stroke": "rgba(46, 196, 214, 0.85)",
+    "strokeWidth": 1.5,
+    "shadow": {
+      "x": 0,
+      "y": 14,
+      "blur": 36,
+      "color": "rgba(46, 196, 214, 0.15)"
+    }
+  },
+  "animation": {
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74
+  }
+}

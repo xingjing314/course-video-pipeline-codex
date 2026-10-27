@@ -1,0 +1,2867 @@
+{
+  "alignerEngine": "Qwen/Qwen3-ForcedAligner-0.6B",
+  "scenes": [
+    {
+      "sceneId": "Q69-read",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "Q69-read",
+          "text": "我",
+          "startMs": 0,
+          "endMs": 160
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "们",
+          "startMs": 160,
+          "endMs": 240
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "来",
+          "startMs": 240,
+          "endMs": 320
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "看",
+          "startMs": 320,
+          "endMs": 560
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "一",
+          "startMs": 560,
+          "endMs": 561
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "道",
+          "startMs": 640,
+          "endMs": 720
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "真",
+          "startMs": 720,
+          "endMs": 960
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "题",
+          "startMs": 960,
+          "endMs": 1280
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "2026",
+          "startMs": 2240,
+          "endMs": 2241
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "年",
+          "startMs": 2720,
+          "endMs": 2960
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "5",
+          "startMs": 2960,
+          "endMs": 3120
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "月",
+          "startMs": 3120,
+          "endMs": 3360
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "第",
+          "startMs": 3840,
+          "endMs": 4000
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "1",
+          "startMs": 4000,
+          "endMs": 4080
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "批",
+          "startMs": 4080,
+          "endMs": 4240
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "次",
+          "startMs": 4320,
+          "endMs": 4400
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "的",
+          "startMs": 4400,
+          "endMs": 4560
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "第",
+          "startMs": 4560,
+          "endMs": 4720
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "69",
+          "startMs": 4720,
+          "endMs": 5200
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "题",
+          "startMs": 5200,
+          "endMs": 5520
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "题",
+          "startMs": 6080,
+          "endMs": 6240
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "目",
+          "startMs": 6240,
+          "endMs": 6480
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "问",
+          "startMs": 6480,
+          "endMs": 6720
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "关",
+          "startMs": 7600,
+          "endMs": 7840
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "于",
+          "startMs": 7840,
+          "endMs": 7920
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "组",
+          "startMs": 7920,
+          "endMs": 8160
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "织",
+          "startMs": 8160,
+          "endMs": 8240
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "战",
+          "startMs": 8240,
+          "endMs": 8480
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "略",
+          "startMs": 8480,
+          "endMs": 8640
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "管",
+          "startMs": 8640,
+          "endMs": 8960
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "理",
+          "startMs": 8960,
+          "endMs": 9200
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "与",
+          "startMs": 9360,
+          "endMs": 9440
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "项",
+          "startMs": 9440,
+          "endMs": 9760
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "目",
+          "startMs": 9760,
+          "endMs": 9840
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "管",
+          "startMs": 9840,
+          "endMs": 10080
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "理",
+          "startMs": 10080,
+          "endMs": 10160
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "的",
+          "startMs": 10160,
+          "endMs": 10240
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "对",
+          "startMs": 10240,
+          "endMs": 10400
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "应",
+          "startMs": 10400,
+          "endMs": 10560
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "关",
+          "startMs": 10560,
+          "endMs": 10800
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "系",
+          "startMs": 10800,
+          "endMs": 11040
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "正",
+          "startMs": 11360,
+          "endMs": 11600
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "确",
+          "startMs": 11600,
+          "endMs": 11840
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "的",
+          "startMs": 11840,
+          "endMs": 12080
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "是",
+          "startMs": 12640,
+          "endMs": 12800
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "哪",
+          "startMs": 12800,
+          "endMs": 12960
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "一",
+          "startMs": 12960,
+          "endMs": 13040
+        },
+        {
+          "sceneId": "Q69-read",
+          "text": "项",
+          "startMs": 13040,
+          "endMs": 13360
+        }
+      ]
+    },
+    {
+      "sceneId": "Q69-A",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "Q69-A",
+          "text": "我",
+          "startMs": 16990,
+          "endMs": 17070
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "们",
+          "startMs": 17070,
+          "endMs": 17230
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "直",
+          "startMs": 17230,
+          "endMs": 17390
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "接",
+          "startMs": 17390,
+          "endMs": 17550
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "看",
+          "startMs": 17550,
+          "endMs": 17710
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "A",
+          "startMs": 17790,
+          "endMs": 17870
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "选",
+          "startMs": 17870,
+          "endMs": 18110
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "项",
+          "startMs": 18110,
+          "endMs": 18510
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "项",
+          "startMs": 19150,
+          "endMs": 19390
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "目",
+          "startMs": 19390,
+          "endMs": 19470
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "组",
+          "startMs": 19470,
+          "endMs": 19630
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "合",
+          "startMs": 19630,
+          "endMs": 19790
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "管",
+          "startMs": 19790,
+          "endMs": 20110
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "理",
+          "startMs": 20110,
+          "endMs": 20350
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "负",
+          "startMs": 20430,
+          "endMs": 20590
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "责",
+          "startMs": 20590,
+          "endMs": 20750
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "统",
+          "startMs": 20750,
+          "endMs": 20990
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "筹",
+          "startMs": 20990,
+          "endMs": 21150
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "协",
+          "startMs": 21150,
+          "endMs": 21390
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "调",
+          "startMs": 21390,
+          "endMs": 21550
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "各",
+          "startMs": 21550,
+          "endMs": 21710
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "组",
+          "startMs": 21710,
+          "endMs": 21950
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "件",
+          "startMs": 21950,
+          "endMs": 22270
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "以",
+          "startMs": 22590,
+          "endMs": 22750
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "确",
+          "startMs": 22750,
+          "endMs": 23070
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "保",
+          "startMs": 23070,
+          "endMs": 23310
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "整",
+          "startMs": 23310,
+          "endMs": 23630
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "体",
+          "startMs": 23630,
+          "endMs": 23790
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "行",
+          "startMs": 23790,
+          "endMs": 24030
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "动",
+          "startMs": 24030,
+          "endMs": 24270
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "与",
+          "startMs": 24270,
+          "endMs": 24350
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "组",
+          "startMs": 24350,
+          "endMs": 24590
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "织",
+          "startMs": 24590,
+          "endMs": 24670
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "战",
+          "startMs": 24670,
+          "endMs": 24910
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "略",
+          "startMs": 24910,
+          "endMs": 25070
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "目",
+          "startMs": 25070,
+          "endMs": 25230
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "标",
+          "startMs": 25230,
+          "endMs": 25630
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "保",
+          "startMs": 25710,
+          "endMs": 25870
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "持",
+          "startMs": 25870,
+          "endMs": 26030
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "一",
+          "startMs": 26030,
+          "endMs": 26270
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "致",
+          "startMs": 26270,
+          "endMs": 26590
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "这",
+          "startMs": 27070,
+          "endMs": 27390
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "句",
+          "startMs": 27390,
+          "endMs": 27630
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "话",
+          "startMs": 27630,
+          "endMs": 27870
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "字",
+          "startMs": 27870,
+          "endMs": 28190
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "字",
+          "startMs": 28190,
+          "endMs": 28430
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "契",
+          "startMs": 28430,
+          "endMs": 28670
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "合",
+          "startMs": 28670,
+          "endMs": 28830
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "教",
+          "startMs": 28830,
+          "endMs": 29070
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "材",
+          "startMs": 29070,
+          "endMs": 29310
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "总",
+          "startMs": 29310,
+          "endMs": 29630
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "纲",
+          "startMs": 29630,
+          "endMs": 29870
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "项",
+          "startMs": 30430,
+          "endMs": 30670
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "目",
+          "startMs": 30670,
+          "endMs": 30750
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "组",
+          "startMs": 30750,
+          "endMs": 30910
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "合",
+          "startMs": 30910,
+          "endMs": 31070
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "的",
+          "startMs": 31070,
+          "endMs": 31150
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "最",
+          "startMs": 31150,
+          "endMs": 31390
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "高",
+          "startMs": 31390,
+          "endMs": 31550
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "天",
+          "startMs": 31550,
+          "endMs": 31710
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "命",
+          "startMs": 31710,
+          "endMs": 32030
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "就",
+          "startMs": 32510,
+          "endMs": 32670
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "是",
+          "startMs": 32670,
+          "endMs": 32750
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "对",
+          "startMs": 32750,
+          "endMs": 32910
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "齐",
+          "startMs": 32910,
+          "endMs": 33070
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "组",
+          "startMs": 33070,
+          "endMs": 33230
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "织",
+          "startMs": 33230,
+          "endMs": 33390
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "战",
+          "startMs": 33390,
+          "endMs": 33550
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "略",
+          "startMs": 33550,
+          "endMs": 33710
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "目",
+          "startMs": 33710,
+          "endMs": 33870
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "标",
+          "startMs": 33870,
+          "endMs": 34270
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "所",
+          "startMs": 34510,
+          "endMs": 34750
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "以",
+          "startMs": 34750,
+          "endMs": 34830
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "A",
+          "startMs": 34830,
+          "endMs": 35070
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "选",
+          "startMs": 35070,
+          "endMs": 35310
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "项",
+          "startMs": 35310,
+          "endMs": 35550
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "一",
+          "startMs": 35550,
+          "endMs": 35710
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "字",
+          "startMs": 35710,
+          "endMs": 35870
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "不",
+          "startMs": 35870,
+          "endMs": 35950
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "差",
+          "startMs": 35950,
+          "endMs": 36270
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "就",
+          "startMs": 36590,
+          "endMs": 36830
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "是",
+          "startMs": 36830,
+          "endMs": 36910
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "正",
+          "startMs": 36910,
+          "endMs": 37150
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "确",
+          "startMs": 37150,
+          "endMs": 37310
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "答",
+          "startMs": 37310,
+          "endMs": 37790
+        },
+        {
+          "sceneId": "Q69-A",
+          "text": "案",
+          "startMs": 37790,
+          "endMs": 37791
+        }
+      ]
+    },
+    {
+      "sceneId": "Q69-bridge",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "Q69-bridge",
+          "text": "我",
+          "startMs": 38379,
+          "endMs": 38459
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "们",
+          "startMs": 38459,
+          "endMs": 38619
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "必",
+          "startMs": 38619,
+          "endMs": 38699
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "须",
+          "startMs": 38699,
+          "endMs": 38859
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "把",
+          "startMs": 38859,
+          "endMs": 39019
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "出",
+          "startMs": 39019,
+          "endMs": 39179
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "题",
+          "startMs": 39179,
+          "endMs": 39339
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "人",
+          "startMs": 39339,
+          "endMs": 39659
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "在",
+          "startMs": 39659,
+          "endMs": 39819
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "其",
+          "startMs": 39819,
+          "endMs": 39979
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "它",
+          "startMs": 39979,
+          "endMs": 40139
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "三",
+          "startMs": 40139,
+          "endMs": 40379
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "个",
+          "startMs": 40379,
+          "endMs": 40459
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "选",
+          "startMs": 40459,
+          "endMs": 40699
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "项",
+          "startMs": 40699,
+          "endMs": 40939
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "里",
+          "startMs": 40939,
+          "endMs": 41019
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "埋",
+          "startMs": 41019,
+          "endMs": 41179
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "的",
+          "startMs": 41179,
+          "endMs": 41259
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "雷",
+          "startMs": 41259,
+          "endMs": 41659
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "彻",
+          "startMs": 42059,
+          "endMs": 42379
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "底",
+          "startMs": 42379,
+          "endMs": 42539
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "排",
+          "startMs": 42539,
+          "endMs": 42779
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "干",
+          "startMs": 42779,
+          "endMs": 43019
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "净",
+          "startMs": 43019,
+          "endMs": 43259
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "这",
+          "startMs": 43579,
+          "endMs": 43659
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "样",
+          "startMs": 43659,
+          "endMs": 43819
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "你",
+          "startMs": 43819,
+          "endMs": 43979
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "在",
+          "startMs": 43979,
+          "endMs": 44059
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "考",
+          "startMs": 44059,
+          "endMs": 44299
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "场",
+          "startMs": 44299,
+          "endMs": 44539
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "上",
+          "startMs": 44539,
+          "endMs": 44939
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "才",
+          "startMs": 44939,
+          "endMs": 45099
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "能",
+          "startMs": 45099,
+          "endMs": 45259
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "百",
+          "startMs": 45259,
+          "endMs": 45419
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "毒",
+          "startMs": 45419,
+          "endMs": 45579
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "不",
+          "startMs": 45579,
+          "endMs": 45739
+        },
+        {
+          "sceneId": "Q69-bridge",
+          "text": "侵",
+          "startMs": 45739,
+          "endMs": 46059
+        }
+      ]
+    },
+    {
+      "sceneId": "Q69-B",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "Q69-B",
+          "text": "B",
+          "startMs": 46660,
+          "endMs": 46820
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "选",
+          "startMs": 46820,
+          "endMs": 47140
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "项",
+          "startMs": 47140,
+          "endMs": 47300
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "说",
+          "startMs": 47300,
+          "endMs": 47780
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "战",
+          "startMs": 48260,
+          "endMs": 48420
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "略",
+          "startMs": 48420,
+          "endMs": 48580
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "规",
+          "startMs": 48580,
+          "endMs": 48820
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "划",
+          "startMs": 48820,
+          "endMs": 49300
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "属",
+          "startMs": 49300,
+          "endMs": 49460
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "于",
+          "startMs": 49460,
+          "endMs": 49620
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "高",
+          "startMs": 49620,
+          "endMs": 49860
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "层",
+          "startMs": 49860,
+          "endMs": 50180
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "管",
+          "startMs": 50180,
+          "endMs": 50340
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "理",
+          "startMs": 50340,
+          "endMs": 50500
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "范",
+          "startMs": 50500,
+          "endMs": 50660
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "畴",
+          "startMs": 50660,
+          "endMs": 51060
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "与",
+          "startMs": 51380,
+          "endMs": 51540
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "负",
+          "startMs": 51540,
+          "endMs": 51700
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "责",
+          "startMs": 51700,
+          "endMs": 51860
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "具",
+          "startMs": 51860,
+          "endMs": 52020
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "体",
+          "startMs": 52020,
+          "endMs": 52260
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "交",
+          "startMs": 52260,
+          "endMs": 52420
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "付",
+          "startMs": 52420,
+          "endMs": 52580
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "的",
+          "startMs": 52580,
+          "endMs": 52740
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "项",
+          "startMs": 52740,
+          "endMs": 52900
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "目",
+          "startMs": 52900,
+          "endMs": 53060
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "管",
+          "startMs": 53060,
+          "endMs": 53300
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "理",
+          "startMs": 53300,
+          "endMs": 53620
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "分",
+          "startMs": 53860,
+          "endMs": 54020
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "属",
+          "startMs": 54020,
+          "endMs": 54180
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "两",
+          "startMs": 54180,
+          "endMs": 54420
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "条",
+          "startMs": 54420,
+          "endMs": 54580
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "独",
+          "startMs": 54580,
+          "endMs": 54740
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "立",
+          "startMs": 54740,
+          "endMs": 54900
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "的",
+          "startMs": 54900,
+          "endMs": 54980
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "汇",
+          "startMs": 54980,
+          "endMs": 55220
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "报",
+          "startMs": 55220,
+          "endMs": 55380
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "主",
+          "startMs": 55380,
+          "endMs": 55540
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "线",
+          "startMs": 55540,
+          "endMs": 55780
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "问",
+          "startMs": 56340,
+          "endMs": 56580
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "题",
+          "startMs": 56580,
+          "endMs": 56740
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "就",
+          "startMs": 56740,
+          "endMs": 56980
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "在",
+          "startMs": 56980,
+          "endMs": 57540
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "两",
+          "startMs": 57940,
+          "endMs": 58180
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "条",
+          "startMs": 58180,
+          "endMs": 58500
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "独",
+          "startMs": 58500,
+          "endMs": 58740
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "立",
+          "startMs": 58740,
+          "endMs": 58900
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "的",
+          "startMs": 58900,
+          "endMs": 58980
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "汇",
+          "startMs": 58980,
+          "endMs": 59220
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "报",
+          "startMs": 59220,
+          "endMs": 59460
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "主",
+          "startMs": 59460,
+          "endMs": 59700
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "线",
+          "startMs": 59700,
+          "endMs": 60100
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "战",
+          "startMs": 60580,
+          "endMs": 60820
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "略",
+          "startMs": 60820,
+          "endMs": 61060
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "与",
+          "startMs": 61060,
+          "endMs": 61140
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "项",
+          "startMs": 61140,
+          "endMs": 61380
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "目",
+          "startMs": 61380,
+          "endMs": 61460
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "管",
+          "startMs": 61460,
+          "endMs": 61700
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "理",
+          "startMs": 61700,
+          "endMs": 62020
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "需",
+          "startMs": 62100,
+          "endMs": 62340
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "要",
+          "startMs": 62340,
+          "endMs": 62420
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "衔",
+          "startMs": 62420,
+          "endMs": 62740
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "接",
+          "startMs": 62740,
+          "endMs": 62980
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "项",
+          "startMs": 63380,
+          "endMs": 63700
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "目",
+          "startMs": 63700,
+          "endMs": 63860
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "交",
+          "startMs": 63860,
+          "endMs": 64100
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "付",
+          "startMs": 64100,
+          "endMs": 64420
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "要",
+          "startMs": 64420,
+          "endMs": 64580
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "服",
+          "startMs": 64580,
+          "endMs": 64900
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "务",
+          "startMs": 64900,
+          "endMs": 64980
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "组",
+          "startMs": 64980,
+          "endMs": 65220
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "织",
+          "startMs": 65220,
+          "endMs": 65380
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "战",
+          "startMs": 65380,
+          "endMs": 65620
+        },
+        {
+          "sceneId": "Q69-B",
+          "text": "略",
+          "startMs": 65620,
+          "endMs": 65860
+        }
+      ]
+    },
+    {
+      "sceneId": "Q69-C",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "Q69-C",
+          "text": "C",
+          "startMs": 66534,
+          "endMs": 66854
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "选",
+          "startMs": 66854,
+          "endMs": 67014
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "项",
+          "startMs": 67014,
+          "endMs": 67334
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "说",
+          "startMs": 67334,
+          "endMs": 67814
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "项",
+          "startMs": 68294,
+          "endMs": 68614
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "目",
+          "startMs": 68614,
+          "endMs": 68774
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "组",
+          "startMs": 68774,
+          "endMs": 69014
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "合",
+          "startMs": 69014,
+          "endMs": 69494
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "项",
+          "startMs": 69734,
+          "endMs": 70054
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "目",
+          "startMs": 70054,
+          "endMs": 70214
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "集",
+          "startMs": 70214,
+          "endMs": 70614
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "和",
+          "startMs": 70694,
+          "endMs": 70854
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "项",
+          "startMs": 70854,
+          "endMs": 71174
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "目",
+          "startMs": 71174,
+          "endMs": 71414
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "在",
+          "startMs": 71974,
+          "endMs": 72134
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "管",
+          "startMs": 72134,
+          "endMs": 72374
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "理",
+          "startMs": 72374,
+          "endMs": 72454
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "职",
+          "startMs": 72454,
+          "endMs": 72694
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "责",
+          "startMs": 72694,
+          "endMs": 72854
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "上",
+          "startMs": 72854,
+          "endMs": 73254
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "相",
+          "startMs": 73334,
+          "endMs": 73734
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "互",
+          "startMs": 73734,
+          "endMs": 73894
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "独",
+          "startMs": 73894,
+          "endMs": 74134
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "立",
+          "startMs": 74134,
+          "endMs": 74374
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "分",
+          "startMs": 74694,
+          "endMs": 74854
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "别",
+          "startMs": 74854,
+          "endMs": 75014
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "对",
+          "startMs": 75014,
+          "endMs": 75174
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "齐",
+          "startMs": 75174,
+          "endMs": 75334
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "不",
+          "startMs": 75334,
+          "endMs": 75494
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "同",
+          "startMs": 75494,
+          "endMs": 75734
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "层",
+          "startMs": 75734,
+          "endMs": 75974
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "级",
+          "startMs": 75974,
+          "endMs": 76134
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "的",
+          "startMs": 76134,
+          "endMs": 76214
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "业",
+          "startMs": 76214,
+          "endMs": 76374
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "务",
+          "startMs": 76374,
+          "endMs": 76534
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "目",
+          "startMs": 76534,
+          "endMs": 76694
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "标",
+          "startMs": 76694,
+          "endMs": 77094
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "职",
+          "startMs": 77574,
+          "endMs": 77814
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "责",
+          "startMs": 77814,
+          "endMs": 77974
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "有",
+          "startMs": 77974,
+          "endMs": 78214
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "分",
+          "startMs": 78214,
+          "endMs": 78534
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "工",
+          "startMs": 78534,
+          "endMs": 78854
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "但",
+          "startMs": 79494,
+          "endMs": 79654
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "不",
+          "startMs": 79654,
+          "endMs": 79814
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "能",
+          "startMs": 79814,
+          "endMs": 79974
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "理",
+          "startMs": 79974,
+          "endMs": 80134
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "解",
+          "startMs": 80134,
+          "endMs": 80294
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "成",
+          "startMs": 80294,
+          "endMs": 80534
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "相",
+          "startMs": 80534,
+          "endMs": 80774
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "互",
+          "startMs": 80774,
+          "endMs": 80934
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "独",
+          "startMs": 80934,
+          "endMs": 81174
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "立",
+          "startMs": 81174,
+          "endMs": 81494
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "各",
+          "startMs": 81574,
+          "endMs": 81734
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "管",
+          "startMs": 81734,
+          "endMs": 81974
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "各",
+          "startMs": 81974,
+          "endMs": 82214
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "的",
+          "startMs": 82214,
+          "endMs": 82454
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "它",
+          "startMs": 82774,
+          "endMs": 82854
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "们",
+          "startMs": 82854,
+          "endMs": 83014
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "需",
+          "startMs": 83014,
+          "endMs": 83174
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "要",
+          "startMs": 83174,
+          "endMs": 83334
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "共",
+          "startMs": 83334,
+          "endMs": 83494
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "同",
+          "startMs": 83494,
+          "endMs": 83734
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "支",
+          "startMs": 83734,
+          "endMs": 83894
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "撑",
+          "startMs": 83894,
+          "endMs": 84294
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "组",
+          "startMs": 84374,
+          "endMs": 84614
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "织",
+          "startMs": 84614,
+          "endMs": 84774
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "战",
+          "startMs": 84774,
+          "endMs": 85014
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "略",
+          "startMs": 85014,
+          "endMs": 85094
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "目",
+          "startMs": 85094,
+          "endMs": 85334
+        },
+        {
+          "sceneId": "Q69-C",
+          "text": "标",
+          "startMs": 85334,
+          "endMs": 85574
+        }
+      ]
+    },
+    {
+      "sceneId": "Q69-D",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "Q69-D",
+          "text": "D",
+          "startMs": 86235,
+          "endMs": 86395
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "选",
+          "startMs": 86395,
+          "endMs": 86635
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "项",
+          "startMs": 86635,
+          "endMs": 86795
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "说",
+          "startMs": 86795,
+          "endMs": 87355
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "项",
+          "startMs": 87595,
+          "endMs": 87835
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "目",
+          "startMs": 87835,
+          "endMs": 87995
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "管",
+          "startMs": 87995,
+          "endMs": 88235
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "理",
+          "startMs": 88235,
+          "endMs": 88315
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "通",
+          "startMs": 88315,
+          "endMs": 88555
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "过",
+          "startMs": 88555,
+          "endMs": 88715
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "严",
+          "startMs": 88715,
+          "endMs": 89035
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "格",
+          "startMs": 89035,
+          "endMs": 89195
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "控",
+          "startMs": 89195,
+          "endMs": 89435
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "制",
+          "startMs": 89435,
+          "endMs": 89595
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "范",
+          "startMs": 89595,
+          "endMs": 89915
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "围",
+          "startMs": 89915,
+          "endMs": 90315
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "与",
+          "startMs": 90315,
+          "endMs": 90475
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "成",
+          "startMs": 90475,
+          "endMs": 90715
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "本",
+          "startMs": 90715,
+          "endMs": 90955
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "基",
+          "startMs": 90955,
+          "endMs": 91195
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "准",
+          "startMs": 91195,
+          "endMs": 91435
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "直",
+          "startMs": 91835,
+          "endMs": 91915
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "接",
+          "startMs": 91915,
+          "endMs": 92075
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "决",
+          "startMs": 92075,
+          "endMs": 92235
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "定",
+          "startMs": 92235,
+          "endMs": 92395
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "组",
+          "startMs": 92395,
+          "endMs": 92555
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "织",
+          "startMs": 92555,
+          "endMs": 92635
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "战",
+          "startMs": 92635,
+          "endMs": 92795
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "略",
+          "startMs": 92795,
+          "endMs": 92875
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "目",
+          "startMs": 92875,
+          "endMs": 93035
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "标",
+          "startMs": 93035,
+          "endMs": 93195
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "的",
+          "startMs": 93195,
+          "endMs": 93275
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "最",
+          "startMs": 93275,
+          "endMs": 93515
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "终",
+          "startMs": 93515,
+          "endMs": 93675
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "成",
+          "startMs": 93675,
+          "endMs": 93915
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "败",
+          "startMs": 93915,
+          "endMs": 94155
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "问",
+          "startMs": 94635,
+          "endMs": 94795
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "题",
+          "startMs": 94795,
+          "endMs": 95035
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "在",
+          "startMs": 95035,
+          "endMs": 95595
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "直",
+          "startMs": 95995,
+          "endMs": 96235
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "接",
+          "startMs": 96235,
+          "endMs": 96475
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "决",
+          "startMs": 96475,
+          "endMs": 96715
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "定",
+          "startMs": 96715,
+          "endMs": 96955
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "项",
+          "startMs": 97435,
+          "endMs": 97755
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "目",
+          "startMs": 97755,
+          "endMs": 97835
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "管",
+          "startMs": 97835,
+          "endMs": 97995
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "理",
+          "startMs": 97995,
+          "endMs": 98155
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "支",
+          "startMs": 98155,
+          "endMs": 98315
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "撑",
+          "startMs": 98315,
+          "endMs": 98555
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "战",
+          "startMs": 98555,
+          "endMs": 98795
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "略",
+          "startMs": 98795,
+          "endMs": 98955
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "落",
+          "startMs": 98955,
+          "endMs": 99115
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "地",
+          "startMs": 99115,
+          "endMs": 99435
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "但",
+          "startMs": 99835,
+          "endMs": 99995
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "范",
+          "startMs": 99995,
+          "endMs": 100235
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "围",
+          "startMs": 100235,
+          "endMs": 100395
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "和",
+          "startMs": 100395,
+          "endMs": 100475
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "成",
+          "startMs": 100475,
+          "endMs": 100715
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "本",
+          "startMs": 100715,
+          "endMs": 100875
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "控",
+          "startMs": 100875,
+          "endMs": 101115
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "制",
+          "startMs": 101115,
+          "endMs": 101435
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "不",
+          "startMs": 101915,
+          "endMs": 101995
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "能",
+          "startMs": 101995,
+          "endMs": 102155
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "单",
+          "startMs": 102155,
+          "endMs": 102395
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "独",
+          "startMs": 102395,
+          "endMs": 102555
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "决",
+          "startMs": 102555,
+          "endMs": 102715
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "定",
+          "startMs": 102715,
+          "endMs": 102875
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "组",
+          "startMs": 102875,
+          "endMs": 103035
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "织",
+          "startMs": 103035,
+          "endMs": 103195
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "战",
+          "startMs": 103195,
+          "endMs": 103355
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "略",
+          "startMs": 103355,
+          "endMs": 103435
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "成",
+          "startMs": 103435,
+          "endMs": 103755
+        },
+        {
+          "sceneId": "Q69-D",
+          "text": "败",
+          "startMs": 103755,
+          "endMs": 103915
+        }
+      ]
+    },
+    {
+      "sceneId": "Q69-summary",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "Q69-summary",
+          "text": "你",
+          "startMs": 104629,
+          "endMs": 104789
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "看",
+          "startMs": 104789,
+          "endMs": 105189
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "这",
+          "startMs": 105829,
+          "endMs": 105989
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "道",
+          "startMs": 105989,
+          "endMs": 106069
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "2026",
+          "startMs": 106149,
+          "endMs": 106949
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "年",
+          "startMs": 106949,
+          "endMs": 106950
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "的",
+          "startMs": 106949,
+          "endMs": 107029
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "最",
+          "startMs": 107029,
+          "endMs": 107189
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "新",
+          "startMs": 107189,
+          "endMs": 107509
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "真",
+          "startMs": 107509,
+          "endMs": 107669
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "题",
+          "startMs": 107669,
+          "endMs": 108069
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "把",
+          "startMs": 108309,
+          "endMs": 108469
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "战",
+          "startMs": 108469,
+          "endMs": 108789
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "略",
+          "startMs": 108789,
+          "endMs": 109349
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "组",
+          "startMs": 109429,
+          "endMs": 109669
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "合",
+          "startMs": 109669,
+          "endMs": 110149
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "项",
+          "startMs": 110469,
+          "endMs": 110709
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "目",
+          "startMs": 110709,
+          "endMs": 110869
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "集",
+          "startMs": 110869,
+          "endMs": 111349
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "和",
+          "startMs": 111509,
+          "endMs": 111749
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "项",
+          "startMs": 111749,
+          "endMs": 111989
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "目",
+          "startMs": 111989,
+          "endMs": 112069
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "的",
+          "startMs": 112069,
+          "endMs": 112149
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "权",
+          "startMs": 112149,
+          "endMs": 112469
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "责",
+          "startMs": 112469,
+          "endMs": 112629
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "边",
+          "startMs": 112629,
+          "endMs": 112869
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "界",
+          "startMs": 112869,
+          "endMs": 113269
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "考",
+          "startMs": 113589,
+          "endMs": 113829
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "得",
+          "startMs": 113829,
+          "endMs": 113909
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "极",
+          "startMs": 113909,
+          "endMs": 114149
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "其",
+          "startMs": 114149,
+          "endMs": 114309
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "刁",
+          "startMs": 114309,
+          "endMs": 114549
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "钻",
+          "startMs": 114549,
+          "endMs": 114949
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "但",
+          "startMs": 115189,
+          "endMs": 115429
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "只",
+          "startMs": 115429,
+          "endMs": 115509
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "要",
+          "startMs": 115509,
+          "endMs": 115669
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "抓",
+          "startMs": 115669,
+          "endMs": 115829
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "住",
+          "startMs": 115829,
+          "endMs": 115989
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "了",
+          "startMs": 115989,
+          "endMs": 116149
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "我",
+          "startMs": 116149,
+          "endMs": 116229
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "们",
+          "startMs": 116229,
+          "endMs": 116309
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "梳",
+          "startMs": 116309,
+          "endMs": 116629
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "理",
+          "startMs": 116629,
+          "endMs": 116789
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "的",
+          "startMs": 116789,
+          "endMs": 116869
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "这",
+          "startMs": 116869,
+          "endMs": 117029
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "张",
+          "startMs": 117029,
+          "endMs": 117269
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "宏",
+          "startMs": 117269,
+          "endMs": 117509
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "观",
+          "startMs": 117509,
+          "endMs": 117669
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "棋",
+          "startMs": 117669,
+          "endMs": 117909
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "盘",
+          "startMs": 117909,
+          "endMs": 118309
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "做",
+          "startMs": 118629,
+          "endMs": 118789
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "正",
+          "startMs": 118789,
+          "endMs": 119029
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "确",
+          "startMs": 119029,
+          "endMs": 119189
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "的",
+          "startMs": 119189,
+          "endMs": 119269
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "事",
+          "startMs": 119269,
+          "endMs": 119509
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "归",
+          "startMs": 119509,
+          "endMs": 119669
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "组",
+          "startMs": 119669,
+          "endMs": 119909
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "合",
+          "startMs": 119909,
+          "endMs": 120229
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "协",
+          "startMs": 120789,
+          "endMs": 121109
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "调",
+          "startMs": 121109,
+          "endMs": 121269
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "依",
+          "startMs": 121269,
+          "endMs": 121509
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "赖",
+          "startMs": 121509,
+          "endMs": 121829
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "归",
+          "startMs": 121909,
+          "endMs": 122069
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "项",
+          "startMs": 122069,
+          "endMs": 122309
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "目",
+          "startMs": 122309,
+          "endMs": 122469
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "集",
+          "startMs": 122469,
+          "endMs": 122709
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "哪",
+          "startMs": 123029,
+          "endMs": 123189
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "怕",
+          "startMs": 123189,
+          "endMs": 123429
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "选",
+          "startMs": 123429,
+          "endMs": 123669
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "项",
+          "startMs": 123669,
+          "endMs": 123909
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "乾",
+          "startMs": 123909,
+          "endMs": 124149
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "坤",
+          "startMs": 124149,
+          "endMs": 124389
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "大",
+          "startMs": 124389,
+          "endMs": 124549
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "挪",
+          "startMs": 124549,
+          "endMs": 124709
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "移",
+          "startMs": 124709,
+          "endMs": 125109
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "你",
+          "startMs": 125429,
+          "endMs": 125669
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "也",
+          "startMs": 125669,
+          "endMs": 125749
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "能",
+          "startMs": 125749,
+          "endMs": 125909
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "一",
+          "startMs": 125909,
+          "endMs": 126069
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "眼",
+          "startMs": 126069,
+          "endMs": 126229
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "秒",
+          "startMs": 126229,
+          "endMs": 126389
+        },
+        {
+          "sceneId": "Q69-summary",
+          "text": "杀",
+          "startMs": 126389,
+          "endMs": 126709
+        }
+      ]
+    }
+  ]
+}

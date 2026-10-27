@@ -1,0 +1,2207 @@
+[
+  {
+    "index": 1,
+    "sceneId": "OP-intro",
+    "text": "欢迎来到第 6 章《项目管理概论》。",
+    "startMs": 0,
+    "endMs": 3280
+  },
+  {
+    "index": 2,
+    "sceneId": "OP-intro",
+    "text": "在第7章里，我们讲清楚了一个项目是如何被立项的，",
+    "startMs": 3760,
+    "endMs": 8400
+  },
+  {
+    "index": 3,
+    "sceneId": "OP-intro",
+    "text": "正式立项之后，接下来从第6章，",
+    "startMs": 8720,
+    "endMs": 12240
+  },
+  {
+    "index": 4,
+    "sceneId": "OP-intro",
+    "text": "和第8章到第19章，我们就全面进入了“怎么把项目建好、",
+    "startMs": 12560,
+    "endMs": 18000
+  },
+  {
+    "index": 5,
+    "sceneId": "OP-intro",
+    "text": "管好”的项目建设阶段管理的征程。",
+    "startMs": 18240,
+    "endMs": 20880
+  },
+  {
+    "index": 6,
+    "sceneId": "OP-intro",
+    "text": "第6章，正是整座项目管理大厦的总设计图和底层地基。",
+    "startMs": 21360,
+    "endMs": 27440
+  },
+  {
+    "index": 7,
+    "sceneId": "OP-stats",
+    "text": "先看一眼历年考情：在2023年到2026年的11套试卷里，",
+    "startMs": 28022,
+    "endMs": 33782
+  },
+  {
+    "index": 8,
+    "sceneId": "OP-stats",
+    "text": "第 6 章一共考了38道选择题，",
+    "startMs": 34102,
+    "endMs": 36982
+  },
+  {
+    "index": 9,
+    "sceneId": "OP-stats",
+    "text": "平均每套卷考3.5分，占比大约4.6%，",
+    "startMs": 37302,
+    "endMs": 41726
+  },
+  {
+    "index": 10,
+    "sceneId": "OP-stats",
+    "text": "11套试卷百分之百全覆盖，",
+    "startMs": 42106,
+    "endMs": 45062
+  },
+  {
+    "index": 11,
+    "sceneId": "OP-stats",
+    "text": "每套卷稳定考2到5道题。",
+    "startMs": 45382,
+    "endMs": 47702
+  },
+  {
+    "index": 12,
+    "sceneId": "OP-stats",
+    "text": "2026年的两个批次，",
+    "startMs": 48262,
+    "endMs": 50742
+  },
+  {
+    "index": 13,
+    "sceneId": "OP-stats",
+    "text": "也都各考了3道题。",
+    "startMs": 51062,
+    "endMs": 52582
+  },
+  {
+    "index": 14,
+    "sceneId": "OP-overview",
+    "text": "在进入具体概念之前，我们先用一分钟扫清 6.1 节——PMBOK，",
+    "startMs": 53244,
+    "endMs": 59644
+  },
+  {
+    "index": 15,
+    "sceneId": "OP-overview",
+    "text": "也就是美国项目管理协会开发的《项目管理知识体系指南》的发展演进。",
+    "startMs": 60444,
+    "endMs": 66524
+  },
+  {
+    "index": 16,
+    "sceneId": "OP-overview",
+    "text": "从1996年发布第1版开始，",
+    "startMs": 67004,
+    "endMs": 69564
+  },
+  {
+    "index": 17,
+    "sceneId": "OP-overview",
+    "text": "PMBOK 大约每四年更新一版。",
+    "startMs": 69964,
+    "endMs": 73244
+  },
+  {
+    "index": 18,
+    "sceneId": "OP-overview",
+    "text": "教材表 6-1 重点对比了四个关键版本的变化，",
+    "startMs": 73724,
+    "endMs": 78444
+  },
+  {
+    "index": 19,
+    "sceneId": "OP-overview",
+    "text": "大家只需要抓准从第 6 版到第 7 版的跨代升级：",
+    "startMs": 78684,
+    "endMs": 83804
+  },
+  {
+    "index": 20,
+    "sceneId": "OP-editions",
+    "text": "第一版采用的是基于过程的标准；",
+    "startMs": 84426,
+    "endMs": 87466
+  },
+  {
+    "index": 21,
+    "sceneId": "OP-editions",
+    "text": "第三版首次印上了美国国家标准学会 ANSI 标准的标识；",
+    "startMs": 87866,
+    "endMs": 92666
+  },
+  {
+    "index": 22,
+    "sceneId": "OP-editions",
+    "text": "到了2017年的第 6 版，",
+    "startMs": 93066,
+    "endMs": 94986
+  },
+  {
+    "index": 23,
+    "sceneId": "OP-editions",
+    "text": "首次把敏捷内容正式纳入正文，",
+    "startMs": 95306,
+    "endMs": 98346
+  },
+  {
+    "index": 24,
+    "sceneId": "OP-editions",
+    "text": "形成了大家熟知的五大过程组和十大知识领域。",
+    "startMs": 98666,
+    "endMs": 102666
+  },
+  {
+    "index": 25,
+    "sceneId": "OP-problem",
+    "text": "而到了2021年的第7版，",
+    "startMs": 103330,
+    "endMs": 106290
+  },
+  {
+    "index": 26,
+    "sceneId": "OP-problem",
+    "text": "也就是我们第四版教材改版的灵魂底座，",
+    "startMs": 106530,
+    "endMs": 109890
+  },
+  {
+    "index": 27,
+    "sceneId": "OP-problem",
+    "text": "发生了一次深刻的思想转型：",
+    "startMs": 110210,
+    "endMs": 112450
+  },
+  {
+    "index": 28,
+    "sceneId": "OP-problem",
+    "text": "过去详尽的过程规范，往往导致团队机械合规、",
+    "startMs": 113170,
+    "endMs": 117330
+  },
+  {
+    "index": 29,
+    "sceneId": "OP-problem",
+    "text": "死板套用流程，项目却在商业上失败了。",
+    "startMs": 117890,
+    "endMs": 121250
+  },
+  {
+    "index": 30,
+    "sceneId": "OP-value",
+    "text": "因此第 7 版全面转向了以系统为视角，",
+    "startMs": 121863,
+    "endMs": 125543
+  },
+  {
+    "index": 31,
+    "sceneId": "OP-value",
+    "text": "引入了价值交付系统，提出了十二个不可动摇的项目管理原则，",
+    "startMs": 125863,
+    "endMs": 130823
+  },
+  {
+    "index": 32,
+    "sceneId": "OP-value",
+    "text": "以及八个项目绩效域。",
+    "startMs": 131223,
+    "endMs": 132903
+  },
+  {
+    "index": 33,
+    "sceneId": "OP-value",
+    "text": "理解了这个转轨背景，",
+    "startMs": 133383,
+    "endMs": 134983
+  },
+  {
+    "index": 34,
+    "sceneId": "OP-value",
+    "text": "你就明白为什么第四版教材会同时容纳传统的过程组和崭新的价值原则了。",
+    "startMs": 135303,
+    "endMs": 142343
+  },
+  {
+    "index": 35,
+    "sceneId": "S01",
+    "text": "接下来进入 6.2 节“项目基本要素”。",
+    "startMs": 143000,
+    "endMs": 146280
+  },
+  {
+    "index": 36,
+    "sceneId": "S01",
+    "text": "到底什么是项目？",
+    "startMs": 146760,
+    "endMs": 147960
+  },
+  {
+    "index": 37,
+    "sceneId": "S01",
+    "text": "教材的标准定义是：项目是为创造独特的产品、",
+    "startMs": 148440,
+    "endMs": 153160
+  },
+  {
+    "index": 38,
+    "sceneId": "S01",
+    "text": "服务或成果而进行的临时性工作。",
+    "startMs": 153480,
+    "endMs": 155960
+  },
+  {
+    "index": 39,
+    "sceneId": "S01",
+    "text": "核心词就是两个：独特和临时。",
+    "startMs": 156440,
+    "endMs": 159800
+  },
+  {
+    "index": 40,
+    "sceneId": "S02",
+    "text": "很多同学把这两个词当死概念背，",
+    "startMs": 160472,
+    "endMs": 163112
+  },
+  {
+    "index": 41,
+    "sceneId": "S02",
+    "text": "其实背后蕴含着极其深刻的管理常识。",
+    "startMs": 163592,
+    "endMs": 166552
+  },
+  {
+    "index": 42,
+    "sceneId": "S02",
+    "text": "我们结合教材图 6-1 来看：",
+    "startMs": 167032,
+    "endMs": 169192
+  },
+  {
+    "index": 43,
+    "sceneId": "S02",
+    "text": "企业在市场上生存，日常的运营工作维持着组织的当前状态；",
+    "startMs": 169512,
+    "endMs": 175352
+  },
+  {
+    "index": 44,
+    "sceneId": "S02",
+    "text": "但当市场竞争加剧、技术革新、",
+    "startMs": 175672,
+    "endMs": 178792
+  },
+  {
+    "index": 45,
+    "sceneId": "S02",
+    "text": "或者国家出台新法规的时候，",
+    "startMs": 179112,
+    "endMs": 181592
+  },
+  {
+    "index": 46,
+    "sceneId": "S02",
+    "text": "企业如果想跨越到更有竞争力的将来状态，",
+    "startMs": 181912,
+    "endMs": 185512
+  },
+  {
+    "index": 47,
+    "sceneId": "S02",
+    "text": "就必须做出改变。",
+    "startMs": 185832,
+    "endMs": 187192
+  },
+  {
+    "index": 48,
+    "sceneId": "S02",
+    "text": "而这个驱动组织实现状态转换、",
+    "startMs": 187672,
+    "endMs": 190712
+  },
+  {
+    "index": 49,
+    "sceneId": "S02",
+    "text": "创造业务价值的创新载体，",
+    "startMs": 191032,
+    "endMs": 193192
+  },
+  {
+    "index": 50,
+    "sceneId": "S02",
+    "text": "就是项目！",
+    "startMs": 193512,
+    "endMs": 194152
+  },
+  {
+    "index": 51,
+    "sceneId": "TR-unique",
+    "text": "正因如此，企业给项目赋予了两大基因：",
+    "startMs": 194867,
+    "endMs": 198947
+  },
+  {
+    "index": 52,
+    "sceneId": "TR-unique",
+    "text": "第一个是独特性。",
+    "startMs": 199347,
+    "endMs": 201267
+  },
+  {
+    "index": 53,
+    "sceneId": "TR-unique",
+    "text": "哪怕两个信息系统项目采用完全相同的技术架构、",
+    "startMs": 201827,
+    "endMs": 205907
+  },
+  {
+    "index": 54,
+    "sceneId": "TR-unique",
+    "text": "同一个开发团队，甚至有相同的活动元素，",
+    "startMs": 206387,
+    "endMs": 210307
+  },
+  {
+    "index": 55,
+    "sceneId": "TR-unique",
+    "text": "但由于客户需求、应用场景、",
+    "startMs": 210627,
+    "endMs": 213347
+  },
+  {
+    "index": 56,
+    "sceneId": "TR-unique",
+    "text": "干系人和运行环境不同，",
+    "startMs": 213907,
+    "endMs": 215827
+  },
+  {
+    "index": 57,
+    "sceneId": "TR-unique",
+    "text": "每个项目依然是独一无二的。",
+    "startMs": 216147,
+    "endMs": 218627
+  },
+  {
+    "index": 58,
+    "sceneId": "TR-boundary",
+    "text": "第二个是临时性。",
+    "startMs": 219297,
+    "endMs": 221457
+  },
+  {
+    "index": 59,
+    "sceneId": "TR-boundary",
+    "text": "这是考场上命题人最喜欢挖坑的地方！",
+    "startMs": 221937,
+    "endMs": 224737
+  },
+  {
+    "index": 60,
+    "sceneId": "TR-boundary",
+    "text": "为什么必须是临时性的？",
+    "startMs": 225217,
+    "endMs": 227057
+  },
+  {
+    "index": 61,
+    "sceneId": "TR-boundary",
+    "text": "因为创新探索是有风险的，",
+    "startMs": 227537,
+    "endMs": 229617
+  },
+  {
+    "index": 62,
+    "sceneId": "TR-boundary",
+    "text": "企业必须给它划定一个明确的始末边界，",
+    "startMs": 230017,
+    "endMs": 233137
+  },
+  {
+    "index": 63,
+    "sceneId": "TR-boundary",
+    "text": "有明确的起点和终点，实现风险闭环。",
+    "startMs": 233537,
+    "endMs": 237217
+  },
+  {
+    "index": 64,
+    "sceneId": "TR-traps",
+    "text": "所以请大家死死记住两个防坑点：",
+    "startMs": 237841,
+    "endMs": 240641
+  },
+  {
+    "index": 65,
+    "sceneId": "TR-traps",
+    "text": "第一，临时性绝对不等于持续时间短！",
+    "startMs": 241121,
+    "endMs": 244801
+  },
+  {
+    "index": 66,
+    "sceneId": "TR-traps",
+    "text": "大国工程做十年，依然叫临时性；",
+    "startMs": 245281,
+    "endMs": 248561
+  },
+  {
+    "index": 67,
+    "sceneId": "TR-traps",
+    "text": "第二，项目绝对不是周而复始的流水线，",
+    "startMs": 249041,
+    "endMs": 253281
+  },
+  {
+    "index": 68,
+    "sceneId": "TR-traps",
+    "text": "因此绝不能说成是周期性工作！",
+    "startMs": 253601,
+    "endMs": 257041
+  },
+  {
+    "index": 69,
+    "sceneId": "TR-results",
+    "text": "而且，项目虽然是临时的，",
+    "startMs": 257659,
+    "endMs": 260139
+  },
+  {
+    "index": 70,
+    "sceneId": "TR-results",
+    "text": "但项目交付的成果，比如一套核心交易系统、",
+    "startMs": 260539,
+    "endMs": 264699
+  },
+  {
+    "index": 71,
+    "sceneId": "TR-results",
+    "text": "一座数据中心，在项目结束后会长期存在并持续创造价值。",
+    "startMs": 264939,
+    "endMs": 271339
+  },
+  {
+    "index": 72,
+    "sceneId": "TR-ending",
+    "text": "那么项目什么时候宣告结束呢？",
+    "startMs": 271977,
+    "endMs": 274377
+  },
+  {
+    "index": 73,
+    "sceneId": "TR-ending",
+    "text": "通常是达成目标；但如果不能达到目标、",
+    "startMs": 274937,
+    "endMs": 278377
+  },
+  {
+    "index": 74,
+    "sceneId": "TR-ending",
+    "text": "资金耗尽、需求不复存在、",
+    "startMs": 278777,
+    "endMs": 281337
+  },
+  {
+    "index": 75,
+    "sceneId": "TR-ending",
+    "text": "无法获得所需资源，或者出于法律原因，",
+    "startMs": 281817,
+    "endMs": 285417
+  },
+  {
+    "index": 76,
+    "sceneId": "TR-ending",
+    "text": "项目也会依法依规宣告终止。",
+    "startMs": 286697,
+    "endMs": 289017
+  },
+  {
+    "index": 77,
+    "sceneId": "Q17-read",
+    "text": "我们看一道典范真题，看看出题人是怎么在这个定义上给你下套的。",
+    "startMs": 289767,
+    "endMs": 294967
+  },
+  {
+    "index": 78,
+    "sceneId": "Q17-read",
+    "text": "这是2023年11月第4批次的第17题：",
+    "startMs": 295447,
+    "endMs": 299367
+  },
+  {
+    "index": 79,
+    "sceneId": "Q17-read",
+    "text": "关于项目的描述，不正确的是哪一项？",
+    "startMs": 299847,
+    "endMs": 303927
+  },
+  {
+    "index": 80,
+    "sceneId": "Q17-A",
+    "text": "A 选项说，项目的需求不复存在，",
+    "startMs": 307526,
+    "endMs": 310966
+  },
+  {
+    "index": 81,
+    "sceneId": "Q17-A",
+    "text": "是项目宣告结束的情况之一。",
+    "startMs": 311286,
+    "endMs": 313606
+  },
+  {
+    "index": 82,
+    "sceneId": "Q17-A",
+    "text": "完全正确，",
+    "startMs": 314086,
+    "endMs": 315046
+  },
+  {
+    "index": 83,
+    "sceneId": "Q17-A",
+    "text": "没有需求了就必须果断止损；",
+    "startMs": 315446,
+    "endMs": 318486
+  },
+  {
+    "index": 84,
+    "sceneId": "Q17-B",
+    "text": "B 选项说，实现项目目标可能会产生一个或多个可交付成果。",
+    "startMs": 319112,
+    "endMs": 325512
+  },
+  {
+    "index": 85,
+    "sceneId": "Q17-B",
+    "text": "完全正确；",
+    "startMs": 325992,
+    "endMs": 326952
+  },
+  {
+    "index": 86,
+    "sceneId": "Q17-C",
+    "text": "C 选项说，可交付成果可能会在项目终止后依然存在。",
+    "startMs": 327707,
+    "endMs": 333147
+  },
+  {
+    "index": 87,
+    "sceneId": "Q17-C",
+    "text": "完全正确，",
+    "startMs": 333627,
+    "endMs": 334587
+  },
+  {
+    "index": 88,
+    "sceneId": "Q17-C",
+    "text": "工程做完了，系统继续跑十年；",
+    "startMs": 335067,
+    "endMs": 338027
+  },
+  {
+    "index": 89,
+    "sceneId": "Q17-D",
+    "text": "再看 D 选项，他说：项目是为创造独特的产品、",
+    "startMs": 338683,
+    "endMs": 343883
+  },
+  {
+    "index": 90,
+    "sceneId": "Q17-D",
+    "text": "服务或成果而进行的周期性工作。",
+    "startMs": 344203,
+    "endMs": 347083
+  },
+  {
+    "index": 91,
+    "sceneId": "Q17-explain",
+    "text": "抓住了吗？",
+    "startMs": 347755,
+    "endMs": 348315
+  },
+  {
+    "index": 92,
+    "sceneId": "Q17-explain",
+    "text": "命题人前面大半句全抄教材原话，",
+    "startMs": 348875,
+    "endMs": 352315
+  },
+  {
+    "index": 93,
+    "sceneId": "Q17-explain",
+    "text": "就在最后三个字把",
+    "startMs": 352555,
+    "endMs": 354795
+  },
+  {
+    "index": 94,
+    "sceneId": "Q17-explain",
+    "text": "临时性",
+    "startMs": 354795,
+    "endMs": 355675
+  },
+  {
+    "index": 95,
+    "sceneId": "Q17-explain",
+    "text": "偷换成了",
+    "startMs": 355755,
+    "endMs": 356475
+  },
+  {
+    "index": 96,
+    "sceneId": "Q17-explain",
+    "text": "周期性！",
+    "startMs": 356475,
+    "endMs": 357275
+  },
+  {
+    "index": 97,
+    "sceneId": "Q17-explain",
+    "text": "周而复始、按部就班的流水线是运营，",
+    "startMs": 357755,
+    "endMs": 362075
+  },
+  {
+    "index": 98,
+    "sceneId": "Q17-explain",
+    "text": "绝不是项目。",
+    "startMs": 362395,
+    "endMs": 363195
+  },
+  {
+    "index": 99,
+    "sceneId": "Q17-explain",
+    "text": "一眼锁定",
+    "startMs": 363755,
+    "endMs": 364795
+  },
+  {
+    "index": 100,
+    "sceneId": "Q17-explain",
+    "text": "D 选项！",
+    "startMs": 364795,
+    "endMs": 365595
+  },
+  {
+    "index": 101,
+    "sceneId": "Q17-explain",
+    "text": "在英文试题里，也是直接考查临时性对应单词 Temporary。",
+    "startMs": 366155,
+    "endMs": 371195
+  },
+  {
+    "index": 102,
+    "sceneId": "Q17-explain",
+    "text": "这种核心特征题，只要抓准管理机理，",
+    "startMs": 371755,
+    "endMs": 375435
+  },
+  {
+    "index": 103,
+    "sceneId": "Q17-explain",
+    "text": "两秒钟就能秒杀。",
+    "startMs": 375755,
+    "endMs": 377275
+  },
+  {
+    "index": 104,
+    "sceneId": "SC-strategy",
+    "text": "既然项目是推动组织跨越的引擎，",
+    "startMs": 377933,
+    "endMs": 380893
+  },
+  {
+    "index": 105,
+    "sceneId": "SC-strategy",
+    "text": "那么 6.2.2 节就指出：有效和高效的项目管理，",
+    "startMs": 381213,
+    "endMs": 386173
+  },
+  {
+    "index": 106,
+    "sceneId": "SC-strategy",
+    "text": "是一个组织的战略能力！",
+    "startMs": 386573,
+    "endMs": 388573
+  },
+  {
+    "index": 107,
+    "sceneId": "SC-strategy",
+    "text": "它使组织能够将项目成果与业务目标联系起来、",
+    "startMs": 389133,
+    "endMs": 392653
+  },
+  {
+    "index": 108,
+    "sceneId": "SC-strategy",
+    "text": "更有效地开展竞争、实现可持续发展，",
+    "startMs": 393133,
+    "endMs": 396413
+  },
+  {
+    "index": 109,
+    "sceneId": "SC-strategy",
+    "text": "并且通过适当调整项目管理计划来应对外部环境改变。",
+    "startMs": 396653,
+    "endMs": 401293
+  },
+  {
+    "index": 110,
+    "sceneId": "SC-triangle",
+    "text": "顺着这个逻辑推演，到了 6.2.3 节，",
+    "startMs": 401892,
+    "endMs": 405572
+  },
+  {
+    "index": 111,
+    "sceneId": "SC-triangle",
+    "text": "我们怎么评判一个项目到底是成功还是失败？",
+    "startMs": 406852,
+    "endMs": 410692
+  },
+  {
+    "index": 112,
+    "sceneId": "SC-triangle",
+    "text": "在传统观念里，项目经理往往只盯着铁三角：",
+    "startMs": 411172,
+    "endMs": 415172
+  },
+  {
+    "index": 113,
+    "sceneId": "SC-triangle",
+    "text": "范围有没有少做？",
+    "startMs": 415492,
+    "endMs": 416772
+  },
+  {
+    "index": 114,
+    "sceneId": "SC-triangle",
+    "text": "工期有没有拖延？",
+    "startMs": 417252,
+    "endMs": 418612
+  },
+  {
+    "index": 115,
+    "sceneId": "SC-triangle",
+    "text": "预算有没有超支？",
+    "startMs": 419092,
+    "endMs": 420932
+  },
+  {
+    "index": 116,
+    "sceneId": "SC-triangle",
+    "text": "以及三角形内部的质量是否符合要求？",
+    "startMs": 421492,
+    "endMs": 424612
+  },
+  {
+    "index": 117,
+    "sceneId": "SC-failure",
+    "text": "第四版教材给出了一个发人深省的管理常识：",
+    "startMs": 425284,
+    "endMs": 430004
+  },
+  {
+    "index": 118,
+    "sceneId": "SC-failure",
+    "text": "可能一个项目从范围、进度和预算来看都是成功的，",
+    "startMs": 430404,
+    "endMs": 435204
+  },
+  {
+    "index": 119,
+    "sceneId": "SC-failure",
+    "text": "但在业务角度上它彻底失败了！",
+    "startMs": 435444,
+    "endMs": 438164
+  },
+  {
+    "index": 120,
+    "sceneId": "SC-failure",
+    "text": "为什么？因为市场环境变化了，",
+    "startMs": 438644,
+    "endMs": 441604
+  },
+  {
+    "index": 121,
+    "sceneId": "SC-failure",
+    "text": "当初立项时的客户需求早就消失了，",
+    "startMs": 441924,
+    "endMs": 445364
+  },
+  {
+    "index": 122,
+    "sceneId": "SC-failure",
+    "text": "系统即使完美上线也没人使用，",
+    "startMs": 445684,
+    "endMs": 447844
+  },
+  {
+    "index": 123,
+    "sceneId": "SC-failure",
+    "text": "根本无法为组织带来预期的效益和财务投资回报率！",
+    "startMs": 448244,
+    "endMs": 452644
+  },
+  {
+    "index": 124,
+    "sceneId": "SC-dimensions",
+    "text": "因此，教材明确要求：衡量项目是否成功，",
+    "startMs": 453230,
+    "endMs": 457950
+  },
+  {
+    "index": 125,
+    "sceneId": "SC-dimensions",
+    "text": "除了传统的时间成本范围质量这四个可测量指标，",
+    "startMs": 458350,
+    "endMs": 461950
+  },
+  {
+    "index": 126,
+    "sceneId": "SC-dimensions",
+    "text": "还必须建立第二维标准——",
+    "startMs": 462270,
+    "endMs": 464270
+  },
+  {
+    "index": 127,
+    "sceneId": "SC-dimensions",
+    "text": "与组织战略和业务成果交付相关的标准与目标，",
+    "startMs": 464510,
+    "endMs": 468110
+  },
+  {
+    "index": 128,
+    "sceneId": "SC-dimensions",
+    "text": "比如完成项目效益管理计划、",
+    "startMs": 468430,
+    "endMs": 471310
+  },
+  {
+    "index": 129,
+    "sceneId": "SC-dimensions",
+    "text": "达到可行性研究里的净现值和投资回报率等财务指标、",
+    "startMs": 471710,
+    "endMs": 476110
+  },
+  {
+    "index": 130,
+    "sceneId": "SC-dimensions",
+    "text": "实现从当前状态向将来状态的成功跨越。",
+    "startMs": 476910,
+    "endMs": 480350
+  },
+  {
+    "index": 131,
+    "sceneId": "SC-dimensions",
+    "text": "这两个维度必须兼备，才叫真正的项目成功！",
+    "startMs": 480990,
+    "endMs": 485310
+  },
+  {
+    "index": 132,
+    "sceneId": "SC-read",
+    "text": "我们来看2023年11月第3批次的第17题，",
+    "startMs": 485973,
+    "endMs": 490613
+  },
+  {
+    "index": 133,
+    "sceneId": "SC-read",
+    "text": "看出题人怎么考查成功的标准。",
+    "startMs": 490933,
+    "endMs": 493413
+  },
+  {
+    "index": 134,
+    "sceneId": "SC-read",
+    "text": "题目问：下面有关项目成功标准的描述，",
+    "startMs": 493973,
+    "endMs": 497653
+  },
+  {
+    "index": 135,
+    "sceneId": "SC-read",
+    "text": "不正确的是哪一项？",
+    "startMs": 498133,
+    "endMs": 500453
+  },
+  {
+    "index": 136,
+    "sceneId": "SC-Aread",
+    "text": "我们直接扫 A 选项：",
+    "startMs": 504156,
+    "endMs": 505516
+  },
+  {
+    "index": 137,
+    "sceneId": "SC-Aread",
+    "text": "项目成功不涉及与组织战略和业务成果交付相关的标准与目标。",
+    "startMs": 505916,
+    "endMs": 510716
+  },
+  {
+    "index": 138,
+    "sceneId": "SC-Ajudge",
+    "text": "读到这里直接就可以举手拿分了！",
+    "startMs": 511375,
+    "endMs": 514095
+  },
+  {
+    "index": 139,
+    "sceneId": "SC-Ajudge",
+    "text": "A 选项直接加上了一个",
+    "startMs": 514575,
+    "endMs": 516175
+  },
+  {
+    "index": 140,
+    "sceneId": "SC-Ajudge",
+    "text": "不字，",
+    "startMs": 516175,
+    "endMs": 516575
+  },
+  {
+    "index": 141,
+    "sceneId": "SC-Ajudge",
+    "text": "全盘否定了战略和业务成果，",
+    "startMs": 516975,
+    "endMs": 519135
+  },
+  {
+    "index": 142,
+    "sceneId": "SC-Ajudge",
+    "text": "这正撞在我们刚才讲的第二维核心标准上，",
+    "startMs": 519375,
+    "endMs": 522735
+  },
+  {
+    "index": 143,
+    "sceneId": "SC-Ajudge",
+    "text": "错得极其离谱。",
+    "startMs": 523055,
+    "endMs": 524095
+  },
+  {
+    "index": 144,
+    "sceneId": "SC-B",
+    "text": "我们再顺带看其余三个正确选项，",
+    "startMs": 524773,
+    "endMs": 527493
+  },
+  {
+    "index": 145,
+    "sceneId": "SC-B",
+    "text": "字字珠玑：",
+    "startMs": 527813,
+    "endMs": 529013
+  },
+  {
+    "index": 146,
+    "sceneId": "SC-B",
+    "text": "B 选项说明确记录项目目标并选择可测量的目标是项目成功的关键；",
+    "startMs": 529413,
+    "endMs": 536773
+  },
+  {
+    "index": 147,
+    "sceneId": "SC-C",
+    "text": "C 选项说确定项目是否成功应考虑项目目标的实现情况；",
+    "startMs": 537417,
+    "endMs": 543497
+  },
+  {
+    "index": 148,
+    "sceneId": "SC-D",
+    "text": "D 选项则是我们反复强调的教材原话：",
+    "startMs": 544089,
+    "endMs": 547849
+  },
+  {
+    "index": 149,
+    "sceneId": "SC-D",
+    "text": "有可能一个项目从范围、",
+    "startMs": 548249,
+    "endMs": 550009
+  },
+  {
+    "index": 150,
+    "sceneId": "SC-D",
+    "text": "进度、预算来看是成功的，",
+    "startMs": 550329,
+    "endMs": 552089
+  },
+  {
+    "index": 151,
+    "sceneId": "SC-D",
+    "text": "但从业务角度来看并不成功。",
+    "startMs": 552409,
+    "endMs": 555289
+  },
+  {
+    "index": 152,
+    "sceneId": "SC-summary",
+    "text": "所以不正确的稳稳选",
+    "startMs": 555935,
+    "endMs": 557215
+  },
+  {
+    "index": 153,
+    "sceneId": "SC-summary",
+    "text": "A！",
+    "startMs": 557295,
+    "endMs": 557535
+  },
+  {
+    "index": 154,
+    "sceneId": "SC-summary",
+    "text": "理解了背后的业务常识，",
+    "startMs": 558015,
+    "endMs": 560015
+  },
+  {
+    "index": 155,
+    "sceneId": "SC-summary",
+    "text": "哪怕题目改写成别的形式，",
+    "startMs": 560415,
+    "endMs": 562575
+  },
+  {
+    "index": 156,
+    "sceneId": "SC-summary",
+    "text": "你也能一眼把正确答案拎出来。",
+    "startMs": 562895,
+    "endMs": 565695
+  },
+  {
+    "index": 157,
+    "sceneId": "R01",
+    "text": "项目要承载战略，组织就必须搭建一个高效的宏观治理体系。",
+    "startMs": 566367,
+    "endMs": 571647
+  },
+  {
+    "index": 158,
+    "sceneId": "R01",
+    "text": "这就是 6.2.4 节“项目、项目集、",
+    "startMs": 572127,
+    "endMs": 575327
+  },
+  {
+    "index": 159,
+    "sceneId": "R01",
+    "text": "项目组合和运营管理之间的关系”。",
+    "startMs": 575807,
+    "endMs": 578607
+  },
+  {
+    "index": 160,
+    "sceneId": "R01",
+    "text": "这是全书最经典的考点之一，",
+    "startMs": 579087,
+    "endMs": 581727
+  },
+  {
+    "index": 161,
+    "sceneId": "R01",
+    "text": "我们结合教材图 6-2、图 6-3 和表 6-3，",
+    "startMs": 582047,
+    "endMs": 588287
+  },
+  {
+    "index": 162,
+    "sceneId": "R01",
+    "text": "把它拆解为做正确的事和正确地做事两个层面。",
+    "startMs": 588607,
+    "endMs": 593327
+  },
+  {
+    "index": 163,
+    "sceneId": "R02",
+    "text": "在最顶层是组织战略。",
+    "startMs": 594022,
+    "endMs": 595782
+  },
+  {
+    "index": 164,
+    "sceneId": "R02",
+    "text": "企业面对有限的资金和资源，",
+    "startMs": 596342,
+    "endMs": 599222
+  },
+  {
+    "index": 165,
+    "sceneId": "R02",
+    "text": "不可能什么都做，高层首先要决定：",
+    "startMs": 599462,
+    "endMs": 603542
+  },
+  {
+    "index": 166,
+    "sceneId": "R02",
+    "text": "钱投给谁？",
+    "startMs": 604022,
+    "endMs": 605062
+  },
+  {
+    "index": 167,
+    "sceneId": "R02",
+    "text": "哪些板块该上，哪些该砍？",
+    "startMs": 605862,
+    "endMs": 608582
+  },
+  {
+    "index": 168,
+    "sceneId": "R02",
+    "text": "这就是“项目组合”，英文叫 Portfolio。",
+    "startMs": 609222,
+    "endMs": 612182
+  },
+  {
+    "index": 169,
+    "sceneId": "R03",
+    "text": "项目组合的使命，是确保企业在“做正确的事”！",
+    "startMs": 612802,
+    "endMs": 616722
+  },
+  {
+    "index": 170,
+    "sceneId": "R03",
+    "text": "它是为了实现组织的战略目标，",
+    "startMs": 617282,
+    "endMs": 619522
+  },
+  {
+    "index": 171,
+    "sceneId": "R03",
+    "text": "而把项目、项目集、子项目组合和运营组合在一起集中管理。",
+    "startMs": 621762,
+    "endMs": 627842
+  },
+  {
+    "index": 172,
+    "sceneId": "R03",
+    "text": "请死死锁死考场三大命题陷阱：",
+    "startMs": 628402,
+    "endMs": 631282
+  },
+  {
+    "index": 173,
+    "sceneId": "R04",
+    "text": "第一，项目组合服务的是战略目标，",
+    "startMs": 631887,
+    "endMs": 635487
+  },
+  {
+    "index": 174,
+    "sceneId": "R04",
+    "text": "如果选项写成实现项目目标，",
+    "startMs": 635807,
+    "endMs": 638287
+  },
+  {
+    "index": 175,
+    "sceneId": "R04",
+    "text": "必错；第二，项目组合管理的核心手段是排优先级、",
+    "startMs": 638687,
+    "endMs": 645327
+  },
+  {
+    "index": 176,
+    "sceneId": "R04",
+    "text": "做投资决策、分配资源；第三，",
+    "startMs": 645807,
+    "endMs": 648847
+  },
+  {
+    "index": 177,
+    "sceneId": "R04",
+    "text": "极为反直觉的考点：项目组合里的各个组件，",
+    "startMs": 649247,
+    "endMs": 652927
+  },
+  {
+    "index": 178,
+    "sceneId": "R04",
+    "text": "彼此之间不一定存在相互依赖或直接相关的关系！",
+    "startMs": 653247,
+    "endMs": 657807
+  },
+  {
+    "index": 179,
+    "sceneId": "R04",
+    "text": "企业可以一边投芯片研发，",
+    "startMs": 658287,
+    "endMs": 660847
+  },
+  {
+    "index": 180,
+    "sceneId": "R04",
+    "text": "一边投物业地产，只要它们共同支撑战略并追求投资回报即可。",
+    "startMs": 661167,
+    "endMs": 666927
+  },
+  {
+    "index": 181,
+    "sceneId": "R05",
+    "text": "当下层领到具体任务时，",
+    "startMs": 667561,
+    "endMs": 670121
+  },
+  {
+    "index": 182,
+    "sceneId": "R05",
+    "text": "进入项目集和项目，它们关心的都是“正确地做事”。",
+    "startMs": 670361,
+    "endMs": 674361
+  },
+  {
+    "index": 183,
+    "sceneId": "R06",
+    "text": "什么叫“项目集”？",
+    "startMs": 675021,
+    "endMs": 676461
+  },
+  {
+    "index": 184,
+    "sceneId": "R06",
+    "text": "它是把一组相互关联的项目和活动绑在一起协调管理。",
+    "startMs": 676941,
+    "endMs": 681261
+  },
+  {
+    "index": 185,
+    "sceneId": "R06",
+    "text": "为什么要绑在一起？",
+    "startMs": 681741,
+    "endMs": 682941
+  },
+  {
+    "index": 186,
+    "sceneId": "R06",
+    "text": "教材给出了八字真金：为了获得分别管理所无法获得的收益和控制！",
+    "startMs": 683661,
+    "endMs": 689341
+  },
+  {
+    "index": 187,
+    "sceneId": "R06",
+    "text": "比如建设一个大型电网系统，",
+    "startMs": 689981,
+    "endMs": 692141
+  },
+  {
+    "index": 188,
+    "sceneId": "R06",
+    "text": "或者一个通信卫星系统，",
+    "startMs": 692461,
+    "endMs": 694301
+  },
+  {
+    "index": 189,
+    "sceneId": "R06",
+    "text": "里面既有卫星研制、地面测控站建设，",
+    "startMs": 694621,
+    "endMs": 698301
+  },
+  {
+    "index": 190,
+    "sceneId": "R06",
+    "text": "又有火箭发射，彼此高度耦合，",
+    "startMs": 698621,
+    "endMs": 701501
+  },
+  {
+    "index": 191,
+    "sceneId": "R06",
+    "text": "单独各管各的必然脱节，",
+    "startMs": 701821,
+    "endMs": 704221
+  },
+  {
+    "index": 192,
+    "sceneId": "R06",
+    "text": "合在一起管才能协调依赖。",
+    "startMs": 704541,
+    "endMs": 707421
+  },
+  {
+    "index": 193,
+    "sceneId": "R06",
+    "text": "所以请记住：项目集绝对不是单纯规模很大的大项目！",
+    "startMs": 707901,
+    "endMs": 712461
+  },
+  {
+    "index": 194,
+    "sceneId": "R07",
+    "text": "至于单个“项目”，它的目标明确，",
+    "startMs": 713099,
+    "endMs": 715979
+  },
+  {
+    "index": 195,
+    "sceneId": "R07",
+    "text": "范围在生命周期中是渐进明晰的。",
+    "startMs": 716379,
+    "endMs": 719659
+  },
+  {
+    "index": 196,
+    "sceneId": "R07",
+    "text": "这里要警惕2025年的一个新陷阱：",
+    "startMs": 720139,
+    "endMs": 723339
+  },
+  {
+    "index": 197,
+    "sceneId": "R07",
+    "text": "渐进明晰是所有项目伴随信息增多而逐步细化的通用规律，",
+    "startMs": 723739,
+    "endMs": 729499
+  },
+  {
+    "index": 198,
+    "sceneId": "R07",
+    "text": "绝不代表看到渐进明晰就必须采用敏捷开发方法！",
+    "startMs": 729819,
+    "endMs": 734059
+  },
+  {
+    "index": 199,
+    "sceneId": "R07",
+    "text": "额外说明一下：",
+    "startMs": 734619,
+    "endMs": 735819
+  },
+  {
+    "index": 200,
+    "sceneId": "R07",
+    "text": "在PMBOK第六版中采用的五大过程组和十大知识领域的架构，",
+    "startMs": 736539,
+    "endMs": 741579
+  },
+  {
+    "index": 201,
+    "sceneId": "R07",
+    "text": "仍然强调“渐进明细”。",
+    "startMs": 741899,
+    "endMs": 744299
+  },
+  {
+    "index": 202,
+    "sceneId": "R08",
+    "text": "最后，“运营管理”负责日常持续生产和服务，",
+    "startMs": 744884,
+    "endMs": 749524
+  },
+  {
+    "index": 203,
+    "sceneId": "R08",
+    "text": "不属于项目管理，但在新产品开发、",
+    "startMs": 749924,
+    "endMs": 753124
+  },
+  {
+    "index": 204,
+    "sceneId": "R08",
+    "text": "系统升级或项目每个阶段收尾时，",
+    "startMs": 753364,
+    "endMs": 756084
+  },
+  {
+    "index": 205,
+    "sceneId": "R08",
+    "text": "会与项目产生交集，互相交接成果和资源。",
+    "startMs": 756404,
+    "endMs": 760404
+  },
+  {
+    "index": 206,
+    "sceneId": "Q69-read",
+    "text": "我们来看一道真题——2026年5月第1批次的第69题。",
+    "startMs": 761133,
+    "endMs": 766653
+  },
+  {
+    "index": 207,
+    "sceneId": "Q69-read",
+    "text": "题目问：关于组织战略管理与项目管理的对应关系，",
+    "startMs": 767213,
+    "endMs": 772173
+  },
+  {
+    "index": 208,
+    "sceneId": "Q69-read",
+    "text": "正确的是哪一项？",
+    "startMs": 772493,
+    "endMs": 774493
+  },
+  {
+    "index": 209,
+    "sceneId": "Q69-A",
+    "text": "我们直接看 A 选项：项目组合管理负责统筹协调各组件，",
+    "startMs": 778123,
+    "endMs": 783403
+  },
+  {
+    "index": 210,
+    "sceneId": "Q69-A",
+    "text": "以确保整体行动与组织战略目标保持一致。",
+    "startMs": 783723,
+    "endMs": 787723
+  },
+  {
+    "index": 211,
+    "sceneId": "Q69-A",
+    "text": "这句话字字契合教材总纲！",
+    "startMs": 788203,
+    "endMs": 791003
+  },
+  {
+    "index": 212,
+    "sceneId": "Q69-A",
+    "text": "项目组合的最高天命，就是对齐组织战略目标，",
+    "startMs": 791563,
+    "endMs": 795403
+  },
+  {
+    "index": 213,
+    "sceneId": "Q69-A",
+    "text": "所以 A 选项一字不差，",
+    "startMs": 795643,
+    "endMs": 797403
+  },
+  {
+    "index": 214,
+    "sceneId": "Q69-A",
+    "text": "就是正确答案！",
+    "startMs": 797723,
+    "endMs": 798924
+  },
+  {
+    "index": 215,
+    "sceneId": "Q69-bridge",
+    "text": "我们必须把出题人在其它三个选项里埋的雷彻底排干净，",
+    "startMs": 799512,
+    "endMs": 804392
+  },
+  {
+    "index": 216,
+    "sceneId": "Q69-bridge",
+    "text": "这样你在考场上才能百毒不侵：",
+    "startMs": 804712,
+    "endMs": 807192
+  },
+  {
+    "index": 217,
+    "sceneId": "Q69-B",
+    "text": "B选项说：战略规划属于高层管理范畴，",
+    "startMs": 807793,
+    "endMs": 812193
+  },
+  {
+    "index": 218,
+    "sceneId": "Q69-B",
+    "text": "与负责具体交付的项目管理分属两条独立的汇报主线。",
+    "startMs": 812513,
+    "endMs": 816913
+  },
+  {
+    "index": 219,
+    "sceneId": "Q69-B",
+    "text": "问题就在“两条独立的汇报主线”。",
+    "startMs": 817473,
+    "endMs": 821233
+  },
+  {
+    "index": 220,
+    "sceneId": "Q69-B",
+    "text": "战略与项目管理需要衔接，",
+    "startMs": 821713,
+    "endMs": 824113
+  },
+  {
+    "index": 221,
+    "sceneId": "Q69-B",
+    "text": "项目交付要服务组织战略。",
+    "startMs": 824513,
+    "endMs": 826993
+  },
+  {
+    "index": 222,
+    "sceneId": "Q69-C",
+    "text": "C选项说：项目组合、项目集和项目在管理职责上相互独立，",
+    "startMs": 827667,
+    "endMs": 835507
+  },
+  {
+    "index": 223,
+    "sceneId": "Q69-C",
+    "text": "分别对齐不同层级的业务目标。",
+    "startMs": 835827,
+    "endMs": 838227
+  },
+  {
+    "index": 224,
+    "sceneId": "Q69-C",
+    "text": "职责有分工，",
+    "startMs": 838707,
+    "endMs": 839987
+  },
+  {
+    "index": 225,
+    "sceneId": "Q69-C",
+    "text": "但不能理解成相互独立、",
+    "startMs": 840627,
+    "endMs": 842627
+  },
+  {
+    "index": 226,
+    "sceneId": "Q69-C",
+    "text": "各管各的，",
+    "startMs": 842707,
+    "endMs": 843587
+  },
+  {
+    "index": 227,
+    "sceneId": "Q69-C",
+    "text": "它们需要共同支撑组织战略目标。",
+    "startMs": 843907,
+    "endMs": 846707
+  },
+  {
+    "index": 228,
+    "sceneId": "Q69-D",
+    "text": "D选项说：项目管理通过严格控制范围与成本基准，",
+    "startMs": 847368,
+    "endMs": 852568
+  },
+  {
+    "index": 229,
+    "sceneId": "Q69-D",
+    "text": "直接决定组织战略目标的最终成败。",
+    "startMs": 852968,
+    "endMs": 855288
+  },
+  {
+    "index": 230,
+    "sceneId": "Q69-D",
+    "text": "问题在“直接决定”。",
+    "startMs": 855768,
+    "endMs": 858088
+  },
+  {
+    "index": 231,
+    "sceneId": "Q69-D",
+    "text": "项目管理支撑战略落地，",
+    "startMs": 858568,
+    "endMs": 860568
+  },
+  {
+    "index": 232,
+    "sceneId": "Q69-D",
+    "text": "但范围和成本控制不能单独决定组织战略成败。",
+    "startMs": 860968,
+    "endMs": 865048
+  },
+  {
+    "index": 233,
+    "sceneId": "Q69-summary",
+    "text": "你看，这道2026年的最新真题，",
+    "startMs": 865762,
+    "endMs": 869202
+  },
+  {
+    "index": 234,
+    "sceneId": "Q69-summary",
+    "text": "把战略、组合、项目集和项目的权责边界考得极其刁钻，",
+    "startMs": 869442,
+    "endMs": 876082
+  },
+  {
+    "index": 235,
+    "sceneId": "Q69-summary",
+    "text": "但只要抓住了我们梳理的这张宏观棋盘，",
+    "startMs": 876322,
+    "endMs": 879442
+  },
+  {
+    "index": 236,
+    "sceneId": "Q69-summary",
+    "text": "做正确的事归组合，",
+    "startMs": 879762,
+    "endMs": 881362
+  },
+  {
+    "index": 237,
+    "sceneId": "Q69-summary",
+    "text": "协调依赖归项目集，",
+    "startMs": 881922,
+    "endMs": 883842
+  },
+  {
+    "index": 238,
+    "sceneId": "Q69-summary",
+    "text": "哪怕选项乾坤大挪移，你也能一眼秒杀！",
+    "startMs": 884162,
+    "endMs": 887842
+  },
+  {
+    "index": 239,
+    "sceneId": "E-intro",
+    "text": "搞清了宏观棋盘，我们最后来看项目是在什么样的土壤里运行的。",
+    "startMs": 888533,
+    "endMs": 893733
+  },
+  {
+    "index": 240,
+    "sceneId": "E-intro",
+    "text": "这就是 6.2.5 节的运行环境，",
+    "startMs": 894293,
+    "endMs": 896773
+  },
+  {
+    "index": 241,
+    "sceneId": "E-intro",
+    "text": "以及 6.2.6 和 6.2.7 节的组织系统与产品管理。",
+    "startMs": 897093,
+    "endMs": 901813
+  },
+  {
+    "index": 242,
+    "sceneId": "E-boundary",
+    "text": "很多学员在面对组织过程资产 OPA 和事业环境因素 EEF 时总是记混。",
+    "startMs": 902393,
+    "endMs": 908553
+  },
+  {
+    "index": 243,
+    "sceneId": "E-boundary",
+    "text": "其实它们有一条根本的哲学分界线：",
+    "startMs": 909113,
+    "endMs": 912073
+  },
+  {
+    "index": 244,
+    "sceneId": "E-boundary",
+    "text": "那就是项目团队能否自主修改和裁剪它？",
+    "startMs": 912473,
+    "endMs": 915993
+  },
+  {
+    "index": 245,
+    "sceneId": "E-opa",
+    "text": "第一类，组织过程资产 OPA。",
+    "startMs": 916630,
+    "endMs": 919750
+  },
+  {
+    "index": 246,
+    "sceneId": "E-opa",
+    "text": "这是组织自身沉淀下来的家底和武功秘籍。",
+    "startMs": 920470,
+    "endMs": 923670
+  },
+  {
+    "index": 247,
+    "sceneId": "E-opa",
+    "text": "比如开发工具、标准模板、",
+    "startMs": 924230,
+    "endMs": 926870
+  },
+  {
+    "index": 248,
+    "sceneId": "E-opa",
+    "text": "历史数据库、经验教训库、",
+    "startMs": 927110,
+    "endMs": 929750
+  },
+  {
+    "index": 249,
+    "sceneId": "E-opa",
+    "text": "公司的请假与采购政策流程。",
+    "startMs": 930150,
+    "endMs": 932230
+  },
+  {
+    "index": 250,
+    "sceneId": "E-opa",
+    "text": "这些资产是组织内部可复用、",
+    "startMs": 932790,
+    "endMs": 935350
+  },
+  {
+    "index": 251,
+    "sceneId": "E-opa",
+    "text": "可补充、可修改的。",
+    "startMs": 935510,
+    "endMs": 936950
+  },
+  {
+    "index": 252,
+    "sceneId": "E-eef",
+    "text": "第二类，事业环境因素 EEF。",
+    "startMs": 937637,
+    "endMs": 941397
+  },
+  {
+    "index": 253,
+    "sceneId": "E-eef",
+    "text": "这是项目团队必须面对的客观水土和外部天候，",
+    "startMs": 941877,
+    "endMs": 945797
+  },
+  {
+    "index": 254,
+    "sceneId": "E-eef",
+    "text": "团队无法随意改变，只能去主动适应。",
+    "startMs": 946117,
+    "endMs": 949557
+  },
+  {
+    "index": 255,
+    "sceneId": "E-eef",
+    "text": "它又分为内部和外部：",
+    "startMs": 950117,
+    "endMs": 951717
+  },
+  {
+    "index": 256,
+    "sceneId": "E-internal",
+    "text": "在公司大门内，有组织的文化结构、",
+    "startMs": 952383,
+    "endMs": 955903
+  },
+  {
+    "index": 257,
+    "sceneId": "E-internal",
+    "text": "办公基础设施，以及两个极易做错的内部因素——第一，",
+    "startMs": 956223,
+    "endMs": 961503
+  },
+  {
+    "index": 258,
+    "sceneId": "E-internal",
+    "text": "设施和资源的物理分布，",
+    "startMs": 961903,
+    "endMs": 964223
+  },
+  {
+    "index": 259,
+    "sceneId": "E-internal",
+    "text": "比如团队分布在不同时区、",
+    "startMs": 964543,
+    "endMs": 966623
+  },
+  {
+    "index": 260,
+    "sceneId": "E-internal",
+    "text": "虚拟办公，这是客观物理限制，",
+    "startMs": 966943,
+    "endMs": 969743
+  },
+  {
+    "index": 261,
+    "sceneId": "E-internal",
+    "text": "属于内部事业环境因素；",
+    "startMs": 970223,
+    "endMs": 972223
+  },
+  {
+    "index": 262,
+    "sceneId": "E-internal",
+    "text": "第二，员工现有的技能水平和能力，",
+    "startMs": 972623,
+    "endMs": 976463
+  },
+  {
+    "index": 263,
+    "sceneId": "E-internal",
+    "text": "这是存量客观状态，也属于内部事业环境因素！",
+    "startMs": 976783,
+    "endMs": 980703
+  },
+  {
+    "index": 264,
+    "sceneId": "E-external",
+    "text": "而在公司大门外，就是外部事业环境因素，",
+    "startMs": 981394,
+    "endMs": 984914
+  },
+  {
+    "index": 265,
+    "sceneId": "E-external",
+    "text": "包括市场条件、国家法律法规、",
+    "startMs": 985314,
+    "endMs": 988114
+  },
+  {
+    "index": 266,
+    "sceneId": "E-external",
+    "text": "行业标准、商业数据库，以及汇率利率等财务环境。",
+    "startMs": 988434,
+    "endMs": 993074
+  },
+  {
+    "index": 267,
+    "sceneId": "S-structure",
+    "text": "在 6.2.6 节的组织系统里，",
+    "startMs": 993767,
+    "endMs": 996647
+  },
+  {
+    "index": 268,
+    "sceneId": "S-structure",
+    "text": "管理要素强调职能经理和项目经理的权责划分；",
+    "startMs": 996967,
+    "endMs": 1000567
+  },
+  {
+    "index": 269,
+    "sceneId": "S-structure",
+    "text": "教材表 6-4 勾勒了一条光谱：",
+    "startMs": 1000967,
+    "endMs": 1004167
+  },
+  {
+    "index": 270,
+    "sceneId": "S-structure",
+    "text": "从职能型、弱矩阵、均衡矩阵、",
+    "startMs": 1004727,
+    "endMs": 1008567
+  },
+  {
+    "index": 271,
+    "sceneId": "S-structure",
+    "text": "强矩阵，到项目导向型，项目经理的职权和资源控制力逐步递增。",
+    "startMs": 1008967,
+    "endMs": 1014967
+  },
+  {
+    "index": 272,
+    "sceneId": "S-pmo",
+    "text": "而作为组织治理中枢的 PMO，",
+    "startMs": 1015647,
+    "endMs": 1017648
+  },
+  {
+    "index": 273,
+    "sceneId": "S-pmo",
+    "text": "按控制力由弱到强分为支持型、",
+    "startMs": 1018447,
+    "endMs": 1021967
+  },
+  {
+    "index": 274,
+    "sceneId": "S-pmo",
+    "text": "控制型和指令型三种：支持型只当顾问、",
+    "startMs": 1022127,
+    "endMs": 1026287
+  },
+  {
+    "index": 275,
+    "sceneId": "S-pmo",
+    "text": "提供模板，控制力很低；控制型要求项目合规服从，",
+    "startMs": 1026447,
+    "endMs": 1032847
+  },
+  {
+    "index": 276,
+    "sceneId": "S-pmo",
+    "text": "控制力中等；指令型则直接接管和控制项目，",
+    "startMs": 1033247,
+    "endMs": 1037487
+  },
+  {
+    "index": 277,
+    "sceneId": "S-pmo",
+    "text": "指派项目经理，控制力很高。",
+    "startMs": 1037727,
+    "endMs": 1040127
+  },
+  {
+    "index": 278,
+    "sceneId": "S-lifecycle",
+    "text": "最后 6.2.7 节，看教材图 6-4：",
+    "startMs": 1040798,
+    "endMs": 1044878
+  },
+  {
+    "index": 279,
+    "sceneId": "S-lifecycle",
+    "text": "产品生命周期跨越引入、",
+    "startMs": 1045598,
+    "endMs": 1048078
+  },
+  {
+    "index": 280,
+    "sceneId": "S-lifecycle",
+    "text": "成长、成熟、衰退四个阶段，",
+    "startMs": 1048398,
+    "endMs": 1051438
+  },
+  {
+    "index": 281,
+    "sceneId": "S-lifecycle",
+    "text": "在其间可以在不同节点启动单个项目或项目集，",
+    "startMs": 1051758,
+    "endMs": 1056238
+  },
+  {
+    "index": 282,
+    "sceneId": "S-lifecycle",
+    "text": "实现业务闭环。",
+    "startMs": 1056558,
+    "endMs": 1058398
+  },
+  {
+    "index": 283,
+    "sceneId": "EQ-intro",
+    "text": "我们用两道真题，检验一下三宫格的实战效果！",
+    "startMs": 1059033,
+    "endMs": 1062793
+  },
+  {
+    "index": 284,
+    "sceneId": "EQ-left-read",
+    "text": "先看左边的2023年11月第2批次第29题：",
+    "startMs": 1063425,
+    "endMs": 1068305
+  },
+  {
+    "index": 285,
+    "sceneId": "EQ-left-read",
+    "text": "哪一项不属于组织过程资产？",
+    "startMs": 1069185,
+    "endMs": 1071425
+  },
+  {
+    "index": 286,
+    "sceneId": "EQ-left-read",
+    "text": "A 选项说：设施和资源的物理分布；",
+    "startMs": 1071905,
+    "endMs": 1075585
+  },
+  {
+    "index": 287,
+    "sceneId": "EQ-left-read",
+    "text": "B 选项是社交媒体、道德和安全政策及程序；",
+    "startMs": 1075985,
+    "endMs": 1080305
+  },
+  {
+    "index": 288,
+    "sceneId": "EQ-left-read",
+    "text": "C 选项是问题、风险、变更管理程序；",
+    "startMs": 1080705,
+    "endMs": 1085345
+  },
+  {
+    "index": 289,
+    "sceneId": "EQ-left-read",
+    "text": "D 选项是数据管理政策及程序。",
+    "startMs": 1085745,
+    "endMs": 1088865
+  },
+  {
+    "index": 290,
+    "sceneId": "EQ-left-explain",
+    "text": "你看，B、C、D 全都带政策、",
+    "startMs": 1092477,
+    "endMs": 1096797
+  },
+  {
+    "index": 291,
+    "sceneId": "EQ-left-explain",
+    "text": "流程、程序，妥妥的组织过程资产；",
+    "startMs": 1096957,
+    "endMs": 1100957
+  },
+  {
+    "index": 292,
+    "sceneId": "EQ-left-explain",
+    "text": "而 A 选项“设施和资源的物理分布”，",
+    "startMs": 1101357,
+    "endMs": 1104877
+  },
+  {
+    "index": 293,
+    "sceneId": "EQ-left-explain",
+    "text": "是团队办公的客观物理限制，",
+    "startMs": 1105197,
+    "endMs": 1107277
+  },
+  {
+    "index": 294,
+    "sceneId": "EQ-left-explain",
+    "text": "只能适应无法篡改，",
+    "startMs": 1107677,
+    "endMs": 1109677
+  },
+  {
+    "index": 295,
+    "sceneId": "EQ-left-explain",
+    "text": "属于内部事业环境因素！",
+    "startMs": 1109997,
+    "endMs": 1111837
+  },
+  {
+    "index": 296,
+    "sceneId": "EQ-left-explain",
+    "text": "直接选",
+    "startMs": 1112397,
+    "endMs": 1113117
+  },
+  {
+    "index": 297,
+    "sceneId": "EQ-left-explain",
+    "text": "A！",
+    "startMs": 1113117,
+    "endMs": 1113197
+  },
+  {
+    "index": 298,
+    "sceneId": "EQ-right-read",
+    "text": "再看右边的2026年5月第2批次第21题：",
+    "startMs": 1114185,
+    "endMs": 1118185
+  },
+  {
+    "index": 299,
+    "sceneId": "EQ-right-read",
+    "text": "哪一项属于组织内部事业环境因素？",
+    "startMs": 1118905,
+    "endMs": 1121545
+  },
+  {
+    "index": 300,
+    "sceneId": "EQ-right-read",
+    "text": "选项给出了商业数据库、",
+    "startMs": 1122185,
+    "endMs": 1124025
+  },
+  {
+    "index": 301,
+    "sceneId": "EQ-right-read",
+    "text": "行业标准、市场条件，以及员工能力。",
+    "startMs": 1124265,
+    "endMs": 1128425
+  },
+  {
+    "index": 302,
+    "sceneId": "EQ-right-explain",
+    "text": "商业数据库、行业标准、市场条件，",
+    "startMs": 1132015,
+    "endMs": 1135295
+  },
+  {
+    "index": 303,
+    "sceneId": "EQ-right-explain",
+    "text": "全在公司大门外，",
+    "startMs": 1135615,
+    "endMs": 1137055
+  },
+  {
+    "index": 304,
+    "sceneId": "EQ-right-explain",
+    "text": "属于外部事业环境因素；",
+    "startMs": 1137375,
+    "endMs": 1139615
+  },
+  {
+    "index": 305,
+    "sceneId": "EQ-right-explain",
+    "text": "只有员工能力是组织自己内部员工的技能和知识沉淀，",
+    "startMs": 1140015,
+    "endMs": 1144655
+  },
+  {
+    "index": 306,
+    "sceneId": "EQ-right-explain",
+    "text": "是内部事业环境因素，",
+    "startMs": 1144975,
+    "endMs": 1146655
+  },
+  {
+    "index": 307,
+    "sceneId": "EQ-right-explain",
+    "text": "一秒锁定",
+    "startMs": 1147055,
+    "endMs": 1147695
+  },
+  {
+    "index": 308,
+    "sceneId": "EQ-right-explain",
+    "text": "D 选项！",
+    "startMs": 1147695,
+    "endMs": 1148335
+  },
+  {
+    "index": 309,
+    "sceneId": "CL-recap",
+    "text": "好，到这里，我们不仅吃透了项目的本质、",
+    "startMs": 1149033,
+    "endMs": 1152633
+  },
+  {
+    "index": 310,
+    "sceneId": "CL-recap",
+    "text": "战略成功标准和宏观棋局，",
+    "startMs": 1153273,
+    "endMs": 1155593
+  },
+  {
+    "index": 311,
+    "sceneId": "CL-recap",
+    "text": "而且用五道典范真题把出题套路打得粉碎。",
+    "startMs": 1155913,
+    "endMs": 1159993
+  },
+  {
+    "index": 312,
+    "sceneId": "CL-next",
+    "text": "下一节课 L02，",
+    "startMs": 1160638,
+    "endMs": 1161918
+  },
+  {
+    "index": 313,
+    "sceneId": "CL-next",
+    "text": "我们将把镜头对准那个在复杂组织中带队打仗的核心人物——项目经理，",
+    "startMs": 1162718,
+    "endMs": 1169438
+  },
+  {
+    "index": 314,
+    "sceneId": "CL-next",
+    "text": "看看他的人才三角、权力来源和领导力艺术是怎么考查的。",
+    "startMs": 1169758,
+    "endMs": 1174718
+  },
+  {
+    "index": 315,
+    "sceneId": "CL-next",
+    "text": "我们下节课见！",
+    "startMs": 1175198,
+    "endMs": 1176318
+  }
+]

@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-success",
+  "lessonTitle": "第六章 L01 · 战略价值、成功标准与真题",
+  "sourceMarkdownPath": "docs/lessons/ch06/input/第6章-L01完整口播稿V0.3.md",
+  "sourceMarkdownSha256": "5a473964c18cd98407ca8f8edc4ee05fdbaceec4d40ef6eca99c6dfe1b540582",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "6.2.2—6.2.3 与真题②",
+    "estimatedDurationText": "按真实配音",
+    "cognitiveGoals": [
+      "理解项目管理的战略价值",
+      "区分传统指标与业务成果",
+      "辨析成功标准真题"
+    ],
+    "coreVisualAssets": [
+      "战略联系图",
+      "铁三角",
+      "业务反例",
+      "双维度对照",
+      "四选项题面"
+    ],
+    "examAnchors": [
+      "成功标准包括组织战略与业务成果"
+    ]
+  },
+  "scenes": [
+    {
+      "sceneId": "SC-strategy",
+      "parentSceneId": "SC-strategy",
+      "segmentTitle": "战略能力",
+      "sceneTitle": "strategy",
+      "order": 1,
+      "estimatedSeconds": 25.11111111111111,
+      "narration": "既然项目是推动组织跨越的引擎，那么 6.2.2 节就指出：有效和高效的项目管理，是一个组织的战略能力！它使组织能够将项目成果与业务目标联系起来、更有效地开展竞争、实现可持续发展，并且通过适当调整项目管理计划来应对外部环境改变。",
+      "narrationSha256": "6711cd0396f5223d044c9cf7480cf5c08d2fa122a8bc280091bba65401488754",
+      "clauses": [
+        "既然项目是推动组织跨越的引擎，",
+        "那么 6.2.2 节就指出：",
+        "有效和高效的项目管理，",
+        "是一个组织的战略能力！",
+        "它使组织能够将项目成果与业务目标联系起来、更有效地开展竞争、实现可持续发展，",
+        "并且通过适当调整项目管理计划来应对外部环境改变。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "战略能力",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "strategy"
+      }
+    },
+    {
+      "sceneId": "SC-triangle",
+      "parentSceneId": "SC-triangle",
+      "segmentTitle": "传统指标",
+      "sceneTitle": "triangle",
+      "order": 2,
+      "estimatedSeconds": 22.444444444444443,
+      "narration": "顺着这个逻辑推演，到了 6.2.3 节，我们怎么评判一个项目到底是成功还是失败？在传统观念里，项目经理往往只盯着铁三角：范围有没有少做？工期有没有拖延？预算有没有超支？以及三角形内部的质量是否符合要求？",
+      "narrationSha256": "75638df16df28d0bda13b453312119c84f63a4833bc9438af317af1bf25bac5d",
+      "clauses": [
+        "顺着这个逻辑推演，",
+        "到了 6.2.3 节，",
+        "我们怎么评判一个项目到底是成功还是失败？",
+        "在传统观念里，",
+        "项目经理往往只盯着铁三角：",
+        "范围有没有少做？",
+        "工期有没有拖延？",
+        "预算有没有超支？",
+        "以及三角形内部的质量是否符合要求？"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "传统指标",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "triangle"
+      }
+    },
+    {
+      "sceneId": "SC-failure",
+      "parentSceneId": "SC-failure",
+      "segmentTitle": "业务视角",
+      "sceneTitle": "failure",
+      "order": 3,
+      "estimatedSeconds": 27.555555555555557,
+      "narration": "第四版教材给出了一个发人深省的管理常识：可能一个项目从范围、进度和预算来看都是成功的，但在业务角度上它彻底失败了！为什么？因为市场环境变化了，当初立项时的客户需求早就消失了，系统即使完美上线也没人使用，根本无法为组织带来预期的效益和财务投资回报率！",
+      "narrationSha256": "8e36479d55a78b64f0fec3ae2f2c531659c84882e8495780670c4ffaab68d3a2",
+      "clauses": [
+        "第四版教材给出了一个发人深省的管理常识：",
+        "可能一个项目从范围、进度和预算来看都是成功的，",
+        "但在业务角度上它彻底失败了！",
+        "为什么？",
+        "因为市场环境变化了，",
+        "当初立项时的客户需求早就消失了，",
+        "系统即使完美上线也没人使用，",
+        "根本无法为组织带来预期的效益和财务投资回报率！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "业务视角",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "failure"
+      }
+    },
+    {
+      "sceneId": "SC-dimensions",
+      "parentSceneId": "SC-dimensions",
+      "segmentTitle": "两个维度",
+      "sceneTitle": "dimensions",
+      "order": 4,
+      "estimatedSeconds": 33.111111111111114,
+      "narration": "因此，教材明确要求：衡量项目是否成功，除了传统的时间成本范围质量这四个可测量指标，还必须建立第二维标准——与组织战略和业务成果交付相关的标准与目标，比如完成项目效益管理计划、达到可行性研究里的净现值和投资回报率等财务指标、实现从当前状态向将来状态的成功跨越。这两个维度必须兼备，才叫真正的项目成功！",
+      "narrationSha256": "01383ccb52302bc2a75e3d7b43273e2e67ea8cc50ae5eab96e08189109f2f0d0",
+      "clauses": [
+        "因此，",
+        "教材明确要求：",
+        "衡量项目是否成功，",
+        "除了传统的时间成本范围质量这四个可测量指标，",
+        "还必须建立第二维标准——与组织战略和业务成果交付相关的标准与目标，",
+        "比如完成项目效益管理计划、达到可行性研究里的净现值和投资回报率等财务指标、实现从当前状态向将来状态的成功跨越。",
+        "这两个维度必须兼备，",
+        "才叫真正的项目成功！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "两个维度",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "dimensions"
+      }
+    },
+    {
+      "sceneId": "SC-read",
+      "parentSceneId": "SC-read",
+      "segmentTitle": "真题读题",
+      "sceneTitle": "read",
+      "order": 5,
+      "estimatedSeconds": 14.0,
+      "narration": "我们来看2023年11月第3批次的第17题，看出题人怎么考查成功的标准。题目问：下面有关项目成功标准的描述，不正确的是哪一项？",
+      "narrationSha256": "fcb26d4d453fff060ce65ba4ff05617f2a2055f1c766e59a4598e950a6a6352c",
+      "clauses": [
+        "我们来看2023年11月第3批次的第17题，",
+        "看出题人怎么考查成功的标准。",
+        "题目问：",
+        "下面有关项目成功标准的描述，",
+        "不正确的是哪一项？"
+      ],
+      "pauseDirectives": [
+        {
+          "afterClauseIndex": 4,
+          "durationMs": 3000,
+          "reason": "独立作答，答案不提前显示"
+        }
+      ],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "真题读题",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "read"
+      }
+    },
+    {
+      "sceneId": "SC-Aread",
+      "parentSceneId": "SC-Aread",
+      "segmentTitle": "阅读 A 项",
+      "sceneTitle": "Aread",
+      "order": 6,
+      "estimatedSeconds": 8.666666666666666,
+      "narration": "我们直接扫 A 选项：项目成功不涉及与组织战略和业务成果交付相关的标准与目标。",
+      "narrationSha256": "b5e5243d8a16471297b1fb420570cb45a57e34ee07b7ba0090747127c9d9d8c9",
+      "clauses": [
+        "我们直接扫 A 选项：",
+        "项目成功不涉及与组织战略和业务成果交付相关的标准与目标。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "阅读 A 项",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "Aread"
+      }
+    },
+    {
+      "sceneId": "SC-Ajudge",
+      "parentSceneId": "SC-Ajudge",
+      "segmentTitle": "分析 A 项",
+      "sceneTitle": "Ajudge",
+      "order": 7,
+      "estimatedSeconds": 15.11111111111111,
+      "narration": "读到这里直接就可以举手拿分了！A 选项直接加上了一个不字，全盘否定了战略和业务成果，这正撞在我们刚才讲的第二维核心标准上，错得极其离谱。",
+      "narrationSha256": "412d8ffebce411f6c6c0bad51f4d25a8a7773853091c5b74c7523018979df766",
+      "clauses": [
+        "读到这里直接就可以举手拿分了！",
+        "A 选项直接加上了一个不字，",
+        "全盘否定了战略和业务成果，",
+        "这正撞在我们刚才讲的第二维核心标准上，",
+        "错得极其离谱。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "分析 A 项",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "Ajudge"
+      }
+    },
+    {
+      "sceneId": "SC-B",
+      "parentSceneId": "SC-B",
+      "segmentTitle": "分析 B 项",
+      "sceneTitle": "B",
+      "order": 8,
+      "estimatedSeconds": 11.333333333333334,
+      "narration": "我们再顺带看其余三个正确选项，字字珠玑：B 选项说明确记录项目目标并选择可测量的目标是项目成功的关键；",
+      "narrationSha256": "60d3aa63a44cee7daca2a342298fcc35a79ffe1576aeb12006cd6bfd0315ae9c",
+      "clauses": [
+        "我们再顺带看其余三个正确选项，",
+        "字字珠玑：",
+        "B 选项说明确记录项目目标并选择可测量的目标是项目成功的关键；"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "分析 B 项",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "B"
+      }
+    },
+    {
+      "sceneId": "SC-C",
+      "parentSceneId": "SC-C",
+      "segmentTitle": "分析 C 项",
+      "sceneTitle": "C",
+      "order": 9,
+      "estimatedSeconds": 5.777777777777778,
+      "narration": "C 选项说确定项目是否成功应考虑项目目标的实现情况；",
+      "narrationSha256": "e050f2e11ad429946c678d603a9d0c64ee79127793a210ad6293af1621a86207",
+      "clauses": [
+        "C 选项说确定项目是否成功应考虑项目目标的实现情况；"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "分析 C 项",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "C"
+      }
+    },
+    {
+      "sceneId": "SC-D",
+      "parentSceneId": "SC-D",
+      "segmentTitle": "分析 D 项",
+      "sceneTitle": "D",
+      "order": 10,
+      "estimatedSeconds": 12.0,
+      "narration": "D 选项则是我们反复强调的教材原话：有可能一个项目从范围、进度、预算来看是成功的，但从业务角度来看并不成功。",
+      "narrationSha256": "19bc77365aae7205961e5453aa0c3b7c7f0060a851dae6d3e4a2f8e0961e6dc8",
+      "clauses": [
+        "D 选项则是我们反复强调的教材原话：",
+        "有可能一个项目从范围、进度、预算来看是成功的，",
+        "但从业务角度来看并不成功。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "分析 D 项",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "D"
+      }
+    },
+    {
+      "sceneId": "SC-summary",
+      "parentSceneId": "SC-summary",
+      "segmentTitle": "答案与归纳",
+      "sceneTitle": "summary",
+      "order": 11,
+      "estimatedSeconds": 10.88888888888889,
+      "narration": "所以不正确的稳稳选 A！理解了背后的业务常识，哪怕题目改写成别的形式，你也能一眼把正确答案拎出来。",
+      "narrationSha256": "19d65c16aed5916c538b46280da159fb8b9c7e9e7c96fd1be2acbd909ab7e60c",
+      "clauses": [
+        "所以不正确的稳稳选 A！",
+        "理解了背后的业务常识，",
+        "哪怕题目改写成别的形式，",
+        "你也能一眼把正确答案拎出来。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "随原口播展开，题面等权呈现，解析与答案延后揭示",
+      "pedagogicalIntent": "答案与归纳",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "summary"
+      }
+    }
+  ],
+  "compiledAt": "2026-10-26T12:10:55.043394+00:00"
+}

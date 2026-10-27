@@ -1,0 +1,18 @@
+{
+  "canvas": {"width": 1920, "height": 1080},
+  "arrow": {
+    "from": [620, 500],
+    "to": [1480, 500],
+    "stroke": "rgba(46, 196, 214, 0.85)",
+    "strokeWidth": 2.0,
+    "linecap": "round",
+    "headLength": 36,
+    "headWidth": 48
+  },
+  "animation": {
+    "shaftStartFrame": 40,
+    "shaftDurationInFrames": 40,
+    "headsStartFrame": 80,
+    "headsDurationInFrames": 32
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "countdownStartFrame": 402,
+  "correctAtMs": 29870,
+  "answerAtMs": 37791,
+  "bErrorAtMs": 60100,
+  "bLinkAtMs": 62980,
+  "cErrorAtMs": 81494,
+  "cLinkAtMs": 82774,
+  "dErrorAtMs": 96955,
+  "dLinkAtMs": 99435,
+  "dLimitAtMs": 102875,
+  "summaryPortfolioAtMs": 120229,
+  "summaryProgramAtMs": 122709
+}

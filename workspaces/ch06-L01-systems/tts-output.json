@@ -1,0 +1,44 @@
+{
+  "lessonId": "ch06-L01-systems",
+  "sampleRate": 24000,
+  "totalDurationMs": 65263,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-systems/ch06-L01-systems-full.wav",
+  "fullWavSha256": "9b6aaf2e155ab8b82f40e9b3cbf519e415b6dd697f0968ba638468428fdda5a2",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "S-structure",
+      "narration": "在 6.2.6 节的组织系统里，管理要素强调职能经理和项目经理的权责划分；教材表 6-4 勾勒了一条光谱：从职能型、弱矩阵、均衡矩阵、强矩阵，到项目导向型，项目经理的职权和资源控制力逐步递增。",
+      "narrationSha256": "0538270fc7c13f90dc0ddbdff96589ed0f7d747575a0986253d135d02a93e864",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-systems/audio/S-structure.wav",
+      "wavSha256": "81ccd97918b686109b8e5006ebda98338545ef67e48c53b2eb3b21bdf9a3e8d8",
+      "startMs": 0,
+      "endMs": 21880,
+      "durationMs": 21880,
+      "fromCache": false
+    },
+    {
+      "sceneId": "S-pmo",
+      "narration": "而作为组织治理中枢的 PMO，按控制力由弱到强分为支持型、控制型和指令型三种：支持型只当顾问、提供模板，控制力很低；控制型要求项目合规服从，控制力中等；指令型则直接接管和控制项目，指派项目经理，控制力很高。",
+      "narrationSha256": "8bb3fceb70152861e2ba68fe89c5571e41025baa02089382b6adc0c3911021bf",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-systems/audio/S-pmo.wav",
+      "wavSha256": "e57920357e88d65892ae1e5b6fbe38f8a562980e62ca9b08872837cb5519e035",
+      "startMs": 21880,
+      "endMs": 47031,
+      "durationMs": 25151,
+      "fromCache": false
+    },
+    {
+      "sceneId": "S-lifecycle",
+      "narration": "最后 6.2.7 节，看教材图 6-4：产品生命周期跨越引入、成长、成熟、衰退四个阶段，在其间可以在不同节点启动单个项目或项目集，实现业务闭环。",
+      "narrationSha256": "3e82067c260d791e7e94a88ce06cc80fde8603c1d7c292d3ad99aad54dceaedd",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-systems/audio/S-lifecycle.wav",
+      "wavSha256": "1ea4d2bad8707ffc4b8920877bfdcfaeec945217a9b9fa9991fd9e0911731262",
+      "startMs": 47031,
+      "endMs": 65263,
+      "durationMs": 18232,
+      "fromCache": false
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-relations",
+  "lessonTitle": "第六章 L01 · 组合、项目集、项目与运营",
+  "sourceMarkdownPath": "docs/lessons/ch06/input/第6章-L01完整口播稿V0.3.md",
+  "sourceMarkdownSha256": "79bcc0d6068d393f3879b2b6136223d1f0f4902b4f67693c989a8a4b26e2254a",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "6.2.4 项目、项目集、项目组合和运营管理之间的关系",
+    "estimatedDurationText": "按真实配音",
+    "cognitiveGoals": [
+      "分清战略选择、协调依赖、项目交付与日常运营"
+    ],
+    "coreVisualAssets": [
+      "图6-2组件关系",
+      "图6-3组织级项目管理",
+      "卫星系统关系图",
+      "项目与运营交接"
+    ],
+    "examAnchors": []
+  },
+  "scenes": [
+    {
+      "sceneId": "R01",
+      "parentSceneId": "R01",
+      "segmentTitle": "宏观治理总览",
+      "sceneTitle": "宏观治理总览",
+      "order": 1,
+      "estimatedSeconds": 30.25,
+      "narration": "项目要承载战略，组织就必须搭建一个高效的宏观治理体系。这就是 6.2.4 节“项目、项目集、项目组合和运营管理之间的关系”。这是全书最经典的考点之一，我们结合教材图 6-2、图 6-3 和表 6-3，把它拆解为做正确的事和正确地做事两个层面。",
+      "narrationSha256": "5b287881ded1fb0749a6faf3fdd110ffda58c23a32ecaed231786229fea3ce08",
+      "clauses": [
+        "项目要承载战略，组织就必须搭建一个高效的宏观治理体系。",
+        "这就是 6.2.4 节“项目、项目集、项目组合和运营管理之间的关系”。",
+        "这是全书最经典的考点之一，",
+        "我们结合教材图 6-2、图 6-3 和表 6-3，",
+        "把它拆解为做正确的事和正确地做事两个层面。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "宏观治理总览",
+      "pedagogicalIntent": "宏观治理总览",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "R01"
+      }
+    },
+    {
+      "sceneId": "R02",
+      "parentSceneId": "R02",
+      "segmentTitle": "项目组合：资源选择",
+      "sceneTitle": "项目组合：资源选择",
+      "order": 2,
+      "estimatedSeconds": 20.0,
+      "narration": "在最顶层是组织战略。企业面对有限的资金和资源，不可能什么都做，高层首先要决定：钱投给谁？哪些板块该上，哪些该砍？这就是“项目组合”，英文叫 Portfolio。",
+      "narrationSha256": "3d997f0ca4684062a3bb8c10ca89365b86d6ad7fb73a02a3b016eb15d0900505",
+      "clauses": [
+        "在最顶层是组织战略。",
+        "企业面对有限的资金和资源，",
+        "不可能什么都做，高层首先要决定：",
+        "钱投给谁？哪些板块该上，",
+        "哪些该砍？这就是“项目组合”，",
+        "英文叫 Portfolio。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "项目组合：资源选择",
+      "pedagogicalIntent": "项目组合：资源选择",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "R02"
+      }
+    },
+    {
+      "sceneId": "R03",
+      "parentSceneId": "R03",
+      "segmentTitle": "组合内的各类组件",
+      "sceneTitle": "组合内的各类组件",
+      "order": 3,
+      "estimatedSeconds": 19.25,
+      "narration": "项目组合的使命，是确保企业在“做正确的事”！它是为了实现组织的战略目标，而把项目、项目集、子项目组合和运营组合在一起集中管理。请死死锁死考场三大命题陷阱：",
+      "narrationSha256": "ac5b27f75664c59de9318051b81c73f67859de44ea3843323b9fa037f4e72867",
+      "clauses": [
+        "项目组合的使命，是确保企业在“做正确的事”！",
+        "它是为了实现组织的战略目标，",
+        "而把项目、项目集、子项目组合和运营组合在一起集中管理。",
+        "请死死锁死考场三大命题陷阱："
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "组合内的各类组件",
+      "pedagogicalIntent": "组合内的各类组件",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "R03"
+      }
+    },
+    {
+      "sceneId": "R04",
+      "parentSceneId": "R04",
+      "segmentTitle": "项目组合的三个要点",
+      "sceneTitle": "项目组合的三个要点",
+      "order": 4,
+      "estimatedSeconds": 37.5,
+      "narration": "第一，项目组合服务的是战略目标，如果选项写成实现项目目标，必错；\n第二，项目组合管理的核心手段是排优先级、做投资决策、分配资源；\n第三，极为反直觉的考点：项目组合里的各个组件，彼此之间不一定存在相互依赖或直接相关的关系！企业可以一边投芯片研发，一边投物业地产，只要它们共同支撑战略并追求投资回报即可。",
+      "narrationSha256": "6096e56dd635b9080b53755390d3f735f4f8f6cdc819688214323d0b3492f731",
+      "clauses": [
+        "第一，项目组合服务的是战略目标，",
+        "如果选项写成实现项目目标，",
+        "必错；\n第二，项目组合管理的核心手段是排优先级、做投资决策、分配资源；",
+        "第三，极为反直觉的考点：",
+        "项目组合里的各个组件，",
+        "彼此之间不一定存在相互依赖或直接相关的关系！",
+        "企业可以一边投芯片研发，",
+        "一边投物业地产，只要它们共同支撑战略并追求投资回报即可。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "项目组合的三个要点",
+      "pedagogicalIntent": "项目组合的三个要点",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "R04"
+      }
+    },
+    {
+      "sceneId": "R05",
+      "parentSceneId": "R05",
+      "segmentTitle": "从选择转向执行",
+      "sceneTitle": "从选择转向执行",
+      "order": 5,
+      "estimatedSeconds": 8.75,
+      "narration": "当下层领到具体任务时，进入项目集和项目，它们关心的都是“正确地做事”。",
+      "narrationSha256": "170758591f8c7981b33d3fbc9e29e4c0845e8733860265450d37e523384a8a10",
+      "clauses": [
+        "当下层领到具体任务时，",
+        "进入项目集和项目，它们关心的都是“正确地做事”。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "从选择转向执行",
+      "pedagogicalIntent": "从选择转向执行",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "R05"
+      }
+    },
+    {
+      "sceneId": "R06",
+      "parentSceneId": "R06",
+      "segmentTitle": "项目集：协调依赖",
+      "sceneTitle": "项目集：协调依赖",
+      "order": 6,
+      "estimatedSeconds": 43.5,
+      "narration": "什么叫“项目集”？它是把一组相互关联的项目和活动绑在一起协调管理。为什么要绑在一起？教材给出了八字真金：为了获得分别管理所无法获得的收益和控制！比如建设一个大型电网系统，或者一个通信卫星系统，里面既有卫星研制、地面测控站建设，又有火箭发射，彼此高度耦合，单独各管各的必然脱节，合在一起管才能协调依赖。所以请记住：项目集绝对不是单纯规模很大的大项目！",
+      "narrationSha256": "7bb2bdb3fdaff8ccb629a26c79250c3e6fe7879bdd155089c080043a503d83df",
+      "clauses": [
+        "什么叫“项目集”？它是把一组相互关联的项目和活动绑在一起协调管理。",
+        "为什么要绑在一起？教材给出了八字真金：",
+        "为了获得分别管理所无法获得的收益和控制！",
+        "比如建设一个大型电网系统，",
+        "或者一个通信卫星系统，",
+        "里面既有卫星研制、地面测控站建设，",
+        "又有火箭发射，彼此高度耦合，",
+        "单独各管各的必然脱节，",
+        "合在一起管才能协调依赖。",
+        "所以请记住：项目集绝对不是单纯规模很大的大项目！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "项目集：协调依赖",
+      "pedagogicalIntent": "项目集：协调依赖",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "R06"
+      }
+    },
+    {
+      "sceneId": "R07",
+      "parentSceneId": "R07",
+      "segmentTitle": "项目：范围渐进明晰",
+      "sceneTitle": "项目：范围渐进明晰",
+      "order": 7,
+      "estimatedSeconds": 36.0,
+      "narration": "至于单个“项目”，它的目标明确，范围在生命周期中是渐进明晰的。这里要警惕2025年的一个新陷阱：渐进明晰是所有项目伴随信息增多而逐步细化的通用规律，绝不代表看到渐进明晰就必须采用敏捷开发方法！\n额外说明一下：在PMBOK第六版中采用的五大过程组和十大知识领域的架构，仍然强调“渐进明细”。",
+      "narrationSha256": "b6ce148b6ce6350bb75f7e2ef9327fa5a9010de4d354ea78863d99a49ee5df34",
+      "clauses": [
+        "至于单个“项目”，它的目标明确，",
+        "范围在生命周期中是渐进明晰的。",
+        "这里要警惕2025年的一个新陷阱：",
+        "渐进明晰是所有项目伴随信息增多而逐步细化的通用规律，",
+        "绝不代表看到渐进明晰就必须采用敏捷开发方法！",
+        "额外说明一下：在PMBOK第六版中采用的五大过程组和十大知识领域的架构，",
+        "仍然强调“渐进明细”。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "项目：范围渐进明晰",
+      "pedagogicalIntent": "项目：范围渐进明晰",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "R07"
+      }
+    },
+    {
+      "sceneId": "R08",
+      "parentSceneId": "R08",
+      "segmentTitle": "项目与运营的交接",
+      "sceneTitle": "项目与运营的交接",
+      "order": 8,
+      "estimatedSeconds": 17.75,
+      "narration": "最后，“运营管理”负责日常持续生产和服务，不属于项目管理，但在新产品开发、系统升级或项目每个阶段收尾时，会与项目产生交集，互相交接成果和资源。",
+      "narrationSha256": "9eb003e9404861fbfe4619d22c8a3047e0854045581940a9e0f563aadd796b74",
+      "clauses": [
+        "最后，“运营管理”负责日常持续生产和服务，",
+        "不属于项目管理，但在新产品开发、系统升级或项目每个阶段收尾时，",
+        "会与项目产生交集，互相交接成果和资源。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "项目与运营的交接",
+      "pedagogicalIntent": "项目与运营的交接",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "R08"
+      }
+    }
+  ],
+  "compiledAt": "2026-10-26T10:08:52.770263+00:00"
+}

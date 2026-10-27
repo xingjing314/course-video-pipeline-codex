@@ -1,0 +1,22 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "arc": {
+    "center": [
+      1150,
+      470
+    ],
+    "radius": 195,
+    "startAngleDegrees": -90,
+    "sweepAngleDegrees": 270,
+    "stroke": "rgba(91, 155, 240, 0.85)",
+    "strokeWidth": 2.0,
+    "linecap": "round"
+  },
+  "animation": {
+    "outlineStartFrame": 34,
+    "outlineDurationInFrames": 96
+  }
+}

@@ -1,0 +1,1259 @@
+{
+  "alignerEngine": "Qwen/Qwen3-ForcedAligner-0.6B",
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "S01",
+          "text": "接",
+          "startMs": 0,
+          "endMs": 160
+        },
+        {
+          "sceneId": "S01",
+          "text": "下",
+          "startMs": 160,
+          "endMs": 320
+        },
+        {
+          "sceneId": "S01",
+          "text": "来",
+          "startMs": 320,
+          "endMs": 640
+        },
+        {
+          "sceneId": "S01",
+          "text": "进",
+          "startMs": 640,
+          "endMs": 960
+        },
+        {
+          "sceneId": "S01",
+          "text": "入",
+          "startMs": 960,
+          "endMs": 1120
+        },
+        {
+          "sceneId": "S01",
+          "text": "62",
+          "startMs": 1120,
+          "endMs": 1680
+        },
+        {
+          "sceneId": "S01",
+          "text": "节",
+          "startMs": 1680,
+          "endMs": 2080
+        },
+        {
+          "sceneId": "S01",
+          "text": "项",
+          "startMs": 2080,
+          "endMs": 2320
+        },
+        {
+          "sceneId": "S01",
+          "text": "目",
+          "startMs": 2320,
+          "endMs": 2480
+        },
+        {
+          "sceneId": "S01",
+          "text": "基",
+          "startMs": 2480,
+          "endMs": 2720
+        },
+        {
+          "sceneId": "S01",
+          "text": "本",
+          "startMs": 2720,
+          "endMs": 2880
+        },
+        {
+          "sceneId": "S01",
+          "text": "要",
+          "startMs": 2880,
+          "endMs": 3040
+        },
+        {
+          "sceneId": "S01",
+          "text": "素",
+          "startMs": 3040,
+          "endMs": 3280
+        },
+        {
+          "sceneId": "S01",
+          "text": "到",
+          "startMs": 3760,
+          "endMs": 3920
+        },
+        {
+          "sceneId": "S01",
+          "text": "底",
+          "startMs": 3920,
+          "endMs": 4000
+        },
+        {
+          "sceneId": "S01",
+          "text": "什",
+          "startMs": 4000,
+          "endMs": 4160
+        },
+        {
+          "sceneId": "S01",
+          "text": "么",
+          "startMs": 4160,
+          "endMs": 4240
+        },
+        {
+          "sceneId": "S01",
+          "text": "是",
+          "startMs": 4240,
+          "endMs": 4400
+        },
+        {
+          "sceneId": "S01",
+          "text": "项",
+          "startMs": 4400,
+          "endMs": 4640
+        },
+        {
+          "sceneId": "S01",
+          "text": "目",
+          "startMs": 4640,
+          "endMs": 4960
+        },
+        {
+          "sceneId": "S01",
+          "text": "教",
+          "startMs": 5440,
+          "endMs": 5600
+        },
+        {
+          "sceneId": "S01",
+          "text": "材",
+          "startMs": 5600,
+          "endMs": 5760
+        },
+        {
+          "sceneId": "S01",
+          "text": "的",
+          "startMs": 5760,
+          "endMs": 5840
+        },
+        {
+          "sceneId": "S01",
+          "text": "标",
+          "startMs": 5840,
+          "endMs": 6080
+        },
+        {
+          "sceneId": "S01",
+          "text": "准",
+          "startMs": 6080,
+          "endMs": 6240
+        },
+        {
+          "sceneId": "S01",
+          "text": "定",
+          "startMs": 6240,
+          "endMs": 6480
+        },
+        {
+          "sceneId": "S01",
+          "text": "义",
+          "startMs": 6480,
+          "endMs": 6640
+        },
+        {
+          "sceneId": "S01",
+          "text": "是",
+          "startMs": 6640,
+          "endMs": 7040
+        },
+        {
+          "sceneId": "S01",
+          "text": "项",
+          "startMs": 7520,
+          "endMs": 7840
+        },
+        {
+          "sceneId": "S01",
+          "text": "目",
+          "startMs": 7840,
+          "endMs": 8000
+        },
+        {
+          "sceneId": "S01",
+          "text": "是",
+          "startMs": 8000,
+          "endMs": 8160
+        },
+        {
+          "sceneId": "S01",
+          "text": "为",
+          "startMs": 8160,
+          "endMs": 8320
+        },
+        {
+          "sceneId": "S01",
+          "text": "创",
+          "startMs": 8320,
+          "endMs": 8640
+        },
+        {
+          "sceneId": "S01",
+          "text": "造",
+          "startMs": 8640,
+          "endMs": 8800
+        },
+        {
+          "sceneId": "S01",
+          "text": "独",
+          "startMs": 8800,
+          "endMs": 9040
+        },
+        {
+          "sceneId": "S01",
+          "text": "特",
+          "startMs": 9040,
+          "endMs": 9280
+        },
+        {
+          "sceneId": "S01",
+          "text": "的",
+          "startMs": 9280,
+          "endMs": 9440
+        },
+        {
+          "sceneId": "S01",
+          "text": "产",
+          "startMs": 9440,
+          "endMs": 9760
+        },
+        {
+          "sceneId": "S01",
+          "text": "品",
+          "startMs": 9760,
+          "endMs": 10160
+        },
+        {
+          "sceneId": "S01",
+          "text": "服",
+          "startMs": 10480,
+          "endMs": 10640
+        },
+        {
+          "sceneId": "S01",
+          "text": "务",
+          "startMs": 10720,
+          "endMs": 10800
+        },
+        {
+          "sceneId": "S01",
+          "text": "或",
+          "startMs": 10800,
+          "endMs": 10960
+        },
+        {
+          "sceneId": "S01",
+          "text": "成",
+          "startMs": 10960,
+          "endMs": 11200
+        },
+        {
+          "sceneId": "S01",
+          "text": "果",
+          "startMs": 11200,
+          "endMs": 11520
+        },
+        {
+          "sceneId": "S01",
+          "text": "而",
+          "startMs": 11520,
+          "endMs": 11521
+        },
+        {
+          "sceneId": "S01",
+          "text": "进",
+          "startMs": 11520,
+          "endMs": 11680
+        },
+        {
+          "sceneId": "S01",
+          "text": "行",
+          "startMs": 11680,
+          "endMs": 11840
+        },
+        {
+          "sceneId": "S01",
+          "text": "的",
+          "startMs": 11840,
+          "endMs": 12000
+        },
+        {
+          "sceneId": "S01",
+          "text": "临",
+          "startMs": 12000,
+          "endMs": 12160
+        },
+        {
+          "sceneId": "S01",
+          "text": "时",
+          "startMs": 12160,
+          "endMs": 12320
+        },
+        {
+          "sceneId": "S01",
+          "text": "性",
+          "startMs": 12320,
+          "endMs": 12480
+        },
+        {
+          "sceneId": "S01",
+          "text": "工",
+          "startMs": 12480,
+          "endMs": 12640
+        },
+        {
+          "sceneId": "S01",
+          "text": "作",
+          "startMs": 12640,
+          "endMs": 12960
+        },
+        {
+          "sceneId": "S01",
+          "text": "核",
+          "startMs": 13440,
+          "endMs": 13680
+        },
+        {
+          "sceneId": "S01",
+          "text": "心",
+          "startMs": 13680,
+          "endMs": 13920
+        },
+        {
+          "sceneId": "S01",
+          "text": "词",
+          "startMs": 13920,
+          "endMs": 14240
+        },
+        {
+          "sceneId": "S01",
+          "text": "就",
+          "startMs": 14240,
+          "endMs": 14400
+        },
+        {
+          "sceneId": "S01",
+          "text": "是",
+          "startMs": 14400,
+          "endMs": 14480
+        },
+        {
+          "sceneId": "S01",
+          "text": "两",
+          "startMs": 14480,
+          "endMs": 14720
+        },
+        {
+          "sceneId": "S01",
+          "text": "个",
+          "startMs": 14800,
+          "endMs": 14960
+        },
+        {
+          "sceneId": "S01",
+          "text": "独",
+          "startMs": 15440,
+          "endMs": 15680
+        },
+        {
+          "sceneId": "S01",
+          "text": "特",
+          "startMs": 15680,
+          "endMs": 16000
+        },
+        {
+          "sceneId": "S01",
+          "text": "和",
+          "startMs": 16000,
+          "endMs": 16160
+        },
+        {
+          "sceneId": "S01",
+          "text": "临",
+          "startMs": 16160,
+          "endMs": 16400
+        },
+        {
+          "sceneId": "S01",
+          "text": "时",
+          "startMs": 16400,
+          "endMs": 16800
+        }
+      ]
+    },
+    {
+      "sceneId": "S02",
+      "fromCache": false,
+      "tokens": [
+        {
+          "sceneId": "S02",
+          "text": "很",
+          "startMs": 17472,
+          "endMs": 17632
+        },
+        {
+          "sceneId": "S02",
+          "text": "多",
+          "startMs": 17632,
+          "endMs": 17792
+        },
+        {
+          "sceneId": "S02",
+          "text": "同",
+          "startMs": 17792,
+          "endMs": 18032
+        },
+        {
+          "sceneId": "S02",
+          "text": "学",
+          "startMs": 18032,
+          "endMs": 18352
+        },
+        {
+          "sceneId": "S02",
+          "text": "把",
+          "startMs": 18352,
+          "endMs": 18592
+        },
+        {
+          "sceneId": "S02",
+          "text": "这",
+          "startMs": 18592,
+          "endMs": 18672
+        },
+        {
+          "sceneId": "S02",
+          "text": "两",
+          "startMs": 18672,
+          "endMs": 18832
+        },
+        {
+          "sceneId": "S02",
+          "text": "个",
+          "startMs": 18832,
+          "endMs": 18912
+        },
+        {
+          "sceneId": "S02",
+          "text": "词",
+          "startMs": 18912,
+          "endMs": 19152
+        },
+        {
+          "sceneId": "S02",
+          "text": "当",
+          "startMs": 19152,
+          "endMs": 19312
+        },
+        {
+          "sceneId": "S02",
+          "text": "死",
+          "startMs": 19312,
+          "endMs": 19552
+        },
+        {
+          "sceneId": "S02",
+          "text": "概",
+          "startMs": 19552,
+          "endMs": 19792
+        },
+        {
+          "sceneId": "S02",
+          "text": "念",
+          "startMs": 19792,
+          "endMs": 19952
+        },
+        {
+          "sceneId": "S02",
+          "text": "背",
+          "startMs": 19952,
+          "endMs": 20112
+        },
+        {
+          "sceneId": "S02",
+          "text": "其",
+          "startMs": 20592,
+          "endMs": 20752
+        },
+        {
+          "sceneId": "S02",
+          "text": "实",
+          "startMs": 20752,
+          "endMs": 20912
+        },
+        {
+          "sceneId": "S02",
+          "text": "背",
+          "startMs": 20912,
+          "endMs": 21072
+        },
+        {
+          "sceneId": "S02",
+          "text": "后",
+          "startMs": 21072,
+          "endMs": 21312
+        },
+        {
+          "sceneId": "S02",
+          "text": "蕴",
+          "startMs": 21312,
+          "endMs": 21472
+        },
+        {
+          "sceneId": "S02",
+          "text": "含",
+          "startMs": 21472,
+          "endMs": 21632
+        },
+        {
+          "sceneId": "S02",
+          "text": "着",
+          "startMs": 21632,
+          "endMs": 21792
+        },
+        {
+          "sceneId": "S02",
+          "text": "极",
+          "startMs": 21792,
+          "endMs": 21952
+        },
+        {
+          "sceneId": "S02",
+          "text": "其",
+          "startMs": 21952,
+          "endMs": 22112
+        },
+        {
+          "sceneId": "S02",
+          "text": "深",
+          "startMs": 22112,
+          "endMs": 22352
+        },
+        {
+          "sceneId": "S02",
+          "text": "刻",
+          "startMs": 22352,
+          "endMs": 22512
+        },
+        {
+          "sceneId": "S02",
+          "text": "的",
+          "startMs": 22512,
+          "endMs": 22672
+        },
+        {
+          "sceneId": "S02",
+          "text": "管",
+          "startMs": 22672,
+          "endMs": 22832
+        },
+        {
+          "sceneId": "S02",
+          "text": "理",
+          "startMs": 22832,
+          "endMs": 22912
+        },
+        {
+          "sceneId": "S02",
+          "text": "常",
+          "startMs": 22912,
+          "endMs": 23232
+        },
+        {
+          "sceneId": "S02",
+          "text": "识",
+          "startMs": 23232,
+          "endMs": 23552
+        },
+        {
+          "sceneId": "S02",
+          "text": "我",
+          "startMs": 24032,
+          "endMs": 24192
+        },
+        {
+          "sceneId": "S02",
+          "text": "们",
+          "startMs": 24192,
+          "endMs": 24272
+        },
+        {
+          "sceneId": "S02",
+          "text": "结",
+          "startMs": 24272,
+          "endMs": 24432
+        },
+        {
+          "sceneId": "S02",
+          "text": "合",
+          "startMs": 24432,
+          "endMs": 24592
+        },
+        {
+          "sceneId": "S02",
+          "text": "教",
+          "startMs": 24592,
+          "endMs": 24832
+        },
+        {
+          "sceneId": "S02",
+          "text": "材",
+          "startMs": 24832,
+          "endMs": 24992
+        },
+        {
+          "sceneId": "S02",
+          "text": "图",
+          "startMs": 24992,
+          "endMs": 25152
+        },
+        {
+          "sceneId": "S02",
+          "text": "61",
+          "startMs": 25152,
+          "endMs": 25552
+        },
+        {
+          "sceneId": "S02",
+          "text": "来",
+          "startMs": 25632,
+          "endMs": 25792
+        },
+        {
+          "sceneId": "S02",
+          "text": "看",
+          "startMs": 25792,
+          "endMs": 26192
+        },
+        {
+          "sceneId": "S02",
+          "text": "企",
+          "startMs": 26512,
+          "endMs": 26912
+        },
+        {
+          "sceneId": "S02",
+          "text": "业",
+          "startMs": 26912,
+          "endMs": 27072
+        },
+        {
+          "sceneId": "S02",
+          "text": "在",
+          "startMs": 27072,
+          "endMs": 27232
+        },
+        {
+          "sceneId": "S02",
+          "text": "市",
+          "startMs": 27232,
+          "endMs": 27472
+        },
+        {
+          "sceneId": "S02",
+          "text": "场",
+          "startMs": 27472,
+          "endMs": 27712
+        },
+        {
+          "sceneId": "S02",
+          "text": "上",
+          "startMs": 27712,
+          "endMs": 27872
+        },
+        {
+          "sceneId": "S02",
+          "text": "生",
+          "startMs": 27872,
+          "endMs": 28112
+        },
+        {
+          "sceneId": "S02",
+          "text": "存",
+          "startMs": 28112,
+          "endMs": 28512
+        },
+        {
+          "sceneId": "S02",
+          "text": "日",
+          "startMs": 28832,
+          "endMs": 29072
+        },
+        {
+          "sceneId": "S02",
+          "text": "常",
+          "startMs": 29072,
+          "endMs": 29232
+        },
+        {
+          "sceneId": "S02",
+          "text": "的",
+          "startMs": 29232,
+          "endMs": 29312
+        },
+        {
+          "sceneId": "S02",
+          "text": "运",
+          "startMs": 29312,
+          "endMs": 29552
+        },
+        {
+          "sceneId": "S02",
+          "text": "营",
+          "startMs": 29552,
+          "endMs": 29712
+        },
+        {
+          "sceneId": "S02",
+          "text": "工",
+          "startMs": 29712,
+          "endMs": 29952
+        },
+        {
+          "sceneId": "S02",
+          "text": "作",
+          "startMs": 29952,
+          "endMs": 30432
+        },
+        {
+          "sceneId": "S02",
+          "text": "维",
+          "startMs": 30432,
+          "endMs": 30592
+        },
+        {
+          "sceneId": "S02",
+          "text": "持",
+          "startMs": 30592,
+          "endMs": 30752
+        },
+        {
+          "sceneId": "S02",
+          "text": "着",
+          "startMs": 30752,
+          "endMs": 30832
+        },
+        {
+          "sceneId": "S02",
+          "text": "组",
+          "startMs": 30832,
+          "endMs": 31072
+        },
+        {
+          "sceneId": "S02",
+          "text": "织",
+          "startMs": 31072,
+          "endMs": 31232
+        },
+        {
+          "sceneId": "S02",
+          "text": "的",
+          "startMs": 31232,
+          "endMs": 31312
+        },
+        {
+          "sceneId": "S02",
+          "text": "当",
+          "startMs": 31312,
+          "endMs": 31472
+        },
+        {
+          "sceneId": "S02",
+          "text": "前",
+          "startMs": 31472,
+          "endMs": 31792
+        },
+        {
+          "sceneId": "S02",
+          "text": "状",
+          "startMs": 31792,
+          "endMs": 32032
+        },
+        {
+          "sceneId": "S02",
+          "text": "态",
+          "startMs": 32032,
+          "endMs": 32352
+        },
+        {
+          "sceneId": "S02",
+          "text": "但",
+          "startMs": 32672,
+          "endMs": 32832
+        },
+        {
+          "sceneId": "S02",
+          "text": "当",
+          "startMs": 32832,
+          "endMs": 32992
+        },
+        {
+          "sceneId": "S02",
+          "text": "市",
+          "startMs": 32992,
+          "endMs": 33232
+        },
+        {
+          "sceneId": "S02",
+          "text": "场",
+          "startMs": 33232,
+          "endMs": 33552
+        },
+        {
+          "sceneId": "S02",
+          "text": "竞",
+          "startMs": 33552,
+          "endMs": 33712
+        },
+        {
+          "sceneId": "S02",
+          "text": "争",
+          "startMs": 33712,
+          "endMs": 33872
+        },
+        {
+          "sceneId": "S02",
+          "text": "加",
+          "startMs": 33872,
+          "endMs": 34112
+        },
+        {
+          "sceneId": "S02",
+          "text": "剧",
+          "startMs": 34112,
+          "endMs": 34512
+        },
+        {
+          "sceneId": "S02",
+          "text": "技",
+          "startMs": 34752,
+          "endMs": 34992
+        },
+        {
+          "sceneId": "S02",
+          "text": "术",
+          "startMs": 34992,
+          "endMs": 35152
+        },
+        {
+          "sceneId": "S02",
+          "text": "革",
+          "startMs": 35152,
+          "endMs": 35312
+        },
+        {
+          "sceneId": "S02",
+          "text": "新",
+          "startMs": 35312,
+          "endMs": 35792
+        },
+        {
+          "sceneId": "S02",
+          "text": "或",
+          "startMs": 36112,
+          "endMs": 36272
+        },
+        {
+          "sceneId": "S02",
+          "text": "者",
+          "startMs": 36272,
+          "endMs": 36432
+        },
+        {
+          "sceneId": "S02",
+          "text": "国",
+          "startMs": 36432,
+          "endMs": 36592
+        },
+        {
+          "sceneId": "S02",
+          "text": "家",
+          "startMs": 36592,
+          "endMs": 36832
+        },
+        {
+          "sceneId": "S02",
+          "text": "出",
+          "startMs": 36832,
+          "endMs": 36992
+        },
+        {
+          "sceneId": "S02",
+          "text": "台",
+          "startMs": 36992,
+          "endMs": 37152
+        },
+        {
+          "sceneId": "S02",
+          "text": "新",
+          "startMs": 37152,
+          "endMs": 37392
+        },
+        {
+          "sceneId": "S02",
+          "text": "法",
+          "startMs": 37392,
+          "endMs": 37632
+        },
+        {
+          "sceneId": "S02",
+          "text": "规",
+          "startMs": 37632,
+          "endMs": 37792
+        },
+        {
+          "sceneId": "S02",
+          "text": "的",
+          "startMs": 37792,
+          "endMs": 37872
+        },
+        {
+          "sceneId": "S02",
+          "text": "时",
+          "startMs": 37872,
+          "endMs": 38112
+        },
+        {
+          "sceneId": "S02",
+          "text": "候",
+          "startMs": 38112,
+          "endMs": 38592
+        },
+        {
+          "sceneId": "S02",
+          "text": "企",
+          "startMs": 38912,
+          "endMs": 39152
+        },
+        {
+          "sceneId": "S02",
+          "text": "业",
+          "startMs": 39152,
+          "endMs": 39312
+        },
+        {
+          "sceneId": "S02",
+          "text": "如",
+          "startMs": 39312,
+          "endMs": 39472
+        },
+        {
+          "sceneId": "S02",
+          "text": "果",
+          "startMs": 39472,
+          "endMs": 39552
+        },
+        {
+          "sceneId": "S02",
+          "text": "想",
+          "startMs": 39552,
+          "endMs": 39792
+        },
+        {
+          "sceneId": "S02",
+          "text": "跨",
+          "startMs": 39792,
+          "endMs": 40112
+        },
+        {
+          "sceneId": "S02",
+          "text": "越",
+          "startMs": 40112,
+          "endMs": 40272
+        },
+        {
+          "sceneId": "S02",
+          "text": "到",
+          "startMs": 40272,
+          "endMs": 40432
+        },
+        {
+          "sceneId": "S02",
+          "text": "更",
+          "startMs": 40432,
+          "endMs": 40592
+        },
+        {
+          "sceneId": "S02",
+          "text": "有",
+          "startMs": 40592,
+          "endMs": 40752
+        },
+        {
+          "sceneId": "S02",
+          "text": "竞",
+          "startMs": 40752,
+          "endMs": 40992
+        },
+        {
+          "sceneId": "S02",
+          "text": "争",
+          "startMs": 40992,
+          "endMs": 41152
+        },
+        {
+          "sceneId": "S02",
+          "text": "力",
+          "startMs": 41152,
+          "endMs": 41312
+        },
+        {
+          "sceneId": "S02",
+          "text": "的",
+          "startMs": 41312,
+          "endMs": 41392
+        },
+        {
+          "sceneId": "S02",
+          "text": "将",
+          "startMs": 41392,
+          "endMs": 41712
+        },
+        {
+          "sceneId": "S02",
+          "text": "来",
+          "startMs": 41712,
+          "endMs": 41872
+        },
+        {
+          "sceneId": "S02",
+          "text": "状",
+          "startMs": 41872,
+          "endMs": 42192
+        },
+        {
+          "sceneId": "S02",
+          "text": "态",
+          "startMs": 42192,
+          "endMs": 42512
+        },
+        {
+          "sceneId": "S02",
+          "text": "就",
+          "startMs": 42832,
+          "endMs": 42992
+        },
+        {
+          "sceneId": "S02",
+          "text": "必",
+          "startMs": 42992,
+          "endMs": 43152
+        },
+        {
+          "sceneId": "S02",
+          "text": "须",
+          "startMs": 43152,
+          "endMs": 43312
+        },
+        {
+          "sceneId": "S02",
+          "text": "做",
+          "startMs": 43312,
+          "endMs": 43552
+        },
+        {
+          "sceneId": "S02",
+          "text": "出",
+          "startMs": 43552,
+          "endMs": 43712
+        },
+        {
+          "sceneId": "S02",
+          "text": "改",
+          "startMs": 43712,
+          "endMs": 43952
+        },
+        {
+          "sceneId": "S02",
+          "text": "变",
+          "startMs": 43952,
+          "endMs": 44192
+        },
+        {
+          "sceneId": "S02",
+          "text": "而",
+          "startMs": 44672,
+          "endMs": 44832
+        },
+        {
+          "sceneId": "S02",
+          "text": "这",
+          "startMs": 44832,
+          "endMs": 44992
+        },
+        {
+          "sceneId": "S02",
+          "text": "个",
+          "startMs": 44992,
+          "endMs": 45072
+        },
+        {
+          "sceneId": "S02",
+          "text": "驱",
+          "startMs": 45072,
+          "endMs": 45312
+        },
+        {
+          "sceneId": "S02",
+          "text": "动",
+          "startMs": 45312,
+          "endMs": 45552
+        },
+        {
+          "sceneId": "S02",
+          "text": "组",
+          "startMs": 45552,
+          "endMs": 45712
+        },
+        {
+          "sceneId": "S02",
+          "text": "织",
+          "startMs": 45712,
+          "endMs": 46032
+        },
+        {
+          "sceneId": "S02",
+          "text": "实",
+          "startMs": 46272,
+          "endMs": 46512
+        },
+        {
+          "sceneId": "S02",
+          "text": "现",
+          "startMs": 46512,
+          "endMs": 46752
+        },
+        {
+          "sceneId": "S02",
+          "text": "状",
+          "startMs": 46752,
+          "endMs": 46912
+        },
+        {
+          "sceneId": "S02",
+          "text": "态",
+          "startMs": 46912,
+          "endMs": 47072
+        },
+        {
+          "sceneId": "S02",
+          "text": "转",
+          "startMs": 47072,
+          "endMs": 47312
+        },
+        {
+          "sceneId": "S02",
+          "text": "换",
+          "startMs": 47312,
+          "endMs": 47712
+        },
+        {
+          "sceneId": "S02",
+          "text": "创",
+          "startMs": 48032,
+          "endMs": 48272
+        },
+        {
+          "sceneId": "S02",
+          "text": "造",
+          "startMs": 48272,
+          "endMs": 48432
+        },
+        {
+          "sceneId": "S02",
+          "text": "业",
+          "startMs": 48432,
+          "endMs": 48592
+        },
+        {
+          "sceneId": "S02",
+          "text": "务",
+          "startMs": 48592,
+          "endMs": 48672
+        },
+        {
+          "sceneId": "S02",
+          "text": "价",
+          "startMs": 48672,
+          "endMs": 48912
+        },
+        {
+          "sceneId": "S02",
+          "text": "值",
+          "startMs": 48912,
+          "endMs": 49072
+        },
+        {
+          "sceneId": "S02",
+          "text": "的",
+          "startMs": 49072,
+          "endMs": 49152
+        },
+        {
+          "sceneId": "S02",
+          "text": "创",
+          "startMs": 49152,
+          "endMs": 49392
+        },
+        {
+          "sceneId": "S02",
+          "text": "新",
+          "startMs": 49392,
+          "endMs": 49552
+        },
+        {
+          "sceneId": "S02",
+          "text": "载",
+          "startMs": 49552,
+          "endMs": 49792
+        },
+        {
+          "sceneId": "S02",
+          "text": "体",
+          "startMs": 49792,
+          "endMs": 50192
+        },
+        {
+          "sceneId": "S02",
+          "text": "就",
+          "startMs": 50512,
+          "endMs": 50672
+        },
+        {
+          "sceneId": "S02",
+          "text": "是",
+          "startMs": 50672,
+          "endMs": 50752
+        },
+        {
+          "sceneId": "S02",
+          "text": "项",
+          "startMs": 50752,
+          "endMs": 50992
+        },
+        {
+          "sceneId": "S02",
+          "text": "目",
+          "startMs": 50992,
+          "endMs": 51152
+        }
+      ]
+    }
+  ]
+}

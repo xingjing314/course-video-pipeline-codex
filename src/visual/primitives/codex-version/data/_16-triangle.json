@@ -1,0 +1,32 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "triangle": {
+    "points": [
+      [
+        820,
+        560
+      ],
+      [
+        1420,
+        560
+      ],
+      [
+        1080,
+        240
+      ]
+    ],
+    "fill": "rgba(240, 122, 62, 0.12)",
+    "stroke": "rgba(240, 122, 62, 0.60)",
+    "strokeWidth": 1.5,
+    "linejoin": "miter"
+  },
+  "animation": {
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74,
+    "fillStartFrame": 114,
+    "fillDurationInFrames": 30
+  }
+}

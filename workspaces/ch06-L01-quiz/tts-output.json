@@ -1,0 +1,77 @@
+{
+  "lessonId": "ch06-L01-quiz",
+  "sampleRate": 24000,
+  "totalDurationMs": 88165,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz/ch06-L01-quiz-full.wav",
+  "fullWavSha256": "f7c81c1dcd1ea1f7c8b5ab49dbe66993da943738fea27415ae212a12965713be",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "Q17-read",
+      "narration": "我们看一道典范真题，看看出题人是怎么在这个定义上给你下套的。\n这是2023年11月第4批次的第17题：关于项目的描述，不正确的是哪一项？",
+      "narrationSha256": "fc7d8c9028ad7d60b5ccb5758d82c8cb7c3c7b6f61b2559f5ef6f2dc42230b0d",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz/audio/Q17-read.wav",
+      "wavSha256": "69a7fc4f568b072d4078509d3c16618bed327122cdcc6fe1808701073242686b",
+      "startMs": 0,
+      "endMs": 17759,
+      "durationMs": 17759,
+      "fromCache": true
+    },
+    {
+      "sceneId": "Q17-A",
+      "narration": "A 选项说，项目的需求不复存在，是项目宣告结束的情况之一。完全正确，没有需求了就必须果断止损；",
+      "narrationSha256": "f8801e7f72d71c6ebd21dfa8a97c7a6f87f5c9460df0671e9af0d7716e27e607",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz/audio/Q17-A.wav",
+      "wavSha256": "f0d07706c7337eb1597aa889bdd714789d40cfd4d316cd02ba9013c7176e3545",
+      "startMs": 17759,
+      "endMs": 29345,
+      "durationMs": 11586,
+      "fromCache": true
+    },
+    {
+      "sceneId": "Q17-B",
+      "narration": "B 选项说，实现项目目标可能会产生一个或多个可交付成果。完全正确；",
+      "narrationSha256": "ae6deaab6c1fde58f6df45b9fbb3bf56dc8fcc60d60c70d798bcdda5c37dede0",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz/audio/Q17-B.wav",
+      "wavSha256": "d333f54adacc35f3c8d652057a0207315c692594f489fabf26ed6b8aff2ca409",
+      "startMs": 29345,
+      "endMs": 37940,
+      "durationMs": 8595,
+      "fromCache": true
+    },
+    {
+      "sceneId": "Q17-C",
+      "narration": "C 选项说，可交付成果可能会在项目终止后依然存在。完全正确，工程做完了，系统继续跑十年；",
+      "narrationSha256": "20e06a1a7fdc9115db22b028445733c53526588ee6f7c68dadaefd5d8a398283",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz/audio/Q17-C.wav",
+      "wavSha256": "36a8ac295ec090e204ca711b44180ffc91efa7a6348de9ac06f38e455e8ee33a",
+      "startMs": 37940,
+      "endMs": 48916,
+      "durationMs": 10976,
+      "fromCache": true
+    },
+    {
+      "sceneId": "Q17-D",
+      "narration": "再看 D 选项，他说：项目是为创造独特的产品、服务或成果而进行的周期性工作。",
+      "narrationSha256": "33d1382db33f73648dd72a8592a4ff0c08276633328698e26e6ffd4ac37c3b46",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz/audio/Q17-D.wav",
+      "wavSha256": "5ce8dfee41084a148a3e416937f1cd9df70589dd522ec72c9e8cbe99b4871fd7",
+      "startMs": 48916,
+      "endMs": 57988,
+      "durationMs": 9072,
+      "fromCache": true
+    },
+    {
+      "sceneId": "Q17-explain",
+      "narration": "抓住了吗？命题人前面大半句全抄教材原话，就在最后三个字把临时性偷换成了周期性！周而复始、按部就班的流水线是运营，绝不是项目。一眼锁定 D 选项！在英文试题里，也是直接考查临时性对应单词 Temporary。这种核心特征题，只要抓准管理机理，两秒钟就能秒杀。",
+      "narrationSha256": "8ace59683aa75cfc3de2676fdee26f72af07b039150b5a632dc6cfbfd8091780",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/ch06-L01-quiz/audio/Q17-explain.wav",
+      "wavSha256": "10aa4ee59630d1129135ed79ce8ca8c2d48d0af797251821b45541f2da206542",
+      "startMs": 57988,
+      "endMs": 88165,
+      "durationMs": 30177,
+      "fromCache": false
+    }
+  ]
+}

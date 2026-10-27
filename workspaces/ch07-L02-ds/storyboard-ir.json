@@ -1,0 +1,1126 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch07-L02-ds",
+  "lessonTitle": "第 7 章 项目立项管理 · L02（deepseek 版）",
+  "sourceMarkdownPath": "/projects/gaoxiang/information-systems-project-management-4e-course-Gemini/docs/第7章/第七章-L02完整口播稿V0.1.md",
+  "sourceMarkdownSha256": "132951f742905385f82ec9e7bbd557b42f8868ad90bc21a81e18a5d1e2e34731",
+  "companionScriptVerified": true,
+  "overview": {
+    "chapterScope": "第 7 章 7.2 导言 — 7.2.1 可行性研究的五大维度",
+    "estimatedDurationText": "16 分 55 秒",
+    "cognitiveGoals": [
+      "掌握可行性研究的定义与四个特点",
+      "用五顶帽子记住五个可行性的判别标准",
+      "分清技术可行性 vs 社会效益的两组易混表述",
+      "分清一次性支出与非一次性支出"
+    ],
+    "coreVisualAssets": [
+      "A11 五顶帽子",
+      "A12 技术四因素",
+      "A13 经济四笔账",
+      "A16 终极防坑表"
+    ],
+    "examAnchors": [
+      "2023.5 T21",
+      "23下1批T28",
+      "23下4批T22",
+      "23下1批T61",
+      "26上2批T23",
+      "25上1批T58"
+    ]
+  },
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "parentSceneId": "S01",
+      "segmentTitle": "交棒与定义",
+      "sceneTitle": "S01 · 交棒与定义",
+      "order": 1,
+      "estimatedSeconds": 17.78,
+      "narration": "上一节我们讲到，建设单位把《项目建议书》交给上级主管部门，领导批复说：“这个方向不错，去深入论证一下吧！”这时候，项目就正式迈进了 7.2 项目可行性研究。",
+      "narrationSha256": "2d6a1511b43607bc5739f4254fb6fdb90f948612f462a485078b1d1438b2fc91",
+      "clauses": [
+        "上一节我们讲到，建设单位把《项目建议书》交给上级主管部门，领导批复说：“这个方向不错，去深入论证一下吧！",
+        "”这时候，项目就正式迈进了 7.2 项目可行性研究。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "交棒与定义",
+      "pedagogicalIntent": "用四关轨道把学生从 L01 送进 L02，零认知成本",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S01"
+        }
+      }
+    },
+    {
+      "sceneId": "S02",
+      "parentSceneId": "S02",
+      "segmentTitle": "交棒与定义",
+      "sceneTitle": "S02 · 交棒与定义",
+      "order": 2,
+      "estimatedSeconds": 19.17,
+      "narration": "什么叫可行性研究？就是在项目建议书被批准之后，从技术、经济、社会和人员等方面的条件进行调查研究，对可能的技术方案进行论证，最终确定整个项目到底可不可行。",
+      "narrationSha256": "e15eb0b1511d345e16292cdf877638ff8773d7a54bc8b23b2c1a454a5ea0d8b3",
+      "clauses": [
+        "什么叫可行性研究？",
+        "就是在项目建议书被批准之后，从技术、经济、社会和人员等方面的条件进行调查研究，对可能的技术方案进行论证，最终确定整个项目到底可不可行。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "交棒与定义",
+      "pedagogicalIntent": "定义按输入→动作→结论排，不写成一整句话",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S02"
+        }
+      }
+    },
+    {
+      "sceneId": "S03",
+      "parentSceneId": "S03",
+      "segmentTitle": "交棒与定义",
+      "sceneTitle": "S03 · 交棒与定义",
+      "order": 3,
+      "estimatedSeconds": 16.67,
+      "narration": "教材在这儿提了可行性研究的四个特点：预见性、公正性、可靠性、科学性。你先混个脸熟，待会儿下一节讲详细可行性研究原则的时候还会跟它呼应。",
+      "narrationSha256": "24155e2cdbd6593587f8ec6ded56576d9c230313e23a2e7edf1bfd41a9bba4cf",
+      "clauses": [
+        "教材在这儿提了可行性研究的四个特点：预见性、公正性、可靠性、科学性。",
+        "你先混个脸熟，待会儿下一节讲详细可行性研究原则的时候还会跟它呼应。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "交棒与定义",
+      "pedagogicalIntent": "刻意做轻：口播自己说先混个脸熟",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S03"
+        }
+      }
+    },
+    {
+      "sceneId": "S04",
+      "parentSceneId": "S04",
+      "segmentTitle": "五顶帽子",
+      "sceneTitle": "S04 · 五顶帽子",
+      "order": 4,
+      "estimatedSeconds": 19.17,
+      "narration": "那具体从哪几个维度去论证项目可不可行呢？教材在 7.2.1 节列了五大可行性分析维度。过去 11 套真题里，光这一小节就考了 8 道题，是全章当之无愧的第一高频区！",
+      "narrationSha256": "5ad148f8d343107fd6959c9e4e0f3b129c6c25336be22a49d0372eaa83f16e7d",
+      "clauses": [
+        "那具体从哪几个维度去论证项目可不可行呢？",
+        "教材在 7.2.1 节列了五大可行性分析维度。",
+        "过去 11 套真题里，光这一小节就考了 8 道题，是全章当之无愧的第一高频区！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "五顶帽子",
+      "pedagogicalIntent": "先给分量，学生才愿意投入注意力",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S04"
+        }
+      }
+    },
+    {
+      "sceneId": "S05",
+      "parentSceneId": "S05",
+      "segmentTitle": "五顶帽子",
+      "sceneTitle": "S05 · 五顶帽子",
+      "order": 5,
+      "estimatedSeconds": 17.5,
+      "narration": "为了让大家一下听懂，我们拿一个具体的微场景来串：假设一家医院想上马一套“AI 智能导诊系统”。做可行性研究时，就相当于要戴上五顶帽子去审视它：",
+      "narrationSha256": "309bb171fdec6fb0edcafffc8c2b05b3c617093240554282aa1dcff2a0d2b46b",
+      "clauses": [
+        "为了让大家一下听懂，我们拿一个具体的微场景来串：假设一家医院想上马一套“AI 智能导诊系统”。",
+        "做可行性研究时，就相当于要戴上五顶帽子去审视它："
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "五顶帽子",
+      "pedagogicalIntent": "用具体场景承载五个抽象维度",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S05"
+        }
+      }
+    },
+    {
+      "sceneId": "S06",
+      "parentSceneId": "S06",
+      "segmentTitle": "五顶帽子",
+      "sceneTitle": "S06 · 五顶帽子",
+      "order": 6,
+      "estimatedSeconds": 48.89,
+      "narration": "第一顶，技术可行性——我们现在的条件，能不能在规定时间内把这套系统造出来？第二顶，经济可行性——投入多少钱、能省多少钱，经济账上划不划算？第三顶，社会效益可行性——除了赚钱省钱，对医院内部能力提升、对市民看病就医有什么无形价值？第四顶，运行环境可行性——系统造好之后搬到医院现场，现有的科室制度、医护人员习惯和数据基础，能不能让它顺利跑起来？第五顶，其他方面的可行性——比如软件版权、开源协议、政策法规合不合规？",
+      "narrationSha256": "82111e58eaa3c79030546c2891626d409857e9ae49c1b03299f63029e0a5f26e",
+      "clauses": [
+        "第一顶，技术可行性——我们现在的条件，能不能在规定时间内把这套系统造出来？",
+        "第二顶，经济可行性——投入多少钱、能省多少钱，经济账上划不划算？",
+        "第三顶，社会效益可行性——除了赚钱省钱，对医院内部能力提升、对市民看病就医有什么无形价值？",
+        "第四顶，运行环境可行性——系统造好之后搬到医院现场，现有的科室制度、医护人员习惯和数据基础，能不能让它顺利跑起来？",
+        "第五顶，其他方面的可行性——比如软件版权、开源协议、政策法规合不合规？"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "五顶帽子",
+      "pedagogicalIntent": "五顶逐条讲，画面一次只亮一个",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S05"
+        }
+      }
+    },
+    {
+      "sceneId": "S07",
+      "parentSceneId": "S07",
+      "segmentTitle": "五顶帽子",
+      "sceneTitle": "S07 · 五顶帽子",
+      "order": 7,
+      "estimatedSeconds": 21.67,
+      "narration": "此类项目更多是由政府或者非营利机构投资，更多强调对于社会的贡献。在实际工作中，其他可行性和运行环境往往具有“一票否决权”，但在考场上，前两项技术与经济依然是分值最高的核心。",
+      "narrationSha256": "0e17176d8712ca876c911ed0304218061f43a145225e54b438fb221e62e337ed",
+      "clauses": [
+        "此类项目更多是由政府或者非营利机构投资，更多强调对于社会的贡献。",
+        "在实际工作中，其他可行性和运行环境往往具有“一票否决权”，但在考场上，前两项技术与经济依然是分值最高的核心。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "五顶帽子",
+      "pedagogicalIntent": "最易记混的一层，单独给一镜",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S05"
+        }
+      }
+    },
+    {
+      "sceneId": "S08",
+      "parentSceneId": "S08",
+      "segmentTitle": "技术：先进与适用",
+      "sceneTitle": "S08 · 技术：先进与适用",
+      "order": 8,
+      "estimatedSeconds": 20,
+      "narration": "这里额外和大家强调的是技术可行性不仅看先进，更看适用与可控。尤其是在AI快速发展的今天。我们评估技术方案，不能只看能力有多先进，还要看是否适用、风险是否可控。",
+      "narrationSha256": "5114a76ecbee38eb7e14f49b383430501f4f15efb8ed9504e51af85ad6bf9bfb",
+      "clauses": [
+        "这里额外和大家强调的是技术可行性不仅看先进，更看适用与可控。",
+        "尤其是在AI快速发展的今天。",
+        "我们评估技术方案，不能只看能力有多先进，还要看是否适用、风险是否可控。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "技术：先进与适用",
+      "pedagogicalIntent": "先立判断标准，再给案例",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S08"
+        }
+      }
+    },
+    {
+      "sceneId": "S09",
+      "parentSceneId": "S09",
+      "segmentTitle": "技术：先进与适用",
+      "sceneTitle": "S09 · 技术：先进与适用",
+      "order": 9,
+      "estimatedSeconds": 11.94,
+      "narration": "比如，OpenAI 曾披露，一个内部测试模型在查找资料时，未经授权访问了澳大利亚政府的统计服务。",
+      "narrationSha256": "e580ea8e288828fe6b1fe08a75634c1808d4d61b530f2a9591de8c216b2ff80e",
+      "clauses": [
+        "比如，OpenAI 曾披露，一个内部测试模型在查找资料时，未经授权访问了澳大利亚政府的统计服务。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "技术：先进与适用",
+      "pedagogicalIntent": "案例要短，一句话能读完",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S09-S10"
+        }
+      }
+    },
+    {
+      "sceneId": "S10",
+      "parentSceneId": "S10",
+      "segmentTitle": "技术：先进与适用",
+      "sceneTitle": "S10 · 技术：先进与适用",
+      "order": 10,
+      "estimatedSeconds": 16.67,
+      "narration": "研究员 Noam Brown 还引用过一个实验：两台已经被攻陷、距离很近的计算机，即使没有网络连接，也可能通过发热和温度传感器传递信息。",
+      "narrationSha256": "bea7098f550e435cde7ff6c5ca285d4aeb0f2a66a391ff774a1cf0cbe16b4602",
+      "clauses": [
+        "研究员 Noam Brown 还引用过一个实验：两台已经被攻陷、距离很近的计算机，即使没有网络连接，也可能通过发热和温度传感器传递信息。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "技术：先进与适用",
+      "pedagogicalIntent": "两个案例同屏，才有分量",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S09-S10"
+        }
+      }
+    },
+    {
+      "sceneId": "S11",
+      "parentSceneId": "S11",
+      "segmentTitle": "技术：先进与适用",
+      "sceneTitle": "S11 · 技术：先进与适用",
+      "order": 11,
+      "estimatedSeconds": 5.56,
+      "narration": "下面，我们正式戴上第一顶帽子：技术可行性分析。",
+      "narrationSha256": "2bd54ad1f325aef33b7a2ee88e587761ec96ae9417da98b1af4961dacfcbe40d",
+      "clauses": [
+        "下面，我们正式戴上第一顶帽子：技术可行性分析。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "技术：先进与适用",
+      "pedagogicalIntent": "从讲故事切回讲考点，画面明显收束",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S11"
+        }
+      }
+    },
+    {
+      "sceneId": "S12",
+      "parentSceneId": "S12",
+      "segmentTitle": "技术四因素",
+      "sceneTitle": "S12 · 技术四因素",
+      "order": 12,
+      "estimatedSeconds": 30.83,
+      "narration": "它的核心问题很明确：在当前的技术、产品条件限制下，能不能利用现在拥有、或者可能拥有的技术能力、产品功能和人力资源，在规定的时间期限内实现项目的目标、功能和性能？特别提醒了一句：技术可行性往往决定了项目的方向，一旦评估错误，会造成项目根本上的失败。",
+      "narrationSha256": "d00b1079fac33d5ce36304c6efa35f38166f273629212ec10147866ae4fb6a8b",
+      "clauses": [
+        "它的核心问题很明确：在当前的技术、产品条件限制下，能不能利用现在拥有、或者可能拥有的技术能力、产品功能和人力资源，在规定的时间期限内实现项目的目标、功能和性能？",
+        "特别提醒了一句：技术可行性往往决定了项目的方向，一旦评估错误，会造成项目根本上的失败。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "技术四因素",
+      "pedagogicalIntent": "定义只留一句，重音落在根本失败",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S12"
+        }
+      }
+    },
+    {
+      "sceneId": "S13",
+      "parentSceneId": "S13",
+      "segmentTitle": "技术四因素",
+      "sceneTitle": "S13 · 技术四因素",
+      "order": 13,
+      "estimatedSeconds": 43.89,
+      "narration": "那做技术可行性分析，具体要考虑哪四个因素呢？看屏幕上的四张卡片：第一，进行项目开发的风险——在给定的限制范围和时间期限内，能不能设计出预期系统、实现必需的功能和性能？第三，技术能力的可能性——技术发展趋势和当前掌握的技术支不支持开发，有没有对应的开发环境、平台和工具。第四，物资（产品）的可用性——有没有可以用来建立系统的其他资源，比如设备以及可行的替代产品。",
+      "narrationSha256": "076f6086cdc3f74aa8df73bf4e21ccc961ef0f17bfb18d52b428d83bbe4e9d28",
+      "clauses": [
+        "那做技术可行性分析，具体要考虑哪四个因素呢？",
+        "看屏幕上的四张卡片：第一，进行项目开发的风险——在给定的限制范围和时间期限内，能不能设计出预期系统、实现必需的功能和性能？",
+        "第三，技术能力的可能性——技术发展趋势和当前掌握的技术支不支持开发，有没有对应的开发环境、平台和工具。",
+        "第四，物资（产品）的可用性——有没有可以用来建立系统的其他资源，比如设备以及可行的替代产品。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "技术四因素",
+      "pedagogicalIntent": "星标是考场头号陷阱的视觉锚",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S13"
+        }
+      }
+    },
+    {
+      "sceneId": "S14",
+      "parentSceneId": "S14",
+      "segmentTitle": "技术四因素",
+      "sceneTitle": "S14 · 技术四因素",
+      "order": 14,
+      "estimatedSeconds": 53.61,
+      "narration": "第二，人力资源的有效性——请大家在这七个字旁边画三个五角星！这是考场上的头号陷阱！什么叫人力资源的有效性？就是看用于项目开发的技术人员队伍能不能建立起来，存不存在人员不足、技术能力欠缺的问题，能不能在社会上招聘、或者通过培训获得所需要的熟练技术人员。很多同学一看到“招聘人员、培训人员”，脑子一热就去选“运行环境”或者“社会效益”。千万记住：没技术人员就写不出代码、造不出系统！考察能不能凑齐技术人手把系统开发出来，属于技术可行性分析！",
+      "narrationSha256": "7368a9bb1fd9578c87e3637d12c81a0de46a037cfb171f56951f7220cbf644f8",
+      "clauses": [
+        "第二，人力资源的有效性——请大家在这七个字旁边画三个五角星！",
+        "这是考场上的头号陷阱！",
+        "什么叫人力资源的有效性？",
+        "就是看用于项目开发的技术人员队伍能不能建立起来，存不存在人员不足、技术能力欠缺的问题，能不能在社会上招聘、或者通过培训获得所需要的熟练技术人员。",
+        "很多同学一看到“招聘人员、培训人员”，脑子一热就去选“运行环境”或者“社会效益”。",
+        "千万记住：没技术人员就写不出代码、造不出系统！",
+        "考察能不能凑齐技术人手把系统开发出来，属于技术可行性分析！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "技术四因素",
+      "pedagogicalIntent": "学生最容易错的那一步，单独立镜",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S13"
+        }
+      }
+    },
+    {
+      "sceneId": "S15",
+      "parentSceneId": "S15",
+      "segmentTitle": "技术四因素",
+      "sceneTitle": "S15 · 技术四因素",
+      "order": 15,
+      "estimatedSeconds": 31.11,
+      "narration": "我们马上看 2023 年 5 月的第 21 题，看看命题人是怎么考这个坑的。题干问：可行性报告中，是否存在人力资源不足的问题，是否可以通过社会招聘或培训获得所需人员，属于（  ）的内容？A. 技术可行性分析；B. 经济可行性问题；C. 社会效益可行性分析；D. 运行环境可行性分析。",
+      "narrationSha256": "1b1ff8655b0d02ebef072b3cf6fffebfc380e884dc1992bea2f3c426e90883b2",
+      "clauses": [
+        "我们马上看 2023 年 5 月的第 21 题，看看命题人是怎么考这个坑的。",
+        "题干问：可行性报告中，是否存在人力资源不足的问题，是否可以通过社会招聘或培训获得所需人员，属于（  ）的内容？",
+        "A. 技术可行性分析；",
+        "B. 经济可行性问题；",
+        "C. 社会效益可行性分析；",
+        "D. 运行环境可行性分析。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "技术四因素",
+      "pedagogicalIntent": "用现成模板，零改动",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S15-S17"
+        }
+      }
+    },
+    {
+      "sceneId": "S16",
+      "parentSceneId": "S16",
+      "segmentTitle": "技术四因素",
+      "sceneTitle": "S16 · 技术四因素",
+      "order": 16,
+      "estimatedSeconds": 4.72,
+      "narration": "现在看这道题，是不是一点都不会犹豫了？",
+      "narrationSha256": "ceaa1085471d37b20fdcbca3765870e8ef354a223f9bb61cd27726f0b87aee71",
+      "clauses": [
+        "现在看这道题，是不是一点都不会犹豫了？"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "技术四因素",
+      "pedagogicalIntent": "判卷动作交给 cue，画面只负责呈现",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S15-S17"
+        }
+      }
+    },
+    {
+      "sceneId": "S17",
+      "parentSceneId": "S17",
+      "segmentTitle": "技术四因素",
+      "sceneTitle": "S17 · 技术四因素",
+      "order": 17,
+      "estimatedSeconds": 16.39,
+      "narration": "题干里的“是否存在人力资源不足、能否通过社会招聘或培训获得所需人员”，完全就是教材里技术可行性分析——人力资源有效性的原话！直接选 A。",
+      "narrationSha256": "5a2d18efdf6110e2e09063da6f8db8dc10c4a970e1e0e9d7612de5feb9985d85",
+      "clauses": [
+        "题干里的“是否存在人力资源不足、能否通过社会招聘或培训获得所需人员”，完全就是教材里技术可行性分析——人力资源有效性的原话！",
+        "直接选 A。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "技术四因素",
+      "pedagogicalIntent": "收口一句话，避免回去翻书",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S15-S17"
+        }
+      }
+    },
+    {
+      "sceneId": "S18",
+      "parentSceneId": "S18",
+      "segmentTitle": "经济四笔账",
+      "sceneTitle": "S18 · 经济四笔账",
+      "order": 18,
+      "estimatedSeconds": 20.56,
+      "narration": "接下来戴上第二顶帽子：经济可行性分析。它主要对整个项目的投资和产生的经济效益算四笔账：第一、支出分析，第二、收益分析，第三、收益投资比与投资回收期分析，第四、敏感性分析。",
+      "narrationSha256": "7fe3c6bf7390ff3e481ab95611ec21e647566288c99abdc35c02967a365e8f5c",
+      "clauses": [
+        "接下来戴上第二顶帽子：经济可行性分析。",
+        "它主要对整个项目的投资和产生的经济效益算四笔账：第一、支出分析，第二、收益分析，第三、收益投资比与投资回收期分析，第四、敏感性分析。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济四笔账",
+      "pedagogicalIntent": "先给全貌，再逐个展开",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S18"
+        }
+      }
+    },
+    {
+      "sceneId": "S19",
+      "parentSceneId": "S19",
+      "segmentTitle": "经济四笔账",
+      "sceneTitle": "S19 · 经济四笔账",
+      "order": 19,
+      "estimatedSeconds": 9.72,
+      "narration": "第一笔账，支出分析。教材把项目支出分成了两类，考场上非常喜欢把它们混在一起考：",
+      "narrationSha256": "349245baf4982fb6b8838443ecce01449fefde639f385a277206ed82ff5bbf7a",
+      "clauses": [
+        "第一笔账，支出分析。",
+        "教材把项目支出分成了两类，考场上非常喜欢把它们混在一起考："
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济四笔账",
+      "pedagogicalIntent": "二元分类先用结构表达",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S19-S21"
+        }
+      }
+    },
+    {
+      "sceneId": "S20",
+      "parentSceneId": "S20",
+      "segmentTitle": "经济四笔账",
+      "sceneTitle": "S20 · 经济四笔账",
+      "order": 20,
+      "estimatedSeconds": 12.5,
+      "narration": "一类叫一次性支出——也就是建项目时一次性掏出去的钱，包括：开发费、培训费、差旅费、初始数据录入、设备购置费。",
+      "narrationSha256": "2f6ef5c0c54504b13b829545700f83454c2a019e392d5d7da10da69c13c589a5",
+      "clauses": [
+        "一类叫一次性支出——也就是建项目时一次性掏出去的钱，包括：开发费、培训费、差旅费、初始数据录入、设备购置费。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济四笔账",
+      "pedagogicalIntent": "五项并列，避免挤成一团",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S19-S21"
+        }
+      }
+    },
+    {
+      "sceneId": "S21",
+      "parentSceneId": "S21",
+      "segmentTitle": "经济四笔账",
+      "sceneTitle": "S21 · 经济四笔账",
+      "order": 21,
+      "estimatedSeconds": 16.94,
+      "narration": "另一类叫非一次性支出——也就是项目运行期间要周期性、持续掏的钱，包括：软硬件租金、人员工资及福利、水电等公用设施使用费，以及其他消耗品支出。",
+      "narrationSha256": "13684c292d1d8d653ae49bbc18c91be250a9c9d02622ba14097c63e0ef4f9f6c",
+      "clauses": [
+        "另一类叫非一次性支出——也就是项目运行期间要周期性、持续掏的钱，包括：软硬件租金、人员工资及福利、水电等公用设施使用费，以及其他消耗品支出。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济四笔账",
+      "pedagogicalIntent": "与 S20 左右呼应，形成对照",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S19-S21"
+        }
+      }
+    },
+    {
+      "sceneId": "S22",
+      "parentSceneId": "S22",
+      "segmentTitle": "经济四笔账",
+      "sceneTitle": "S22 · 经济四笔账",
+      "order": 22,
+      "estimatedSeconds": 19.17,
+      "narration": "请你特别盯住两个词：“设备购置费”是一次性买断，属于一次性支出；而“软、硬件租金”是按期交租，属于非一次性支出！命题人最爱把“软硬件租金”偷偷塞进一次性支出里骗你。",
+      "narrationSha256": "a7a3525715498f39874680af62b3c7318135e41424af818b217c272549f37d66",
+      "clauses": [
+        "请你特别盯住两个词：“设备购置费”是一次性买断，属于一次性支出；",
+        "而“软、硬件租金”是按期交租，属于非一次性支出！",
+        "命题人最爱把“软硬件租金”偷偷塞进一次性支出里骗你。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济四笔账",
+      "pedagogicalIntent": "全课最高频陷阱，必须单独立镜",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S19-S21"
+        }
+      }
+    },
+    {
+      "sceneId": "S23",
+      "parentSceneId": "S23",
+      "segmentTitle": "经济四笔账",
+      "sceneTitle": "S23 · 经济四笔账",
+      "order": 23,
+      "estimatedSeconds": 17.22,
+      "narration": "第二笔账，收益分析，分三小类：直接收益（比如销售项目产品的收入）、间接收益（比如通过项目实施降低了成本）、其他收益（比如获得了知识产权、软件著作权）。",
+      "narrationSha256": "05be598b195dbbf77acd25132ff65ce0f67700bae3adaf3f2baa69fc002d42f9",
+      "clauses": [
+        "第二笔账，收益分析，分三小类：直接收益（比如销售项目产品的收入）、间接收益（比如通过项目实施降低了成本）、其他收益（比如获得了知识产权、软件著作权）。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济四笔账",
+      "pedagogicalIntent": "三类并列，不展开",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S23"
+        }
+      }
+    },
+    {
+      "sceneId": "S24",
+      "parentSceneId": "S24",
+      "segmentTitle": "经济四笔账",
+      "sceneTitle": "S24 · 经济四笔账",
+      "order": 24,
+      "estimatedSeconds": 8.33,
+      "narration": "第三笔账，收益投资比、投资回收期分析，对比投入产出，算收益率和回收期。",
+      "narrationSha256": "2ffa3e5116be63ed7234b7deceb68c4ee672dd588f4001b6e3f3b07fba407677",
+      "clauses": [
+        "第三笔账，收益投资比、投资回收期分析，对比投入产出，算收益率和回收期。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济四笔账",
+      "pedagogicalIntent": "用最简结构表达算比值",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S24"
+        }
+      }
+    },
+    {
+      "sceneId": "S25",
+      "parentSceneId": "S25",
+      "segmentTitle": "经济四笔账",
+      "sceneTitle": "S25 · 经济四笔账",
+      "order": 25,
+      "estimatedSeconds": 20.83,
+      "narration": "第四笔账，敏感性分析——什么叫敏感性分析？就是当设备和软件配置、处理速度要求、系统的工作负荷类型和负荷量这些关键性因素发生变化时，估计一下会对支出和收益产生多大影响。",
+      "narrationSha256": "9d1d111de8be984a62872886fb87c75c911afdd746e18430afb96066b6b585b2",
+      "clauses": [
+        "第四笔账，敏感性分析——什么叫敏感性分析？",
+        "就是当设备和软件配置、处理速度要求、系统的工作负荷类型和负荷量这些关键性因素发生变化时，估计一下会对支出和收益产生多大影响。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济四笔账",
+      "pedagogicalIntent": "敏感性=变量变了会怎样，画面必须动",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S25"
+        }
+      }
+    },
+    {
+      "sceneId": "S26",
+      "parentSceneId": "S26",
+      "segmentTitle": "经济真题",
+      "sceneTitle": "S26 · 经济真题",
+      "order": 26,
+      "estimatedSeconds": 16.67,
+      "narration": "我们连看两道真题，看看这四笔账在考场上怎么出题。先看 2023 年 11 月第 1 批次的第 28 题：问关于经济可行性分析，描述错误的是哪一项？",
+      "narrationSha256": "ecba4128397ae89e2a0b980b3b13a236ca056c5152b88291fb05cdf367229e83",
+      "clauses": [
+        "我们连看两道真题，看看这四笔账在考场上怎么出题。",
+        "先看 2023 年 11 月第 1 批次的第 28 题：问关于经济可行性分析，描述错误的是哪一项？"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济真题",
+      "pedagogicalIntent": "连看两道，用同屏并置表达题型稳定性",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S26-S29"
+        }
+      }
+    },
+    {
+      "sceneId": "S27",
+      "parentSceneId": "S27",
+      "segmentTitle": "经济真题",
+      "sceneTitle": "S27 · 经济真题",
+      "order": 27,
+      "estimatedSeconds": 28.61,
+      "narration": "你看 A 选项：“一次性支出包括开发费、培训费、差旅费、软、硬件租金等费用”——抓到了吧！把“软、硬件租金”混进一次性支出里了，软硬件租金是非一次性支出，所以直接选 A！而 B 间接收益、C 销售产品收入为直接收益、D 收益投资比与投资回收期，全都是教材原话。",
+      "narrationSha256": "ccf642b909fcd2501d9f55295b6c67ae99cb88024e8463e182e8884237036f85",
+      "clauses": [
+        "你看 A 选项：“一次性支出包括开发费、培训费、差旅费、软、硬件租金等费用”——抓到了吧！",
+        "把“软、硬件租金”混进一次性支出里了，软硬件租金是非一次性支出，所以直接选 A！",
+        "而 B 间接收益、C 销售产品收入为直接收益、D 收益投资比与投资回收期，全都是教材原话。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济真题",
+      "pedagogicalIntent": "判卷动画复用 L01 的逐项逻辑",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S26-S29"
+        }
+      }
+    },
+    {
+      "sceneId": "S28",
+      "parentSceneId": "S28",
+      "segmentTitle": "经济真题",
+      "sceneTitle": "S28 · 经济真题",
+      "order": 28,
+      "estimatedSeconds": 20.56,
+      "narration": "再看旁边的 2023 年 11 月第 4 批次第 22 题：经济可行性分析具体包括支出分析、收益分析、投资回报分析以及（  ）等？A. 敏感性分析；B. 公共效益分析；C. 品牌效益；D. 技术创新效益。",
+      "narrationSha256": "52f159c69864003f2a04985753c9687c60a4792b50752afa0e669013c915bc73",
+      "clauses": [
+        "再看旁边的 2023 年 11 月第 4 批次第 22 题：经济可行性分析具体包括支出分析、收益分析、投资回报分析以及（  ）等？",
+        "A. 敏感性分析；",
+        "B. 公共效益分析；",
+        "C. 品牌效益；",
+        "D. 技术创新效益。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济真题",
+      "pedagogicalIntent": "第二题换屏，保持节奏",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S26-S29"
+        }
+      }
+    },
+    {
+      "sceneId": "S29",
+      "parentSceneId": "S29",
+      "segmentTitle": "经济真题",
+      "sceneTitle": "S29 · 经济真题",
+      "order": 29,
+      "estimatedSeconds": 23.33,
+      "narration": "直接选 A 敏感性分析！同样，23 年 11 月第 3 批次第 22 题反过来问“经济可行性不包括什么”，把刚学过的“人力资源的有效性分析”塞了进来。你看，只要这四笔账的框架在脑子里，正着考反着考都难不倒你。",
+      "narrationSha256": "b02e03fb142fb84d77941a15c12987473228c1ebb3b2992b98dfc2b4e619e7ed",
+      "clauses": [
+        "直接选 A 敏感性分析！",
+        "同样，23 年 11 月第 3 批次第 22 题反过来问“经济可行性不包括什么”，把刚学过的“人力资源的有效性分析”塞了进来。",
+        "你看，只要这四笔账的框架在脑子里，正着考反着考都难不倒你。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "经济真题",
+      "pedagogicalIntent": "顺带一提，用轻量卡带过",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S26-S29"
+        }
+      }
+    },
+    {
+      "sceneId": "S30",
+      "parentSceneId": "S30",
+      "segmentTitle": "社会效益",
+      "sceneTitle": "S30 · 社会效益",
+      "order": 30,
+      "estimatedSeconds": 14.72,
+      "narration": "刚才那道题的 B、C、D 选项出现了“公共效益、品牌效益、技术创新效益”，它们属于哪儿呢？这就到了第三顶帽子——社会效益可行性分析。",
+      "narrationSha256": "9082f88a66d9105868230c150cc13a215c0adbb95112a3f3827133253719ce5b",
+      "clauses": [
+        "刚才那道题的 B、C、D 选项出现了“公共效益、品牌效益、技术创新效益”，它们属于哪儿呢？",
+        "这就到了第三顶帽子——社会效益可行性分析。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "社会效益",
+      "pedagogicalIntent": "换帽子不拉回全景，避免节奏断层",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S30"
+        }
+      }
+    },
+    {
+      "sceneId": "S31",
+      "parentSceneId": "S31",
+      "segmentTitle": "社会效益",
+      "sceneTitle": "S31 · 社会效益",
+      "order": 31,
+      "estimatedSeconds": 16.11,
+      "narration": "尤其是面向公共服务领域的项目，社会效益往往是关注重点。第四版教材把社会效益分成了“对组织内部”和“对社会发展”两大块，每块各有 5 项：",
+      "narrationSha256": "1962ec6cb9df9500f56623f9788632f6e1149c0a323a9ff5de8d37d58e9b0bb2",
+      "clauses": [
+        "尤其是面向公共服务领域的项目，社会效益往往是关注重点。",
+        "第四版教材把社会效益分成了“对组织内部”和“对社会发展”两大块，每块各有 5 项："
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "社会效益",
+      "pedagogicalIntent": "先立结构，再填内容",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S31-S33"
+        }
+      }
+    },
+    {
+      "sceneId": "S32",
+      "parentSceneId": "S32",
+      "segmentTitle": "社会效益",
+      "sceneTitle": "S32 · 社会效益",
+      "order": 32,
+      "estimatedSeconds": 35.56,
+      "narration": "先看对组织内部带来的知识经验沉淀，一共 5 个效益：第一，品牌效益（提升知名度）；第二，竞争力效益（获得行业竞争优势）；第三，技术创新效益（攻克技术难点，带来技术能力积累、产品与服务创新）；第四，人员提升收益（通过项目锻炼，带来人员能力提升或骨干人员培育）；第五，管理提升效益（过程管控带来组织管理水平提升）。",
+      "narrationSha256": "6207eca76aa0a36f4f33d389ea048ee91ad83069c6db9beb1d87919de4a168ad",
+      "clauses": [
+        "先看对组织内部带来的知识经验沉淀，一共 5 个效益：第一，品牌效益（提升知名度）；",
+        "第二，竞争力效益（获得行业竞争优势）；",
+        "第三，技术创新效益（攻克技术难点，带来技术能力积累、产品与服务创新）；",
+        "第四，人员提升收益（通过项目锻炼，带来人员能力提升或骨干人员培育）；",
+        "第五，管理提升效益（过程管控带来组织管理水平提升）。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "社会效益",
+      "pedagogicalIntent": "五条一口气念完会糊，必须逐条",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S31-S33"
+        }
+      }
+    },
+    {
+      "sceneId": "S33",
+      "parentSceneId": "S33",
+      "segmentTitle": "社会效益",
+      "sceneTitle": "S33 · 社会效益",
+      "order": 33,
+      "estimatedSeconds": 23.61,
+      "narration": "再看对社会发展带来的进步，也是 5 个：公共效益（信息惠民、美好生活、居民健康等）、文化效益（精神文明、网络文明）、环境效益（保护自然与生态）、社会责任感效益，以及其他收益（如提高国防能力、保障国家和社会安全）。",
+      "narrationSha256": "a2f8ae78ce75715cbe25c882e972276c7bcecc0c42c5792f5356440b976ecb1d",
+      "clauses": [
+        "再看对社会发展带来的进步，也是 5 个：公共效益（信息惠民、美好生活、居民健康等）、文化效益（精神文明、网络文明）、环境效益（保护自然与生态）、社会责任感效益，以及其他收益（如提高国防能力、保障国家和社会安全）。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "社会效益",
+      "pedagogicalIntent": "左右对称，便于对比记忆",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S31-S33"
+        }
+      }
+    },
+    {
+      "sceneId": "S34",
+      "parentSceneId": "S34",
+      "segmentTitle": "终极防坑表",
+      "sceneTitle": "S34 · 终极防坑表",
+      "order": 34,
+      "estimatedSeconds": 30.83,
+      "narration": "看到这儿，最精彩的地方来了！你发现没有：在“对组织内部的社会效益”里，有“人员提升收益”和“技术创新效益”；而在前面讲的“技术可行性”里，有“人力资源的有效性”和“技术能力的可能性”！命题人简直太爱拿这两组词交叉挖坑了！我们用屏幕下方这张终极防坑表把它们彻底锁死：",
+      "narrationSha256": "5fdb9ea3f8dc020786291e08ecf25b048ae3b2f86eb847e6211d69c0162d166e",
+      "clauses": [
+        "看到这儿，最精彩的地方来了！",
+        "你发现没有：在“对组织内部的社会效益”里，有“人员提升收益”和“技术创新效益”；",
+        "而在前面讲的“技术可行性”里，有“人力资源的有效性”和“技术能力的可能性”！",
+        "命题人简直太爱拿这两组词交叉挖坑了！",
+        "我们用屏幕下方这张终极防坑表把它们彻底锁死："
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "终极防坑表",
+      "pedagogicalIntent": "先立表，再逐行填",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S34"
+        }
+      }
+    },
+    {
+      "sceneId": "S35",
+      "parentSceneId": "S35",
+      "segmentTitle": "终极防坑表",
+      "sceneTitle": "S35 · 终极防坑表",
+      "order": 35,
+      "estimatedSeconds": 36.39,
+      "narration": "- 问你“人力资源的有效性（能不能招到或培训出技术人员把系统做出来）”，选技术可行性；- 问你“人员提升收益（通过做项目锻炼了队伍、培养了骨干）”，选社会效益可行性！- 问你“技术能力的可能性（当前掌握的技术和工具支不支持开发）”，选技术可行性；- 问你“技术创新效益（攻克难点为组织积累了技术能力与创新）”，选社会效益可行性！",
+      "narrationSha256": "54e2651f1122abf968176e245d0498561a73b668838b5d7395afca74f7979157",
+      "clauses": [
+        "- 问你“人力资源的有效性（能不能招到或培训出技术人员把系统做出来）”，选技术可行性；",
+        "- 问你“人员提升收益（通过做项目锻炼了队伍、培养了骨干）”，选社会效益可行性！",
+        "- 问你“技术能力的可能性（当前掌握的技术和工具支不支持开发）”，选技术可行性；",
+        "- 问你“技术创新效益（攻克难点为组织积累了技术能力与创新）”，选社会效益可行性！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "终极防坑表",
+      "pedagogicalIntent": "每行问法→归属，可当清单背",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S35"
+        }
+      }
+    },
+    {
+      "sceneId": "S36",
+      "parentSceneId": "S36",
+      "segmentTitle": "终极防坑表",
+      "sceneTitle": "S36 · 终极防坑表",
+      "order": 36,
+      "estimatedSeconds": 22.78,
+      "narration": "接下来看屏幕上这两道真题对决：左边是 2023 年 11 月第 1 批次第 61 题：问哪一项属于社会效益可行性研究的内容？A 是人力资源的有效性，D 是人员提升收益。选哪个？直接选 D 人员提升收益！",
+      "narrationSha256": "48efe30e716a0ba641710ea344ff63be39a49d3a909681fc2c1fc96083377df5",
+      "clauses": [
+        "接下来看屏幕上这两道真题对决：左边是 2023 年 11 月第 1 批次第 61 题：问哪一项属于社会效益可行性研究的内容？",
+        "A 是人力资源的有效性，D 是人员提升收益。",
+        "选哪个？",
+        "直接选 D 人员提升收益！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "终极防坑表",
+      "pedagogicalIntent": "L01 已验证的模板，直接复用",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S36-S37"
+        }
+      }
+    },
+    {
+      "sceneId": "S37",
+      "parentSceneId": "S37",
+      "segmentTitle": "终极防坑表",
+      "sceneTitle": "S37 · 终极防坑表",
+      "order": 37,
+      "estimatedSeconds": 30.83,
+      "narration": "右边是 2026 年 5 月第 2 批次第 23 题：问技术可行性分析考虑的因素不包括哪一项？A 人力资源的有效性、B 物资的可用性、C 技术能力的可能性、D 技术创新效益。不包括哪个？直接选 D 技术创新效益，因为它属于社会效益！这两道题放在一起看，是不是一下子通透了？",
+      "narrationSha256": "55e3a18fba96502cb722b1d26ee8585389205dadea173b673ba0f6e822e3f7b9",
+      "clauses": [
+        "右边是 2026 年 5 月第 2 批次第 23 题：问技术可行性分析考虑的因素不包括哪一项？",
+        "A 人力资源的有效性、B 物资的可用性、C 技术能力的可能性、D 技术创新效益。",
+        "不包括哪个？",
+        "直接选 D 技术创新效益，因为它属于社会效益！",
+        "这两道题放在一起看，是不是一下子通透了？"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "终极防坑表",
+      "pedagogicalIntent": "左右同屏才有通透感",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S36-S37"
+        }
+      }
+    },
+    {
+      "sceneId": "S38",
+      "parentSceneId": "S38",
+      "segmentTitle": "运行环境与收官",
+      "sceneTitle": "S38 · 运行环境与收官",
+      "order": 38,
+      "estimatedSeconds": 66.67,
+      "narration": "最后我们来看第四顶和第五顶帽子。第四顶帽子叫运行环境可行性分析。信息系统项目跟修桥修路不一样，软件硬件造好了，还得安装运行在用户现场。运行环境是制约信息系统发挥效益的关键。那运行环境可行性到底看什么？既有“硬环境”，更有用户的“软环境”：需要从用户的管理体制、管理方法、规章制度、工作习惯、人员素质（甚至包括人员的心理承受能力、接受新知识和技能的积极性）、数据资源积累、基础软硬件平台等多方面进行评估，看系统交付以后能不能在用户现场顺利运行。如果软硬件运行环境需要重新建立，就要评估能不能建立起来，并把建立环境的工作纳入项目计划之中。",
+      "narrationSha256": "6b901fce104353dd386fb8c57a16263c1c96806ba104eb81adfa878d7a870871",
+      "clauses": [
+        "最后我们来看第四顶和第五顶帽子。",
+        "第四顶帽子叫运行环境可行性分析。",
+        "信息系统项目跟修桥修路不一样，软件硬件造好了，还得安装运行在用户现场。",
+        "运行环境是制约信息系统发挥效益的关键。",
+        "那运行环境可行性到底看什么？",
+        "既有“硬环境”，更有用户的“软环境”：需要从用户的管理体制、管理方法、规章制度、工作习惯、人员素质（甚至包括人员的心理承受能力、接受新知识和技能的积极性）、数据资源积累、基础软硬件平台等多方面进行评估，看系统交付以后能不能在用户现场顺利运行。",
+        "如果软硬件运行环境需要重新建立，就要评估能不能建立起来，并把建立环境的工作纳入项目计划之中。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "运行环境与收官",
+      "pedagogicalIntent": "软环境是考点，不能只写硬环境",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S38-S39"
+        }
+      }
+    },
+    {
+      "sceneId": "S39",
+      "parentSceneId": "S39",
+      "segmentTitle": "运行环境与收官",
+      "sceneTitle": "S39 · 运行环境与收官",
+      "order": 39,
+      "estimatedSeconds": 28.89,
+      "narration": "第五顶帽子叫其他方面的可行性分析，主要包括法律可行性、政策可行性等。比如合同责任、知识产权，特别是开发环境、平台、工具和产品功能里涉及的软件版权问题（像能不能购买工具版权、开源协议符不符合商业目标等），以及对社会环境、自然环境的影响。",
+      "narrationSha256": "3de347532057dbcc5a545f8801f1463c8c60f554f3c3a5258b311164f8d6435a",
+      "clauses": [
+        "第五顶帽子叫其他方面的可行性分析，主要包括法律可行性、政策可行性等。",
+        "比如合同责任、知识产权，特别是开发环境、平台、工具和产品功能里涉及的软件版权问题（像能不能购买工具版权、开源协议符不符合商业目标等），以及对社会环境、自然环境的影响。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "运行环境与收官",
+      "pedagogicalIntent": "与 S38 同屏对照，五顶帽子收齐",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S38-S39"
+        }
+      }
+    },
+    {
+      "sceneId": "S40",
+      "parentSceneId": "S40",
+      "segmentTitle": "运行环境与收官",
+      "sceneTitle": "S40 · 运行环境与收官",
+      "order": 40,
+      "estimatedSeconds": 43.06,
+      "narration": "我们用 2025 年 5 月第 1 批次的第 58 题来做个完美收官。这道题出得特别好，四个选项刚好把我们今天学的几个维度全串起来了！题目问：在项目可行性分析的过程中，哪一项属于运行环境可行性分析的内容？A. 项目能否为组织带来技术创新效益；B. 设备购置费是否超出预算；C. 系统使用的开源协议是否符合项目商业目标；D. 用户的管理体制、人员素质及数据资源积累。",
+      "narrationSha256": "4080ea18c63983dc08e12a1f56bb9396af0ca4d897f3cbfeb98a1f640a85471e",
+      "clauses": [
+        "我们用 2025 年 5 月第 1 批次的第 58 题来做个完美收官。",
+        "这道题出得特别好，四个选项刚好把我们今天学的几个维度全串起来了！",
+        "题目问：在项目可行性分析的过程中，哪一项属于运行环境可行性分析的内容？",
+        "A. 项目能否为组织带来技术创新效益；",
+        "B. 设备购置费是否超出预算；",
+        "C. 系统使用的开源协议是否符合项目商业目标；",
+        "D. 用户的管理体制、人员素质及数据资源积累。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "运行环境与收官",
+      "pedagogicalIntent": "一题串起五个维度",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S40-S41"
+        }
+      }
+    },
+    {
+      "sceneId": "S41",
+      "parentSceneId": "S41",
+      "segmentTitle": "运行环境与收官",
+      "sceneTitle": "S41 · 运行环境与收官",
+      "order": 41,
+      "estimatedSeconds": 34.44,
+      "narration": "我们挨个认认门：A“技术创新效益”，刚讲过，属于社会效益可行性（对组织内部）；B“设备购置费”，属于经济可行性（一次性支出）；C“开源协议是否符合商业目标”，涉及知识产权与软件版权许可，属于其他（法律）可行性；只有 D“用户的管理体制、人员素质及数据资源积累”，完完全全是运行环境可行性分析的内容！选 D。",
+      "narrationSha256": "a1ed57afd547a28029fff5c1d44d96c00b405d43012fa1abcef4a4b509e19231",
+      "clauses": [
+        "我们挨个认认门：A“技术创新效益”，刚讲过，属于社会效益可行性（对组织内部）；",
+        "B“设备购置费”，属于经济可行性（一次性支出）；",
+        "C“开源协议是否符合商业目标”，涉及知识产权与软件版权许可，属于其他（法律）可行性；",
+        "只有 D“用户的管理体制、人员素质及数据资源积累”，完完全全是运行环境可行性分析的内容！",
+        "选 D。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "运行环境与收官",
+      "pedagogicalIntent": "用连线把四个维度一次性回指",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S40-S41"
+        }
+      }
+    },
+    {
+      "sceneId": "S42",
+      "parentSceneId": "S42",
+      "segmentTitle": "运行环境与收官",
+      "sceneTitle": "S42 · 运行环境与收官",
+      "order": 42,
+      "estimatedSeconds": 21.11,
+      "narration": "到这里，可行性研究算哪五笔账我们就彻底摸透了。但在实际工作中，可行性研究为什么要分“初步可研”和“详细可研”两步走？做完了可研，为什么还要请第三方来做“项目评估”？我们下一节见！",
+      "narrationSha256": "b8634fc3913c9fb63d2c56ce76ee0284ca1819d6ce166bb41ad62876576584b9",
+      "clauses": [
+        "到这里，可行性研究算哪五笔账我们就彻底摸透了。",
+        "但在实际工作中，可行性研究为什么要分“初步可研”和“详细可研”两步走？",
+        "做完了可研，为什么还要请第三方来做“项目评估”？",
+        "我们下一节见！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "运行环境与收官",
+      "pedagogicalIntent": "与 L01 的 S31 同一手法，固定收尾句式",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "l02-span",
+        "data": {
+          "span": "S42"
+        }
+      }
+    }
+  ],
+  "compiledAt": "2026-10-25T06:43:48.807Z"
+}

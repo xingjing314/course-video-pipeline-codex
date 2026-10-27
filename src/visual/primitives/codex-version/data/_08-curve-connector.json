@@ -1,0 +1,31 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "curve": {
+    "start": [
+      860,
+      470
+    ],
+    "control1": [
+      1000,
+      360
+    ],
+    "control2": [
+      1200,
+      580
+    ],
+    "end": [
+      1340,
+      470
+    ],
+    "stroke": "rgba(46, 196, 214, 0.85)",
+    "strokeWidth": 2.0,
+    "linecap": "round"
+  },
+  "animation": {
+    "drawStartFrame": 50,
+    "drawDurationInFrames": 30
+  }
+}

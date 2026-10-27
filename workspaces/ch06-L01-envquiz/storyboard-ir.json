@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-envquiz",
+  "lessonTitle": "第六章 L01 · 组织过程资产与事业环境因素双题样段",
+  "sourceMarkdownPath": "docs/lessons/ch06/input/第6章-L01完整口播稿V0.3.md",
+  "sourceMarkdownSha256": "5a473964c18cd98407ca8f8edc4ee05fdbaceec4d40ef6eca99c6dfe1b540582",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "6.2.5 组织过程资产与事业环境因素",
+    "estimatedDurationText": "按真实配音",
+    "cognitiveGoals": [
+      "区分组织过程资产与内部、外部事业环境因素"
+    ],
+    "coreVisualAssets": [
+      "左右双题卡",
+      "每题3秒倒计时",
+      "随口播揭示分类"
+    ],
+    "examAnchors": [
+      "2023年11月第2批次第29题（回忆版）",
+      "2026年5月第2批次第21题（回忆版）"
+    ]
+  },
+  "scenes": [
+    {
+      "sceneId": "EQ-intro",
+      "parentSceneId": "EQ-intro",
+      "segmentTitle": "真题④⑤",
+      "sceneTitle": "intro",
+      "order": 1,
+      "estimatedSeconds": 4.666666666666667,
+      "narration": "我们用两道真题，检验一下三宫格的实战效果！",
+      "narrationSha256": "3f85a3846ce97b340e73ec5452ae9bf68301340a0e919fadb7c36ce9e14d3dfc",
+      "clauses": [
+        "我们用两道真题，",
+        "检验一下三宫格的实战效果！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "左右双题卡，答案和分类随口播揭示",
+      "pedagogicalIntent": "辨别OPA与内部、外部EEF",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "intro"
+      }
+    },
+    {
+      "sceneId": "EQ-left-read",
+      "parentSceneId": "EQ-left-read",
+      "segmentTitle": "真题④⑤",
+      "sceneTitle": "left-read",
+      "order": 2,
+      "estimatedSeconds": 23.77777777777778,
+      "narration": "先看左边的2023年11月第2批次第29题：哪一项不属于组织过程资产？\nA 选项说：设施和资源的物理分布；B 选项是社交媒体、道德和安全政策及程序；C 选项是问题、风险、变更管理程序；D 选项是数据管理政策及程序。",
+      "narrationSha256": "36b63c467182b152ee788af12cd3f66f4ddd2360584d1a893f737d83fe1932c3",
+      "clauses": [
+        "先看左边的2023年11月第2批次第29题：哪一项不属于组织过程资产？",
+        "A 选项说：设施和资源的物理分布；",
+        "B 选项是社交媒体、道德和安全政策及程序；",
+        "C 选项是问题、风险、变更管理程序；",
+        "D 选项是数据管理政策及程序。"
+      ],
+      "pauseDirectives": [
+        {
+          "afterClauseIndex": 4,
+          "durationMs": 3000,
+          "reason": "完整选项读完，独立作答3秒"
+        }
+      ],
+      "rawVisualInstruction": "左右双题卡，答案和分类随口播揭示",
+      "pedagogicalIntent": "辨别OPA与内部、外部EEF",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "left-read"
+      }
+    },
+    {
+      "sceneId": "EQ-left-explain",
+      "parentSceneId": "EQ-left-explain",
+      "segmentTitle": "真题④⑤",
+      "sceneTitle": "left-explain",
+      "order": 3,
+      "estimatedSeconds": 19.77777777777778,
+      "narration": "你看，B、C、D 全都带政策、流程、程序，妥妥的组织过程资产；而 A 选项“设施和资源的物理分布”，是团队办公的客观物理限制，只能适应无法篡改，属于内部事业环境因素！直接选 A！",
+      "narrationSha256": "539afe84e40a6442e11192d1ba47c1dadc44da39cb103771af249edd70a9f73a",
+      "clauses": [
+        "你看，",
+        "B、C、D 全都带政策、流程、程序，",
+        "妥妥的组织过程资产；",
+        "而 A 选项“设施和资源的物理分布”，",
+        "是团队办公的客观物理限制，",
+        "只能适应无法篡改，",
+        "属于内部事业环境因素！",
+        "直接选 A！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "左右双题卡，答案和分类随口播揭示",
+      "pedagogicalIntent": "辨别OPA与内部、外部EEF",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "left-explain"
+      }
+    },
+    {
+      "sceneId": "EQ-right-read",
+      "parentSceneId": "EQ-right-read",
+      "segmentTitle": "真题④⑤",
+      "sceneTitle": "right-read",
+      "order": 4,
+      "estimatedSeconds": 14.666666666666666,
+      "narration": "再看右边的2026年5月第2批次第21题：哪一项属于组织内部事业环境因素？\n选项给出了商业数据库、行业标准、市场条件，以及员工能力。",
+      "narrationSha256": "89b7acf8364f2a73c15536d707391694f2ee4f00fab15fbbe7b36b05ce6e0c3d",
+      "clauses": [
+        "再看右边的2026年5月第2批次第21题：哪一项属于组织内部事业环境因素？",
+        "选项给出了商业数据库、行业标准、市场条件，",
+        "以及员工能力。"
+      ],
+      "pauseDirectives": [
+        {
+          "afterClauseIndex": 2,
+          "durationMs": 3000,
+          "reason": "完整选项读完，独立作答3秒"
+        }
+      ],
+      "rawVisualInstruction": "左右双题卡，答案和分类随口播揭示",
+      "pedagogicalIntent": "辨别OPA与内部、外部EEF",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "right-read"
+      }
+    },
+    {
+      "sceneId": "EQ-right-explain",
+      "parentSceneId": "EQ-right-explain",
+      "segmentTitle": "真题④⑤",
+      "sceneTitle": "right-explain",
+      "order": 5,
+      "estimatedSeconds": 17.555555555555557,
+      "narration": "商业数据库、行业标准、市场条件，全在公司大门外，属于外部事业环境因素；只有员工能力是组织自己内部员工的技能和知识沉淀，是内部事业环境因素，一秒锁定 D 选项！",
+      "narrationSha256": "6459c53c83317de4d2190746a5d64ce978a12b6205b85d4f907de6862e65cc6a",
+      "clauses": [
+        "商业数据库、行业标准、市场条件，",
+        "全在公司大门外，",
+        "属于外部事业环境因素；",
+        "只有员工能力是组织自己内部员工的技能和知识沉淀，",
+        "是内部事业环境因素，",
+        "一秒锁定 D 选项！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "左右双题卡，答案和分类随口播揭示",
+      "pedagogicalIntent": "辨别OPA与内部、外部EEF",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "right-explain"
+      }
+    }
+  ],
+  "compiledAt": "2026-10-26T11:09:38.826670+00:00"
+}

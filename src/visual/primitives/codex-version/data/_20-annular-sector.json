@@ -1,0 +1,26 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "annularSector": {
+    "center": [
+      1150,
+      470
+    ],
+    "outerRadius": 200,
+    "innerRadius": 120,
+    "startAngleDegrees": -90,
+    "sweepAngleDegrees": 90,
+    "fill": "rgba(91, 155, 240, 0.12)",
+    "stroke": "rgba(91, 155, 240, 0.60)",
+    "strokeWidth": 1.5,
+    "linejoin": "miter"
+  },
+  "animation": {
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74,
+    "fillStartFrame": 114,
+    "fillDurationInFrames": 30
+  }
+}

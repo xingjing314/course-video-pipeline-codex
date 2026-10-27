@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-preview",
+  "lessonTitle": "第六章 L01 · 项目的本质（样段）",
+  "sourceMarkdownPath": "docs/lessons/ch06/input/第6章-L01完整口播稿V0.3.md",
+  "sourceMarkdownSha256": "79bcc0d6068d393f3879b2b6136223d1f0f4902b4f67693c989a8a4b26e2254a",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "6.2.1 项目的定义与价值",
+    "estimatedDurationText": "以真实配音为准",
+    "cognitiveGoals": [
+      "理解独特与临时",
+      "理解项目推动状态转换"
+    ],
+    "coreVisualAssets": [
+      "关键词定义卡",
+      "组织状态转换图"
+    ],
+    "examAnchors": []
+  },
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "parentSceneId": "S01",
+      "segmentTitle": "项目的本质",
+      "sceneTitle": "到底什么是项目",
+      "order": 1,
+      "estimatedSeconds": 21.944444444444443,
+      "narration": "接下来进入 6.2 节“项目基本要素”。到底什么是项目？\n教材的标准定义是：项目是为创造独特的产品、服务或成果而进行的临时性工作。核心词就是两个：独特和临时。",
+      "narrationSha256": "c631a0d2dbcdc0d207e397901935084ec0c2dfa6c1c687ff3b06a9b833dec5b0",
+      "clauses": [
+        "接下来进入 6.2 节“项目基本要素”。",
+        "到底什么是项目？",
+        "教材的标准定义是：",
+        "项目是为创造独特的产品、",
+        "服务或成果而进行的临时性工作。",
+        "核心词就是两个：",
+        "独特和临时。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "用定义中的两个关键词建立认知锚点",
+      "pedagogicalIntent": "用定义中的两个关键词建立认知锚点",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "S01"
+      }
+    },
+    {
+      "sceneId": "S02",
+      "parentSceneId": "S02",
+      "segmentTitle": "项目的本质",
+      "sceneTitle": "项目推动组织实现状态转换",
+      "order": 2,
+      "estimatedSeconds": 44.166666666666664,
+      "narration": "很多同学把这两个词当死概念背，其实背后蕴含着极其深刻的管理常识。我们结合教材图 6-1 来看：企业在市场上生存，日常的运营工作维持着组织的当前状态；但当市场竞争加剧、技术革新、或者国家出台新法规的时候，企业如果想跨越到更有竞争力的将来状态，就必须做出改变。而这个驱动组织实现状态转换、创造业务价值的创新载体，就是项目！",
+      "narrationSha256": "05f2449f715c36b4affcfe17e842599fec0d6a3e56a015e67c54ecf31649a74a",
+      "clauses": [
+        "很多同学把这两个词当死概念背，",
+        "其实背后蕴含着极其深刻的管理常识。",
+        "我们结合教材图 6-1 来看：",
+        "企业在市场上生存，",
+        "日常的运营工作维持着组织的当前状态；",
+        "但当市场竞争加剧、",
+        "技术革新、",
+        "或者国家出台新法规的时候，",
+        "企业如果想跨越到更有竞争力的将来状态，",
+        "就必须做出改变。",
+        "而这个驱动组织实现状态转换、",
+        "创造业务价值的创新载体，",
+        "就是项目！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "用当前状态、外部变化、项目和将来状态的关系解释项目的价值",
+      "pedagogicalIntent": "用当前状态、外部变化、项目和将来状态的关系解释项目的价值",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "S02"
+      }
+    }
+  ],
+  "compiledAt": "2026-10-26T07:51:13.819Z"
+}

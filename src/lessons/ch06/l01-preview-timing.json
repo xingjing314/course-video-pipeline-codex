@@ -1,0 +1,23 @@
+{
+  "fps": 30,
+  "totalFrames": 1601,
+  "splitFrame": 524,
+  "definition": {
+    "define": 163,
+    "unique": 264,
+    "temporary": 360,
+    "keywords": 403
+  },
+  "change": {
+    "diagram": 197,
+    "operations": 341,
+    "competition": 466,
+    "technology": 518,
+    "regulations": 569,
+    "future": 643,
+    "change": 761,
+    "transition": 816,
+    "value": 917,
+    "project": 991
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-opening",
+  "lessonTitle": "第六章 L01 · 开场考情与 PMBOK 演进",
+  "sourceMarkdownPath": "docs/lessons/ch06/input/第6章-L01完整口播稿V0.3.md",
+  "sourceMarkdownSha256": "5a473964c18cd98407ca8f8edc4ee05fdbaceec4d40ef6eca99c6dfe1b540582",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "第6章导入与6.1 PMBOK的发展",
+    "estimatedDurationText": "按真实配音",
+    "cognitiveGoals": [
+      "明确课程学习路线",
+      "了解考情权重",
+      "理解PMBOK第6版到第7版的变化"
+    ],
+    "coreVisualAssets": [
+      "课程路线",
+      "考情数字",
+      "四版时间轴",
+      "第6版与第7版对照"
+    ],
+    "examAnchors": [
+      "2023—2026年11套卷38题"
+    ]
+  },
+  "scenes": [
+    {
+      "sceneId": "OP-intro",
+      "parentSceneId": "OP-intro",
+      "segmentTitle": "课程引入",
+      "sceneTitle": "intro",
+      "order": 1,
+      "estimatedSeconds": 28.666666666666668,
+      "narration": "欢迎来到第 6 章《项目管理概论》。\n在第7章里，我们讲清楚了一个项目是如何被立项的，正式立项之后，\n接下来从第6章，和第8章到第19章，我们就全面进入了“怎么把项目建好、管好”的项目建设阶段管理的征程。 \n第6章，正是整座项目管理大厦的总设计图和底层地基。",
+      "narrationSha256": "0646335eb9932eccc6c3a96a9dda70a98828e761219c17ef52c01533ec13651a",
+      "clauses": [
+        "欢迎来到第 6 章《项目管理概论》。",
+        "在第7章里，",
+        "我们讲清楚了一个项目是如何被立项的，",
+        "正式立项之后，",
+        "接下来从第6章，",
+        "和第8章到第19章，",
+        "我们就全面进入了“怎么把项目建好、管好”的项目建设阶段管理的征程。",
+        "第6章，",
+        "正是整座项目管理大厦的总设计图和底层地基。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "课程路线、考情数字、版本时间轴与第6/7版对照，随口播展开",
+      "pedagogicalIntent": "建立章节定位与演进主线",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "intro"
+      }
+    },
+    {
+      "sceneId": "OP-stats",
+      "parentSceneId": "OP-stats",
+      "segmentTitle": "考情速览",
+      "sceneTitle": "stats",
+      "order": 2,
+      "estimatedSeconds": 24.444444444444443,
+      "narration": "先看一眼历年考情：在2023年到2026年的11套试卷里，第 6 章一共考了38道选择题，平均每套卷考3.5分，占比大约4.6%，11套试卷百分之百全覆盖，每套卷稳定考2到5道题。2026年的两个批次，也都各考了3道题。",
+      "narrationSha256": "25f0ae7bc34abe23cca89a1fa4301b9b9058cc5dbf3e8a2965bfd94ae97c1287",
+      "clauses": [
+        "先看一眼历年考情：在2023年到2026年的11套试卷里，",
+        "第 6 章一共考了38道选择题，",
+        "平均每套卷考3.5分，",
+        "占比大约4.6%，",
+        "11套试卷百分之百全覆盖，",
+        "每套卷稳定考2到5道题。",
+        "2026年的两个批次，",
+        "也都各考了3道题。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "课程路线、考情数字、版本时间轴与第6/7版对照，随口播展开",
+      "pedagogicalIntent": "建立章节定位与演进主线",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "stats"
+      }
+    },
+    {
+      "sceneId": "OP-overview",
+      "parentSceneId": "OP-overview",
+      "segmentTitle": "PMBOK的发展",
+      "sceneTitle": "overview",
+      "order": 3,
+      "estimatedSeconds": 32.0,
+      "narration": "在进入具体概念之前，我们先用一分钟扫清 6.1 节——PMBOK，也就是美国项目管理协会开发的《项目管理知识体系指南》的发展演进。\n从1996年发布第1版开始，PMBOK 大约每四年更新一版。教材表 6-1 重点对比了四个关键版本的变化，大家只需要抓准从第 6 版到第 7 版的跨代升级：",
+      "narrationSha256": "40472cdb563bf5bed1e6e039c402fae727ea98a6fe0ef843a37bcf8c21eb3ea5",
+      "clauses": [
+        "在进入具体概念之前，",
+        "我们先用一分钟扫清 6.1 节——PMBOK，",
+        "也就是美国项目管理协会开发的《项目管理知识体系指南》的发展演进。",
+        "从1996年发布第1版开始，",
+        "PMBOK 大约每四年更新一版。",
+        "教材表 6-1 重点对比了四个关键版本的变化，",
+        "大家只需要抓准从第 6 版到第 7 版的跨代升级："
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "课程路线、考情数字、版本时间轴与第6/7版对照，随口播展开",
+      "pedagogicalIntent": "建立章节定位与演进主线",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "overview"
+      }
+    },
+    {
+      "sceneId": "OP-editions",
+      "parentSceneId": "OP-editions",
+      "segmentTitle": "四个版本",
+      "sceneTitle": "editions",
+      "order": 4,
+      "estimatedSeconds": 20.444444444444443,
+      "narration": "第一版采用的是基于过程的标准；第三版首次印上了美国国家标准学会 ANSI 标准的标识；到了2017年的第 6 版，首次把敏捷内容正式纳入正文，形成了大家熟知的五大过程组和十大知识领域。",
+      "narrationSha256": "5cc7717d124289f726204730edf32fb7c809eb72135928f9facca34e32acccf5",
+      "clauses": [
+        "第一版采用的是基于过程的标准；",
+        "第三版首次印上了美国国家标准学会 ANSI 标准的标识；",
+        "到了2017年的第 6 版，",
+        "首次把敏捷内容正式纳入正文，",
+        "形成了大家熟知的五大过程组和十大知识领域。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "课程路线、考情数字、版本时间轴与第6/7版对照，随口播展开",
+      "pedagogicalIntent": "建立章节定位与演进主线",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "editions"
+      }
+    },
+    {
+      "sceneId": "OP-problem",
+      "parentSceneId": "OP-problem",
+      "segmentTitle": "转轨背景",
+      "sceneTitle": "problem",
+      "order": 5,
+      "estimatedSeconds": 18.444444444444443,
+      "narration": "而到了2021年的第7版，也就是我们第四版教材改版的灵魂底座，发生了一次深刻的思想转型：过去详尽的过程规范，往往导致团队机械合规、死板套用流程，项目却在商业上失败了。",
+      "narrationSha256": "857d684266f67392d52d109b1b0db92ef99dfb1c00c751c1a3a36904c39539ac",
+      "clauses": [
+        "而到了2021年的第7版，",
+        "也就是我们第四版教材改版的灵魂底座，",
+        "发生了一次深刻的思想转型：过去详尽的过程规范，",
+        "往往导致团队机械合规、死板套用流程，",
+        "项目却在商业上失败了。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "课程路线、考情数字、版本时间轴与第6/7版对照，随口播展开",
+      "pedagogicalIntent": "建立章节定位与演进主线",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "problem"
+      }
+    },
+    {
+      "sceneId": "OP-value",
+      "parentSceneId": "OP-value",
+      "segmentTitle": "系统与价值",
+      "sceneTitle": "value",
+      "order": 6,
+      "estimatedSeconds": 22.22222222222222,
+      "narration": "因此第 7 版全面转向了以系统为视角，引入了价值交付系统，提出了十二个不可动摇的项目管理原则，以及八个项目绩效域。理解了这个转轨背景，你就明白为什么第四版教材会同时容纳传统的过程组和崭新的价值原则了。",
+      "narrationSha256": "24f853c5f38b264ab3803b256bcb956a49d99db79553715c91ce4c3726d6179a",
+      "clauses": [
+        "因此第 7 版全面转向了以系统为视角，",
+        "引入了价值交付系统，",
+        "提出了十二个不可动摇的项目管理原则，",
+        "以及八个项目绩效域。",
+        "理解了这个转轨背景，",
+        "你就明白为什么第四版教材会同时容纳传统的过程组和崭新的价值原则了。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "课程路线、考情数字、版本时间轴与第6/7版对照，随口播展开",
+      "pedagogicalIntent": "建立章节定位与演进主线",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "value"
+      }
+    }
+  ],
+  "compiledAt": "2026-10-26T11:35:46.104302+00:00"
+}

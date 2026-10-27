@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "ch06-L01-closing",
+  "lessonTitle": "第六章 L01 · 结课回顾与 L02 引入",
+  "sourceMarkdownPath": "docs/lessons/ch06/input/第6章-L01完整口播稿V0.3.md",
+  "sourceMarkdownSha256": "5a473964c18cd98407ca8f8edc4ee05fdbaceec4d40ef6eca99c6dfe1b540582",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "L01 结课回顾与 L02 引入",
+    "estimatedDurationText": "按真实配音",
+    "cognitiveGoals": [
+      "回顾本课主线",
+      "引入项目经理主题"
+    ],
+    "coreVisualAssets": [
+      "三条回顾主线",
+      "项目经理与三个下节主题"
+    ],
+    "examAnchors": [
+      "五道真题回顾"
+    ]
+  },
+  "scenes": [
+    {
+      "sceneId": "CL-recap",
+      "parentSceneId": "CL-recap",
+      "segmentTitle": "结课回顾",
+      "sceneTitle": "recap",
+      "order": 1,
+      "estimatedSeconds": 11.11111111111111,
+      "narration": "好，到这里，我们不仅吃透了项目的本质、战略成功标准和宏观棋局，而且用五道典范真题把出题套路打得粉碎。",
+      "narrationSha256": "916ccb8d1edc1fd4a95ad18ca4d6e166b9db3764d757a43deb41df41331cd3ce",
+      "clauses": [
+        "好，",
+        "到这里，",
+        "我们不仅吃透了项目的本质、战略成功标准和宏观棋局，",
+        "而且用五道典范真题把出题套路打得粉碎。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "回顾三条主线，转场至项目经理与三个下节主题，随口播出现",
+      "pedagogicalIntent": "归纳与课程衔接",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "recap"
+      }
+    },
+    {
+      "sceneId": "CL-next",
+      "parentSceneId": "CL-next",
+      "segmentTitle": "下节预告",
+      "sceneTitle": "next",
+      "order": 2,
+      "estimatedSeconds": 16.444444444444443,
+      "narration": "下一节课 L02，我们将把镜头对准那个在复杂组织中带队打仗的核心人物——项目经理，看看他的人才三角、权力来源和领导力艺术是怎么考查的。我们下节课见！",
+      "narrationSha256": "3a87b98f2cb824edd2747bab58d827e1db32acd9b439bc2982bc8ce92fd30757",
+      "clauses": [
+        "下一节课 L02，",
+        "我们将把镜头对准那个在复杂组织中带队打仗的核心人物——项目经理，",
+        "看看他的人才三角、权力来源和领导力艺术是怎么考查的。",
+        "我们下节课见！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "回顾三条主线，转场至项目经理与三个下节主题，随口播出现",
+      "pedagogicalIntent": "归纳与课程衔接",
+      "cueSpecs": [],
+      "visualType": "chapter-local",
+      "payload": {
+        "key": "next"
+      }
+    }
+  ],
+  "compiledAt": "2026-10-26T11:27:53.073856+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "canvas": {
+    "width": 1920,
+    "height": 1080
+  },
+  "plus": {
+    "center": [
+      1150,
+      500
+    ],
+    "armLength": 260,
+    "armWidth": 110,
+    "fill": "rgba(46, 196, 214, 0.12)",
+    "stroke": "rgba(46, 196, 214, 0.60)",
+    "strokeWidth": 1.5,
+    "linejoin": "miter"
+  },
+  "animation": {
+    "horizontalStartFrame": 58,
+    "horizontalDurationInFrames": 40,
+    "verticalStartFrame": 80,
+    "verticalDurationInFrames": 40,
+    "outlineStartFrame": 58,
+    "outlineDurationInFrames": 74
+  }
+}
