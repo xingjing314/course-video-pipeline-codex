@@ -5,8 +5,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "remotion studio src/visual/index.ts --port=3025 --force-new",
-    "studio": "remotion studio src/visual/index.ts --port=3025 --force-new",
+    "dev": "node scripts/studio.mjs",
+    "studio": "node scripts/studio.mjs",
     "compile": "node --experimental-strip-types src/cli/compile.ts",
     "render": "node --experimental-strip-types src/cli/render.ts",
     "lint": "tsc --noEmit",

@@ -49,7 +49,7 @@ add('envquiz','left-answer','真题④解析：物理分布属于内部 EEF','�
 add('envquiz','right-question','真题⑤：哪项属于内部事业环境因素？','真题练习',local=69.5,crop=[864,704,972,190])
 add('envquiz','right-answer','真题⑤解析：员工能力属于内部 EEF','真题解析',local=89.6,crop=[864,704,972,190])
 add('closing','CL-recap','本课回顾：串起管理主线','学习回顾',chapter='本课回顾')
-(root/'docs/lessons/ch06/handout/v1.0/selection.json').write_text(json.dumps(items,ensure_ascii=False,indent=2))
+(root/'docs/lessons/ch06/L01/handout/v1.0/selection.json').write_text(json.dumps(items,ensure_ascii=False,indent=2))
 for i in items:
  target=base/'images'/f"{i['id']}.png"
  if target.exists():continue

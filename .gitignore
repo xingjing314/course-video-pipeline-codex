@@ -9,6 +9,13 @@ __pycache__/
 /out/
 /deliverables/
 
+# Final handout PDFs and raster images stay local; keep selection JSON in Git
+/docs/lessons/ch*/L*/handout/**/*.pdf
+/docs/lessons/ch*/L*/handout/**/*.png
+/docs/lessons/ch*/L*/handout/**/*.jpg
+/docs/lessons/ch*/L*/handout/**/*.jpeg
+/docs/lessons/ch*/L*/handout/**/*.webp
+
 # Temporary output (handout source files now live in scripts/ and docs/)
 /tmp/
 

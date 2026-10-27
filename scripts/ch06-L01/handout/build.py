@@ -8,7 +8,7 @@ from reportlab.lib.colors import HexColor
 root=Path(__file__).resolve().parents[3]
 base=root/'deliverables/ch06-L01/handout-v1.0'
 base.mkdir(parents=True,exist_ok=True)
-items=json.loads((root/'docs/lessons/ch06/handout/v1.0/selection.json').read_text())
+items=json.loads((root/'docs/lessons/ch06/L01/handout/v1.0/selection.json').read_text())
 pdfmetrics.registerFont(TTFont('Chinese','/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf'))
 W,H=landscape(A4)
 pdf=canvas.Canvas(str(base/'第六章-L01-配套讲义V1.0.pdf'),pagesize=(W,H))
