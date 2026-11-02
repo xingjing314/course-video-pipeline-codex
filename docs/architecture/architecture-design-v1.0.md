@@ -1,5 +1,15 @@
 # `course-video-pipeline-Gemini` 架构设计方案（v1.0）
 
+> **历史设计文档（2026-11-02 标注）**：本文记录早期 `course-video-pipeline-Gemini` 的设计方案，保留原文供追溯，不作为当前项目的制作规范或实现说明，不列入日常必读。文中的项目路径、输入约定、环境参数、停顿时长与实施计划均属于当时方案。
+
+当前项目按任务查阅：
+
+- 制作步骤与最小必读范围：[AI互动流程总结](AI互动流程总结V0.1.md)。
+- 已有组件、接口、命令与使用限制：[公共能力索引](公共能力索引V0.1.md)。
+- 现行制作要求：[视频画面规范V0.2](视频画面规范V0.2.md)、[字幕规范V0.2](字幕规范V0.2.md)、[音频规范V0.2](音频规范V0.2.md)。
+
+---
+
 | 属性 | 定义 |
 | :--- | :--- |
 | **项目根目录** | [`/projects/gaoxiang/course-video-pipeline-Gemini`](file:///projects/gaoxiang/course-video-pipeline-Gemini) |
