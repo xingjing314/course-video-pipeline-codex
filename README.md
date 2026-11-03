@@ -4,7 +4,7 @@
 
 **仓库用途：个人保存程序、课程数据和制作经验，便于持续制作与维护。** 音频、成片、讲义 PDF、截图及缓存保留在本地或用户指定的备份位置，不随代码上传 GitHub。
 
-文档更新日期：2026-11-02。具体课时的制作进度、预览入口和用户审核结论查本课记录。
+文档更新日期：2026-11-03。具体课时的制作进度、预览入口和用户审核结论查本课记录。
 
 ## 一、开始制作与文档导航
 
@@ -75,11 +75,14 @@ out/、tmp/、.cache/         关键帧、临时输出与缓存
 
 | 入口 | 当前用途 |
 | --- | --- |
-| [scripts/render-lesson.mjs](scripts/render-lesson.mjs) | 共享视频导出：传入已注册的 Composition、对应素材和输出路径 |
+| [scripts/render-lesson.mjs](scripts/render-lesson.mjs) | 共享单版画面导出：传入已注册的 Composition、对应素材和输出路径，可先导出干净版 |
+| [scripts/compose-lesson.mjs](scripts/compose-lesson.mjs) | 复用干净视频，合入同版整轨配音与字幕，输出有声 MP4、双声道 WAV、SRT 和媒体信息 JSON |
 | [src/cli/compile.ts](src/cli/compile.ts) / `npm run compile` | 按现有口播与分镜输入格式完成解析、配音、对齐和绑定；需明确输入文件、课时标识及音频模式 |
-| [src/cli/render.ts](src/cli/render.ts) / `npm run render` | 读取对应 workspace 的编译结果，生成两版视频及配套媒体文件 |
+| [src/cli/render.ts](src/cli/render.ts) / `npm run render` | 原有交付路线：读取编译结果，分别完整渲染两版视频并输出配套媒体文件 |
 
-上述入口的数据前提和产物不同，沿用本课采用的路线。现有编译入口不能直接处理任意纯口播稿；通用分组参数和一次画面渲染生成两版视频仍属于待改进能力，具体限制见公共能力索引。
+双版本交付采用“渲染一次干净视频 → 公共入口合成有声字幕版”，详细参数与整课、样段命令查[公共能力索引](docs/architecture/公共能力索引V0.1.md)第九节。公共合成入口已通过用户小样确认；旧的 `npm run render` 和课时包装脚本未自动切换到此流程。
+
+现有编译入口不能直接处理任意纯口播稿，通用分组参数仍未统一；按本课实际素材与接入方式调用。
 
 `handout/` 只收纳教学讲义相关成果。当前讲义生成仍依赖课时脚本和选帧记录，通用视频导出不会自动生成讲义。
 
@@ -92,7 +95,7 @@ out/、tmp/、.cache/         关键帧、临时输出与缓存
 | Qwen3-TTS 权重与 Python 环境 | `/projects/gaoxiang/qwen3-tts/`，音频调用使用其中 `.venv/bin/python` |
 | Qwen3-ForcedAligner 权重与 Python 环境 | `/projects/gaoxiang/qwen3-forced-aligner/`，音频调用使用其中 `.venv/bin/python` |
 | Chrome | 共享导出脚本使用 `/opt/google/chrome/chrome` |
-| FFmpeg / ffprobe | 视频合并、截帧、音频处理及媒体参数检查 |
+| FFmpeg / ffprobe | 视频合并、截帧、音频处理及媒体参数检查；公共合成入口需要 CUDA 解码、`overlay_cuda` 和 `h264_nvenc` |
 | Python / ReportLab / 中文字体 | 现有讲义脚本使用；字体路径按具体脚本核对 |
 | 教材、题库、音频、图片及交付媒体 | 按本课必读清单和代码引用恢复；部分历史脚本仍引用相邻项目的绝对路径 |
 
