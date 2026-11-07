@@ -90,6 +90,8 @@ export function buildComposeArgs({video, audio, concat, output, wavOutput, fps, 
     '-ss', String(startFrame / fps), '-i', audio,
     '-filter_complex', filter,
     '-map', '[video]', '-map', '[audio]', '-c:v', 'h264_nvenc', '-b:v', videoBitrate,
+    // 1080 行视频在 H.264 中按 16 行对齐；保留底部 8 行裁切信息。
+    '-bsf:v', 'h264_metadata=crop_bottom=8',
     '-r', String(fps), '-fps_mode', 'cfr', '-frames:v', String(totalFrames), '-t', String(duration),
     '-color_range', colorRange, '-colorspace', colorSpace,
     '-c:a', 'aac', '-ar', '48000', '-ac', '2', '-b:a', '192k', '-movflags', '+faststart', output,

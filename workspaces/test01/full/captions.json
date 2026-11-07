@@ -1,0 +1,39 @@
+{
+  "captions": [
+    {
+      "index": 1,
+      "sceneId": "S01",
+      "text": "欢迎来到第 6 章的第三节课，",
+      "startMs": 0,
+      "endMs": 2480
+    },
+    {
+      "index": 2,
+      "sceneId": "S01",
+      "text": "也是全章分值最密集的“第一高频霸主区”——",
+      "startMs": 2960,
+      "endMs": 7445
+    },
+    {
+      "index": 3,
+      "sceneId": "S01",
+      "text": "6.4 节“价值驱动的项目管理知识体系”与 6.4.1 节“12 个项目管理原则”。",
+      "startMs": 7445,
+      "endMs": 15360
+    },
+    {
+      "index": 4,
+      "sceneId": "S02",
+      "text": "单单 6.4.1 这一个小节，",
+      "startMs": 16033,
+      "endMs": 19873
+    },
+    {
+      "index": 5,
+      "sceneId": "S02",
+      "text": "在 11 套试卷里就考了整整 9 道选择题！",
+      "startMs": 20273,
+      "endMs": 24193
+    }
+  ]
+}

@@ -1,8 +1,10 @@
-# course-video-pipeline-codex 架构说明 V2.0
+# 项目架构说明 V2.0
 
-代码核对日期：2026-11-03。本文说明当前工程的结构、数据流与主要调用关系，供理解工程或修改相关实现时按需查阅。
+代码核对日期：2026-11-03；最近同步：2026-11-07，更新独立课时入口、公共依赖边界及调用方指定导出入口的实现与限制。本文说明当前工程的结构、数据流与主要调用关系，供理解工程或修改相关实现时按需查阅。
 
 日常制作按[AI互动流程总结](AI互动流程总结V0.1.md)推进，组件参数和调用示例查[公共能力索引](公共能力索引V0.1.md)。画面、字幕和音频要求分别由[视频画面规范V0.2](视频画面规范V0.2.md)、[字幕规范V0.2](字幕规范V0.2.md)、[音频规范V0.2](音频规范V0.2.md)规定，本篇不增加开工必读项。
+
+理解当前任务涉及的实现时，可直接定位：独立课时入口看 3.1，编译数据与母版看 3.2 和第四节，导出看第五节，已知实现限制看第七节。日常教学设计从制作流程进入。
 
 ## 一、总体结构
 
@@ -10,7 +12,7 @@
 
 用户输入位于 `docs/lessons/<章节>/<课时>/input/`。口播与教材先经过分镜、分组和画面设计，再形成课时组件或结构化分镜数据。输入目录本身不会自动触发制作，现有编译 CLI 也不直接接受任意纯口播稿。
 
-当前有两种课时组织方式，最终都进入同一份 Remotion Composition 列表：
+当前有两种课时组织方式，均由本课独立入口注册所需 Composition。公共示例另用自己的入口：
 
 ```mermaid
 flowchart LR
@@ -18,13 +20,13 @@ flowchart LR
     IR --> LINK["绑定为 CompiledLesson"]
     AUDIO --> LINK
     AUDIO -->|"复用音频与对齐数据"| LOCAL["独立课时组件与课时数据"]
-    LOCAL --> SPEC["课时 CompositionSpec"]
+    LOCAL --> SPEC["本课 CompositionSpec"]
     LINK --> MASTER["MasterCanvas / SceneRouter"]
-    SPEC --> ALL["COMPOSITIONS"]
-    MASTER --> ALL
-    ALL --> ROOT["RemotionRoot"]
-    ROOT --> STUDIO["Studio 预览"]
-    ROOT --> RENDER["Remotion 教学画面渲染"]
+    MASTER --> SPEC
+    SPEC --> ENTRY["本课 studio.tsx：registerRoot"]
+    ENTRY --> STUDIO["Studio 预览"]
+    EXAMPLES["src/examples/index.tsx：公共示例"] --> STUDIO
+    ENTRY -->|"指定入口与 Composition"| RENDER["Remotion 教学画面渲染"]
     RENDER --> CLEAN["干净版 MP4"]
     CLEAN --> COMPOSE["composeLesson 公共合成"]
     AUDIO -->|"同版整轨 WAV 与字幕"| COMPOSE
@@ -35,6 +37,8 @@ flowchart LR
 
 ## 二、目录职责与公共能力边界
 
+版本库保留公共框架、必要文档、独立公共示例和流程演示课 `test01`。其他课程的私有代码、数据和媒体在本地或归档位置维护，不纳入本仓库提交；具体规则见 [README 的版本管理说明](../../README.md#五版本管理与素材保存)。移除其他课程后，公共示例与 test01 应能独立运行。
+
 | 位置 | 职责 |
 | --- | --- |
 | [contracts/](../../contracts) | Zod 数据契约：分镜、音频时间轴、视觉 payload、编译课时、图元配置和交付清单 |
@@ -43,29 +47,33 @@ flowchart LR
 | [src/visual/kit/](../../src/visual/kit) 与 [templates/](../../src/visual/templates) | 组合组件、布局、动效与数据驱动模板 |
 | [src/visual/shell/](../../src/visual/shell)、[backgrounds/](../../src/visual/backgrounds)、[tokens/](../../src/visual/tokens) | 母版、导航、字幕呈现、背景、颜色与动效参数 |
 | [src/visual/caption-export/](../../src/visual/caption-export) | 独立字幕截帧入口，复用 `CaptionsOverlay`，不加载课程注册表或教学场景 |
+| [src/examples/](../../src/examples) | 独立公共示例的说明、代码、必要数据、素材与参考成果 |
 | [src/lessons/](../../src/lessons) | 课时内容、专用图解、组件、入口声明与注册信息 |
 | [src/cli/](../../src/cli) 与 [scripts/](../../scripts) | CLI、共享预览与导出入口，以及必要的课时准备、组装和讲义脚本 |
 
 课程专用设计继续调用原子组件、kit 和公共方法。公共目录中的组件仍有使用范围限制，部分模板包含特定教学内容；能否覆盖参数或替换局部，以真实接口和公共能力索引为准。
 
-`contracts` 定义通用管线的数据结构；独立课时也有自己的数据组织方式。不能仅因文件放入 `src/visual` 或 `workspaces`，就认为它已经具备通用接口。
+课程调用公共能力；公共实现不导入具体课程或内置课程路径，课程之间不互相依赖。公共函数通过参数接收本课数据、组件与路径。`workspaces/` 只保存本课私有内容，不存放公共实现；公共示例的固定输入与素材留在本例目录。
 
 ## 三、课时接入与画面调用关系
 
-共同入口为 [src/visual/index.ts](../../src/visual/index.ts) 中的 `registerRoot(RemotionRoot)`。[RemotionRoot](../../src/visual/Root.tsx) 遍历 [COMPOSITIONS](../../src/visual/compositions.tsx)，创建可预览和渲染的 Composition。
+公共示例统一位于 [src/examples/](../../src/examples/README.md)。题卡与表格分别在各自 `compositions.ts` 声明预览，由 [src/examples/index.tsx](../../src/examples/index.tsx) 汇总；各自独立 `index.tsx` 复用同一份声明，不导入课程。标准 `QuizCard…` ID 对应已审核示例，旧原型使用 `LegacyQuizCard…`；讲义继续调用 `scripts/handout.py`，不注册到 Studio。
+
+默认公共预览入口是 [src/examples/index.tsx](../../src/examples/index.tsx)，只注册独立公共示例。演示课入口是 [src/lessons/test01/studio.tsx](../../src/lessons/test01/studio.tsx)，只注册这一课。公共代码不导入课程，课程之间也不互相导入。
 
 ### 3.1 独立课时组件
 
-课时入口用 [CompositionSpec](../../src/lessons/composition-types.ts) 声明组件、ID、时长、帧率、画幅和可选 Props，再由章节入口汇总到 `COMPOSITIONS`。现有章节汇总可参考 [src/lessons/ch06/index.ts](../../src/lessons/ch06/index.ts)。
+课时入口用 [CompositionSpec](../../src/visual/composition-types.ts) 声明组件、ID、时长、帧率、画幅和可选 Props。该课 `studio.tsx` 用 [courseRoot](../../src/visual/register-course.tsx) 组成根组件，并在这个入口文件里调用 `registerRoot`。Remotion CLI 只认入口文件里的 `registerRoot`。声明方式可参考 [quiz/compositions.ts](../../src/examples/quiz/compositions.ts)。演示课见 `src/lessons/test01/studio.tsx`。
 
-同章新增课时在本课和章节入口登记；新增章节时再接入公共汇总，`Root.tsx` 继续遍历列表。组件自行组合画面、音轨、字幕和时间数据，`defaultProps` 只能覆盖组件实际支持的参数。
+组件自行组合画面、音轨、字幕和时间数据，`defaultProps` 只能放可序列化的数据。函数组件留在课程入口的闭包里，不放进 `defaultProps`。
+
+整课可调用 [resolveFullLessonGroups](../../src/pipeline/resolve-full-lesson-groups.ts)，用组装记录里的 `composition` 字段查找分组组件。顺序、起始帧、时长取组装记录，组件参数取匹配到的 `CompositionSpec`，不依赖两个数组的下标一致。找不到时错误包含课时、分组和缺失的 composition id。同文件的 `groupPreviewSpecs` 在预览数据为 `null` 或 `undefined` 时返回空列表；正式整课仍须解析全部组装记录。
+
+该方法只负责配对，不自动生成整课。课时整课组件用 `Sequence` 放置各组、关闭组内音轨与口播字幕，再在外层挂载同一时间轴的整轨音频和字幕。音频拼接、分组偏移及预览数据准备仍由课时脚本处理。
 
 ### 3.2 编译数据与公共母版
 
-[课时注册表](../../src/lessons/registry.ts)中的两个映射分工不同：
-
-- `LESSONS`：保存编译课时数据及有声、无声 Composition ID，供 `chapterCompositions()` 生成入口。
-- `CHAPTERS`：按课时标识保存专用组件表，供 `chapter-local` 场景查找组件。
+课程入口提供本课数据和专用组件。公共母版不读取课程列表。
 
 [MasterCanvas](../../src/visual/shell/MasterCanvas.tsx) 按 `CompiledLesson` 组织一层背景、可选音轨、场景 Sequence、头部导航和口播字幕。它将场景交给 [SceneRouter](../../src/visual/templates/SceneRouter.tsx)：
 
@@ -73,9 +81,9 @@ flowchart LR
 - `chapter-local` 通过 `payload.key` 查本课组件，传入 `payload.data` 和 `cues`。
 - `headerMode: "chapter"` 的场景由本课组件绘制导航，母版跳过，避免重复。
 
-公共注册还提供 `CourseVideo` 与 `CourseVideoSilentClean`，默认数据来自 `workspaces/current-lesson.json`；其 `calculateMetadata` 可根据传入课时调整时长和画幅。该文件仍是注册模块加载的共享运行数据，编译某课会更新它。
+需要公共母版的课程，在自己的入口里把课时数据传给 `props.lesson`，并把专用组件表留在闭包中传给 `props.chapter`。母版负责布局、音轨、字幕和场景，不把某一节课当作公共默认预览。演示课 test01 使用自己的分组组件和 `Test01L01Full` / `Test01L01FullSilentClean`，不经过这套编译注册。入口加载时不读取 `workspaces/current-lesson.json`。
 
-[applyLessonPatches](../../src/lessons/patches.ts) 可在调用它的课时入口按场景 ID 合并画面数据：对象递归合并、数组整体替换。它不自动重做配音、字幕或对齐，也不会因出现一个补丁文件就被所有入口读取。
+[applyLessonPatches](../../src/pipeline/lesson-patches.ts) 可在调用它的课时入口按场景 ID 合并画面数据：对象递归合并、数组整体替换。它不自动重做配音、字幕或对齐，也不会因出现一个补丁文件就被所有入口读取。
 
 ## 四、音频、字幕与时间轴
 
@@ -87,9 +95,9 @@ flowchart LR
 | --- | --- | --- |
 | 输入解析 | [compileMarkdownToStoryboardIR](../../src/pipeline/1-ingest/ingest-compiler.ts)：解析分镜表、拆分复合场景、切分口播、提取停顿与视觉信息 | `storyboard-ir.json` |
 | 配音与对齐 | [runAudioEngine](../../src/pipeline/2-audio/audio-runner.ts)：运行 TTS worker、对齐 worker，组织音频时间与字幕 | WAV、`tts-output.json`、`aligned-tokens.json`、`audio-timeline.json`、SRT |
-| 音画绑定 | [linkAndAssembleLesson](../../src/pipeline/3-link/assembler.ts)：结合分镜和音频，调用 `resolveSceneCuePoints`，计算场景帧区间 | 本课 `compiled-lesson.json`，同时更新 `workspaces/current-lesson.json` |
+| 音画绑定 | [linkAndAssembleLesson](../../src/pipeline/3-link/assembler.ts)：结合分镜和音频，调用 `resolveSceneCuePoints`，计算场景帧区间 | 只写本课 `compiled-lesson.json`。不更新共享激活文件 |
 
-编译 CLI 处理现有口播与分镜合一稿格式，仍有历史默认输入与课号；使用时显式指定本课 `--input`、`--lesson`。课时准备脚本也可生成 IR 或组装本课数据，具体入口查公共能力索引。
+编译 CLI 处理现有口播与分镜合一稿格式，必须显式指定本课 `--input`、`--lesson`，缺失时直接报错；`--audio-mode` 默认 CUDA。课时准备脚本也可生成 IR 或组装本课数据，具体入口查公共能力索引。
 
 ### 4.2 关键数据
 
@@ -116,17 +124,19 @@ flowchart LR
 
 ## 五、预览、画面渲染与公共合成
 
-`npm run studio` 与 `npm run dev` 使用 [scripts/studio.mjs](../../scripts/studio.mjs) 启动预览。课程预览和教学画面渲染从 `src/visual/index.ts` 注册的入口选择 Composition；公共合成另外使用独立字幕入口。Studio 通过不等于交付文件已经生成或验收。
+`npm run studio` 与 `npm run dev` 使用 [scripts/studio.mjs](../../scripts/studio.mjs) 启动预览，默认入口是 `src/examples/index.tsx`。演示课使用 `npm run studio -- --entry src/lessons/test01/studio.tsx`。渲染一课时使用该课入口。公共合成另外使用独立字幕入口。`npm run check:public` 检查公共代码，`npm run check:course -- --course=test01` 加载演示课。Studio 通过不等于交付文件已经生成或验收。
 
 ### 5.1 当前导出入口
 
 | 入口 | 输入与处理 | 产物及边界 |
 | --- | --- | --- |
-| [scripts/render-lesson.mjs](../../scripts/render-lesson.mjs) 的 `renderLesson` | 选择已注册 Composition，显式提供课号、SRT、输出路径；有声版另提供连续 WAV。支持指定帧范围 | 一次导出一个 MP4、配套 SRT、媒体信息 JSON；独立 WAV 归档另行处理 |
+| [scripts/render-lesson.mjs](../../scripts/render-lesson.mjs) 的 `renderLesson` | 选择已注册 Composition，显式提供课号、SRT、输出路径；有声版另提供连续 WAV。支持指定帧范围；函数调用可传 `inputProps`，干净版编排可用 `sidecars: false` 省略旁路文件与 SRT 输入 | 默认导出一个 MP4、配套 SRT、媒体信息 JSON；`sidecars: false` 时只导出 MP4 |
 | [scripts/compose-lesson.mjs](../../scripts/compose-lesson.mjs) 的 `composeLesson` | 读取干净 MP4、同版整轨 WAV 和字幕 JSON / SRT，只生成字幕透明图，再合入视频 | 有声字幕 MP4、24 kHz 双声道 PCM16 WAV、SRT、媒体信息 JSON；保留输入干净版，所有输出拒绝覆盖 |
-| [src/cli/render.ts](../../src/cli/render.ts) → [renderLessonDeliverables](../../src/pipeline/4-render/nvenc-renderer.ts) | 读取本课 `compiled-lesson.json`，向 `CourseVideo` 传入课时数据和音频、字幕开关 | 两次渲染分别生成有声、无声 MP4，复制整轨 WAV / SRT，写入 `delivery-manifest.json` |
+| [src/cli/render.ts](../../src/cli/render.ts) → [renderLessonDeliverables](../../src/pipeline/4-render/nvenc-renderer.ts) | 读取本课 `compiled-lesson.json`。调用方传入 `--entry` 和 `--composition`。可用 `--clean` 复用干净版，用 `--frames` 或 `--max-frames` 指定两端包含的帧范围 | 没有干净版时，[renderLesson](../../scripts/render-lesson.mjs) 只渲染一次无音轨、无口播字幕的干净画面。`--clean` 指向更长的成片时，先把该区间流复制成一段新视频，不重新渲染教学画面，也不覆盖原文件。然后调用 [composeLesson](../../scripts/compose-lesson.mjs)。有声 MP4、WAV、SRT 和媒体说明来自这一次合成，帧范围对三者一致。已有输出拒绝覆盖 |
 
 双版本交付先取得干净版，再显式调用 `composeLesson`。它接收媒体文件和字幕数据，不依赖本课采用独立组件还是编译母版；当前要求 1920×1080、恒定 30 fps。已有同版干净视频直接复用，参数与命令集中在[公共能力索引](公共能力索引V0.1.md)第九节。
+
+`npm run render` 通过 [deliverCompiledLesson](../../src/pipeline/4-render/dual-delivery.ts) 自动组织上述步骤。它接收 `CompiledLesson`，以及调用方给出的入口和干净版 Composition；已有干净版用 `--clean`。公共代码不按课号选择课程。独立课时组件继续使用“选择本课干净版 Composition → 调用 `composeLesson`”。
 
 ### 5.2 公共合成调用关系
 
@@ -145,17 +155,19 @@ flowchart LR
 
 `renderLesson` 的流程仍是 `bundle → selectComposition → renderMedia 分段画面 → FFmpeg 拼接并按需合音轨 → ffprobe → 保存产物`。当前最多拆成四段并行，画面渲染时静音；有声版最后合入连续音轨，样段音频和 SRT 按同一范围裁切。**该入口的 SRT 只用于独立字幕文件，画面字幕仍由 Composition 绘制。**
 
-`render-lesson.mjs`、课时包装脚本和 `npm run render` 均未自动调用 `composeLesson`。继续用旧命令分别导出两版，仍会分别计算画面；`npm run render` 的 `--max-frames` 也仍只限制视频帧范围，配套 WAV / SRT 复制整课文件，不能视为时间范围一致的样段。
+`npm run render` 已经走“一次干净版 → `composeLesson`”。直接调用 `render-lesson.mjs` 仍只导出它收到的那一版，不会自动再合成；需要有声字幕版时显式调用 `composeLesson`。`--frames` 与 `--max-frames` 同时裁视频、交付 WAV 和 SRT，样段字幕从样段起点计时。
 
-原有两个渲染实现使用 `hardwareAcceleration: "if-possible"`，实际编码器以日志为准。公共能力索引提供要求硬件编码的干净版命令模板；已有分段渲染方式可以沿用。原共享入口拒绝覆盖已有视频和媒体信息，旧通用入口使用固定交付文件名，调用时按各自保存行为处理。
+共享画面渲染器 `renderLesson` 仍使用 `hardwareAcceleration: "if-possible"`，`npm run render` 复用这一实现，实际编码器以日志为准。公共能力索引 9.2 提供要求硬件编码、可指定输出位置的命令模板。各入口拒绝覆盖已有产物；编译课入口的固定输出路径限制见第七节。
 
 ## 六、数据与成果的存放关系
 
 `workspaces/<工作区标识>/` 保存课时制作数据与音频，`public/audio/<工作区标识>/` 提供浏览器可访问的播放素材。组装器会写入 `audioPublicSrc`，不会自动替本课恢复对应公开音频文件；路径和实际素材需匹配。
 
-临时关键帧与短样放在 `out/`，媒体成果归档到 `deliverables/<lessonId>/`，教学讲义放在本课 `handout/`。讲义由现有课时脚本及制作步骤生成，不属于通用视频渲染器的自动产物；完整目录约定见 AI互动流程总结。
+临时关键帧与短样放在 `out/`，媒体成果归档到 `deliverables/<lessonId>/`，教学讲义放在本课 `handout/`；完整目录约定见 AI互动流程总结。
 
-多人同时制作时，`current-lesson.json`、公共注册文件和可写素材需要协调，按[Agent 接手与协作说明](课时制作-Agent接手与协作说明V0.1.md)使用独立工作目录与输出位置。
+讲义公共入口为 [scripts/handout.py](../../scripts/handout.py) 的 `build_handout()` 与 CLI：本课页面数据及配图 → 公共图片处理与 PDF 排版 → PDF、`selection.json`、`images-jpeg/`、`previews/`。调用方维护一份页面输入，派生记录由程序生成；输入素材与输出目录分开。课时负责选帧、真实时间、裁切和解释内容，公共处理不读取课时组装记录，也不执行 GPU 截帧。完整独立示例见 [src/examples/handout/](../../src/examples/handout/README.md)，运行不依赖旧课目录；接口查[公共能力索引 9.5](公共能力索引V0.1.md#95-讲义公共处理与完整示例)。已有课时脚本可沿用，通用视频渲染器不会自动生成讲义。
+
+编译结果写在各课自己的 `workspaces/<课>/compiled-lesson.json`，不再通过 `workspaces/current-lesson.json` 切换当前课。
 
 ## 七、现有边界与改进方向
 
@@ -166,8 +178,9 @@ flowchart LR
 | `MasterCanvas` 背景只解析 `type`，没有背景配置 Props | 默认值尚未完全对应画面规范；适配时处理实际配置，不额外叠一层背景遮盖 |
 | 通用 TTS worker 与旧渲染器尚未完整落实音频规范；新合成入口已处理输出采样率和双声道 | 传入已确认音量的整轨，新入口不代替整轨音量处理；按实际产物核对格式与听感 |
 | 通用编译 CLI 没有统一的 `--group` / `--only` 入口 | 分组范围由本课已有数据、脚本与命令安排，不照搬其他项目参数 |
-| 公共合成入口已可复用，旧命令未自动接入 | 干净版渲染一次后显式合成有声版；既有课时不需要为此重写教学画面 |
+| `npm run render` 已支持调用方指定入口和 Composition，但仍接收 `CompiledLesson` | 独立课时继续显式准备干净版再调用 `composeLesson`；统一编排尚待解除编译数据约束并开放媒体输入和输出位置 |
+| 编译课导出将样段与整课写入同一套固定交付文件名 | 先导出样段会占用整课路径，后续导出被覆盖保护拦截。样段暂按公共能力索引 9.2 指定 `out/<lessonId>/` 中的独立输出；不能把样段当成整课交付 |
 
 后续改进见[公共能力更新建议](公共能力更新建议V0.1.md)，落实后同步相关索引与架构说明。本版只记录当前结构与边界，不要求为了统一架构批量重写已有课时。
 
-本次导出更新按实际代码核对，公共合成入口的小样已由用户确认通过。各课正式交付的检查与视听验收仍以本课记录为准。
+独立课时的分组配音与预览、整课组装、干净版渲染、公共合成和讲义生成，已在接线演示中跑通。**这只证明流程可连通并产出文件，不证明教学表达、画面效果或音画同步质量达标，也不代表编译课导出编排已完成 GPU 实测。** 无配音题卡演示不覆盖实际读题结束后的三秒停顿同步。具体过程保留在课时记录，不作为新课必读材料、运行依赖或标准制作样板；既有公共示例的独立审核结论继续保留，各课质量以本课视听与阅读审核为准。

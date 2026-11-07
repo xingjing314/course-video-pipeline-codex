@@ -14,15 +14,18 @@ import { ExamQuizCard } from "./ExamQuizCard";
 import { DualQuizBattleCard } from "./DualQuizBattleCard";
 import { A1ExamStats, A2Timeline, A3FourAccounts, A4ThreeSteps } from "./Cards14";
 import { GateTrackScene, IdCardScene, MnemonicScene } from "./scene-adapters";
-import type { ChapterModule } from "../../lessons/types";
+import type { ChapterModule } from "../chapter-types";
 
 /**
  * 两级查找：
  *   1. 通用 20 类（判别联合，穷尽检查保证不漏）；
- *   2. `chapter-local` → 查本章的组件表（由 MasterCanvas 从 registry 取出后下传）。
+ *   2. `chapter-local` → 查该课入口传入的组件表。
  *
- * 加一章不需要修改本文件。
+ * 加一课不需要修改本文件。
  */
+export const chapterLocalComponent = (chapter: ChapterModule | undefined, key: string) =>
+  chapter?.components[key];
+
 export const SceneRouter: React.FC<{ scene: CompiledScene; chapter?: ChapterModule }> = ({
   scene,
   chapter,
@@ -68,12 +71,12 @@ export const SceneRouter: React.FC<{ scene: CompiledScene; chapter?: ChapterModu
       return <MnemonicScene payload={scene.payload} />;
     case "chapter-local": {
       const key = scene.payload.key;
-      const Chapter = chapter?.components[key];
+      const Chapter = chapterLocalComponent(chapter, key);
       if (!Chapter) {
         throw new Error(
           `场景 ${scene.id} 引用了未注册的章节组件「${key}」` +
             `（lesson=${chapter?.lessonId ?? "未传入 chapter"}）。` +
-            `请把组件挂到 src/lessons/<lessonId>/components.tsx 并登记到 registry。`,
+            `请把组件放进该课入口的组件表，键名与 payload.key 一致。`,
         );
       }
       return <Chapter payload={scene.payload.data} cues={scene.cues} />;

@@ -1,0 +1,55 @@
+{
+  "lessonId": "test01-L01",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 1915,
+  "durationMs": 63833.333333333336,
+  "audio": "public/audio/test01/full/narration.wav",
+  "groups": [
+    {
+      "id": "G01",
+      "composition": "Test01L01G01",
+      "from": 0,
+      "durationInFrames": 481,
+      "startMs": 0,
+      "endMs": 16033.333333333336,
+      "scenes": [
+        "S01"
+      ]
+    },
+    {
+      "id": "G02",
+      "composition": "Test01L01G02",
+      "from": 481,
+      "durationInFrames": 264,
+      "startMs": 16033.333333333336,
+      "endMs": 24833.333333333336,
+      "scenes": [
+        "S02"
+      ]
+    },
+    {
+      "id": "G03",
+      "composition": "Test01L01G03",
+      "from": 745,
+      "durationInFrames": 780,
+      "startMs": 24833.333333333332,
+      "endMs": 50833.33333333333,
+      "scenes": [
+        "S03"
+      ]
+    },
+    {
+      "id": "G04",
+      "composition": "Test01L01G04",
+      "from": 1525,
+      "durationInFrames": 390,
+      "startMs": 50833.333333333336,
+      "endMs": 63833.333333333336,
+      "scenes": [
+        "S04"
+      ]
+    }
+  ]
+}

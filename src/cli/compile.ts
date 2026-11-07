@@ -2,7 +2,7 @@
  * 课程合一稿编译 CLI（`npm run compile`）。
  *
  * 用法示例：
- *   npm run compile -- --input="/projects/gaoxiang/information-systems-project-management-4e-course-Gemini/docs/第7章/L01-讲师口播与画面分镜合一稿V0.1.md" --lesson=ch07-L01 --audio-mode=cuda
+ *   npm run compile -- --input=<口播与分镜合一稿.md> --lesson=<课号> --audio-mode=synthetic
  */
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -12,12 +12,9 @@ import { linkAndAssembleLesson } from "../pipeline/3-link/assembler.ts";
 
 const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
-const DEFAULT_INPUT =
-  "/projects/gaoxiang/information-systems-project-management-4e-course-Gemini/docs/第7章/L01-讲师口播与画面分镜合一稿V0.1.md";
-
 const parseArgs = (argv: string[]) => {
-  let input = DEFAULT_INPUT;
-  let lesson = "ch07-L01";
+  let input: string | undefined;
+  let lesson: string | undefined;
   let audioMode: "cuda" | "cpu" | "synthetic" = "cuda";
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -33,6 +30,7 @@ const parseArgs = (argv: string[]) => {
       audioMode = m;
     }
   }
+  if (!input || !lesson) throw new Error("请指定 --input 和 --lesson。");
   return { input, lesson, audioMode };
 };
 
@@ -63,7 +61,7 @@ const main = () => {
   console.log(
     `[3-LINK] ✓ 编译完成：workspaces/${lesson}/compiled-lesson.json (${compiled.meta.durationInFrames} frames @ 30fps)`,
   );
-  console.log(`[STUDIO] 已同步更新 workspaces/current-lesson.json，可直接运行 \`npm run studio\` 逐帧审阅！`);
+  console.log(`[STUDIO] 结果在 workspaces/${lesson}/compiled-lesson.json。预览使用该课已注册入口，或把这份数据传给 CourseVideo 的 props.lesson。`);
   console.log(`==================================================================\n`);
 };
 

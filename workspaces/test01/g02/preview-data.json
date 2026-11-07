@@ -1,0 +1,35 @@
+{
+  "timeline": {
+    "totalDurationMs": 8798,
+    "fullWavPath": "public/audio/test01/g02/narration.wav",
+    "scenes": [
+      {
+        "sceneId": "S02",
+        "startMs": 0,
+        "endMs": 8798
+      }
+    ],
+    "captions": [
+      {
+        "index": 1,
+        "sceneId": "S02",
+        "text": "单单 6.4.1 这一个小节，",
+        "startMs": 0,
+        "endMs": 3840
+      },
+      {
+        "index": 2,
+        "sceneId": "S02",
+        "text": "在 11 套试卷里就考了整整 9 道选择题！",
+        "startMs": 4240,
+        "endMs": 8160
+      }
+    ]
+  },
+  "cues": {
+    "papersMs": 4480,
+    "questionsMs": 7040
+  },
+  "includeAudio": true,
+  "includeCaptions": true
+}

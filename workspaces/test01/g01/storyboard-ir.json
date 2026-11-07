@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "test01-L01-g01",
+  "lessonTitle": "第测试章 L01 G01",
+  "sourceMarkdownPath": "docs/lessons/test01/L01/input/test1.md",
+  "sourceMarkdownSha256": "a8baaabd48d4df46318abbbb85c0b46182020e4f161b16c83632864a50ed93ca",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "6.4 与 6.4.1 的包含关系",
+    "estimatedDurationText": "配音完成后确定",
+    "cognitiveGoals": [
+      "分清第6章第3课、6.4 和 6.4.1 的包含关系"
+    ],
+    "coreVisualAssets": [
+      "课次定位",
+      "6.4 外层",
+      "6.4.1 内层"
+    ],
+    "examAnchors": []
+  },
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "parentSceneId": "S01",
+      "segmentTitle": "这一课在讲哪一块",
+      "sceneTitle": "定位 6.4 与 6.4.1",
+      "order": 1,
+      "estimatedSeconds": 18,
+      "narration": "欢迎来到第 6 章的第三节课，也是全章分值最密集的“第一高频霸主区”——6.4 节“价值驱动的项目管理知识体系”与 6.4.1 节“12 个项目管理原则”。",
+      "narrationSha256": "088db38ea3f41a2ec821f089f882abcc3a33627f303459cfe2aa19fe40d4c7c1",
+      "clauses": [
+        "欢迎来到第 6 章的第三节课，",
+        "也是全章分值最密集的“第一高频霸主区”——",
+        "6.4 节“价值驱动的项目管理知识体系”",
+        "与 6.4.1 节“12 个项目管理原则”。"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "先出现课次，再标出第一高频霸主区，然后出现 6.4 外层和 6.4.1 内层。",
+      "pedagogicalIntent": "分清课次、节号和包含关系",
+      "cueSpecs": [],
+      "visualType": "title-card",
+      "payload": {
+        "title": "第 6 章 · 第 3 课",
+        "bullets": [
+          "6.4 价值驱动的项目管理知识体系",
+          "6.4.1 12 个项目管理原则"
+        ],
+        "badges": []
+      }
+    }
+  ],
+  "compiledAt": "2026-11-07T03:30:43.728Z"
+}

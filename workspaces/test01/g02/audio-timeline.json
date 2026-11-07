@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "test01-L01-g02",
+  "sampleRate": 24000,
+  "totalDurationMs": 8798,
+  "fullWavPath": "workspaces/test01/g02/test01-L01-g02-full.wav",
+  "fullWavSha256": "90684b1f49aac41b44911f7608bbc27c720aac33ee8cec162ee9b971f84963a1",
+  "srtPath": "workspaces/test01/g02/test01-L01-g02.srt",
+  "srtSha256": "7c07659b4e68bdaad2fdcc3f29b2563a5c452474bdc39bb7e98c3bf551cdaad4",
+  "engineInfo": {
+    "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+    "alignerEngine": "Qwen/Qwen3-ForcedAligner-0.6B",
+    "device": "cuda"
+  },
+  "scenes": [
+    {
+      "sceneId": "S02",
+      "narrationSha256": "d24087c884e0d20a35eea178b825ada1f6831c3d07a2a37509aa8632b7b3b386",
+      "wavRelativePath": "workspaces/test01/g02/audio/S02.wav",
+      "wavSha256": "d5c95fb865df5d397991d7c0ad487c867ffffa6c31087f77c6015636a14cc244",
+      "startMs": 0,
+      "endMs": 8798,
+      "durationMs": 8798,
+      "fromCache": true,
+      "tokens": [
+        {
+          "sceneId": "S02",
+          "text": "单",
+          "startMs": 0,
+          "endMs": 400
+        },
+        {
+          "sceneId": "S02",
+          "text": "单",
+          "startMs": 400,
+          "endMs": 1040
+        },
+        {
+          "sceneId": "S02",
+          "text": "641",
+          "startMs": 1440,
+          "endMs": 2880
+        },
+        {
+          "sceneId": "S02",
+          "text": "这",
+          "startMs": 2880,
+          "endMs": 3120
+        },
+        {
+          "sceneId": "S02",
+          "text": "一",
+          "startMs": 3120,
+          "endMs": 3121
+        },
+        {
+          "sceneId": "S02",
+          "text": "个",
+          "startMs": 3120,
+          "endMs": 3200
+        },
+        {
+          "sceneId": "S02",
+          "text": "小",
+          "startMs": 3200,
+          "endMs": 3520
+        },
+        {
+          "sceneId": "S02",
+          "text": "节",
+          "startMs": 3520,
+          "endMs": 3840
+        },
+        {
+          "sceneId": "S02",
+          "text": "在",
+          "startMs": 4240,
+          "endMs": 4480
+        },
+        {
+          "sceneId": "S02",
+          "text": "11",
+          "startMs": 4480,
+          "endMs": 4800
+        },
+        {
+          "sceneId": "S02",
+          "text": "套",
+          "startMs": 4800,
+          "endMs": 4960
+        },
+        {
+          "sceneId": "S02",
+          "text": "试",
+          "startMs": 4960,
+          "endMs": 5200
+        },
+        {
+          "sceneId": "S02",
+          "text": "卷",
+          "startMs": 5200,
+          "endMs": 5520
+        },
+        {
+          "sceneId": "S02",
+          "text": "里",
+          "startMs": 5520,
+          "endMs": 5760
+        },
+        {
+          "sceneId": "S02",
+          "text": "就",
+          "startMs": 6080,
+          "endMs": 6320
+        },
+        {
+          "sceneId": "S02",
+          "text": "考",
+          "startMs": 6320,
+          "endMs": 6560
+        },
+        {
+          "sceneId": "S02",
+          "text": "了",
+          "startMs": 6560,
+          "endMs": 6640
+        },
+        {
+          "sceneId": "S02",
+          "text": "整",
+          "startMs": 6640,
+          "endMs": 6880
+        },
+        {
+          "sceneId": "S02",
+          "text": "整",
+          "startMs": 6880,
+          "endMs": 7040
+        },
+        {
+          "sceneId": "S02",
+          "text": "9",
+          "startMs": 7040,
+          "endMs": 7280
+        },
+        {
+          "sceneId": "S02",
+          "text": "道",
+          "startMs": 7280,
+          "endMs": 7520
+        },
+        {
+          "sceneId": "S02",
+          "text": "选",
+          "startMs": 7520,
+          "endMs": 7680
+        },
+        {
+          "sceneId": "S02",
+          "text": "择",
+          "startMs": 7680,
+          "endMs": 7840
+        },
+        {
+          "sceneId": "S02",
+          "text": "题",
+          "startMs": 7840,
+          "endMs": 8160
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "index": 1,
+      "sceneId": "S02",
+      "text": "单单 6.4.1 这一个小节，",
+      "startMs": 0,
+      "endMs": 3840
+    },
+    {
+      "index": 2,
+      "sceneId": "S02",
+      "text": "在 11 套试卷里就考了整整 9 道选择题！",
+      "startMs": 4240,
+      "endMs": 8160
+    }
+  ],
+  "generatedAt": "2026-11-07T10:59:40.502Z"
+}

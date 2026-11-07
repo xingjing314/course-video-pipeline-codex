@@ -1,0 +1,22 @@
+{
+  "lessonId": "test01-L01-g01",
+  "sampleRate": 24000,
+  "totalDurationMs": 16006,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/test01/g01/test01-L01-g01-full.wav",
+  "fullWavSha256": "24d6a8652993d3c7d3222c9fd25e8bf4eb12564be705e777e7377af52355f938",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "narration": "欢迎来到第 6 章的第三节课，也是全章分值最密集的“第一高频霸主区”——6.4 节“价值驱动的项目管理知识体系”与 6.4.1 节“12 个项目管理原则”。",
+      "narrationSha256": "088db38ea3f41a2ec821f089f882abcc3a33627f303459cfe2aa19fe40d4c7c1",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/test01/g01/audio/S01.wav",
+      "wavSha256": "04d006372f64489ef009566883304e69df802ae8f17d166363417dc2bb483822",
+      "startMs": 0,
+      "endMs": 16006,
+      "durationMs": 16006,
+      "fromCache": true
+    }
+  ]
+}

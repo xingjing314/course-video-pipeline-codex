@@ -8,11 +8,20 @@ import {renderMedia, selectComposition} from '@remotion/renderer';
 
 export const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
+/** 调用方传入的入口原样用于打包；未传时才按课号前缀找该课 studio。 */
+export function resolveRenderEntry(lesson, entry) {
+  if (entry) return entry;
+  const course = String(lesson ?? '').split('-')[0];
+  if (!course) throw new Error('请提供 --entry，或提供能确定课程目录的课时标识。');
+  return `src/lessons/${course}/studio.tsx`;
+}
+
 export function parseRenderArgs(args = process.argv.slice(2)) {
   return parseArgs({args, options: {
     lesson: {type: 'string'}, composition: {type: 'string'},
     audio: {type: 'string'}, srt: {type: 'string'}, output: {type: 'string'},
     frames: {type: 'string'}, 'silent-clean': {type: 'boolean'},
+    entry: {type: 'string'},
   }}).values;
 }
 
@@ -38,24 +47,26 @@ function assertNew(file) {
   if (fs.existsSync(file)) throw new Error(`文件已存在，请指定新版本文件名，拒绝覆盖：${file}`);
 }
 
-// The composition owns teaching text and caption appearance. Audio is muxed once,
-// from the supplied continuous track; sample ranges use the same absolute time.
+// The composition owns teaching text and caption appearance. Direct calls mux audio
+// once from the supplied track. Dual delivery calls this with silentClean and
+// sidecars:false, then the public compose script supplies the voiced WAV, SRT, and media report.
 export async function renderLesson({lesson, composition: id, audio, srt, output,
-  frames, silentClean = false, srtOutput, infoOutput}) {
+  frames, silentClean = false, srtOutput, infoOutput, inputProps: extraInputProps, sidecars = true, entry}) {
   if (!/^[a-z0-9]+-[A-Za-z0-9]+(?:-[a-z0-9]+)*$/.test(lesson ?? '')) throw new Error('请提供课时标识，例如 --lesson=ch06-L02。');
-  if (!id || !output || !srt || (!silentClean && !audio)) throw new Error('必须指定 composition、output、srt；有声版还需 audio。');
+  if (!id || !output || (sidecars && !srt) || (!silentClean && !audio)) throw new Error('必须指定 composition、output；有声版还需 audio；写出旁路字幕时还需 srt。');
   const resolve = (p) => path.resolve(projectRoot, p);
   const target = resolve(output);
   if (path.extname(target).toLowerCase() !== '.mp4') throw new Error('output 必须是 .mp4 文件。');
   assertNew(target);
   const stem = target.slice(0, -4);
-  const subtitleTarget = resolve(srtOutput ?? `${stem}.srt`);
-  const infoTarget = resolve(infoOutput ?? `${stem}.media-info.json`);
-  const sourceSrt = resolve(srt);
+  const subtitleTarget = sidecars ? resolve(srtOutput ?? `${stem}.srt`) : null;
+  const infoTarget = sidecars ? resolve(infoOutput ?? `${stem}.media-info.json`) : null;
+  const sourceSrt = sidecars ? resolve(srt) : null;
   const sourceAudio = audio ? resolve(audio) : null;
-  if (new Set([target, subtitleTarget, infoTarget, sourceSrt, ...(sourceAudio ? [sourceAudio] : [])]).size !== (sourceAudio ? 5 : 4)) throw new Error('输入与输出路径不能重合。');
-  assertNew(infoTarget);
-  const subtitles = fs.readFileSync(sourceSrt, 'utf8');
+  const owned = [target, ...(sidecars ? [subtitleTarget, infoTarget, sourceSrt] : []), ...(sourceAudio ? [sourceAudio] : [])];
+  if (new Set(owned).size !== owned.length) throw new Error('输入与输出路径不能重合。');
+  if (sidecars) assertNew(infoTarget);
+  const subtitles = sidecars ? fs.readFileSync(sourceSrt, 'utf8') : '';
   if (!silentClean) fs.accessSync(sourceAudio, fs.constants.R_OK);
   let requestedRange;
   if (frames !== undefined) {
@@ -67,21 +78,25 @@ export async function renderLesson({lesson, composition: id, audio, srt, output,
   const checkSubtitle = (text) => {
     if (fs.existsSync(subtitleTarget) && fs.readFileSync(subtitleTarget, 'utf8') !== text) throw new Error(`字幕文件已存在且内容不同，拒绝覆盖：${subtitleTarget}`);
   };
-  if (!requestedRange) checkSubtitle(subtitles);
+  if (sidecars && !requestedRange) checkSubtitle(subtitles);
+  const inputProps = {
+    ...(extraInputProps ?? {}),
+    ...(silentClean ? {includeAudio: false, includeCaptions: false, silentClean: true} : {}),
+  };
   const browserExecutable = '/opt/google/chrome/chrome';
   let serveUrl;
   let pieces;
   let completed = false;
   try {
-    console.log(`正在打包 ${lesson} / ${id}…`);
-    serveUrl = await bundle({entryPoint: path.join(projectRoot, 'src/visual/index.ts'), publicDir: path.join(projectRoot, 'public')});
-    const inputProps = silentClean ? {includeAudio: false, includeCaptions: false} : {};
+    const entryPoint = path.join(projectRoot, resolveRenderEntry(lesson, entry));
+    console.log(`正在打包 ${lesson} / ${id}（${path.relative(projectRoot, entryPoint)}）…`);
+    serveUrl = await bundle({entryPoint, publicDir: path.join(projectRoot, 'public')});
     const composition = await selectComposition({serveUrl, id, browserExecutable, inputProps});
     const [start, end] = requestedRange ?? [0, composition.durationInFrames - 1];
     if (end >= composition.durationInFrames) throw new Error('帧范围超出 Composition 时长。');
     const totalFrames = end - start + 1;
-    const subtitleText = requestedRange ? clipSrt(subtitles, start / composition.fps, (end + 1) / composition.fps) : subtitles;
-    checkSubtitle(subtitleText);
+    const subtitleText = !sidecars ? null : (requestedRange ? clipSrt(subtitles, start / composition.fps, (end + 1) / composition.fps) : subtitles);
+    if (sidecars) checkSubtitle(subtitleText);
     fs.mkdirSync(path.dirname(target), {recursive: true});
     // Unique per export, on the target filesystem for atomic no-clobber publishing.
     pieces = fs.mkdtempSync(path.join(path.dirname(target), `.${lesson}-render-`));
@@ -127,13 +142,17 @@ export async function renderLesson({lesson, composition: id, audio, srt, output,
     const video = probe.streams.find((s) => s.codec_type === 'video');
     const audioTracks = probe.streams.filter((s) => s.codec_type === 'audio');
     if (Number(video?.nb_frames) !== totalFrames || video.width !== composition.width || video.height !== composition.height || audioTracks.length !== (silentClean ? 0 : 1)) throw new Error('导出媒体参数与预期不符，保留临时结果供检查。');
-    for (const p of [subtitleTarget, infoTarget]) fs.mkdirSync(path.dirname(p), {recursive: true});
-    checkSubtitle(subtitleText);
-    assertNew(infoTarget);
+    if (sidecars) {
+      for (const p of [subtitleTarget, infoTarget]) fs.mkdirSync(path.dirname(p), {recursive: true});
+      checkSubtitle(subtitleText);
+      assertNew(infoTarget);
+    }
     fs.linkSync(stagedVideo, target); // Atomic: even concurrent runs cannot replace a film.
-    if (!fs.existsSync(subtitleTarget)) fs.writeFileSync(subtitleTarget, subtitleText, {flag: 'wx'});
-    probe.format.filename = target;
-    fs.writeFileSync(infoTarget, JSON.stringify(probe, null, 2) + '\n', {flag: 'wx'});
+    if (sidecars) {
+      if (!fs.existsSync(subtitleTarget)) fs.writeFileSync(subtitleTarget, subtitleText, {flag: 'wx'});
+      probe.format.filename = target;
+      fs.writeFileSync(infoTarget, JSON.stringify(probe, null, 2) + '\n', {flag: 'wx'});
+    }
     completed = true;
     console.log(`导出完成：${target}`);
   } finally {

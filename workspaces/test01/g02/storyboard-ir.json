@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "test01-L01-g02",
+  "lessonTitle": "第测试章 L01 G02",
+  "sourceMarkdownPath": "docs/lessons/test01/L01/input/test1.md",
+  "sourceMarkdownSha256": "a8baaabd48d4df46318abbbb85c0b46182020e4f161b16c83632864a50ed93ca",
+  "companionScriptVerified": false,
+  "overview": {
+    "chapterScope": "6.4.1 在 11 套试卷中的 9 道选择题",
+    "estimatedDurationText": "配音完成后确定",
+    "cognitiveGoals": [
+      "看见 9 道选择题属于 6.4.1，而不是整节 6.4"
+    ],
+    "coreVisualAssets": [
+      "6.4 参照",
+      "6.4.1",
+      "11 套中的 9 道"
+    ],
+    "examAnchors": [
+      "索引 6.4.1 共 9 道"
+    ]
+  },
+  "scenes": [
+    {
+      "sceneId": "S02",
+      "parentSceneId": "S02",
+      "segmentTitle": "密在哪一个小节",
+      "sceneTitle": "11 套试卷里的 9 道选择题",
+      "order": 2,
+      "estimatedSeconds": 12,
+      "narration": "单单 6.4.1 这一个小节，在 11 套试卷里就考了整整 9 道选择题！",
+      "narrationSha256": "d24087c884e0d20a35eea178b825ada1f6831c3d07a2a37509aa8632b7b3b386",
+      "clauses": [
+        "单单 6.4.1 这一个小节，",
+        "在 11 套试卷里",
+        "就考了整整 9 道选择题！"
+      ],
+      "pauseDirectives": [],
+      "rawVisualInstruction": "6.4 保持为参照。先出现 11 套试卷，再说到 9 道选择题时，9 落在这 11 套之内。",
+      "pedagogicalIntent": "看见考题次数属于 6.4.1",
+      "cueSpecs": [],
+      "visualType": "title-card",
+      "payload": {
+        "title": "6.4.1",
+        "bullets": [
+          "11 套试卷",
+          "9 道选择题"
+        ],
+        "badges": []
+      }
+    }
+  ],
+  "compiledAt": "2026-11-07T03:44:40.374Z"
+}

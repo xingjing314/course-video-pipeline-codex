@@ -1,81 +1,126 @@
-/**
- * 双真题同屏对决卡（DualQuizBattleCard）。
- *
- * 覆盖 L02 S03-2（两道经济可研真题左右同屏）与 L02 S04-2（顶部王牌防坑对照表 + 下方双真题同屏对决）。
- */
 import React from "react";
+import { QuizOptionRow, QuizExplanation, quizFade, type QuizPresentation } from "./quiz-presentation";
 import { useCurrentFrame, useVideoConfig } from "remotion";
 import { Entered, SceneShell } from "./shared";
 import { BASE_COLORS, resolveTone, rgba } from "../tokens/colorCard";
 import { springEnter } from "../tokens/motionPresets";
-import type { DualQuizBattlePayload, ResolvedCuePoint } from "../../../contracts/visual-props.schema";
+import { Countdown, type CountdownAppearance } from "../kit/Countdown";
+import { getDualQuizCues, getQuizSchedule, type QuizTiming } from "./quiz-timing";
+import type { DualQuizBattlePayload, ExamQuizPayload, ResolvedCuePoint } from "../../../contracts/visual-props.schema";
 
-export const DualQuizBattleCard: React.FC<{
-  payload: DualQuizBattlePayload;
+type DualQuizQuestion = DualQuizBattlePayload["leftQuiz"] & Pick<ExamQuizPayload, "polarity"> & { extraNote?: string };
+export type DualQuizCardPayload = Omit<DualQuizBattlePayload, "leftQuiz" | "rightQuiz"> & {
+  leftQuiz: DualQuizQuestion;
+  rightQuiz: DualQuizQuestion;
+};
+
+export type DualQuizBattleCardProps = {
+  payload: DualQuizCardPayload;
   cues?: ResolvedCuePoint[];
-}> = ({ payload, cues = [] }) => {
+  timing?: { left?: QuizTiming; right?: QuizTiming };
+  countdown?: CountdownAppearance | false;
+  /** 公共配色、逐项讲解与帧过渡；省略时保留原有课时表现。 */
+  presentation?: { left?: QuizPresentation; right?: QuizPresentation };
+  /** paper 沿用完整题面样式，将各题解析置于其下方。 */
+  variant?: "stacked" | "paper";
+  height?: number;
+  left?: number;
+  top?: number;
+  width?: number;
+  gap?: number;
+  columns?: 1 | 2;
+  bodySize?: number;
+  optionSize?: number;
+  tone?: string;
+  style?: React.CSSProperties;
+  cardStyle?: React.CSSProperties;
+  cardStyles?: { left?: React.CSSProperties; right?: React.CSSProperties };
+  withShell?: boolean;
+};
+
+export const DualQuizBattleCard: React.FC<DualQuizBattleCardProps> = ({
+  payload, cues = [], timing, countdown = {}, variant = "stacked", height = 370, left = 120, top, width = 1680, gap = 40,
+  columns = variant === "paper" ? 1 : 2, bodySize = 20, optionSize = variant === "paper" ? 17 : 18, tone = "cyan", style, cardStyle, cardStyles, withShell = true, presentation,
+}) => {
   const frame = useCurrentFrame();
-  const { fps, durationInFrames } = useVideoConfig();
+  const { fps } = useVideoConfig();
 
   const hasTopTable = Boolean(payload.topComparisonTable && payload.topComparisonTable.rows.length > 0);
-  const quizTop = hasTopTable ? 470 : 210;
-
-  const leftRevealCue = cues.find((c) => c.targetId === "left" || c.action === "eliminate-option");
-  const rightRevealCue = cues.find((c) => c.targetId === "right" || c.action === "reveal-answer");
-
-  const leftRevealed = frame >= (leftRevealCue ? leftRevealCue.localFrame : Math.floor(durationInFrames * 0.38));
-  const rightRevealed = frame >= (rightRevealCue ? rightRevealCue.localFrame : Math.floor(durationInFrames * 0.68));
+  const paper = variant === "paper";
+  const quizTop = top ?? (hasTopTable ? 470 : paper ? 155 : 210);
+  const leftSchedule = getQuizSchedule(getDualQuizCues(cues, "left"), fps, timing?.left);
+  const rightSchedule = getQuizSchedule(getDualQuizCues(cues, "right"), fps, timing?.right);
+  const tableRevealed = frame >= Math.max(leftSchedule.revealFrame, rightSchedule.revealFrame);
 
   const renderQuizColumn = (
-    quiz: DualQuizBattlePayload["leftQuiz"] & { extraNote?: string },
-    revealed: boolean,
-    leftPx: number,
+    quiz: DualQuizQuestion,
+    schedule: ReturnType<typeof getQuizSchedule>,
+    side: "left" | "right",
     delayOffset: number,
   ) => {
-    const enter = springEnter(frame, fps, delayOffset);
-    return (
+    const enter = paper || (schedule.thinking && frame >= schedule.thinking.startFrame) ? 1 : springEnter(frame, fps, delayOffset);
+    const visual = presentation?.[side] ?? (paper ? {} : undefined);
+    const revealed = frame >= schedule.revealFrame;
+    const answerProgress = quizFade(frame, schedule.revealFrame, Math.max(1, Math.round((visual?.transitionSeconds ?? 0.2) * fps)));
+    const answerKeys = quiz.options.filter((option) => quiz.polarity === "negative" ? !option.isCorrect : option.isCorrect).map((option) => option.key).join("、");
+    const explanation = <QuizExplanation presentation={visual} schedule={schedule} fontSize={optionSize} />;
+    const card = (
       <div
+        data-quiz-side={side}
         style={{
-          position: "absolute",
-          left: leftPx,
-          top: quizTop,
-          width: 820,
-          padding: "18px 24px",
+          position: "relative",
+          width: "100%",
+          boxSizing: "border-box",
+          height: paper ? height : undefined,
+          padding: paper ? "16px 24px" : "18px 24px",
           borderRadius: 16,
-          background: "rgba(8, 19, 41, 0.86)",
-          border: `1.5px solid ${rgba(resolveTone("cyan").rgb, 0.5)}`,
+          background: paper ? "rgba(8, 19, 41, 0.94)" : "rgba(8, 19, 41, 0.86)",
+          border: `${paper ? 2 : 1.5}px solid ${rgba(resolveTone(tone).rgb, paper ? 0.55 : 0.5)}`,
+          boxShadow: paper ? "0 8px 32px rgba(0,0,0,0.45)" : undefined,
           opacity: enter,
           transform: `translateY(${(1 - enter) * 18}px)`,
+          ...cardStyle,
+          ...cardStyles?.[side],
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 8 }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12, marginBottom: paper ? 10 : 8,
+          minHeight: paper ? Math.max(40, countdown !== false ? (countdown.size ?? 40) : 0) : schedule.thinking && countdown !== false ? (countdown.size ?? 52) : undefined }}>
           <span
             style={{
-              padding: "3px 12px",
+              padding: paper ? "4px 14px" : "3px 12px",
               borderRadius: 999,
-              background: rgba(resolveTone("gold").rgb, 0.2),
-              border: `1px solid ${resolveTone("gold").hex}`,
+              background: rgba(resolveTone("gold").rgb, paper ? 0.22 : 0.2),
+              border: `${paper ? 1.5 : 1}px solid ${resolveTone("gold").hex}`,
               color: resolveTone("gold").hex,
-              fontSize: 17,
+              fontSize: paper ? 16 : 17,
               fontWeight: 700,
             }}
           >
             {quiz.examMeta}
           </span>
           {revealed ? (
-            <span style={{ fontSize: 17, fontWeight: 700, color: resolveTone("green").hex }}>✓ 已锁定答案</span>
+            <span style={{ fontSize: paper ? 15 : 17, fontWeight: 700, color: resolveTone("green").hex,
+              opacity: paper ? answerProgress : 1, whiteSpace: "nowrap" }}>{paper ? `✓ 正确选项：${answerKeys}` : "✓ 已锁定答案"}</span>
           ) : null}
+          {schedule.thinking && countdown !== false ? <Countdown {...schedule.thinking} size={paper ? 40 : 52} strokeWidth={paper ? 4.5 : 4} {...(paper ? {
+            ringInset: 2.25, numberSize: 16.8, showUnit: false,
+          } : {})} {...countdown} /> : null}
         </div>
-        <div style={{ fontSize: 20, fontWeight: 700, color: BASE_COLORS.text, lineHeight: 1.4, marginBottom: 12 }}>
+        <div style={{ fontSize: bodySize, fontWeight: 700, color: BASE_COLORS.text, lineHeight: 1.4, marginBottom: paper ? 10 : 12 }}>
           {quiz.stem}
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+        <div style={{ display: "grid", gridTemplateColumns: columns === 2 ? "1fr 1fr" : "1fr", gap: paper ? 8 : 10 }}>
           {quiz.options.map((opt) => {
-            const isAns = revealed && opt.isCorrect;
-            const isWrongNote = revealed && !opt.isCorrect && Boolean(opt.critiqueNote);
+            if (visual) return <QuizOptionRow key={opt.key} option={opt} negative={quiz.polarity === "negative"}
+              schedule={schedule} presentation={visual} fontSize={optionSize} density={paper ? "paper" : "compact"} />;
+            const isAnswer = quiz.polarity === "negative" ? !opt.isCorrect : opt.isCorrect;
+            const isAns = revealed && isAnswer;
+            const isWrongNote = revealed && !isAnswer && Boolean(opt.critiqueNote);
             return (
               <div
                 key={opt.key}
+                data-option-key={opt.key}
+                data-answer-revealed={isAns || undefined}
                 style={{
                   padding: "10px 14px",
                   borderRadius: 10,
@@ -92,7 +137,7 @@ export const DualQuizBattleCard: React.FC<{
                         : rgba(resolveTone("blue").rgb, 0.38)
                   }`,
                   color: BASE_COLORS.text,
-                  fontSize: 18,
+                  fontSize: optionSize,
                   fontWeight: isAns ? 700 : 500,
                 }}
               >
@@ -106,6 +151,7 @@ export const DualQuizBattleCard: React.FC<{
             );
           })}
         </div>
+        {!paper ? explanation : null}
         {quiz.extraNote && revealed ? (
           <div
             style={{
@@ -122,18 +168,23 @@ export const DualQuizBattleCard: React.FC<{
         ) : null}
       </div>
     );
+    return paper ? <div data-quiz-column={side} style={{ minWidth: 0 }}>
+      {card}
+      {explanation}
+    </div> : card;
   };
 
-  return (
-    <SceneShell title={payload.title} subtitle={payload.subtitle}>
-      {hasTopTable && payload.topComparisonTable ? (
+  const content = (
+    <div data-quiz-card="dual" style={{ fontFamily: '"Noto Sans CJK SC", sans-serif', ...style }}>
+      {hasTopTable && payload.topComparisonTable && tableRevealed ? (
         <Entered delay={4}>
           {(enter) => (
             <div
               style={{
                 position: "absolute",
-                left: 120,
-                right: 120,
+                left,
+                width,
+                boxSizing: "border-box",
                 top: 185,
                 borderRadius: 14,
                 overflow: "hidden",
@@ -175,12 +226,7 @@ export const DualQuizBattleCard: React.FC<{
                       key={cIdx}
                       style={{
                         fontWeight: cIdx === 1 ? 700 : 500,
-                        color:
-                          cIdx === 1
-                            ? cell.includes("技术")
-                              ? resolveTone("cyan").hex
-                              : resolveTone("gold").hex
-                            : BASE_COLORS.text,
+                        color: cIdx === 1 ? resolveTone(tone).hex : BASE_COLORS.text,
                       }}
                     >
                       {cell}
@@ -193,8 +239,13 @@ export const DualQuizBattleCard: React.FC<{
         </Entered>
       ) : null}
 
-      {renderQuizColumn(payload.leftQuiz, leftRevealed, 120, 10)}
-      {renderQuizColumn(payload.rightQuiz, rightRevealed, 980, 16)}
-    </SceneShell>
+      <div style={{ position: "absolute", left, top: quizTop, width, display: "grid",
+        gridTemplateColumns: "repeat(2, minmax(0, 1fr))", gap, alignItems: "stretch" }}>
+        {renderQuizColumn(payload.leftQuiz, leftSchedule, "left", 10)}
+        {renderQuizColumn(payload.rightQuiz, rightSchedule, "right", 16)}
+      </div>
+    </div>
   );
+
+  return withShell ? <SceneShell title={payload.title} subtitle={payload.subtitle}>{content}</SceneShell> : content;
 };

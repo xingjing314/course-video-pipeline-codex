@@ -13,8 +13,8 @@ import { TechNetwork } from "../backgrounds/tech-network/TechNetwork";
 import { techNetworkSchema } from "../backgrounds/tech-network/schema";
 import { HeaderBreadcrumb } from "./HeaderBreadcrumb";
 import { CaptionsOverlay } from "./CaptionsOverlay";
+import type { ChapterModule } from "../chapter-types";
 import { SceneRouter } from "../templates/SceneRouter";
-import { CHAPTERS } from "../../lessons/registry";
 
 const defaultBgProps = techNetworkSchema.parse({ type: "tech-network" });
 
@@ -22,12 +22,15 @@ export type CourseVideoProps = {
   lesson: CompiledLesson;
   includeAudio: boolean;
   includeCaptions: boolean;
+  /** 本课专用组件。由课程入口传入，母版不查全课程注册表。 */
+  chapter?: ChapterModule;
 };
 
 export const MasterCanvas: React.FC<CourseVideoProps> = ({
   lesson,
   includeAudio,
   includeCaptions,
+  chapter,
 }) => {
   const totalScenes = lesson.scenes.length;
 
@@ -65,7 +68,7 @@ export const MasterCanvas: React.FC<CourseVideoProps> = ({
               segmentTitle={scene.segmentTitle}
             />
             )}
-            <SceneRouter scene={scene} chapter={CHAPTERS[lesson.lessonId]} />
+            <SceneRouter scene={scene} chapter={chapter} />
           </AbsoluteFill>
         </Sequence>
       ))}

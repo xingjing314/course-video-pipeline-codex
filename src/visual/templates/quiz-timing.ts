@@ -3,7 +3,7 @@ import type { ResolvedCuePoint } from "../../../contracts/visual-props.schema";
 export const QUIZ_THINK_SECONDS = 3;
 
 export type QuizTiming = {
-  /** 当前题卡局部帧：实际读题完成后的思考起点；是否包含选项朗读按音频规范。 */
+  /** 当前题卡局部帧：实际题干读完的锚点，立即开始三秒静音；不等待选项朗读结束。 */
   stemEndFrame: number;
   /** 答案在讲解中的出现位置；省略时沿用 reveal-answer cue。 */
   revealFrame?: number;

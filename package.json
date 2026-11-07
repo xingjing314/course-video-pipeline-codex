@@ -10,7 +10,9 @@
     "compile": "node --experimental-strip-types src/cli/compile.ts",
     "render": "node --experimental-strip-types src/cli/render.ts",
     "lint": "tsc --noEmit",
-    "test": "node --experimental-strip-types src/cli/selftest.ts"
+    "check:public": "tsc -p tsconfig.public.json --noEmit",
+    "check:course": "node --experimental-strip-types --import ./src/cli/register-typescript.mjs scripts/check-course.mjs",
+    "test": "node --test src/cli/*.test.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.536",

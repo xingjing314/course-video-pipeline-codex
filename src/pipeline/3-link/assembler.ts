@@ -2,9 +2,8 @@
  * Stage 3 (`3-link`) 响应式音画组装器（assembler.ts）。
  *
  * 将 Stage 1 的 `StoryboardIR` 与 Stage 2 的 `AudioTimeline` 绑定为 `CompiledLesson`，
- * 并同步写入：
- * 1. `workspaces/<lessonId>/compiled-lesson.json`
- * 2. `workspaces/current-lesson.json`（供 `npm run studio` 即时热重载预览）
+ * 并写入 `workspaces/<lessonId>/compiled-lesson.json`。
+ * 不写共享的激活课程文件；预览和渲染由调用方传入这份课时数据。
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -97,11 +96,10 @@ export const linkAndAssembleLesson = (
   const validated = CompiledLessonSchema.parse(compiledCandidate);
 
   const lessonOutPath = path.join(workspaceDir, "compiled-lesson.json");
-  const currentLessonPath = path.join(projectRoot, "workspaces", "current-lesson.json");
   const serialized = `${JSON.stringify(validated, null, 2)}\n`;
 
   fs.writeFileSync(lessonOutPath, serialized, "utf-8");
-  fs.writeFileSync(currentLessonPath, serialized, "utf-8");
+  void projectRoot;
 
   return validated;
 };

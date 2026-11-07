@@ -1,0 +1,383 @@
+{
+  "schemaVersion": "1.0.0",
+  "lessonId": "test01-L01-g01",
+  "sampleRate": 24000,
+  "totalDurationMs": 16006,
+  "fullWavPath": "workspaces/test01/g01/test01-L01-g01-full.wav",
+  "fullWavSha256": "24d6a8652993d3c7d3222c9fd25e8bf4eb12564be705e777e7377af52355f938",
+  "srtPath": "workspaces/test01/g01/test01-L01-g01.srt",
+  "srtSha256": "92623e3698970ce149096ee628fcb19fdbe5584e9faef682f04c9bc4621faa6f",
+  "engineInfo": {
+    "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+    "alignerEngine": "Qwen/Qwen3-ForcedAligner-0.6B",
+    "device": "cuda"
+  },
+  "scenes": [
+    {
+      "sceneId": "S01",
+      "narrationSha256": "088db38ea3f41a2ec821f089f882abcc3a33627f303459cfe2aa19fe40d4c7c1",
+      "wavRelativePath": "workspaces/test01/g01/audio/S01.wav",
+      "wavSha256": "04d006372f64489ef009566883304e69df802ae8f17d166363417dc2bb483822",
+      "startMs": 0,
+      "endMs": 16006,
+      "durationMs": 16006,
+      "fromCache": true,
+      "tokens": [
+        {
+          "sceneId": "S01",
+          "text": "欢",
+          "startMs": 0,
+          "endMs": 240
+        },
+        {
+          "sceneId": "S01",
+          "text": "迎",
+          "startMs": 240,
+          "endMs": 320
+        },
+        {
+          "sceneId": "S01",
+          "text": "来",
+          "startMs": 320,
+          "endMs": 560
+        },
+        {
+          "sceneId": "S01",
+          "text": "到",
+          "startMs": 560,
+          "endMs": 880
+        },
+        {
+          "sceneId": "S01",
+          "text": "第",
+          "startMs": 880,
+          "endMs": 1040
+        },
+        {
+          "sceneId": "S01",
+          "text": "6",
+          "startMs": 1040,
+          "endMs": 1280
+        },
+        {
+          "sceneId": "S01",
+          "text": "章",
+          "startMs": 1280,
+          "endMs": 1520
+        },
+        {
+          "sceneId": "S01",
+          "text": "的",
+          "startMs": 1520,
+          "endMs": 1600
+        },
+        {
+          "sceneId": "S01",
+          "text": "第",
+          "startMs": 1600,
+          "endMs": 1760
+        },
+        {
+          "sceneId": "S01",
+          "text": "三",
+          "startMs": 1760,
+          "endMs": 2000
+        },
+        {
+          "sceneId": "S01",
+          "text": "节",
+          "startMs": 2000,
+          "endMs": 2240
+        },
+        {
+          "sceneId": "S01",
+          "text": "课",
+          "startMs": 2240,
+          "endMs": 2480
+        },
+        {
+          "sceneId": "S01",
+          "text": "也",
+          "startMs": 2960,
+          "endMs": 3040
+        },
+        {
+          "sceneId": "S01",
+          "text": "是",
+          "startMs": 3040,
+          "endMs": 3200
+        },
+        {
+          "sceneId": "S01",
+          "text": "全",
+          "startMs": 3200,
+          "endMs": 3440
+        },
+        {
+          "sceneId": "S01",
+          "text": "章",
+          "startMs": 3440,
+          "endMs": 3600
+        },
+        {
+          "sceneId": "S01",
+          "text": "分",
+          "startMs": 3600,
+          "endMs": 3840
+        },
+        {
+          "sceneId": "S01",
+          "text": "值",
+          "startMs": 3840,
+          "endMs": 4000
+        },
+        {
+          "sceneId": "S01",
+          "text": "最",
+          "startMs": 4000,
+          "endMs": 4160
+        },
+        {
+          "sceneId": "S01",
+          "text": "密",
+          "startMs": 4160,
+          "endMs": 4400
+        },
+        {
+          "sceneId": "S01",
+          "text": "集",
+          "startMs": 4400,
+          "endMs": 4640
+        },
+        {
+          "sceneId": "S01",
+          "text": "的",
+          "startMs": 4640,
+          "endMs": 4880
+        },
+        {
+          "sceneId": "S01",
+          "text": "第",
+          "startMs": 5280,
+          "endMs": 5600
+        },
+        {
+          "sceneId": "S01",
+          "text": "一",
+          "startMs": 5600,
+          "endMs": 5601
+        },
+        {
+          "sceneId": "S01",
+          "text": "高",
+          "startMs": 5600,
+          "endMs": 5920
+        },
+        {
+          "sceneId": "S01",
+          "text": "频",
+          "startMs": 5920,
+          "endMs": 6160
+        },
+        {
+          "sceneId": "S01",
+          "text": "霸",
+          "startMs": 6160,
+          "endMs": 6400
+        },
+        {
+          "sceneId": "S01",
+          "text": "主",
+          "startMs": 6400,
+          "endMs": 6640
+        },
+        {
+          "sceneId": "S01",
+          "text": "区",
+          "startMs": 6640,
+          "endMs": 7040
+        },
+        {
+          "sceneId": "S01",
+          "text": "64",
+          "startMs": 7360,
+          "endMs": 7840
+        },
+        {
+          "sceneId": "S01",
+          "text": "节",
+          "startMs": 8080,
+          "endMs": 8480
+        },
+        {
+          "sceneId": "S01",
+          "text": "价",
+          "startMs": 8880,
+          "endMs": 9120
+        },
+        {
+          "sceneId": "S01",
+          "text": "值",
+          "startMs": 9120,
+          "endMs": 9280
+        },
+        {
+          "sceneId": "S01",
+          "text": "驱",
+          "startMs": 9280,
+          "endMs": 9440
+        },
+        {
+          "sceneId": "S01",
+          "text": "动",
+          "startMs": 9440,
+          "endMs": 9600
+        },
+        {
+          "sceneId": "S01",
+          "text": "的",
+          "startMs": 9600,
+          "endMs": 9680
+        },
+        {
+          "sceneId": "S01",
+          "text": "项",
+          "startMs": 9680,
+          "endMs": 10000
+        },
+        {
+          "sceneId": "S01",
+          "text": "目",
+          "startMs": 10000,
+          "endMs": 10080
+        },
+        {
+          "sceneId": "S01",
+          "text": "管",
+          "startMs": 10080,
+          "endMs": 10320
+        },
+        {
+          "sceneId": "S01",
+          "text": "理",
+          "startMs": 10320,
+          "endMs": 10480
+        },
+        {
+          "sceneId": "S01",
+          "text": "知",
+          "startMs": 10480,
+          "endMs": 10640
+        },
+        {
+          "sceneId": "S01",
+          "text": "识",
+          "startMs": 10640,
+          "endMs": 10800
+        },
+        {
+          "sceneId": "S01",
+          "text": "体",
+          "startMs": 10800,
+          "endMs": 11040
+        },
+        {
+          "sceneId": "S01",
+          "text": "系",
+          "startMs": 11040,
+          "endMs": 11360
+        },
+        {
+          "sceneId": "S01",
+          "text": "与",
+          "startMs": 11680,
+          "endMs": 11840
+        },
+        {
+          "sceneId": "S01",
+          "text": "641",
+          "startMs": 11840,
+          "endMs": 12640
+        },
+        {
+          "sceneId": "S01",
+          "text": "节",
+          "startMs": 12880,
+          "endMs": 13440
+        },
+        {
+          "sceneId": "S01",
+          "text": "12",
+          "startMs": 13520,
+          "endMs": 14000
+        },
+        {
+          "sceneId": "S01",
+          "text": "个",
+          "startMs": 14000,
+          "endMs": 14080
+        },
+        {
+          "sceneId": "S01",
+          "text": "项",
+          "startMs": 14080,
+          "endMs": 14320
+        },
+        {
+          "sceneId": "S01",
+          "text": "目",
+          "startMs": 14320,
+          "endMs": 14400
+        },
+        {
+          "sceneId": "S01",
+          "text": "管",
+          "startMs": 14400,
+          "endMs": 14640
+        },
+        {
+          "sceneId": "S01",
+          "text": "理",
+          "startMs": 14640,
+          "endMs": 14800
+        },
+        {
+          "sceneId": "S01",
+          "text": "原",
+          "startMs": 14800,
+          "endMs": 14960
+        },
+        {
+          "sceneId": "S01",
+          "text": "则",
+          "startMs": 14960,
+          "endMs": 15360
+        }
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "index": 1,
+      "sceneId": "S01",
+      "text": "欢迎来到第 6 章的第三节课，",
+      "startMs": 0,
+      "endMs": 2480
+    },
+    {
+      "index": 2,
+      "sceneId": "S01",
+      "text": "也是全章分值最密集的“第一高频霸主区”——",
+      "startMs": 2960,
+      "endMs": 7445
+    },
+    {
+      "index": 3,
+      "sceneId": "S01",
+      "text": "6.4 节“价值驱动的项目管理知识体系”与 6.4.1 节“12 个项目管理原则”。",
+      "startMs": 7445,
+      "endMs": 15360
+    }
+  ],
+  "generatedAt": "2026-11-07T10:59:39.659Z"
+}

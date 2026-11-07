@@ -1,0 +1,43 @@
+{
+  "timeline": {
+    "totalDurationMs": 16006,
+    "fullWavPath": "public/audio/test01/g01/narration.wav",
+    "scenes": [
+      {
+        "sceneId": "S01",
+        "startMs": 0,
+        "endMs": 16006
+      }
+    ],
+    "captions": [
+      {
+        "index": 1,
+        "sceneId": "S01",
+        "text": "欢迎来到第 6 章的第三节课，",
+        "startMs": 0,
+        "endMs": 2480
+      },
+      {
+        "index": 2,
+        "sceneId": "S01",
+        "text": "也是全章分值最密集的“第一高频霸主区”——",
+        "startMs": 2960,
+        "endMs": 7445
+      },
+      {
+        "index": 3,
+        "sceneId": "S01",
+        "text": "6.4 节“价值驱动的项目管理知识体系”与 6.4.1 节“12 个项目管理原则”。",
+        "startMs": 7445,
+        "endMs": 15360
+      }
+    ]
+  },
+  "cues": {
+    "badgeMs": 5280,
+    "outerMs": 7360,
+    "innerMs": 11840
+  },
+  "includeAudio": true,
+  "includeCaptions": true
+}

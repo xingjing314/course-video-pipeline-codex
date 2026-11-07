@@ -33,5 +33,35 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Keep public/fonts/ (including licenses) and workspace JSON/SRT lesson data.
+# Keep public/fonts/ (including licenses) and test01 workspace JSON in Git.
 # Restore local audio backups before voiced playback or rendering on a new machine.
+
+# 课程私有目录默认不提交。演示课 test01 的源码和工作区 JSON 除外。
+/src/lessons/*
+!/src/lessons/test01/
+!/src/lessons/test01/**
+/docs/lessons/*
+!/docs/lessons/test01/
+!/docs/lessons/test01/**
+/workspaces/*
+/workspaces/test01/**
+!/workspaces/test01/
+!/workspaces/test01/**/
+!/workspaces/test01/**/*.json
+/workspaces/current-lesson.json
+/scripts/ch06-*
+/scripts/ch08-*
+/scripts/render-ch06-*
+/scripts/build-l0*
+/scripts/gen-l0*
+/scripts/rebuild-l01-*
+/scripts/restore-l01-*
+/scripts/run-l01-audio.ts
+/scripts/film-to-lesson.ts
+/scripts/_lesson-arg.ts
+/src/visual/prototypes/L02Lab.tsx
+/src/visual/prototypes/L03Preview.tsx
+/src/visual/prototypes/l01-generated.ts
+/src/visual/compositions.tsx
+/src/visual/Root.tsx
+/src/visual/index.ts

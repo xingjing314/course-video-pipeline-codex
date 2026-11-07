@@ -8,3 +8,5 @@ export type { ScaleProps, ScaleMark } from "./Scale";
 export { Stagger, useStep } from "./Reveal";
 export { useStepper, stepStates, cueCuts } from "./Stepper";
 export type { StepState, StepperResult } from "./Stepper";
+export { Countdown } from "./Countdown";
+export type { CountdownProps, CountdownAppearance } from "./Countdown";

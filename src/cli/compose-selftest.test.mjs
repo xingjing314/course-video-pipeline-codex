@@ -111,6 +111,7 @@ const job = {video: 'clean.mp4', audio: 'full.wav', concat: 'captions.ffconcat',
 test('合成入口使用 CUDA 叠加及 NVENC，样段音频采用同一起点', () => {
   const args = buildComposeArgs(job);
   assert.equal(args[args.indexOf('-c:v') + 1], 'h264_nvenc');
+  assert.equal(args[args.indexOf('-bsf:v') + 1], 'h264_metadata=crop_bottom=8');
   assert.equal(args[args.indexOf('-ss') + 1], '3');
   assert.match(args[args.indexOf('-filter_complex') + 1], /overlay_cuda/);
   assert.doesNotMatch(args.join(' '), /libx264|loudnorm|dynaudnorm/);
@@ -181,6 +182,7 @@ test('成品核验拒绝 42 ms 视频起点偏移、缺帧与错误音频格式'
   const expected = {fps: 30, totalFrames: 300, width: 1920, height: 1080};
   const wav = {streams: [wavStream]};
   verifyComposedMedia({streams: [cleanStream, aacStream]}, wav, expected);
+  assert.throws(() => verifyComposedMedia({streams: [{...cleanStream, height: 1088}, aacStream]}, wav, expected), /尺寸/);
   assert.throws(() => verifyComposedMedia({streams: [{...cleanStream, start_time: '0.042'}, aacStream]}, wav, expected), /起点/);
   assert.throws(() => verifyComposedMedia({streams: [{...cleanStream, nb_frames: '299'}, aacStream]}, wav, expected), /帧数/);
   assert.throws(() => verifyComposedMedia({streams: [cleanStream, {...aacStream, channels: 1}]}, wav, expected), /双声道/);

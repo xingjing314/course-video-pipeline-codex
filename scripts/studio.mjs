@@ -8,11 +8,18 @@ const args = process.argv.slice(2);
 const forwarded = [];
 let port = '3025';
 let specified = false;
+let entry = 'src/examples/index.tsx';
+let entrySpecified = false;
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--port' || args[i].startsWith('--port=')) {
     if (specified) throw new Error('请只指定一次 --port。');
     specified = true;
     port = args[i] === '--port' ? args[++i] : args[i].slice(7);
+  } else if (args[i] === '--entry' || args[i].startsWith('--entry=')) {
+    if (entrySpecified) throw new Error('请只指定一次 --entry。');
+    entrySpecified = true;
+    entry = args[i] === '--entry' ? args[++i] : args[i].slice(8);
+    if (!entry) throw new Error('--entry 需要入口文件路径。');
   } else forwarded.push(args[i]);
 }
 if (!/^\d+$/.test(port ?? '') || +port < 1 || +port > 65535) throw new Error('端口必须是 1–65535 的整数。');
@@ -23,7 +30,7 @@ await new Promise((resolve, reject) => {
   server.listen(+port, () => server.close(resolve));
 });
 const child = spawn(process.execPath, [path.join(root, 'node_modules/@remotion/cli/remotion-cli.js'),
-  'studio', 'src/visual/index.ts', `--port=${port}`, '--force-new', ...forwarded], {cwd: root, stdio: 'inherit'});
+  'studio', entry, `--port=${port}`, '--force-new', ...forwarded], {cwd: root, stdio: 'inherit'});
 for (const signal of ['SIGINT', 'SIGTERM']) process.on(signal, () => child.kill(signal));
 child.on('error', (error) => { console.error(error); process.exitCode = 1; });
 child.on('exit', (code, signal) => { process.exitCode = code ?? (signal === 'SIGINT' ? 130 : 143); });

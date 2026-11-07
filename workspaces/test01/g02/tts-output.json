@@ -1,0 +1,22 @@
+{
+  "lessonId": "test01-L01-g02",
+  "sampleRate": 24000,
+  "totalDurationMs": 8798,
+  "fullWavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/test01/g02/test01-L01-g02-full.wav",
+  "fullWavSha256": "90684b1f49aac41b44911f7608bbc27c720aac33ee8cec162ee9b971f84963a1",
+  "ttsEngine": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "device": "cuda",
+  "scenes": [
+    {
+      "sceneId": "S02",
+      "narration": "单单 6.4.1 这一个小节，在 11 套试卷里就考了整整 9 道选择题！",
+      "narrationSha256": "d24087c884e0d20a35eea178b825ada1f6831c3d07a2a37509aa8632b7b3b386",
+      "wavPath": "/projects/gaoxiang/course-video-pipeline-codex/workspaces/test01/g02/audio/S02.wav",
+      "wavSha256": "d5c95fb865df5d397991d7c0ad487c867ffffa6c31087f77c6015636a14cc244",
+      "startMs": 0,
+      "endMs": 8798,
+      "durationMs": 8798,
+      "fromCache": true
+    }
+  ]
+}

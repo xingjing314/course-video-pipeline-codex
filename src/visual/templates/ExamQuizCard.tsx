@@ -8,55 +8,73 @@
  * 4. 正确选项高亮打勾 + 同源题对比卡 + 底部应试提示横幅（reveal-answer / show-tip）
  */
 import React from "react";
-import { useCurrentFrame, useVideoConfig } from "remotion";
+import { QuizOptionRow, QuizExplanation, quizFade, type QuizPresentation } from "./quiz-presentation";
+import { interpolateColors, useCurrentFrame, useVideoConfig } from "remotion";
 import { Entered, SceneShell } from "./shared";
 import { BASE_COLORS, resolveTone, rgba } from "../tokens/colorCard";
 import { highlightPulseScale, linearProgress, springEnter } from "../tokens/motionPresets";
+import { Countdown, type CountdownAppearance } from "../kit/Countdown";
+import { getQuizSchedule, type QuizTiming } from "./quiz-timing";
 import type { ExamQuizPayload, ResolvedCuePoint } from "../../../contracts/visual-props.schema";
 
-export const ExamQuizCard: React.FC<{
+export type ExamQuizCardProps = {
   payload: ExamQuizPayload;
   cues?: ResolvedCuePoint[];
+  timing?: QuizTiming;
+  countdown?: CountdownAppearance | false;
+  /** 公共配色、逐项讲解与帧过渡；省略时保留原有课时表现。 */
+  presentation?: QuizPresentation;
+  /** paper 将题干和选项合为上部题面卡，下方可接实际解析。 */
+  variant?: "stacked" | "paper";
+  height?: number;
+  analysisSlot?: React.ReactNode;
+  analysisFromFrame?: number;
+  analysisTop?: number;
+  left?: number;
+  top?: number;
+  width?: number;
+  columns?: 1 | 2;
+  bodySize?: number;
+  optionSize?: number;
+  tone?: string;
+  style?: React.CSSProperties;
+  withShell?: boolean;
+  tipTop?: number;
+  /** 课时需要独立的逐项判断时，仅替换选项行，仍复用题干、布局与倒计时。 */
+  renderOption?: (option: ExamQuizPayload['options'][number], index: number) => React.ReactNode;
+  /** 组合题材料需独立字号、跟读焦点时，保留题干外壳和计时位置。 */
+  renderStatement?: (statement: NonNullable<ExamQuizPayload['numberedStatements']>[number], index: number) => React.ReactNode;
+  statusText?: string | false;
   /** 右侧副栏（如「同一考点另一问法」的小题卡）；给出时主卡收窄到 1140 */
   rightSlot?: React.ReactNode;
-}> = ({ payload, cues = [], rightSlot }) => {
+};
+
+export const ExamQuizCard: React.FC<ExamQuizCardProps> = ({
+  payload, cues = [], timing, countdown = {}, rightSlot, variant = "stacked", height = 400,
+  analysisSlot, analysisFromFrame, analysisTop, left = 120, top = variant === "paper" ? 125 : 195, width,
+  columns = 1, bodySize = variant === "paper" ? 20 : 25, optionSize = variant === "paper" ? 17 : 22, tone = "cyan", style, withShell = true, tipTop = 790,
+  renderOption, renderStatement, statusText, presentation,
+}) => {
   const frame = useCurrentFrame();
-  const { fps, durationInFrames } = useVideoConfig();
+  const { fps } = useVideoConfig();
 
   const negative = payload.polarity === "negative";
   const answerKey = negative ? payload.options.find((o) => !o.isCorrect)?.key : undefined;
 
-  const revealCues = cues.filter((c) => c.action === "reveal-answer");
-  const eliminateCues = cues.filter((c) => c.action === "eliminate-option");
-  const tipCue = cues.find((c) => c.action === "show-tip");
-  const thinkingCue = cues.find((c) => c.action === "thinking-pause");
-
-  /**
-   * 没有排错 cue 时，划除必须与揭示同时发生——否则会出现
-   * "旁白还在念选项、画面已经把错误项划掉"的答案泄漏。
-   */
-  const eliminateFrame = eliminateCues.length
-    ? eliminateCues[0].localFrame
-    : revealCues.length
-      ? revealCues[0].localFrame
-      : Math.floor(durationInFrames * 0.42);
-  const revealFrame = revealCues.length ? revealCues[0].localFrame : Math.floor(durationInFrames * 0.58);
-  /**
-   * 逐项判卷模式：只要出现「带 targetId 的排错cue」或「多条排错cue」，就按题面逐项推进；
-   * 否则完全沿用旧的"一次性划掉所有错误项"行为（老课件渲染结果不变）。
-   */
+  const schedule = getQuizSchedule(cues, fps, timing);
+  const { thinking, revealCues, eliminateCues, eliminateFrame, revealFrame, tipFrame } = schedule;
+  // 带 targetId 的排错按选项推进；未指定目标的事件才作用于全部干扰项。
   const stepwise = eliminateCues.length > 1 || eliminateCues.some((c) => Boolean(c.targetId));
-
-  /** 提示条是结论：有 reveal cue 的题，结论条与揭示同步出现；无 cue 的老课件仍按 72% 落。 */
-  const tipFrame = tipCue
-    ? tipCue.localFrame
-    : revealCues.length
-      ? revealFrame
-      : Math.floor(durationInFrames * 0.72);
 
   const isEliminated = frame >= eliminateFrame;
   const isRevealed = frame >= revealFrame;
   const showTip = frame >= tipFrame;
+  const paper = variant === "paper";
+  const inThinking = thinking && frame >= thinking.startFrame && frame < thinking.endFrame;
+  const transitionFrames = Math.max(1, Math.round((presentation?.transitionSeconds ?? 0.2) * fps));
+  const answerProgress = quizFade(frame, revealFrame, transitionFrames);
+  const answerKeys = payload.options.filter((option) => negative ? !option.isCorrect : option.isCorrect).map((option) => option.key).join("、");
+  const analysisAt = Math.max(analysisFromFrame ?? revealFrame, thinking?.endFrame ?? 0);
 
   const judgeEvents = [...eliminateCues, ...revealCues]
     .filter((c) => c.localFrame <= frame)
@@ -70,20 +88,6 @@ export const ExamQuizCard: React.FC<{
       ? frame - lastEvent.localFrame < 78
       : false;
   const focusKey = lastEvent ? lastEvent.targetId : undefined;
-
-  // 思考倒计时环（仅有 thinking-pause cue 时出现）
-  const thinkingFrame = thinkingCue ? thinkingCue.localFrame : null;
-  const thinkingEnd = thinkingCue
-    ? Math.min(
-        eliminateFrame > thinkingCue.localFrame ? eliminateFrame : thinkingCue.localFrame + 60,
-        thinkingCue.localFrame + 90,
-      )
-    : 0;
-  const thinkingSpan = Math.max(1, thinkingEnd - (thinkingFrame ?? 0));
-  const thinkingProgress =
-    thinkingFrame === null ? 0 : Math.max(0, Math.min(1, (frame - thinkingFrame) / thinkingSpan));
-  const thinkingLeft = Math.max(0, Math.ceil((thinkingSpan - (frame - (thinkingFrame ?? 0))) / fps));
-  const showRing = thinkingFrame !== null && frame >= thinkingFrame && thinkingProgress < 1;
 
   const renderWithHighlight = (text: string, hl?: string) => {
     if (!hl) return text;
@@ -109,105 +113,79 @@ export const ExamQuizCard: React.FC<{
   };
 
   const hasSiblings = Boolean(payload.siblingQuestions && payload.siblingQuestions.length > 0);
-  const mainWidth = hasSiblings || rightSlot ? 1140 : 1680;
+  const mainWidth = width ?? (hasSiblings || rightSlot ? 1140 : 1680);
 
-  return (
-    <SceneShell title={payload.title} subtitle={payload.subtitle} eyebrow={`历年真题实战 · ${payload.examMeta}`}>
+  const content = (
+    <div data-quiz-card="exam" style={{ fontFamily: '"Noto Sans CJK SC", sans-serif' }}>
       <div
         style={{
           position: "absolute",
-          left: 120,
-          top: 195,
+          left,
+          top,
           width: mainWidth,
           display: "flex",
           flexDirection: "column",
-          gap: 16,
+          gap: paper ? 0 : 16,
+          ...(paper ? { height, padding: "16px 24px", borderRadius: 16, boxSizing: "border-box" as const,
+            background: "rgba(8, 19, 41, 0.94)",
+            border: `2px solid ${interpolateColors(answerProgress, [0, 1], [rgba(resolveTone(tone).rgb, 0.55), rgba(resolveTone("green").rgb, 0.85)])}`,
+            boxShadow: "0 8px 32px rgba(0,0,0,0.45)", justifyContent: "flex-start" } : {}),
+          ...style,
         }}
       >
         {/* 题干容器 */}
         <Entered delay={4}>
-          {(enter) => (
+          {(entered) => {
+            // 公共表现的选项从首帧可见，题干同步显示，避免先有选项后有题干。
+            const enter = paper || presentation || (thinking && frame >= thinking.startFrame) ? 1 : entered;
+            return (
             <div
               style={{
                 position: "relative",
-                padding: "20px 28px",
+                padding: paper ? 0 : "20px 28px",
                 borderRadius: 16,
-                background: "rgba(8, 19, 41, 0.86)",
-                border: `1.5px solid ${rgba(resolveTone("cyan").rgb, 0.55)}`,
+                background: paper ? undefined : "rgba(8, 19, 41, 0.86)",
+                border: paper ? undefined : `1.5px solid ${rgba(resolveTone(tone).rgb, 0.55)}`,
                 opacity: enter,
                 transform: `translateY(${(1 - enter) * 16}px)`,
               }}
             >
-              {showRing ? (
-                <div
-                  style={{
-                    position: "absolute",
-                    right: 22,
-                    top: 18,
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 12,
-                  }}
-                >
-                  <div style={{ fontSize: 18, color: BASE_COLORS.text2 }}>先自己选</div>
-                  <div style={{ position: "relative", width: 64, height: 64 }}>
-                    <svg width={64} height={64} style={{ transform: "rotate(-90deg)" }}>
-                      <circle cx={32} cy={32} r={26} fill="none" stroke="rgba(143,184,217,0.22)" strokeWidth={5} />
-                      <circle
-                        cx={32}
-                        cy={32}
-                        r={26}
-                        fill="none"
-                        stroke={resolveTone("gold").hex}
-                        strokeWidth={5}
-                        strokeLinecap="round"
-                        strokeDasharray={2 * Math.PI * 26}
-                        strokeDashoffset={2 * Math.PI * 26 * thinkingProgress}
-                      />
-                    </svg>
-                    <div
-                      style={{
-                        position: "absolute",
-                        inset: 0,
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        fontSize: 20,
-                        fontWeight: 800,
-                        color: resolveTone("gold").hex,
-                      }}
-                    >
-                      {thinkingLeft}s
-                    </div>
-                  </div>
-                </div>
-              ) : null}
-              <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 10 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 10,
+                minHeight: paper ? Math.max(38, thinking && countdown !== false ? (countdown.size ?? 40) : 0) : thinking && countdown !== false ? (countdown.size ?? 64) : undefined }}>
                 <span
                   style={{
                     padding: "4px 14px",
                     borderRadius: 999,
-                    background: rgba(resolveTone("gold").rgb, 0.2),
-                    border: `1px solid ${resolveTone("gold").hex}`,
+                    background: rgba(resolveTone("gold").rgb, paper ? 0.22 : 0.2),
+                    border: `${paper ? 1.5 : 1}px solid ${resolveTone("gold").hex}`,
                     color: resolveTone("gold").hex,
-                    fontSize: 18,
+                    fontSize: paper ? 16 : 18,
                     fontWeight: 700,
                   }}
                 >
                   {payload.examMeta}
                 </span>
-                <span style={{ fontSize: 18, color: BASE_COLORS.text2 }}>
-                  {isRevealed ? "✓ 已揭晓标准答案与设坑点" : "⏱ 审题抓题眼"}
-                </span>
+                {statusText !== false && <span style={{ fontSize: paper ? 15 : 18, fontWeight: paper ? 600 : undefined,
+                  opacity: paper && isRevealed ? answerProgress : 1,
+                  color: paper && isRevealed ? resolveTone("green").hex : paper && inThinking ? resolveTone("gold").hex : BASE_COLORS.text2 }}>
+                  {statusText ?? (paper ? isRevealed ? `✓ 正确选项：${answerKeys}` : inThinking ? "⏱ 独立思考倒计时 (3秒)" : ""
+                    : isRevealed ? "✓ 已揭晓标准答案与设坑点" : "⏱ 审题抓题眼")}
+                </span>}
+                {thinking && countdown !== false ? (
+                  <div style={{ marginLeft: "auto" }}><Countdown {...thinking} {...(paper ? {
+                    size: 40, strokeWidth: 4.5, ringInset: 2.25, numberSize: 16.8, showUnit: false,
+                  } : {})} {...countdown} /></div>
+                ) : null}
               </div>
-              <div style={{ fontSize: 25, fontWeight: 700, color: BASE_COLORS.text, lineHeight: 1.48 }}>
+              <div style={{ fontSize: bodySize, fontWeight: 700, color: BASE_COLORS.text, lineHeight: paper ? 1.4 : 1.48, marginBottom: paper ? 10 : undefined }}> 
                 {payload.stem}
               </div>
 
               {/* 组合题编号项（如 ①②③④⑤） */}
               {payload.numberedStatements && payload.numberedStatements.length > 0 ? (
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 12, marginTop: 14 }}>
-                  {payload.numberedStatements.map((stmt) => {
+                  {payload.numberedStatements.map((stmt, idx) => {
+                    if (renderStatement) return <React.Fragment key={stmt.id}>{renderStatement(stmt, idx)}</React.Fragment>;
                     const stmtCue = eliminateCues.find((c) => c.targetId === stmt.id);
                     const strike = stmtCue
                       ? frame >= stmtCue.localFrame
@@ -237,13 +215,16 @@ export const ExamQuizCard: React.FC<{
                 </div>
               ) : null}
             </div>
-          )}
+          ); }}
         </Entered>
 
         {/* ABCD 四个选项 */}
-        <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+        <div style={{ display: "grid", gridTemplateColumns: columns === 2 ? "1fr 1fr" : "1fr", gap: paper ? 8 : 12 }}>
           {payload.options.map((opt, idx) => {
-            const enter = springEnter(frame, fps, 8 + idx * 4);
+            if (renderOption) return <React.Fragment key={opt.key}>{renderOption(opt, idx)}</React.Fragment>;
+            if (presentation || paper) return <QuizOptionRow key={opt.key} option={opt} negative={negative}
+              schedule={schedule} presentation={presentation ?? {}} fontSize={optionSize} density={paper ? "paper" : "normal"} />;
+            const enter = thinking && frame >= thinking.startFrame ? 1 : springEnter(frame, fps, 8 + idx * 4);
             const elimCue = eliminateCues.find((c) => c.targetId === opt.key);
             const elimAt = stepwise && elimCue ? elimCue.localFrame : eliminateFrame;
             const revCue = revealCues.find((c) => !c.targetId || c.targetId === opt.key);
@@ -275,6 +256,8 @@ export const ExamQuizCard: React.FC<{
             return (
               <div
                 key={opt.key}
+                data-option-key={opt.key}
+                data-answer-revealed={activeCorrect || undefined}
                 style={{
                   display: "flex",
                   alignItems: "center",
@@ -305,7 +288,7 @@ export const ExamQuizCard: React.FC<{
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      fontSize: 22,
+                      fontSize: optionSize,
                       fontWeight: 800,
                       flexShrink: 0,
                     }}
@@ -314,7 +297,7 @@ export const ExamQuizCard: React.FC<{
                   </div>
                   <div
                     style={{
-                      fontSize: 22,
+                      fontSize: optionSize,
                       color: activeCorrect ? "#ECFDF5" : BASE_COLORS.text,
                       fontWeight: activeCorrect ? 700 : 500,
                       textDecoration: strikeProgress > 0.6 && allowStrike && !opt.critiqueNote ? "line-through" : "none",
@@ -376,18 +359,27 @@ export const ExamQuizCard: React.FC<{
             );
           })}
         </div>
+        {!paper && <QuizExplanation presentation={presentation} schedule={schedule} fontSize={optionSize} />}
       </div>
+
+      {analysisSlot && frame >= analysisAt ? <div data-quiz-explanation style={{ position: "absolute", left,
+        top: analysisTop ?? top + height + 20, width: mainWidth, opacity: quizFade(frame, analysisAt, transitionFrames) }}>
+        {analysisSlot}
+      </div> : paper && presentation?.explanations?.length ? <div style={{ position: "absolute", left,
+        top: analysisTop ?? top + height + 20, width: mainWidth }}>
+        <QuizExplanation presentation={presentation} schedule={schedule} fontSize={optionSize} />
+      </div> : null}
 
       {/* 右侧自定义副栏（如「同一考点另一问法」的小题卡） */}
       {!hasSiblings && rightSlot ? <>{rightSlot}</> : null}
 
       {/* 右侧同源题连斩副栏（一题带多题） */}
-      {hasSiblings && payload.siblingQuestions ? (
+      {hasSiblings && payload.siblingQuestions && isRevealed ? (
         <div
           style={{
             position: "absolute",
-            right: 120,
-            top: 195,
+            left: left + mainWidth + 30,
+            top,
             width: 510,
             display: "flex",
             flexDirection: "column",
@@ -432,13 +424,14 @@ export const ExamQuizCard: React.FC<{
       ) : null}
 
       {/* 底部实务 vs 应试提示条 */}
-      {payload.tipBanner ? (
+      {payload.tipBanner && showTip ? (
         <div
           style={{
             position: "absolute",
-            left: 120,
-            right: 120,
-            top: 790,
+            left,
+            width: width ?? 1680,
+            boxSizing: "border-box",
+            top: tipTop,
             padding: "14px 26px",
             borderRadius: 12,
             background: rgba(resolveTone("cyan").rgb, 0.16),
@@ -453,6 +446,10 @@ export const ExamQuizCard: React.FC<{
           {payload.tipBanner}
         </div>
       ) : null}
-    </SceneShell>
+    </div>
   );
+
+  return withShell
+    ? <SceneShell title={payload.title} subtitle={payload.subtitle} eyebrow={`历年真题实战 · ${payload.examMeta}`}>{content}</SceneShell>
+    : content;
 };
